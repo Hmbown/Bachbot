@@ -7,6 +7,8 @@ import { ChoraleDetail } from './pages/ChoraleDetail';
 import { ChoraleComparison } from './pages/ChoraleComparison';
 import { ResearchLab } from './pages/ResearchLab';
 import { Encyclopedia, EncyclopediaArticle } from './pages/Encyclopedia';
+import { CompositionWorkshop } from './pages/CompositionWorkshop';
+import { TheoryClassroom } from './pages/TheoryClassroom';
 import { ApiPlayground } from './pages/ApiPlayground';
 
 const queryClient = new QueryClient({
@@ -31,6 +33,8 @@ function App() {
             <Route path="/research" element={<ResearchLab />} />
             <Route path="/encyclopedia" element={<Encyclopedia />} />
             <Route path="/encyclopedia/:slug" element={<EncyclopediaArticle />} />
+            <Route path="/compose" element={<CompositionWorkshop />} />
+            <Route path="/theory" element={<TheoryClassroom />} />
             <Route path="/api-docs" element={<ApiPlayground />} />
           </Route>
         </Routes>

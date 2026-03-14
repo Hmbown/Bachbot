@@ -13,13 +13,13 @@ const MODE_INFO: Record<CompositionMode, { title: string; description: string; i
   harmonize: {
     title: 'Chorale Harmonization',
     description:
-      'Paste or step-enter a soprano melody. BachBot harmonizes it into four-part SATB with the two-phase Viterbi engine, secondary dominants, and nonharmonic tones.',
+      'Paste a soprano melody in MusicXML. BachBot fills in alto, tenor, and bass using constraint-based search with secondary dominants and nonharmonic tones.',
     inputLabel: 'Soprano MusicXML',
   },
   'figured-bass': {
     title: 'Figured Bass Realization',
     description:
-      'Enter a bass line with figured bass symbols and generate upper voices using the Viterbi upper-voice search with figure parsing.',
+      'Enter a bass line with figured bass symbols. BachBot realizes the upper voices, following the figures and standard voice-leading rules.',
     inputLabel: 'Bass Line MusicXML',
   },
   melody: {
@@ -214,7 +214,7 @@ export function CompositionWorkshop() {
       <div className="mb-8">
         <h1 className="text-3xl font-serif font-bold text-ink mb-2">Composition Workshop</h1>
         <p className="text-ink-light">
-          Create music with BachBot's four composition engines. All outputs include full analytical reports.
+          Harmonize a melody, realize figured bass, generate a soprano over a chord progression, or write a two-part invention.
         </p>
       </div>
 

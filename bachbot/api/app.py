@@ -1046,7 +1046,7 @@ def create_app() -> FastAPI:
             "avg_harmonic_events": round(total_harmony / total, 1),
             "cadence_type_distribution": dict(sorted(cadence_type_counts.items(), key=lambda x: -x[1])),
             "key_mode_distribution": key_counts,
-            "avg_unique_chords": round(sum(s.harmonic_event_count for s in summaries) / total, 1),
+            # unique_chords omitted — summary data doesn't track it; frontend uses a default
             "total_keys": len({s.key for s in summaries if s.key}),
         }
 

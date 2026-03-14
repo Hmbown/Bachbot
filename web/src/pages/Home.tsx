@@ -16,6 +16,18 @@ const FEATURES = [
     icon: FeatureNoteIcon,
   },
   {
+    title: 'Compose',
+    description: 'Harmonize a soprano melody, realize figured bass, generate counterpoint, or write a two-part invention.',
+    path: '/compose',
+    icon: FeaturePenIcon,
+  },
+  {
+    title: 'Theory Classroom',
+    description: 'Study species counterpoint from first species through florid. Write against a cantus firmus and check your work.',
+    path: '/theory',
+    icon: FeatureRulerIcon,
+  },
+  {
     title: 'Research Tools',
     description: 'Trace progressions, inspect anomalies, compare profiles, and map the chorales in stylistic space.',
     path: '/research',
@@ -23,7 +35,7 @@ const FEATURES = [
   },
   {
     title: 'Encyclopedia',
-    description: 'Read short essays on harmony, voice-leading, fugue craft, and text setting beside the living corpus.',
+    description: 'Nine essays on Bach\u2019s craft — chorales, fugue, the WTC, the cantatas, the passions — with links to free scores on IMSLP.',
     path: '/encyclopedia',
     icon: FeatureBookIcon,
   },
@@ -63,6 +75,26 @@ function FeatureBookIcon() {
   );
 }
 
+function FeaturePenIcon() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+      <path d="M12 19l7-7 3 3-7 7-3 0Z" />
+      <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18" />
+      <path d="M2 2l7.586 7.586" />
+      <circle cx="11" cy="11" r="2" />
+    </svg>
+  );
+}
+
+function FeatureRulerIcon() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+      <path d="M3 5h18v14H3z" />
+      <path d="M3 9h4M3 13h3M3 17h4M13 5v4M9 5v3M17 5v4M21 9h-4M21 13h-3M21 17h-4" />
+    </svg>
+  );
+}
+
 export function Home() {
   return (
     <div>
@@ -78,7 +110,7 @@ export function Home() {
           </div>
           <h1 className="mb-3">Johann Sebastian Bach</h1>
           <p className="text-xl italic text-ink-muted mb-5">
-            361 Chorales — Browse, Hear, Study
+            Chorales, Fugues, and Counterpoint — Browse, Hear, Study
           </p>
           <BaroqueFlourish className="mb-6" />
 
@@ -94,8 +126,9 @@ export function Home() {
           </div>
 
           <p className="max-w-3xl mx-auto text-lg text-ink-light leading-relaxed mb-8">
-            Browse, hear, and study 361 four-part chorales. Follow how Bach harmonizes Lutheran tunes
-            through cadence points, inner voices, and the pacing of the harmony, note by note.
+            361 four-part chorales with playback, harmonic analysis, and voice-leading views.
+            Composition tools for harmonization, figured bass, and counterpoint. Nine essays on
+            Bach's craft, from the chorale tradition to the Well-Tempered Clavier.
           </p>
 
           <div className="flex justify-center">
@@ -113,7 +146,7 @@ export function Home() {
       </section>
 
       <section className="relative -mt-8 max-w-6xl mx-auto px-6 z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {FEATURES.map(({ title, description, path, icon: Icon }) => (
             <Link
               key={path}
@@ -183,11 +216,12 @@ export function Home() {
           <div>
             <SectionHeading className="mb-6">About BachBot</SectionHeading>
             <p className="text-ink-muted mb-5">
-              BachBot reads the scores directly. It marks Roman numerals, cadences, part-writing habits,
-              and recurring progressions so you can move easily between notation and analysis.
+              BachBot reads scores directly. It marks Roman numerals, cadences, part-writing habits,
+              and recurring progressions so you can move between notation and analysis without leaving the page.
+              Composition tools let you harmonize melodies, realize figured bass, and study counterpoint.
             </p>
             <p className="text-ink-muted mb-8">
-              The corpus comes from the{' '}
+              The chorale corpus comes from the{' '}
               <a
                 href="https://github.com/DCMLab/bach_chorales"
                 className="text-primary hover:text-primary-dark"
@@ -196,7 +230,16 @@ export function Home() {
               >
                 DCML Bach Chorales
               </a>{' '}
-              dataset. Playback, exports, and visual study tools sit alongside the score rather than off to the side.
+              dataset. The encyclopedia links to free scores on{' '}
+              <a
+                href="https://imslp.org/wiki/Category:Bach,_Johann_Sebastian"
+                className="text-primary hover:text-primary-dark"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                IMSLP
+              </a>
+              .
             </p>
 
             <div className="rounded-2xl border border-border bg-paper-light px-6 py-6 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">

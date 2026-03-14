@@ -253,8 +253,7 @@ export function TheoryClassroom() {
       <div className="mb-8">
         <h1 className="text-3xl font-serif font-bold text-ink mb-2">Theory Classroom</h1>
         <p className="text-ink-light">
-          Interactive species counterpoint exercises with real-time validation, built on
-          BachBot's 12 built-in cantus firmi and 5-species validator.
+          Write counterpoint against a cantus firmus. Choose a species, place notes on the grid, and check your work.
         </p>
       </div>
 
