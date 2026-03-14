@@ -1,0 +1,1527 @@
+{
+  "artifact_stem": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:cad:3",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m3",
+              "soprano_formula": "5-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:cad:6",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "soprano_formula": "3-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:cad:16",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m16",
+              "soprano_formula": null,
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h1:0",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h1:50",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m1",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h1:100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h1:150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m1",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h1:200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m1",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h1:250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m1",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h2:300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h2:400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h2:450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h2:500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m2",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h2:550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m2",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h3:600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m3",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h3:650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m3",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h3:700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h3:750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m3",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h3:800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h4:900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m4",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h4:1100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m4",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h5:1200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h5:1250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h5:1300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h5:1350",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h5:1400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h5:1450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h6:1500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h6:1550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h6:1600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h6:1650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h6:1700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h6:1750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VII",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h7:1800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m7",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h7:1850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h7:1900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m7",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h7:2000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h7:2050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h7:2075",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.75,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m7",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 3.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h8:2100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h9:2400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h9:2500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h9:2600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h10:2700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h10:2750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h10:2800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h10:2850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m10",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h10:2900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h11:3000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h11:3100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h11:3150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h11:3200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m11",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 2.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h12:3300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m12",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h12:3500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m12",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h13:3600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m13",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h13:3700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m13",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h13:3750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m13",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h13:3800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m13",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h13:3850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m13",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h14:3900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m14",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h14:3950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h14:4000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m14",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h14:4050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h14:4100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m14",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h15:4200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h15:4250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h15:4300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h15:4350",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h15:4400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h15:4450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:h16:4500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m16",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 3,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 6,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 16,
+              "strength": 0.65,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 13,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 8,
+                  "onset": 21.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 9,
+                  "onset": 24.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 1,
+              "suspension_details": [
+                {
+                  "measure": 7,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 10,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 2
+            },
+            "oblique": 44,
+            "parallel": 2,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 10,
+            "spacing_issues": [
+              {
+                "interval": 27,
+                "issue": "spacing",
+                "measure": 3,
+                "voices": "T|B"
+              },
+              {
+                "interval": 13,
+                "issue": "spacing",
+                "measure": 6,
+                "voices": "S|A"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte",
+          "genre": "chorale",
+          "key": "D",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/161 Ihr Gestirn, ihr hohlen L\u00fcfte.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m4",
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m4",
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m5",
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m15",
+          "Harmonic ambiguity at notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte:m16"
+        ],
+        "work_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 16 passage refs and 68 harmonic events."
+}

@@ -1,0 +1,1720 @@
+{
+  "anomalies": {
+    "1": 4.59,
+    "10": 0.92,
+    "11": 0.41,
+    "12": 1.41,
+    "13": 0.59,
+    "2": 0.41,
+    "3": 1.41,
+    "4": 0.59,
+    "5": 1.59,
+    "6": 1.41,
+    "7": 0.59,
+    "8": 3.41,
+    "9": 0.41
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__291 Nimm von uns, Herr, du treuer Gott:cad:7",
+      "cadence_type": "DC",
+      "detector_confidence": 0.72,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m7",
+      "soprano_formula": "2-1",
+      "strength": 0.72,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__291 Nimm von uns, Herr, du treuer Gott:cad:9",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "soprano_formula": null,
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "4-5",
+      "cadence_id": "notes__291 Nimm von uns, Herr, du treuer Gott:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m13",
+      "soprano_formula": "4-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__291 Nimm von uns, Herr, du treuer Gott-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 3 cadence candidate(s) across 75 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__291 Nimm von uns, Herr, du treuer Gott-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 13 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 4.67,
+      "11": 6.0,
+      "12": 7.0,
+      "13": 5.0,
+      "2": 6.0,
+      "3": 7.0,
+      "4": 5.0,
+      "5": 4.0,
+      "6": 7.0,
+      "7": 5.0,
+      "8": 9.0,
+      "9": 6.0
+    },
+    "pitch_class_histogram": {
+      "0": 20,
+      "1": 7,
+      "10": 16,
+      "11": 7,
+      "2": 40,
+      "3": 0,
+      "4": 27,
+      "5": 30,
+      "6": 4,
+      "7": 26,
+      "8": 3,
+      "9": 45
+    }
+  },
+  "encoding_id": "notes__291 Nimm von uns, Herr, du treuer Gott",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h1:0",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h2:100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h2:200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h2:250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h2:300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h2:400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h2:450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 6.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:675",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.75,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h3:850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 8.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h4:900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h4:1000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h4:1050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h4:1100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A"
+      ],
+      "onset": 11.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h4:1200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h5:1300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h5:1400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h5:1500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h5:1600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:1700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A",
+        "NCT:A"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:1750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "NCT:A"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:1800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:1850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:2000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h6:2050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h7:2100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h7:2150",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 21.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m7",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h7:2200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m7",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h7:2300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h7:2400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2750",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h8:2875",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.75,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h9:2900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h9:2950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h9:3000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h9:3050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h9:3100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h9:3200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3450",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h10:3650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h11:3700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Bb"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h11:3800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h11:3850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 38.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h11:3875",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 38.75,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h11:3900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h11:4000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m11",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h12:4450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h13:4500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:C#"
+      ],
+      "onset": 45.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m13",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h13:4550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h13:4600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 46.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m13",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h13:4650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__291 Nimm von uns, Herr, du treuer Gott:h13:4700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 47.0,
+      "ref_id": "notes__291 Nimm von uns, Herr, du treuer Gott:m13",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "D minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ],
+      "measure": 7,
+      "strength": 0.72,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 9,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__291 Nimm von uns, Herr, du treuer Gott",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__291 Nimm von uns, Herr, du treuer Gott"
+  },
+  "voice_leading": {
+    "contrary": 27,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 2,
+          "onset": 3.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 6.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 7.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 26.5,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 9,
+          "onset": 31.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 11,
+          "onset": 38.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 11,
+          "onset": 39.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "measure": 3,
+          "onset": 6.0,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 3,
+          "onset": 6.5,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 3,
+          "onset": 6.75,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 11
+    },
+    "oblique": 34,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 13,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__291 Nimm von uns, Herr, du treuer Gott"
+}

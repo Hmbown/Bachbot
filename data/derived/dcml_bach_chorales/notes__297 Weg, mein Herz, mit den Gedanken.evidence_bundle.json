@@ -1,0 +1,2232 @@
+{
+  "bundle_id": "EB-notes__297 Weg, mein Herz, mit den Gedanken-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.17,
+      "10": 0.17,
+      "11": 0.17,
+      "12": 0.33,
+      "13": 0.84,
+      "14": 1.33,
+      "15": 0.33,
+      "16": 0.83,
+      "17": 0.84,
+      "18": 0.17,
+      "19": 0.33,
+      "2": 0.33,
+      "20": 0.33,
+      "21": 0.5,
+      "22": 0.84,
+      "23": 0.17,
+      "24": 0.33,
+      "25": 0.33,
+      "26": 0.16,
+      "27": 0.84,
+      "3": 0.33,
+      "4": 0.5,
+      "5": 0.84,
+      "6": 0.33,
+      "7": 0.83,
+      "8": 0.83,
+      "9": 0.84
+    },
+    "cadences": [
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:2",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m2",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "2-3",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:3",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.37,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m3",
+        "soprano_formula": "2-1",
+        "strength": 0.37,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "dominant-like penultimate",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:4",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.52,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m4",
+        "soprano_formula": "7-6",
+        "strength": 0.52,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "2-5",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:5",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m5",
+        "soprano_formula": "6-5",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "2-2",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:7",
+        "cadence_type": "DC",
+        "detector_confidence": 0.42,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m7",
+        "soprano_formula": "2-3",
+        "strength": 0.42,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "2-3",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m8",
+        "soprano_formula": "4-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:9",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.99,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m9",
+        "soprano_formula": "2-1",
+        "strength": 0.99,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:10",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m10",
+        "soprano_formula": "1-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "4-5",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:12",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m12",
+        "soprano_formula": "4-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:13",
+        "cadence_type": "DC",
+        "detector_confidence": 0.57,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m13",
+        "soprano_formula": "2-3",
+        "strength": 0.57,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:14",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m14",
+        "soprano_formula": "3-5",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:18",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m18",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:20",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.37,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m20",
+        "soprano_formula": "3-1",
+        "strength": 0.37,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-6"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:21",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m21",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__297 Weg, mein Herz, mit den Gedanken:cad:27",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.3,
+        "key_after": "C major",
+        "key_before": "C major",
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m27",
+        "soprano_formula": "2-1",
+        "strength": 0.3,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__297 Weg, mein Herz, mit den Gedanken-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 15 cadence candidate(s) across 68 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__297 Weg, mein Herz, mit den Gedanken-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 14 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 1.0,
+        "11": 1.0,
+        "12": 1.5,
+        "13": 0.33,
+        "14": 2.5,
+        "15": 1.5,
+        "16": 2.0,
+        "17": 0.33,
+        "18": 1.0,
+        "19": 1.5,
+        "2": 1.5,
+        "20": 1.5,
+        "21": 0.67,
+        "22": 0.33,
+        "23": 1.0,
+        "24": 1.5,
+        "25": 1.5,
+        "26": 1.33,
+        "27": 0.33,
+        "3": 1.5,
+        "4": 0.67,
+        "5": 0.33,
+        "6": 1.5,
+        "7": 2.0,
+        "8": 2.0,
+        "9": 0.33
+      },
+      "pitch_class_histogram": {
+        "0": 45,
+        "1": 2,
+        "10": 8,
+        "11": 16,
+        "2": 21,
+        "3": 0,
+        "4": 32,
+        "5": 19,
+        "6": 4,
+        "7": 48,
+        "8": 0,
+        "9": 22
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h1:0",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h1:200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m1",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h2:300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m2",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h2:400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m2",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h2:500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h3:600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h3:700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m3",
+        "roman_numeral_candidate_set": [
+          "V7/V",
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h3:800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h4:900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m4",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h4:1000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h5:1200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m5",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h6:1500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h6:1600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h6:1700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m6",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h7:1800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:Bb"
+        ],
+        "onset": 18.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m7",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h7:1900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m7",
+        "roman_numeral_candidate_set": [
+          "V7/ii",
+          "vi7",
+          "vi",
+          "iii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h7:2000",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m7",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h7:2050",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.5,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m7",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h8:2100",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h8:2200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m8",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h8:2300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m8",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h8:2350",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.5,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m8",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h9:2400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m9",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h10:2700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m10",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h10:2900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m10",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h11:3000",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m11",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "iii",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h11:3200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m11",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h12:3300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m12",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h12:3400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m12",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h12:3500",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m12",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h13:3600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m13",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h14:3900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m14",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C44",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h14:4000",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 40.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m14",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h14:4050",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Bb",
+          "PT:Bb"
+        ],
+        "onset": 40.5,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m14",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h14:4100",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Bb"
+        ],
+        "onset": 41.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m14",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "iii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h14:4150",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Bb"
+        ],
+        "onset": 41.5,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m14",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h15:4200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m15",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h15:4300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m15",
+        "roman_numeral_candidate_set": [
+          "vii\u00f87",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h15:4400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m15",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h16:4500",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m16",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h16:4550",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C",
+          "SUS:C"
+        ],
+        "onset": 45.5,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m16",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h16:4600",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m16",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h16:4700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m16",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h17:4800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m17",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h18:5100",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m18",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h18:5300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 53.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m18",
+        "roman_numeral_candidate_set": [
+          "viio7/ii",
+          "iii",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h19:5400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m19",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h19:5500",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m19",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h19:5600",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 56.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m19",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h20:5700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 57.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m20",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h20:5800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 58.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m20",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h20:5900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m20",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h21:6000",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 60.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m21",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h21:6200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m21",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h22:6300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 63.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m22",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h23:6600",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Bb",
+          "PT:Bb"
+        ],
+        "onset": 66.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m23",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h23:6800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 68.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m23",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h24:6900",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 69.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m24",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h24:7000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 70.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m24",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h24:7100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 71.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m24",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h25:7200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 72.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m25",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h25:7300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 73.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m25",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h25:7400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 74.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m25",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h26:7500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 75.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m26",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h26:7600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m26",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h26:7650",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.5,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m26",
+        "roman_numeral_candidate_set": [
+          "I"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h26:7700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 77.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m26",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "C major",
+        "harmonic_event_id": "notes__297 Weg, mein Herz, mit den Gedanken:h27:7800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 78.0,
+        "ref_id": "notes__297 Weg, mein Herz, mit den Gedanken:m27",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 2,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "dominant-like penultimate",
+          "soprano formula 2-1"
+        ],
+        "measure": 3,
+        "strength": 0.37,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-6"
+        ],
+        "measure": 4,
+        "strength": 0.52,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 5,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 7,
+        "strength": 0.42,
+        "type": "DC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 9,
+        "strength": 0.99,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 10,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 12,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 13,
+        "strength": 0.57,
+        "type": "DC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 14,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 18,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-6"
+        ],
+        "measure": 20,
+        "strength": 0.37,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 21,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 27,
+        "strength": 0.3,
+        "type": "cadential"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 11,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 26,
+          "message": "Spacing violation between T|B.",
+          "severity": "error",
+          "voice_ids": [
+            "T",
+            "B"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__297 Weg, mein Herz, mit den Gedanken",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__297 Weg, mein Herz, mit den Gedanken"
+    },
+    "voice_leading": {
+      "contrary": 27,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 3,
+            "onset": 6.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 4,
+            "onset": 9.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 12.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 9,
+            "onset": 24.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 10,
+            "onset": 27.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 7,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 15,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 24,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 26,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 2,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 21,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 8
+      },
+      "oblique": 26,
+      "parallel": 3,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 14,
+      "spacing_issues": [
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 11,
+          "onset": 30.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 22,
+          "issue": "spacing",
+          "measure": 26,
+          "onset": 77.0,
+          "voices": "T|B"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__297 Weg, mein Herz, mit den Gedanken",
+    "genre": "chorale",
+    "key": "C major",
+    "key_mode": "major",
+    "key_tonic": "C"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 21,
+      "measure_start": 21,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 22,
+      "measure_start": 22,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 23,
+      "measure_start": 23,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 24,
+      "measure_start": 24,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 25,
+      "measure_start": 25,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 26,
+      "measure_start": 26,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 27,
+      "measure_start": 27,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__297 Weg, mein Herz, mit den Gedanken",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/297 Weg, mein Herz, mit den Gedanken.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__297 Weg, mein Herz, mit den Gedanken:m26",
+    "Harmonic ambiguity at notes__297 Weg, mein Herz, mit den Gedanken:m26"
+  ],
+  "work_id": "notes__297 Weg, mein Herz, mit den Gedanken"
+}

@@ -1,0 +1,1699 @@
+{
+  "artifact_stem": "notes__209 Dir, dir, Jehova, will ich singen",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__209 Dir, dir, Jehova, will ich singen.evidence_bundle.json",
+  "executed": false,
+  "mode": "scholar",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:16.212221+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Scholar Mode.\n\nYou may use only the supplied evidence bundle.\nEvery nontrivial statement must remain consistent with these labels:\n- supported_fact\n- inference\n- speculation\n\nDo not invent score events, provenance, dates, editorial claims, or source relationships.\nWhen evidence is ambiguous, preserve the ambiguity.\nAlways reference measure ranges and voices when available.\nConclude with:\n1. What the bundle strongly supports\n2. What remains interpretive\n3. What additional source checks would matter\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__209 Dir, dir, Jehova, will ich singen-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__209 Dir, dir, Jehova, will ich singen:cad:5",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.58,
+              "key_after": "Bb major",
+              "key_before": "Bb major",
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m5",
+              "soprano_formula": "2-1",
+              "strength": 0.58,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__209 Dir, dir, Jehova, will ich singen:cad:11",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "Bb major",
+              "key_before": "Bb major",
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m11",
+              "soprano_formula": "3-3",
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-5",
+              "cadence_id": "notes__209 Dir, dir, Jehova, will ich singen:cad:17",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "Bb major",
+              "key_before": "Bb major",
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m17",
+              "soprano_formula": "2-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__209 Dir, dir, Jehova, will ich singen:cad:18",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "Bb major",
+              "key_before": "Bb major",
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m18",
+              "soprano_formula": "1-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h1:0",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h2:100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h2:200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h2:250",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m2",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h2:300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h2:350",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m2",
+              "roman_numeral_candidate_set": [
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h3:400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m3",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h3:500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m3",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h3:550",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h3:600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m3",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h3:650",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m3",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h4:700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h4:750",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m4",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h4:800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h4:850",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h4:900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h5:1000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h5:1100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h5:1150",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m5",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h5:1200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h6:1300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m6",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h6:1350",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h6:1400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m6",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h6:1450",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m6",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h6:1500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m6",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h6:1550",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m6",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h7:1600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h7:1700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h7:1750",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m7",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h7:1800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h7:1850",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h8:1900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h8:1950",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h8:2000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m8",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h8:2050",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h8:2100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m8",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h8:2150",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h9:2200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m9",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h10:2400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m10",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h10:2450",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m10",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h11:2500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h11:2600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m11",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h11:2650",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m11",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h11:2700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h11:2750",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h12:2800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m12",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h12:2900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m12",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h12:2950",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m12",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h12:3000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m12",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h12:3050",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m12",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h13:3100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m13",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h13:3150",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m13",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h13:3200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m13",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h13:3300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m13",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h13:3350",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m13",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h14:3400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m14",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h14:3600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m14",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h15:3700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m15",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h15:3800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m15",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h15:3850",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m15",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h15:3900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m15",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h15:3950",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m15",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h16:4000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m16",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h16:4100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m16",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h16:4150",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m16",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h16:4200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m16",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h16:4250",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m16",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h17:4300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m17",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h17:4350",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m17",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h17:4400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m17",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h17:4500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m17",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h17:4550",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.5,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m17",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__209 Dir, dir, Jehova, will ich singen:h18:4600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__209 Dir, dir, Jehova, will ich singen:m18",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 5,
+              "strength": 0.58,
+              "type": "cadential"
+            },
+            {
+              "measure": 11,
+              "strength": 0.65,
+              "type": "IAC"
+            },
+            {
+              "measure": 17,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 18,
+              "strength": 0.43,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 21,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 4,
+                  "onset": 7.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 5,
+                  "onset": 12.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 17,
+                  "onset": 44.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 15,
+                  "onset": 39.0,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                },
+                {
+                  "measure": 15,
+                  "onset": 39.5,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 13,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 17,
+                  "type": "possible_suspension",
+                  "voice": "S"
+                }
+              ],
+              "suspensions": 2
+            },
+            "oblique": 40,
+            "parallel": 0,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 11,
+            "spacing_issues": [
+              {
+                "interval": 17,
+                "issue": "spacing",
+                "measure": 7,
+                "voices": "A|T"
+              },
+              {
+                "interval": 21,
+                "issue": "spacing",
+                "measure": 17,
+                "voices": "T|B"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__209 Dir, dir, Jehova, will ich singen",
+          "genre": "chorale",
+          "key": "Bb",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__209 Dir, dir, Jehova, will ich singen",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/209 Dir, dir, Jehova, will ich singen.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__209 Dir, dir, Jehova, will ich singen:m2",
+          "Harmonic ambiguity at notes__209 Dir, dir, Jehova, will ich singen:m12",
+          "Harmonic ambiguity at notes__209 Dir, dir, Jehova, will ich singen:m13"
+        ],
+        "work_id": "notes__209 Dir, dir, Jehova, will ich singen"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared scholar prompt with 18 passage refs and 73 harmonic events."
+}

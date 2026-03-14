@@ -1,0 +1,2045 @@
+{
+  "anomalies": {
+    "1": 3.11,
+    "10": 2.61,
+    "11": 3.89,
+    "12": 0.11,
+    "13": 0.61,
+    "14": 3.89,
+    "15": 1.22,
+    "16": 1.61,
+    "2": 0.56,
+    "3": 0.11,
+    "4": 3.11,
+    "5": 0.56,
+    "6": 1.22,
+    "7": 1.11,
+    "8": 1.22,
+    "9": 0.11
+  },
+  "cadences": [
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:cad:7",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.43,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m7",
+      "soprano_formula": null,
+      "strength": 0.43,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "7-3",
+      "cadence_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:cad:10",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m10",
+      "soprano_formula": "4-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__206 So gibst du nun, mein Jesu, gute Nacht-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 2 cadence candidate(s) across 93 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__206 So gibst du nun, mein Jesu, gute Nacht-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 15 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 1.5,
+      "11": 8.0,
+      "12": 4.0,
+      "13": 3.5,
+      "14": 8.0,
+      "15": 5.33,
+      "16": 2.5,
+      "2": 4.67,
+      "3": 4.0,
+      "4": 1.0,
+      "5": 4.67,
+      "6": 5.33,
+      "7": 3.0,
+      "8": 5.33,
+      "9": 4.0
+    },
+    "pitch_class_histogram": {
+      "0": 28,
+      "1": 3,
+      "10": 32,
+      "11": 3,
+      "2": 52,
+      "3": 11,
+      "4": 11,
+      "5": 32,
+      "6": 10,
+      "7": 36,
+      "8": 1,
+      "9": 37
+    }
+  },
+  "encoding_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h2:450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h3:500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h3:600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m3",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h3:700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb",
+        "PT:C"
+      ],
+      "onset": 7.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h3:750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 7.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h3:800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m3",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h3:850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m3",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h4:900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m4",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h4:1200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m4",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1350",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 16.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h5:1650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m5",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:1700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:1750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:1800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:1850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 19.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:1950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "SUS:C"
+      ],
+      "onset": 19.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:2000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h6:2050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb",
+        "SUS:C"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h7:2100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m7",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h7:2200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 22.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m7",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h7:2400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2550",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2650",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2750",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h8:2850",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m8",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h9:2900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h9:3000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h9:3050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h9:3100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m9",
+      "roman_numeral_candidate_set": [
+        "V7/V",
+        "ii7",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h9:3200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 32.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h9:3250",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h10:3300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h10:3600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h10:3650",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m10",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:3700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:3750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 37.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:3800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "PT:C"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:3850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:3900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:4000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:4050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h11:4075",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.75,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h12:4100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h12:4150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 41.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "ii\u00b0",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h12:4200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m12",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h12:4250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m12",
+      "roman_numeral_candidate_set": [
+        "V7/V"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h12:4300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h12:4400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 45.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 46.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 47.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 48.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h13:4850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m13",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:4900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb",
+        "PT:Bb"
+      ],
+      "onset": 49.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:4950",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb",
+        "PT:A"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:5000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "PT:A"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:5050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:5100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Bb"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:5200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:5250",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F",
+        "SUS:Bb"
+      ],
+      "onset": 52.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h14:5275",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.75,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m14",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5350",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb",
+        "SUS:C"
+      ],
+      "onset": 53.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5450",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5550",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb",
+        "NCT:Bb"
+      ],
+      "onset": 56.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h15:5650",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 56.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m15",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h16:5700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 57.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h16:5750",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m16",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h16:5800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 58.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m16",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h16:5850",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.5,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:h16:5900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:B"
+      ],
+      "onset": 59.0,
+      "ref_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht:m16",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "D minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "bass formula 7-1"
+      ],
+      "measure": 7,
+      "strength": 0.43,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 8,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 8,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__206 So gibst du nun, mein Jesu, gute Nacht"
+  },
+  "voice_leading": {
+    "contrary": 23,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 7.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 4,
+          "onset": 12.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 7,
+          "onset": 22.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 0,
+          "measure": 7,
+          "onset": 24.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 14,
+          "onset": 52.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 4
+    },
+    "oblique": 54,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 15,
+    "spacing_issues": [
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 8,
+        "onset": 28.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 8,
+        "onset": 28.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 41.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 22,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 41.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 42.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 42.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht"
+}

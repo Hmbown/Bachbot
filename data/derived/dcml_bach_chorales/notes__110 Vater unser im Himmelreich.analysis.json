@@ -1,0 +1,1736 @@
+{
+  "anomalies": {
+    "1": 4.54,
+    "10": 0.46,
+    "11": 0.54,
+    "12": 1.46,
+    "13": 0.54,
+    "2": 0.46,
+    "3": 0.54,
+    "4": 1.46,
+    "5": 1.46,
+    "6": 0.46,
+    "7": 0.54,
+    "8": 0.54,
+    "9": 1.46
+  },
+  "cadences": [
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:3",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.99,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m3",
+      "soprano_formula": "7-6",
+      "strength": 0.99,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1",
+        "soprano formula 7-6"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.35,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "soprano_formula": "7-6",
+      "strength": 0.35,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "soprano formula 7-6"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:7",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m7",
+      "soprano_formula": "5-4",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:9",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.8,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "soprano_formula": "2-1",
+      "strength": 0.8,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "6-5",
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:10",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "soprano_formula": "4-3",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:11",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m11",
+      "soprano_formula": "1-1",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__110 Vater unser im Himmelreich:cad:13",
+      "cadence_type": "HC",
+      "detector_confidence": 0.58,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__110 Vater unser im Himmelreich:m13",
+      "soprano_formula": "7-6",
+      "strength": 0.58,
+      "type_candidates": [
+        "HC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "bass formula 7-1",
+        "soprano formula 7-6"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__110 Vater unser im Himmelreich-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__110 Vater unser im Himmelreich:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__110 Vater unser im Himmelreich:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__110 Vater unser im Himmelreich:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 7 cadence candidate(s) across 72 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__110 Vater unser im Himmelreich-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__110 Vater unser im Himmelreich:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 16 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 6.0,
+      "11": 5.0,
+      "12": 7.0,
+      "13": 5.0,
+      "2": 6.0,
+      "3": 5.0,
+      "4": 7.0,
+      "5": 7.0,
+      "6": 6.0,
+      "7": 5.0,
+      "8": 5.0,
+      "9": 7.0
+    },
+    "pitch_class_histogram": {
+      "0": 43,
+      "1": 0,
+      "10": 20,
+      "11": 11,
+      "2": 27,
+      "3": 30,
+      "4": 2,
+      "5": 27,
+      "6": 3,
+      "7": 43,
+      "8": 14,
+      "9": 8
+    }
+  },
+  "encoding_id": "notes__110 Vater unser im Himmelreich",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h1:0",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h2:100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h2:200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h2:300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h2:350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h2:400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h2:450",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h3:500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h3:600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h3:650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h3:700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h3:800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:950",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "VI7",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:1000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:1050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:1100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:1200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h4:1250",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:B"
+      ],
+      "onset": 13.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1450",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h5:1650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m5",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h6:1700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h6:1800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m6",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h6:1850",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h6:1900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h6:2000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h6:2050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m6",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h7:2100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h7:2150",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h7:2200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h7:2300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h7:2400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A"
+      ],
+      "onset": 24.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m7",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h8:2500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h8:2600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m8",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h8:2700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h8:2800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h8:2850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:2900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 29.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:2950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:3000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:3050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 30.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:3100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:3200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h9:3250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h10:3300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h10:3400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h10:3500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h10:3550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h10:3600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h10:3650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 36.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h11:3700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m11",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h11:3800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h11:3850",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 38.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m11",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h11:3900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h11:4000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m11",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 42.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4250",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 43.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h12:4450",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h13:4500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:B"
+      ],
+      "onset": 45.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h13:4550",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h13:4600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 46.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h13:4650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__110 Vater unser im Himmelreich:h13:4700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:E"
+      ],
+      "onset": 47.0,
+      "ref_id": "notes__110 Vater unser im Himmelreich:m13",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "G minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1",
+        "soprano formula 7-6"
+      ],
+      "measure": 3,
+      "strength": 0.99,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "soprano formula 7-6"
+      ],
+      "measure": 5,
+      "strength": 0.35,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 7,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ],
+      "measure": 9,
+      "strength": 0.8,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 11,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "bass formula 7-1",
+        "soprano formula 7-6"
+      ],
+      "measure": 13,
+      "strength": 0.58,
+      "type": "HC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__110 Vater unser im Himmelreich",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__110 Vater unser im Himmelreich"
+  },
+  "voice_leading": {
+    "contrary": 27,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 8.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 5,
+          "onset": 15.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 16.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 9,
+          "onset": 31.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 9,
+          "onset": 32.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 0,
+          "measure": 9,
+          "onset": 32.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 10,
+          "onset": 35.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 11,
+          "onset": 38.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "measure": 5,
+          "onset": 13.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 6
+    },
+    "oblique": 28,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 16,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__110 Vater unser im Himmelreich"
+}

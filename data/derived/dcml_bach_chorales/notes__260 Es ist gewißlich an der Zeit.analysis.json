@@ -1,0 +1,1634 @@
+{
+  "anomalies": {
+    "1": 3.25,
+    "10": 0.75,
+    "11": 0.75,
+    "12": 3.25,
+    "2": 2.75,
+    "3": 1.75,
+    "4": 0.75,
+    "5": 3.25,
+    "6": 3.25,
+    "7": 2.75,
+    "8": 0.75,
+    "9": 2.75
+  },
+  "cadences": [
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "soprano_formula": "1-1",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:6",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m6",
+      "soprano_formula": "1-3",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:7",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "soprano_formula": "3-3",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "soprano_formula": "2-1",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "7-6",
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:10",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "soprano_formula": "5-1",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "6-6",
+      "cadence_id": "notes__260 Es ist gewi\u00dflich an der Zeit:cad:11",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Bb major",
+      "key_before": "Bb major",
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__260 Es ist gewi\u00dflich an der Zeit-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 7 cadence candidate(s) across 67 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__260 Es ist gewi\u00dflich an der Zeit-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 6.0,
+      "11": 6.0,
+      "12": 2.0,
+      "2": 8.0,
+      "3": 7.0,
+      "4": 6.0,
+      "5": 2.0,
+      "6": 2.0,
+      "7": 8.0,
+      "8": 6.0,
+      "9": 8.0
+    },
+    "pitch_class_histogram": {
+      "0": 22,
+      "1": 0,
+      "10": 42,
+      "11": 0,
+      "2": 31,
+      "3": 18,
+      "4": 0,
+      "5": 33,
+      "6": 4,
+      "7": 25,
+      "8": 0,
+      "9": 19
+    }
+  },
+  "encoding_id": "notes__260 Es ist gewi\u00dflich an der Zeit",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h1:0",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m1",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h1:50",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m1",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:100",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:150",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:200",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:250",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:350",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h2:450",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m2",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:550",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:600",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 6.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:650",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:700",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:800",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h3:850",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 8.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m3",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h4:900",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h4:1000",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h4:1050",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h4:1100",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h4:1150",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h4:1200",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h5:1300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m5",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h5:1400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h5:1450",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h5:1500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h6:1600",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h6:1650",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:1700",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:1750",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:1800",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:1850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:1950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:2000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "PT:A"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h7:2050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m7",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h8:2100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h8:2150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 21.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m8",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h8:2200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m8",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h8:2250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 22.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m8",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h8:2300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h8:2400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "PT:F#"
+      ],
+      "onset": 24.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 25.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h9:2850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h10:2900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h10:2950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h10:3000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h10:3100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h10:3200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h10:3250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h11:3300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h11:3400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h11:3450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h11:3500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h11:3550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h11:3600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h12:3700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h12:3800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h12:3850",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Bb major",
+      "harmonic_event_id": "notes__260 Es ist gewi\u00dflich an der Zeit:h12:3900",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__260 Es ist gewi\u00dflich an der Zeit:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "Bb major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 2,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 4,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 6,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 7,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 2-1"
+      ],
+      "measure": 9,
+      "strength": 0.63,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 11,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__260 Es ist gewi\u00dflich an der Zeit",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__260 Es ist gewi\u00dflich an der Zeit"
+  },
+  "voice_leading": {
+    "contrary": 21,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 4,
+          "onset": 9.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 15.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 10,
+          "onset": 32.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 11,
+          "onset": 33.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 39.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 6
+    },
+    "oblique": 34,
+    "parallel": 2,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 11,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__260 Es ist gewi\u00dflich an der Zeit"
+}

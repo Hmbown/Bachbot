@@ -1,0 +1,1753 @@
+{
+  "anomalies": {
+    "1": 1.54,
+    "10": 0.96,
+    "11": 2.54,
+    "12": 0.96,
+    "13": 2.54,
+    "14": 1.46,
+    "15": 2.54,
+    "16": 0.96,
+    "17": 3.21,
+    "2": 0.96,
+    "3": 0.54,
+    "4": 1.96,
+    "5": 2.54,
+    "6": 1.46,
+    "7": 0.54,
+    "8": 1.46,
+    "9": 0.54
+  },
+  "cadences": [
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__113 Christus, der uns selig macht:cad:3",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__113 Christus, der uns selig macht:m3",
+      "soprano_formula": null,
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__113 Christus, der uns selig macht:cad:4",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__113 Christus, der uns selig macht:m4",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 7-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__113 Christus, der uns selig macht:cad:5",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-5",
+      "cadence_id": "notes__113 Christus, der uns selig macht:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__113 Christus, der uns selig macht:m9",
+      "soprano_formula": "2-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-2",
+      "cadence_id": "notes__113 Christus, der uns selig macht:cad:10",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__113 Christus, der uns selig macht:m10",
+      "soprano_formula": null,
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__113 Christus, der uns selig macht:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__113 Christus, der uns selig macht-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__113 Christus, der uns selig macht:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__113 Christus, der uns selig macht:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__113 Christus, der uns selig macht:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 6 cadence candidate(s) across 77 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__113 Christus, der uns selig macht-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__113 Christus, der uns selig macht:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 24 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 5.0,
+      "10": 2.5,
+      "11": 6.0,
+      "12": 2.5,
+      "13": 6.0,
+      "14": 2.0,
+      "15": 6.0,
+      "16": 2.5,
+      "17": 0.25,
+      "2": 2.5,
+      "3": 4.0,
+      "4": 1.5,
+      "5": 6.0,
+      "6": 2.0,
+      "7": 4.0,
+      "8": 2.0,
+      "9": 4.0
+    },
+    "pitch_class_histogram": {
+      "0": 22,
+      "1": 32,
+      "10": 52,
+      "11": 6,
+      "2": 7,
+      "3": 27,
+      "4": 2,
+      "5": 48,
+      "6": 23,
+      "7": 2,
+      "8": 18,
+      "9": 11
+    }
+  },
+  "encoding_id": "notes__113 Christus, der uns selig macht",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h1:0",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h1:100",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h1:200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h1:300",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m1",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h1:350",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m1",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h2:400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h2:450",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h2:500",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m2",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h2:550",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m2",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h2:600",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h3:800",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h3:900",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h3:1000",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:B",
+        "NCT:D"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m3",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h3:1100",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m3",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h4:1200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h4:1300",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h4:1400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h5:1600",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h5:1700",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h5:1800",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h5:1850",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h5:1900",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h5:1950",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h6:2000",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m6",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h6:2050",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m6",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h6:2100",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h6:2200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m6",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h7:2400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h7:2500",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B",
+        "NCT:B"
+      ],
+      "onset": 25.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m7",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h7:2600",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "NCT:G"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h7:2700",
+      "local_key": "Eb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E",
+        "SUS:G"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m7",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h8:2800",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:B"
+      ],
+      "onset": 28.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m8",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h8:2850",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h8:2900",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m8",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h8:3000",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m8",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h9:3200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h9:3300",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m9",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h9:3400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h9:3500",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h10:3600",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h10:3650",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h10:3700",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h10:3750",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h10:3800",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h11:4000",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h11:4100",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db44",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h11:4200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h11:4250",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 42.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h11:4300",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h11:4350",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 43.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h12:4400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h12:4450",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 44.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h12:4500",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m12",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h12:4550",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h12:4600",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h13:4800",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h13:4900",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h13:5000",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h13:5050",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 50.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h13:5100",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h13:5150",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m13",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h14:5200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 52.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m14",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h14:5250",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m14",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h14:5300",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m14",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h14:5400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m14",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h15:5600",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m15",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h15:5700",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m15",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Gb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h15:5800",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m15",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h15:5850",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 58.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m15",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h15:5900",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m15",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h15:5950",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 59.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m15",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h16:6000",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m16",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h16:6050",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 60.5,
+      "ref_id": "notes__113 Christus, der uns selig macht:m16",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h16:6100",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m16",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h16:6200",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m16",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h16:6300",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 4.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__113 Christus, der uns selig macht:h17:6400",
+      "local_key": "Bb minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.0,
+      "ref_id": "notes__113 Christus, der uns selig macht:m17",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "Eb major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 3,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "bass formula 7-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 4,
+      "strength": 0.3,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 5,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 9,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 10,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__113 Christus, der uns selig macht",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__113 Christus, der uns selig macht"
+  },
+  "voice_leading": {
+    "contrary": 21,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 2,
+          "onset": 6.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 13,
+          "onset": 48.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 6
+    },
+    "oblique": 31,
+    "parallel": 6,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 24,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__113 Christus, der uns selig macht"
+}

@@ -1,0 +1,85 @@
+{
+  "benchmark_id": "benchmark_core_v0_1",
+  "version": "0.1.0",
+  "created_at": "2026-03-07",
+  "buckets": [
+    {
+      "name": "chorales",
+      "target_count": 20,
+      "tasks": [
+        "cadence_labeling",
+        "suspension_labeling",
+        "satb_legality",
+        "harmonic_candidate_review"
+      ]
+    },
+    {
+      "name": "inventions",
+      "target_count": 5,
+      "tasks": [
+        "motivic_segmentation",
+        "sequence_detection",
+        "two_voice_independence"
+      ]
+    },
+    {
+      "name": "fugue_expositions",
+      "target_count": 5,
+      "tasks": [
+        "subject_detection",
+        "answer_classification",
+        "exposition_schedule"
+      ]
+    },
+    {
+      "name": "fragments",
+      "target_count": 3,
+      "tasks": [
+        "continuation_honesty",
+        "assumption_logging",
+        "branch_labeling"
+      ]
+    }
+  ],
+  "audit_axes": [
+    "claim_to_passage_linkage",
+    "claim_to_source_linkage",
+    "method_attribution",
+    "uncertainty_preservation",
+    "hallucination_rate",
+    "validator_pass_rate",
+    "plagiarism_overlap_guard"
+  ],
+  "seed_items": [
+    {
+      "item_id": "chorale_seed_001",
+      "bucket": "chorales",
+      "work_id": "BWV-269",
+      "expected_artifacts": [
+        "cadence_map",
+        "satb_validation_report",
+        "evidence_bundle"
+      ]
+    },
+    {
+      "item_id": "invention_seed_001",
+      "bucket": "inventions",
+      "work_id": "BWV-772",
+      "expected_artifacts": [
+        "motif_index",
+        "recurrence_map",
+        "evidence_bundle"
+      ]
+    },
+    {
+      "item_id": "fugue_seed_001",
+      "bucket": "fugue_expositions",
+      "work_id": "WTC1-FUGUE-C-MAJOR",
+      "expected_artifacts": [
+        "subject_entries",
+        "answer_report",
+        "exposition_bundle"
+      ]
+    }
+  ]
+}

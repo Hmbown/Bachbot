@@ -1,0 +1,1393 @@
+{
+  "anomalies": {
+    "1": 1.17,
+    "10": 0.83,
+    "11": 0.17,
+    "12": 0.83,
+    "13": 0.17,
+    "14": 0.0,
+    "15": 0.34,
+    "16": 1.16,
+    "2": 0.0,
+    "3": 1.17,
+    "4": 0.33,
+    "5": 0.17,
+    "6": 0.34,
+    "7": 0.67,
+    "8": 1.16,
+    "9": 0.17
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:3",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m3",
+      "soprano_formula": "7-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-1",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "3-5",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m5",
+      "soprano_formula": "3-7",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-6",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:7",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "soprano_formula": "3-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:9",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m9",
+      "soprano_formula": "5-5",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "1-5",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:12",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m12",
+      "soprano_formula": "1-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:13",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.37,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m13",
+      "soprano_formula": null,
+      "strength": 0.37,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:cad:16",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m16",
+      "soprano_formula": "1-1",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__194 Liebster Immanuel, Herzog aller Frommen-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 7 cadence candidate(s) across 56 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__194 Liebster Immanuel, Herzog aller Frommen-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.5,
+      "10": 0.5,
+      "11": 1.5,
+      "12": 0.5,
+      "13": 1.5,
+      "14": 1.33,
+      "15": 1.67,
+      "16": 0.17,
+      "2": 1.33,
+      "3": 2.5,
+      "4": 1.0,
+      "5": 1.5,
+      "6": 1.67,
+      "7": 2.0,
+      "8": 0.17,
+      "9": 1.5
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 21,
+      "10": 7,
+      "11": 32,
+      "2": 26,
+      "3": 1,
+      "4": 19,
+      "5": 3,
+      "6": 36,
+      "7": 13,
+      "8": 3,
+      "9": 18
+    }
+  },
+  "encoding_id": "notes__194 Liebster Immanuel, Herzog aller Frommen",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h1:0",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h1:200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h1:300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h1:400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F",
+        "PT:Ab"
+      ],
+      "onset": 4.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h1:500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m1",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h2:600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m2",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h2:800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m2",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h2:900",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h2:1000",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h3:1200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 12.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m3",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h3:1400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 14.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m3",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h3:1500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m3",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h3:1600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h3:1700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h4:1800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h4:2000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h4:2100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m4",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h4:2200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h5:2400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h5:2600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h5:2800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h6:3000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h6:3100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h6:3200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h6:3300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h6:3400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h7:3600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h7:3700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h7:3800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h7:3900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h7:4000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h7:4100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 41.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 6.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h8:4200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h9:4800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h9:5000",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h9:5200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h10:5400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 4.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h10:5600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h11:6000",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h11:6200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 62.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m11",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h11:6400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h12:6600",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 4.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h12:6800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h13:7200",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 72.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m13",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h13:7400",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G",
+        "NCT:E"
+      ],
+      "onset": 74.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m13",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h13:7600",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 76.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m13",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h14:7800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 78.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h14:8000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 80.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m14",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h14:8100",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 81.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m14",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h14:8200",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:D"
+      ],
+      "onset": 82.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m14",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h15:8400",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 84.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m15",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h15:8500",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 85.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m15",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h15:8600",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 86.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m15",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h15:8800",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 88.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m15",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h15:8900",
+      "local_key": "B major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 89.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 6.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:h16:9000",
+      "local_key": "B major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 90.0,
+      "ref_id": "notes__194 Liebster Immanuel, Herzog aller Frommen:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "B minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "bass formula 5-1",
+        "soprano formula 7-1"
+      ],
+      "measure": 3,
+      "strength": 0.3,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 5,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 7,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 9,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 12,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 13,
+      "strength": 0.37,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 16,
+      "strength": 0.85,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__194 Liebster Immanuel, Herzog aller Frommen",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__194 Liebster Immanuel, Herzog aller Frommen"
+  },
+  "voice_leading": {
+    "contrary": 13,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 12,
+          "onset": 66.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "measure": 7,
+          "onset": 36.0,
+          "type": "voice_crossing",
+          "voices": "S|A"
+        },
+        {
+          "measure": 7,
+          "onset": 37.0,
+          "type": "voice_crossing",
+          "voices": "S|A"
+        },
+        {
+          "measure": 7,
+          "onset": 41.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 12,
+          "onset": 68.0,
+          "type": "voice_crossing",
+          "voices": "S|A"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 6
+    },
+    "oblique": 31,
+    "parallel": 5,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 11,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__194 Liebster Immanuel, Herzog aller Frommen"
+}

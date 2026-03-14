@@ -1,0 +1,1586 @@
+{
+  "artifact_stem": "notes__081 O gro\u00dfer Gott von Macht",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__081 O gro\u00dfer Gott von Macht.evidence_bundle.json",
+  "executed": false,
+  "mode": "scholar",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:16.212221+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Scholar Mode.\n\nYou may use only the supplied evidence bundle.\nEvery nontrivial statement must remain consistent with these labels:\n- supported_fact\n- inference\n- speculation\n\nDo not invent score events, provenance, dates, editorial claims, or source relationships.\nWhen evidence is ambiguous, preserve the ambiguity.\nAlways reference measure ranges and voices when available.\nConclude with:\n1. What the bundle strongly supports\n2. What remains interpretive\n3. What additional source checks would matter\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__081 O gro\u00dfer Gott von Macht-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "7-1",
+              "cadence_id": "notes__081 O gro\u00dfer Gott von Macht:cad:6",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "soprano_formula": "2-3",
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 7-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__081 O gro\u00dfer Gott von Macht:cad:16",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.58,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m16",
+              "soprano_formula": "2-1",
+              "strength": 0.58,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h1:0",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m1",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h2:100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h2:200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m2",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h2:300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m2",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h2:400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m2",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h2:450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m2",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "C44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h3:500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h3:800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h4:900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h4:1000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h4:1100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h4:1200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h5:1300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h5:1600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h5:1650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h6:1700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h6:1750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h6:1800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h6:1850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h6:1900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h6:2000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m6",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h7:2100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m7",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h7:2400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h8:2500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h8:2550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m8",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h8:2600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h8:2650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h8:2700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m8",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h8:2800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m8",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 3.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h9:2900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h9:3200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h9:3250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h10:3300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h10:3400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h10:3500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h10:3600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m10",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h11:3700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h11:3800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h11:3900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h12:4200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m12",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h12:4300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h12:4400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h13:4500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h13:4600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m13",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h13:4700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m13",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h13:4800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h14:4900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m14",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h14:5200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h15:5650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h16:5700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m16",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h16:5800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m16",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h16:5850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m16",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h16:5900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h17:6200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h17:6300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 63.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m17",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h17:6400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m17",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h17:6450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m17",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h18:6500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 65.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m18",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h18:6600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h18:6700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m18",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h18:6750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m18",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h18:6850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.5,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m18",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__081 O gro\u00dfer Gott von Macht:h19:6900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.0,
+              "ref_id": "notes__081 O gro\u00dfer Gott von Macht:m19",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 6,
+              "strength": 0.65,
+              "type": "IAC"
+            },
+            {
+              "measure": 16,
+              "strength": 0.58,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 23,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 7,
+                  "onset": 21.0,
+                  "type": "parallel_5ths",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 25.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 28.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 39.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 15,
+                  "onset": 54.0,
+                  "type": "parallel_5ths",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 16,
+                  "onset": 59.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 7,
+                  "onset": 21.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 7,
+                  "onset": 24.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 4,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 11,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 15,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 2
+            },
+            "oblique": 33,
+            "parallel": 3,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 13,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__081 O gro\u00dfer Gott von Macht",
+          "genre": "chorale",
+          "key": "G",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__081 O gro\u00dfer Gott von Macht",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/081 O gro\u00dfer Gott von Macht.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m1",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m2",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m5",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m11",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m12",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m13",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m14",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m15",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m16",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m17",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m18",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m18",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m18",
+          "Harmonic ambiguity at notes__081 O gro\u00dfer Gott von Macht:m19"
+        ],
+        "work_id": "notes__081 O gro\u00dfer Gott von Macht"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared scholar prompt with 19 passage refs and 70 harmonic events."
+}

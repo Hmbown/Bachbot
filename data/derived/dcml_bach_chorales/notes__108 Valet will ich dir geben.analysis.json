@@ -1,0 +1,1291 @@
+{
+  "anomalies": {
+    "1": 1.88,
+    "10": 2.21,
+    "11": 3.12,
+    "12": 0.88,
+    "13": 2.12,
+    "14": 2.55,
+    "2": 1.12,
+    "3": 1.38,
+    "4": 1.12,
+    "5": 2.55,
+    "6": 0.88,
+    "7": 3.12,
+    "8": 0.38,
+    "9": 2.12
+  },
+  "cadences": [
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:3",
+      "cadence_type": "DC",
+      "detector_confidence": 0.57,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m3",
+      "soprano_formula": "7-1",
+      "strength": 0.57,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.78,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m5",
+      "soprano_formula": "7-1",
+      "strength": 0.78,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-1",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:6",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m6",
+      "soprano_formula": "1-1",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:7",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m8",
+      "soprano_formula": "1-7",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:10",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m10",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__108 Valet will ich dir geben:cad:14",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "Eb major",
+      "key_before": "Eb major",
+      "ref_id": "notes__108 Valet will ich dir geben:m14",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__108 Valet will ich dir geben-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__108 Valet will ich dir geben:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__108 Valet will ich dir geben:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__108 Valet will ich dir geben:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 7 cadence candidate(s) across 49 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__108 Valet will ich dir geben-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__108 Valet will ich dir geben:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 22 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 0.67,
+      "11": 6.0,
+      "12": 2.0,
+      "13": 5.0,
+      "14": 0.33,
+      "2": 4.0,
+      "3": 1.5,
+      "4": 4.0,
+      "5": 0.33,
+      "6": 2.0,
+      "7": 6.0,
+      "8": 2.5,
+      "9": 5.0
+    },
+    "pitch_class_histogram": {
+      "0": 23,
+      "1": 3,
+      "10": 35,
+      "11": 1,
+      "2": 13,
+      "3": 35,
+      "4": 1,
+      "5": 23,
+      "6": 0,
+      "7": 22,
+      "8": 13,
+      "9": 4
+    }
+  },
+  "encoding_id": "notes__108 Valet will ich dir geben",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h1:0",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m1",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h2:100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m2",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h2:200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m2",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h2:300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m2",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h2:400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h3:500",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h3:700",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h3:800",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h4:900",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m4",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h4:1000",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m4",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h4:1100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h4:1200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h5:1300",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h6:1600",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h6:1650",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m6",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb44",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h7:1700",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h7:1750",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h7:1800",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h7:1850",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h7:1900",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h7:2000",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h8:2100",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h8:2150",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 21.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m8",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h8:2200",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h8:2300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h8:2400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m8",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h9:2500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m9",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h9:2600",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h9:2700",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m9",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h9:2800",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h9:2850",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h10:2900",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h10:3200",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h11:3300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h11:3350",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m11",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h11:3400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h11:3500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 35.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h11:3550",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Ab",
+        "PT:D"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h11:3600",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#",
+        "PT:E"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m11",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h12:3700",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m12",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h12:3800",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h12:3900",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m12",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h12:4000",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m12",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h13:4100",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h13:4200",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h13:4300",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m13",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h13:4400",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h13:4450",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__108 Valet will ich dir geben:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "Eb major",
+      "harmonic_event_id": "notes__108 Valet will ich dir geben:h14:4500",
+      "local_key": "Eb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__108 Valet will ich dir geben:m14",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "Eb major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 7-1"
+      ],
+      "measure": 3,
+      "strength": 0.57,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-1",
+        "soprano formula 7-1"
+      ],
+      "measure": 5,
+      "strength": 0.78,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 6,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 7,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 14,
+      "strength": 0.99,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__108 Valet will ich dir geben",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__108 Valet will ich dir geben"
+  },
+  "voice_leading": {
+    "contrary": 7,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 8.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 7,
+          "onset": 17.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 8,
+          "onset": 23.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 10,
+          "onset": 29.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 14,
+          "onset": 45.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 3
+    },
+    "oblique": 19,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 22,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__108 Valet will ich dir geben"
+}

@@ -1,0 +1,140 @@
+{
+  "dataset_id": "dcml_bach_chorales",
+  "encoding_id": "notes__287 Gelobet seist du, Jesu Christ",
+  "measures": [
+    {
+      "duration": 1.0,
+      "measure_number_logical": 1,
+      "measure_number_notated": 1,
+      "onset": 0.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 2,
+      "measure_number_notated": 2,
+      "onset": 1.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 3,
+      "measure_number_notated": 3,
+      "onset": 5.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 4,
+      "measure_number_notated": 4,
+      "onset": 9.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 5,
+      "measure_number_notated": 5,
+      "onset": 13.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 6,
+      "measure_number_notated": 6,
+      "onset": 17.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 7,
+      "measure_number_notated": 7,
+      "onset": 21.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 8,
+      "measure_number_notated": 8,
+      "onset": 25.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 9,
+      "measure_number_notated": 9,
+      "onset": 29.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 10,
+      "measure_number_notated": 10,
+      "onset": 33.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 11,
+      "measure_number_notated": 11,
+      "onset": 37.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "source_relpath": "notes/287 Gelobet seist du, Jesu Christ.notes.tsv",
+  "work_id": "notes__287 Gelobet seist du, Jesu Christ"
+}

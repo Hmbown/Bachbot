@@ -1,0 +1,29 @@
+dataset_id: dcml_bach_chorales
+name: "DCML Bach Chorales"
+type: open_symbolic_corpus
+scope:
+  - chorales
+  - harmonic_annotations
+  - metadata_tables
+source_url: "https://github.com/DCMLab/bach_chorales"
+retrieved_at: "2026-03-07"
+license:
+  corpus: "CC0"
+checksum_policy: sha256
+storage_policy:
+  raw_dir: "data/raw/dcml_bach_chorales"
+  normalized_dir: "data/normalized/dcml_bach_chorales"
+  derived_dir: "data/derived/dcml_bach_chorales"
+trust_model:
+  default_status: provisional_until_validated
+  warnings:
+    - "Converted symbolic files may contain note-level issues such as accidental errors."
+    - "Run normalization and validator passes before promoting files into benchmark status."
+recommended_use:
+  - "Seed chorale normalization and cadence validation."
+  - "Use annotation TSVs as comparative analysis inputs rather than immutable ground truth."
+provenance_requirements:
+  - upstream commit or release tag
+  - file checksum
+  - conversion notes
+  - local correction records

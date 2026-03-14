@@ -1,0 +1,1929 @@
+{
+  "artifact_stem": "notes__208 Als vierzig Tag nach Ostern war",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__208 Als vierzig Tag nach Ostern war.evidence_bundle.json",
+  "executed": false,
+  "mode": "detective",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.280486+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Detective Mode.\n\nRank hypotheses by evidence support.\nSeparate supported fact from inference from speculation.\nFor every hypothesis, name at least one falsifier or additional source check.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__208 Als vierzig Tag nach Ostern war-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__208 Als vierzig Tag nach Ostern war:cad:2",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "E minor",
+              "key_before": "E minor",
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m2",
+              "soprano_formula": "5-5",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1"
+              ]
+            },
+            {
+              "bass_formula": "3-1",
+              "cadence_id": "notes__208 Als vierzig Tag nach Ostern war:cad:12",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "E minor",
+              "key_before": "E minor",
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m12",
+              "soprano_formula": "3-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__208 Als vierzig Tag nach Ostern war:cad:15",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "E minor",
+              "key_before": "E minor",
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m15",
+              "soprano_formula": "1-1",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "3-4",
+              "cadence_id": "notes__208 Als vierzig Tag nach Ostern war:cad:18",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "E minor",
+              "key_before": "E minor",
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m18",
+              "soprano_formula": "3-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h1:0",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h1:100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h1:200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h2:300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m2",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h2:400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m2",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h2:500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h3:600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h3:700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m3",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h3:800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h3:850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h4:900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m4",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h4:1000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h4:1050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h4:1100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h4:1150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h5:1200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h5:1400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h5:1450",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h6:1500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h6:1550",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m6",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h6:1600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m6",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h6:1700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h6:1750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m6",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h7:1800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h7:1900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h7:1950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m7",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h7:2000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h7:2050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h8:2100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h8:2150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h8:2200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h8:2250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h8:2300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m8",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 2.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h9:2400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h9:2600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h10:2700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h10:2800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h10:2900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h10:2950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h11:3000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h11:3050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h11:3100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m11",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h11:3200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h12:3300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h12:3350",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h12:3400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h12:3500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h13:3600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h13:3700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m13",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h14:3900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m14",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h14:4000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m14",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h14:4100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h15:4200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h15:4400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h16:4500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m16",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h16:4600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h16:4650",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m16",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h16:4700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m16",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h16:4750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m16",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h17:4800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m17",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h17:4900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h17:4950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h17:5000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h17:5050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m17",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h18:5100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h18:5200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h18:5250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m18",
+              "roman_numeral_candidate_set": [
+                "V",
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h18:5300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h18:5350",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h19:5400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m19",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h19:5500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m19",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h20:5700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m20",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h20:5750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m20",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h20:5800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m20",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h20:5850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m20",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h20:5900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m20",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h20:5950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m20",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h21:6000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m21",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h21:6050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m21",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h21:6100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m21",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h21:6150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m21",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h21:6200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m21",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h21:6250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.5,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m21",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__208 Als vierzig Tag nach Ostern war:h22:6300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 63.0,
+              "ref_id": "notes__208 Als vierzig Tag nach Ostern war:m22",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 2,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 12,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 15,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 18,
+              "strength": 0.5,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 24,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 6,
+                  "onset": 15.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 9,
+                  "onset": 26.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 20,
+                  "onset": 57.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 20,
+                  "onset": 58.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 5,
+                  "onset": 14.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 5,
+                  "onset": 14.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 2,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 11,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 16,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 3,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 7,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 13,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 18,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 6
+            },
+            "oblique": 50,
+            "parallel": 2,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 9,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__208 Als vierzig Tag nach Ostern war",
+          "genre": "chorale",
+          "key": "E",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 20,
+            "measure_start": 20,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 21,
+            "measure_start": 21,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 22,
+            "measure_start": 22,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__208 Als vierzig Tag nach Ostern war",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/208 Als vierzig Tag nach Ostern war.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m2",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m2",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m3",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m5",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m11",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m13",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m14",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m17",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m19",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m20",
+          "Harmonic ambiguity at notes__208 Als vierzig Tag nach Ostern war:m22"
+        ],
+        "work_id": "notes__208 Als vierzig Tag nach Ostern war"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared detective prompt with 22 passage refs and 84 harmonic events."
+}

@@ -1,0 +1,1960 @@
+{
+  "anomalies": {
+    "1": 3.0,
+    "10": 4.0,
+    "11": 3.0,
+    "12": 4.0,
+    "13": 3.33,
+    "14": 4.0,
+    "15": 3.0,
+    "16": 4.0,
+    "17": 3.67,
+    "2": 4.0,
+    "3": 3.33,
+    "4": 1.33,
+    "5": 1.0,
+    "6": 3.0,
+    "7": 3.33,
+    "8": 1.33,
+    "9": 2.0
+  },
+  "cadences": [
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "soprano_formula": "5-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:5",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m5",
+      "soprano_formula": "4-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:7",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m7",
+      "soprano_formula": "4-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:10",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "soprano_formula": "5-5",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "2-6",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:15",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.35,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m15",
+      "soprano_formula": "7-1",
+      "strength": 0.35,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:16",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "soprano_formula": "5-5",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__255 Was frag ich nach der Welt:cad:17",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "D major",
+      "key_before": "D major",
+      "ref_id": "notes__255 Was frag ich nach der Welt:m17",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__255 Was frag ich nach der Welt-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__255 Was frag ich nach der Welt:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__255 Was frag ich nach der Welt:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__255 Was frag ich nach der Welt:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 7 cadence candidate(s) across 84 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__255 Was frag ich nach der Welt-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__255 Was frag ich nach der Welt:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 21 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 8.0,
+      "11": 1.0,
+      "12": 8.0,
+      "13": 0.67,
+      "14": 8.0,
+      "15": 1.0,
+      "16": 8.0,
+      "17": 0.33,
+      "2": 8.0,
+      "3": 0.67,
+      "4": 5.33,
+      "5": 3.0,
+      "6": 7.0,
+      "7": 0.67,
+      "8": 5.33,
+      "9": 2.0
+    },
+    "pitch_class_histogram": {
+      "0": 1,
+      "1": 20,
+      "10": 1,
+      "11": 26,
+      "2": 47,
+      "3": 2,
+      "4": 37,
+      "5": 0,
+      "6": 30,
+      "7": 25,
+      "8": 7,
+      "9": 53
+    }
+  },
+  "encoding_id": "notes__255 Was frag ich nach der Welt",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h1:0",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:250",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 2.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:350",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h2:450",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h3:500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h3:800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:950",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:1000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:1050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:1100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:1150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "SUS:A"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:1200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h4:1250",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h5:1300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h5:1400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h5:1600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:1700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:1750",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:1800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:1900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:1950",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:2000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h6:2050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m6",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h7:2100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h7:2400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2550",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2650",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2750",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "SUS:A"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h8:2850",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m8",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h9:2900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m9",
+      "roman_numeral_candidate_set": [
+        "V/V",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h9:3000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h9:3100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h9:3200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3350",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3450",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 34.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3550",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D",
+        "SUS:D"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3600",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h10:3650",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D",
+        "NCT:D"
+      ],
+      "onset": 36.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h11:3700",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h11:4000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 40.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m11",
+      "roman_numeral_candidate_set": [
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h11:4050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m11",
+      "roman_numeral_candidate_set": [
+        "V7/ii",
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 41.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 41.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "V/ii",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 42.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4250",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 42.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Ab"
+      ],
+      "onset": 43.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 43.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Ab"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h12:4450",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m12",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h13:4500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m13",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h13:4800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m13",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:4900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G",
+        "PT:G"
+      ],
+      "onset": 49.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:4950",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:5000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:5050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:5100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:5150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:5200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "vii\u00f87",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h14:5250",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 52.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m14",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h15:5300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m15",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h15:5600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h15:5650",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m15",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:5700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:5750",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 57.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:5800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 58.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:5850",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 58.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:5900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 59.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:5950",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 59.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "ii7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:6000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h16:6050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.5,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m16",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D major",
+      "harmonic_event_id": "notes__255 Was frag ich nach der Welt:h17:6100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__255 Was frag ich nach der Welt:m17",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "D major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ],
+      "measure": 2,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 5,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 7,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-1"
+      ],
+      "measure": 10,
+      "strength": 0.63,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "soprano formula 7-1"
+      ],
+      "measure": 15,
+      "strength": 0.35,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ],
+      "measure": 16,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 17,
+      "strength": 0.99,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__255 Was frag ich nach der Welt",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__255 Was frag ich nach der Welt"
+  },
+  "voice_leading": {
+    "contrary": 16,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 8.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 8.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 15,
+          "onset": 53.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "measure": 2,
+          "onset": 2.0,
+          "type": "voice_crossing",
+          "voices": "S|A"
+        },
+        {
+          "measure": 2,
+          "onset": 2.5,
+          "type": "voice_crossing",
+          "voices": "S|A"
+        },
+        {
+          "measure": 7,
+          "onset": 21.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 3
+    },
+    "oblique": 46,
+    "parallel": 1,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 21,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__255 Was frag ich nach der Welt"
+}

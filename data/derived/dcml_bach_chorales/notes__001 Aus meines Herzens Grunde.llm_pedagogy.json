@@ -1,0 +1,2002 @@
+{
+  "artifact_stem": "notes__001 Aus meines Herzens Grunde",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__001 Aus meines Herzens Grunde.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__001 Aus meines Herzens Grunde-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "5-6",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:3",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m3",
+              "soprano_formula": "2-1",
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:4",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m4",
+              "soprano_formula": "2-3",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:5",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m5",
+              "soprano_formula": "2-3",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:8",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m8",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:11",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m11",
+              "soprano_formula": "4-3",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-6",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:12",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m12",
+              "soprano_formula": "2-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "3-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:15",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m15",
+              "soprano_formula": "3-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:19",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "soprano_formula": "3-3",
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:20",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m20",
+              "soprano_formula": "2-3",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__001 Aus meines Herzens Grunde:cad:23",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m23",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h1:0",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h2:100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h2:200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h2:250",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m2",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h2:300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h3:400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h3:500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m3",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h3:550",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h3:600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h4:700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h4:750",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h4:800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h4:850",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m4",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h4:900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h5:1000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h5:1200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h6:1300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m6",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h6:1400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h6:1500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m6",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h7:1600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h7:1700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h7:1800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h7:1850",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m7",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h8:1900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m8",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h9:2100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h10:2200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h10:2250",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m10",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h10:2300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h10:2350",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m10",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h10:2400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h10:2450",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h11:2500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h11:2550",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m11",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h11:2600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h11:2650",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m11",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h11:2700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h12:2800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h12:3000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m12",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h13:3100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m13",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h13:3200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m13",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h13:3250",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m13",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h13:3300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m13",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h14:3400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m14",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h14:3500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m14",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h14:3550",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m14",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h14:3600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m14",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h14:3650",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m14",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h15:3700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m15",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h15:3750",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m15",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h15:3800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m15",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h15:3900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m15",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h16:4000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m16",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h16:4200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m16",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h17:4300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m17",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h17:4350",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m17",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h17:4400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m17",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h17:4450",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m17",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h17:4500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m17",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h18:4600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m18",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h18:4700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m18",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h18:4800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m18",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h18:4850",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m18",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h19:4900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h19:4950",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h19:5000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h19:5050",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h19:5100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h19:5150",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m19",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h20:5200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m20",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h20:5400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m20",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h21:5500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m21",
+              "roman_numeral_candidate_set": [
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h21:5600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m21",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h21:5700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m21",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h21:5750",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m21",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h22:5800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m22",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h22:5850",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m22",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h22:5900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m22",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h22:6000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m22",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h22:6050",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.5,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m22",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__001 Aus meines Herzens Grunde:h23:6100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.0,
+              "ref_id": "notes__001 Aus meines Herzens Grunde:m23",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 3,
+              "strength": 0.65,
+              "type": "IAC"
+            },
+            {
+              "measure": 4,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 5,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 8,
+              "strength": 0.8,
+              "type": "IAC"
+            },
+            {
+              "measure": 11,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 12,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 15,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 19,
+              "strength": 0.65,
+              "type": "IAC"
+            },
+            {
+              "measure": 20,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 23,
+              "strength": 0.8,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 25,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 8,
+                  "onset": 19.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 23,
+                  "onset": 61.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                }
+              ],
+              "parallel_5ths": 0,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 13,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 21,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 22,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 19,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 4
+            },
+            "oblique": 43,
+            "parallel": 4,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 11,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__001 Aus meines Herzens Grunde",
+          "genre": "chorale",
+          "key": "G",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 20,
+            "measure_start": 20,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 21,
+            "measure_start": 21,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 22,
+            "measure_start": 22,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 23,
+            "measure_start": 23,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__001 Aus meines Herzens Grunde",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/001 Aus meines Herzens Grunde.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [],
+        "work_id": "notes__001 Aus meines Herzens Grunde"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 23 passage refs and 80 harmonic events."
+}

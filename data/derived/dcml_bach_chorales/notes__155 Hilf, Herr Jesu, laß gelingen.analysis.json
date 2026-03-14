@@ -1,0 +1,2260 @@
+{
+  "anomalies": {
+    "1": 0.18,
+    "10": 0.68,
+    "11": 0.18,
+    "12": 0.18,
+    "13": 0.68,
+    "14": 0.32,
+    "15": 1.18,
+    "16": 1.49,
+    "17": 0.32,
+    "18": 0.32,
+    "19": 0.32,
+    "2": 0.68,
+    "20": 0.18,
+    "21": 0.32,
+    "22": 0.18,
+    "23": 1.18,
+    "24": 0.82,
+    "3": 0.18,
+    "4": 0.18,
+    "5": 0.32,
+    "6": 0.18,
+    "7": 0.18,
+    "8": 1.49,
+    "9": 0.32
+  },
+  "cadences": [
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m8",
+      "soprano_formula": "7-6",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 7-6"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:11",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.43,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m11",
+      "soprano_formula": "7-6",
+      "strength": 0.43,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "soprano formula 7-6"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:12",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.43,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m12",
+      "soprano_formula": "7-5",
+      "strength": 0.43,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m13",
+      "soprano_formula": "5-1",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:16",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m16",
+      "soprano_formula": "5-4",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "4-4",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:17",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m17",
+      "soprano_formula": "4-6",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "3-3",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:21",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m21",
+      "soprano_formula": "7-7",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:cad:24",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m24",
+      "soprano_formula": "5-4",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__155 Hilf, Herr Jesu, la\u00df gelingen-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 8 cadence candidate(s) across 88 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__155 Hilf, Herr Jesu, la\u00df gelingen-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 9 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 2.5,
+      "11": 2.0,
+      "12": 2.0,
+      "13": 2.5,
+      "14": 1.5,
+      "15": 3.0,
+      "16": 0.33,
+      "17": 1.5,
+      "18": 1.5,
+      "19": 1.5,
+      "2": 2.5,
+      "20": 2.0,
+      "21": 1.5,
+      "22": 2.0,
+      "23": 3.0,
+      "24": 1.0,
+      "3": 2.0,
+      "4": 2.0,
+      "5": 1.5,
+      "6": 2.0,
+      "7": 2.0,
+      "8": 0.33,
+      "9": 1.5
+    },
+    "pitch_class_histogram": {
+      "0": 29,
+      "1": 0,
+      "10": 29,
+      "11": 2,
+      "2": 50,
+      "3": 18,
+      "4": 5,
+      "5": 20,
+      "6": 17,
+      "7": 45,
+      "8": 0,
+      "9": 29
+    }
+  },
+  "encoding_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h1:50",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h1:100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h1:200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m1",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h2:300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m2",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h2:350",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "PT:E"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h2:400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m2",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h2:450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m2",
+      "roman_numeral_candidate_set": [
+        "V7/iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h2:500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h3:600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "NCT:Eb"
+      ],
+      "onset": 6.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h3:700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m3",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h3:800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h3:850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h4:900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 9.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h4:1000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m4",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h4:1050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h4:1100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 11.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m4",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h5:1200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h5:1300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h5:1400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h6:1500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 15.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h6:1600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m6",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h6:1700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h6:1750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h7:1800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "NCT:Eb"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h7:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 19.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h7:2000",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h7:2050",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h8:2100",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h9:2400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h9:2500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h9:2600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h10:2700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb",
+        "PT:A"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h10:2800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#",
+        "SUS:Eb"
+      ],
+      "onset": 28.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m10",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h10:2850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m10",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h10:2900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb",
+        "PT:F#"
+      ],
+      "onset": 29.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m10",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h10:2950",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m10",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h11:3000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb",
+        "SUS:A"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h11:3100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m11",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h11:3150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 31.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m11",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h11:3200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m11",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h12:3300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h12:3400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h12:3450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E"
+      ],
+      "onset": 34.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m12",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h12:3500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h13:3600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h13:3650",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 36.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m13",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h13:3700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h13:3750",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m13",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h13:3800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m13",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h14:3900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m14",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h14:4000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m14",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h14:4100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 41.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m14",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h15:4200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h15:4250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 42.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h15:4300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h15:4350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h15:4400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h15:4450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m15",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h16:4500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h17:4800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h17:4900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h17:5000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h18:5100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m18",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h18:5200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m18",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h18:5300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m18",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h19:5400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m19",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h19:5500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m19",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h19:5600",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m19",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h20:5700",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 57.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m20",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h20:5800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m20",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h20:5850",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F",
+        "SUS:F"
+      ],
+      "onset": 58.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m20",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h20:5900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m20",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h21:6000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m21",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h21:6100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 61.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m21",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h21:6200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m21",
+      "roman_numeral_candidate_set": [
+        "V/ii",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h22:6300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m22",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h22:6400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m22",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h22:6500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 65.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m22",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h22:6550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 65.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m22",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h23:6600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A",
+        "NT:Eb"
+      ],
+      "onset": 66.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m23",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h23:6650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 66.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m23",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h23:6700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 67.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m23",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h23:6750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 67.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m23",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h23:6800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m23",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h23:6850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.5,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m23",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h24:6900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 69.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m24",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:h24:7100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 71.0,
+      "ref_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen:m24",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "D minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 7-6"
+      ],
+      "measure": 8,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "soprano formula 7-6"
+      ],
+      "measure": 11,
+      "strength": 0.43,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "bass formula 7-1"
+      ],
+      "measure": 12,
+      "strength": 0.43,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 16,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 17,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 21,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 24,
+      "strength": 0.5,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 7,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 7,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 18,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 19,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 20,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 20,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 20,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__155 Hilf, Herr Jesu, la\u00df gelingen"
+  },
+  "voice_leading": {
+    "contrary": 18,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 16,
+          "onset": 45.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 24,
+          "onset": 69.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 21,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 15,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 19,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 20,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 23,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 14
+    },
+    "oblique": 60,
+    "parallel": 1,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 9,
+    "spacing_issues": [
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 7,
+        "onset": 20.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 22,
+        "issue": "spacing",
+        "measure": 7,
+        "onset": 20.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 28.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 28.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 29.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 29.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 18,
+        "onset": 51.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 27,
+        "issue": "spacing",
+        "measure": 19,
+        "onset": 54.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 20,
+        "onset": 57.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 20,
+        "onset": 58.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 20,
+        "onset": 58.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen"
+}

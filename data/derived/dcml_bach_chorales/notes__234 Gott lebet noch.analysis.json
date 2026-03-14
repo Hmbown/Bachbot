@@ -1,0 +1,3039 @@
+{
+  "anomalies": {
+    "1": 1.09,
+    "10": 1.09,
+    "11": 0.59,
+    "12": 0.41,
+    "13": 0.41,
+    "14": 1.58,
+    "15": 0.41,
+    "16": 0.59,
+    "17": 0.41,
+    "18": 0.41,
+    "19": 0.59,
+    "2": 0.91,
+    "20": 3.09,
+    "21": 0.09,
+    "22": 1.58,
+    "23": 0.41,
+    "24": 1.09,
+    "25": 0.41,
+    "26": 2.09,
+    "27": 0.41,
+    "28": 1.09,
+    "29": 0.09,
+    "3": 1.09,
+    "30": 0.91,
+    "31": 0.41,
+    "32": 0.41,
+    "33": 0.41,
+    "34": 0.91,
+    "35": 0.41,
+    "36": 1.09,
+    "37": 1.09,
+    "38": 1.58,
+    "4": 0.41,
+    "5": 0.09,
+    "6": 1.24,
+    "7": 0.41,
+    "8": 0.09,
+    "9": 0.41
+  },
+  "cadences": [
+    {
+      "bass_formula": "6-5",
+      "cadence_id": "notes__234 Gott lebet noch:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m2",
+      "soprano_formula": null,
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__234 Gott lebet noch:cad:6",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m6",
+      "soprano_formula": "7-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__234 Gott lebet noch:cad:8",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m8",
+      "soprano_formula": "4-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__234 Gott lebet noch:cad:11",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m11",
+      "soprano_formula": "2-1",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__234 Gott lebet noch:cad:12",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m12",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__234 Gott lebet noch:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m13",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__234 Gott lebet noch:cad:19",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m19",
+      "soprano_formula": "3-6",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__234 Gott lebet noch:cad:21",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m21",
+      "soprano_formula": "2-1",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__234 Gott lebet noch:cad:22",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m22",
+      "soprano_formula": "1-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "6-2",
+      "cadence_id": "notes__234 Gott lebet noch:cad:26",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m26",
+      "soprano_formula": "5-4",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-7",
+      "cadence_id": "notes__234 Gott lebet noch:cad:27",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m27",
+      "soprano_formula": "2-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__234 Gott lebet noch:cad:28",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m28",
+      "soprano_formula": "5-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__234 Gott lebet noch:cad:29",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m29",
+      "soprano_formula": "7-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-6",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__234 Gott lebet noch:cad:30",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m30",
+      "soprano_formula": "6-7",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__234 Gott lebet noch:cad:35",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m35",
+      "soprano_formula": "2-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__234 Gott lebet noch:cad:37",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "soprano_formula": "1-3",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__234 Gott lebet noch:cad:38",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "F major",
+      "key_before": "F major",
+      "ref_id": "notes__234 Gott lebet noch:m38",
+      "soprano_formula": "1-1",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__234 Gott lebet noch-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__234 Gott lebet noch:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__234 Gott lebet noch:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__234 Gott lebet noch:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 17 cadence candidate(s) across 122 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__234 Gott lebet noch-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__234 Gott lebet noch:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 34 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 3.0,
+      "10": 3.0,
+      "11": 2.5,
+      "12": 1.5,
+      "13": 1.5,
+      "14": 0.33,
+      "15": 1.5,
+      "16": 2.5,
+      "17": 1.5,
+      "18": 1.5,
+      "19": 2.5,
+      "2": 1.0,
+      "20": 5.0,
+      "21": 2.0,
+      "22": 0.33,
+      "23": 1.5,
+      "24": 3.0,
+      "25": 1.5,
+      "26": 4.0,
+      "27": 1.5,
+      "28": 3.0,
+      "29": 2.0,
+      "3": 3.0,
+      "30": 1.0,
+      "31": 1.5,
+      "32": 1.5,
+      "33": 1.5,
+      "34": 1.0,
+      "35": 1.5,
+      "36": 3.0,
+      "37": 3.0,
+      "38": 0.33,
+      "4": 1.5,
+      "5": 2.0,
+      "6": 0.67,
+      "7": 1.5,
+      "8": 2.0,
+      "9": 1.5
+    },
+    "pitch_class_histogram": {
+      "0": 71,
+      "1": 5,
+      "10": 44,
+      "11": 4,
+      "2": 48,
+      "3": 0,
+      "4": 35,
+      "5": 67,
+      "6": 7,
+      "7": 47,
+      "8": 0,
+      "9": 52
+    }
+  },
+  "encoding_id": "notes__234 Gott lebet noch",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h1:0",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__234 Gott lebet noch:m1",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h1:100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__234 Gott lebet noch:m1",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h1:200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__234 Gott lebet noch:m1",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h2:300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__234 Gott lebet noch:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h2:400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__234 Gott lebet noch:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h2:500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__234 Gott lebet noch:m2",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h3:600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__234 Gott lebet noch:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h3:700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 7.0,
+      "ref_id": "notes__234 Gott lebet noch:m3",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h3:800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__234 Gott lebet noch:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h4:900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Bb",
+        "NT:Bb"
+      ],
+      "onset": 9.0,
+      "ref_id": "notes__234 Gott lebet noch:m4",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h4:1000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__234 Gott lebet noch:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h4:1100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__234 Gott lebet noch:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h5:1200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__234 Gott lebet noch:m5",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h5:1250",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__234 Gott lebet noch:m5",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h5:1300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__234 Gott lebet noch:m5",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h5:1400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__234 Gott lebet noch:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h6:1500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__234 Gott lebet noch:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h6:1700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__234 Gott lebet noch:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h7:1800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__234 Gott lebet noch:m7",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h7:1900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__234 Gott lebet noch:m7",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h7:2000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__234 Gott lebet noch:m7",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h8:2100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__234 Gott lebet noch:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h8:2150",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__234 Gott lebet noch:m8",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h8:2200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__234 Gott lebet noch:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h8:2300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__234 Gott lebet noch:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h9:2400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__234 Gott lebet noch:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h9:2500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__234 Gott lebet noch:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h9:2600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__234 Gott lebet noch:m9",
+      "roman_numeral_candidate_set": [
+        "V7/ii",
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h10:2700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__234 Gott lebet noch:m10",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h10:2800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__234 Gott lebet noch:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h10:2900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__234 Gott lebet noch:m10",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h11:3000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__234 Gott lebet noch:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h11:3050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 30.5,
+      "ref_id": "notes__234 Gott lebet noch:m11",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h11:3100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__234 Gott lebet noch:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h11:3150",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.5,
+      "ref_id": "notes__234 Gott lebet noch:m11",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h11:3200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__234 Gott lebet noch:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h12:3300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__234 Gott lebet noch:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h12:3400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__234 Gott lebet noch:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h12:3500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__234 Gott lebet noch:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h13:3600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__234 Gott lebet noch:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h13:3700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__234 Gott lebet noch:m13",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h13:3800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__234 Gott lebet noch:m13",
+      "roman_numeral_candidate_set": [
+        "V7/V",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h14:3900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__234 Gott lebet noch:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h15:4200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__234 Gott lebet noch:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h15:4300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 43.0,
+      "ref_id": "notes__234 Gott lebet noch:m15",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h15:4400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__234 Gott lebet noch:m15",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h16:4500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__234 Gott lebet noch:m16",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h16:4550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__234 Gott lebet noch:m16",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h16:4600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__234 Gott lebet noch:m16",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h16:4650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:C#"
+      ],
+      "onset": 46.5,
+      "ref_id": "notes__234 Gott lebet noch:m16",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h16:4700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.0,
+      "ref_id": "notes__234 Gott lebet noch:m16",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h17:4800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__234 Gott lebet noch:m17",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h17:4900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F"
+      ],
+      "onset": 49.0,
+      "ref_id": "notes__234 Gott lebet noch:m17",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "iv7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h17:5000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__234 Gott lebet noch:m17",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h18:5100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__234 Gott lebet noch:m18",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h18:5200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__234 Gott lebet noch:m18",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h18:5300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__234 Gott lebet noch:m18",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h19:5400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__234 Gott lebet noch:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h19:5500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 55.0,
+      "ref_id": "notes__234 Gott lebet noch:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h19:5550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.5,
+      "ref_id": "notes__234 Gott lebet noch:m19",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h19:5600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 56.0,
+      "ref_id": "notes__234 Gott lebet noch:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h19:5650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "SUS:C"
+      ],
+      "onset": 56.5,
+      "ref_id": "notes__234 Gott lebet noch:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VII",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h20:5700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__234 Gott lebet noch:m20",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h20:5800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__234 Gott lebet noch:m20",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h20:5850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.5,
+      "ref_id": "notes__234 Gott lebet noch:m20",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h20:5900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.0,
+      "ref_id": "notes__234 Gott lebet noch:m20",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h20:5950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.5,
+      "ref_id": "notes__234 Gott lebet noch:m20",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h21:6000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__234 Gott lebet noch:m21",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h21:6100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__234 Gott lebet noch:m21",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h21:6200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.0,
+      "ref_id": "notes__234 Gott lebet noch:m21",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h21:6250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 62.5,
+      "ref_id": "notes__234 Gott lebet noch:m21",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h22:6300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__234 Gott lebet noch:m22",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h23:6600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 66.0,
+      "ref_id": "notes__234 Gott lebet noch:m23",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h23:6700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 67.0,
+      "ref_id": "notes__234 Gott lebet noch:m23",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h23:6800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.0,
+      "ref_id": "notes__234 Gott lebet noch:m23",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h24:6900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 69.0,
+      "ref_id": "notes__234 Gott lebet noch:m24",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h24:7000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "PT:C"
+      ],
+      "onset": 70.0,
+      "ref_id": "notes__234 Gott lebet noch:m24",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h24:7100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 71.0,
+      "ref_id": "notes__234 Gott lebet noch:m24",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h25:7200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.0,
+      "ref_id": "notes__234 Gott lebet noch:m25",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h25:7300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 73.0,
+      "ref_id": "notes__234 Gott lebet noch:m25",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h25:7400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 74.0,
+      "ref_id": "notes__234 Gott lebet noch:m25",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h26:7500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 75.0,
+      "ref_id": "notes__234 Gott lebet noch:m26",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h26:7600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 76.0,
+      "ref_id": "notes__234 Gott lebet noch:m26",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h26:7650",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 76.5,
+      "ref_id": "notes__234 Gott lebet noch:m26",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h26:7700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 77.0,
+      "ref_id": "notes__234 Gott lebet noch:m26",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h27:7800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 78.0,
+      "ref_id": "notes__234 Gott lebet noch:m27",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h27:7900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 79.0,
+      "ref_id": "notes__234 Gott lebet noch:m27",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h27:8000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 80.0,
+      "ref_id": "notes__234 Gott lebet noch:m27",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h28:8100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 81.0,
+      "ref_id": "notes__234 Gott lebet noch:m28",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h28:8200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 82.0,
+      "ref_id": "notes__234 Gott lebet noch:m28",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h28:8300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 83.0,
+      "ref_id": "notes__234 Gott lebet noch:m28",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h29:8400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 84.0,
+      "ref_id": "notes__234 Gott lebet noch:m29",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h29:8500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 85.0,
+      "ref_id": "notes__234 Gott lebet noch:m29",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h29:8550",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 85.5,
+      "ref_id": "notes__234 Gott lebet noch:m29",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h29:8600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 86.0,
+      "ref_id": "notes__234 Gott lebet noch:m29",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h30:8700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 87.0,
+      "ref_id": "notes__234 Gott lebet noch:m30",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h30:8900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 89.0,
+      "ref_id": "notes__234 Gott lebet noch:m30",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h31:9000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 90.0,
+      "ref_id": "notes__234 Gott lebet noch:m31",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h31:9100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 91.0,
+      "ref_id": "notes__234 Gott lebet noch:m31",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h31:9200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 92.0,
+      "ref_id": "notes__234 Gott lebet noch:m31",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h32:9300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb",
+        "NCT:Bb"
+      ],
+      "onset": 93.0,
+      "ref_id": "notes__234 Gott lebet noch:m32",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h32:9400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb",
+        "NCT:Bb"
+      ],
+      "onset": 94.0,
+      "ref_id": "notes__234 Gott lebet noch:m32",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h32:9500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 95.0,
+      "ref_id": "notes__234 Gott lebet noch:m32",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h33:9600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 96.0,
+      "ref_id": "notes__234 Gott lebet noch:m33",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h33:9700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 97.0,
+      "ref_id": "notes__234 Gott lebet noch:m33",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h33:9800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 98.0,
+      "ref_id": "notes__234 Gott lebet noch:m33",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h34:9900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 99.0,
+      "ref_id": "notes__234 Gott lebet noch:m34",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h34:10000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 100.0,
+      "ref_id": "notes__234 Gott lebet noch:m34",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h34:10100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 101.0,
+      "ref_id": "notes__234 Gott lebet noch:m34",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h35:10200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 102.0,
+      "ref_id": "notes__234 Gott lebet noch:m35",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h35:10300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 103.0,
+      "ref_id": "notes__234 Gott lebet noch:m35",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h35:10400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 104.0,
+      "ref_id": "notes__234 Gott lebet noch:m35",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h36:10500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 105.0,
+      "ref_id": "notes__234 Gott lebet noch:m36",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h36:10600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 106.0,
+      "ref_id": "notes__234 Gott lebet noch:m36",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h36:10700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 107.0,
+      "ref_id": "notes__234 Gott lebet noch:m36",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h37:10800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 108.0,
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h37:10850",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 108.5,
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h37:10900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 109.0,
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h37:10950",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 109.5,
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h37:11000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 110.0,
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h37:11050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 110.5,
+      "ref_id": "notes__234 Gott lebet noch:m37",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "F major",
+      "harmonic_event_id": "notes__234 Gott lebet noch:h38:11100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 111.0,
+      "ref_id": "notes__234 Gott lebet noch:m38",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "F major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 2,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 7-1"
+      ],
+      "measure": 6,
+      "strength": 0.99,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 8,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 2-1"
+      ],
+      "measure": 11,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 12,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ],
+      "measure": 13,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 19,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 2-1"
+      ],
+      "measure": 21,
+      "strength": 0.63,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 22,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 26,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 27,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 28,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "bass formula 5-6",
+        "soprano formula 7-1"
+      ],
+      "measure": 29,
+      "strength": 0.3,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 30,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 35,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 37,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 38,
+      "strength": 0.85,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 29,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__234 Gott lebet noch",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__234 Gott lebet noch"
+  },
+  "voice_leading": {
+    "contrary": 42,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 1,
+          "onset": 1.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 14.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 7,
+          "onset": 18.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 15,
+          "onset": 42.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 0,
+          "measure": 16,
+          "onset": 46.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "measure": 4,
+          "onset": 10.0,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 20,
+          "onset": 58.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 20,
+          "onset": 58.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 20,
+          "onset": 59.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 21,
+          "onset": 60.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 24,
+          "onset": 71.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 29,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 20,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 21,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 24,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 26,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 34,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 9
+    },
+    "oblique": 45,
+    "parallel": 6,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 34,
+    "spacing_issues": [
+      {
+        "interval": 15,
+        "issue": "spacing",
+        "measure": 29,
+        "onset": 84.0,
+        "voices": "S|A"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__234 Gott lebet noch"
+}

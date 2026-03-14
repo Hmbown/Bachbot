@@ -1,0 +1,1943 @@
+{
+  "anomalies": {
+    "1": 2.01,
+    "10": 3.01,
+    "11": 2.99,
+    "12": 1.01,
+    "13": 1.32,
+    "14": 0.49,
+    "15": 3.68,
+    "2": 1.99,
+    "3": 0.68,
+    "4": 1.01,
+    "5": 1.34,
+    "6": 2.01,
+    "7": 2.99,
+    "8": 1.99,
+    "9": 2.99
+  },
+  "cadences": [
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:3",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m3",
+      "soprano_formula": null,
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-2",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m5",
+      "soprano_formula": "6-7",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-3",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:6",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m6",
+      "soprano_formula": "5-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "3-2",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:9",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "soprano_formula": "3-4",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "6-2",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:10",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m10",
+      "soprano_formula": null,
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:12",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "soprano_formula": "4-5",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "2-6",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:13",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "soprano_formula": "4-3",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:14",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "soprano_formula": "4-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__002 Ich danke dir, lieber Herre:cad:15",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m15",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__002 Ich danke dir, lieber Herre-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__002 Ich danke dir, lieber Herre:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__002 Ich danke dir, lieber Herre:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__002 Ich danke dir, lieber Herre:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 9 cadence candidate(s) across 79 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__002 Ich danke dir, lieber Herre-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__002 Ich danke dir, lieber Herre:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 16 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 1.0,
+      "11": 7.0,
+      "12": 3.0,
+      "13": 5.33,
+      "14": 4.5,
+      "15": 0.33,
+      "2": 6.0,
+      "3": 3.33,
+      "4": 3.0,
+      "5": 2.67,
+      "6": 2.0,
+      "7": 7.0,
+      "8": 6.0,
+      "9": 7.0
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 33,
+      "10": 3,
+      "11": 37,
+      "2": 24,
+      "3": 4,
+      "4": 41,
+      "5": 0,
+      "6": 27,
+      "7": 4,
+      "8": 23,
+      "9": 35
+    }
+  },
+  "encoding_id": "notes__002 Ich danke dir, lieber Herre",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h1:0",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m1",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h1:50",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m1",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h2:100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m2",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h2:200",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h2:250",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 2.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h2:300",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m2",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h2:350",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab",
+        "SUS:D"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m2",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h2:400",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h3:500",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 5.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m3",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h3:600",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h3:650",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h3:700",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h3:800",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h4:900",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h4:1000",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m4",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h4:1050",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h4:1100",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h4:1200",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m4",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h4:1250",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m4",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h5:1300",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h5:1400",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h5:1450",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h5:1500",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h6:1600",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h6:1650",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:1700",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:1750",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "iii",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:1800",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:1850",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:1900",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:2000",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h7:2050",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m7",
+      "roman_numeral_candidate_set": [
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h8:2100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h8:2150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m8",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h8:2200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h8:2250",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 22.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h8:2300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 23.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m8",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h8:2400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m8",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2750",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h9:2800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h10:2900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h10:3200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Ab"
+      ],
+      "onset": 32.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h10:3250",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m10",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h11:3650",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h12:3700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h12:3750",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 37.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h12:3800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h12:3850",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h12:3900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h12:4000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4150",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4250",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 42.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4350",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h13:4450",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 44.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m13",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4550",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 45.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4650",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4750",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4850",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.5,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h14:4875",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.75,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m14",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__002 Ich danke dir, lieber Herre:h15:4900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__002 Ich danke dir, lieber Herre:m15",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 3,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 5,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 6,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 9,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 12,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 14,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 15,
+      "strength": 0.99,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 6,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 6,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__002 Ich danke dir, lieber Herre",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__002 Ich danke dir, lieber Herre"
+  },
+  "voice_leading": {
+    "contrary": 28,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 7.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 8.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 14,
+          "onset": 48.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 15,
+          "onset": 49.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "measure": 12,
+          "onset": 39.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 6
+    },
+    "oblique": 34,
+    "parallel": 5,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 16,
+    "spacing_issues": [
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 6,
+        "onset": 16.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 15,
+        "issue": "spacing",
+        "measure": 6,
+        "onset": 16.5,
+        "voices": "A|T"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__002 Ich danke dir, lieber Herre"
+}

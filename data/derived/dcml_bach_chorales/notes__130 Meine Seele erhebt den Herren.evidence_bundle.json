@@ -1,0 +1,811 @@
+{
+  "bundle_id": "EB-notes__130 Meine Seele erhebt den Herren-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.16,
+      "10": 0.91,
+      "2": 2.84,
+      "3": 0.84,
+      "4": 0.34,
+      "5": 0.91,
+      "6": 0.66,
+      "7": 0.91,
+      "8": 0.66,
+      "9": 0.17
+    },
+    "cadences": [
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__130 Meine Seele erhebt den Herren:cad:2",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.43,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m2",
+        "soprano_formula": "5-3",
+        "strength": 0.43,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__130 Meine Seele erhebt den Herren:cad:5",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.52,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m5",
+        "soprano_formula": "2-1",
+        "strength": 0.52,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "3-6",
+        "cadence_id": "notes__130 Meine Seele erhebt den Herren:cad:10",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m10",
+        "soprano_formula": "7-6",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__130 Meine Seele erhebt den Herren-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__130 Meine Seele erhebt den Herren:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__130 Meine Seele erhebt den Herren:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__130 Meine Seele erhebt den Herren:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 3 cadence candidate(s) across 23 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__130 Meine Seele erhebt den Herren-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__130 Meine Seele erhebt den Herren:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 7 similar-motion transition(s) with 0 parallel fifth(s) and 1 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 0.25,
+        "2": 4.0,
+        "3": 2.0,
+        "4": 1.5,
+        "5": 0.25,
+        "6": 0.5,
+        "7": 0.25,
+        "8": 0.5,
+        "9": 1.33
+      },
+      "pitch_class_histogram": {
+        "0": 3,
+        "1": 0,
+        "10": 0,
+        "11": 14,
+        "2": 13,
+        "3": 3,
+        "4": 14,
+        "5": 0,
+        "6": 9,
+        "7": 13,
+        "8": 0,
+        "9": 11
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h1:0",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h1:200",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m1",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h2:400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m2",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h2:500",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m2",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h2:600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h2:700",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h3:800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h3:900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m3",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h3:1000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 10.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h3:1100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m3",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h4:1200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h4:1300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h4:1400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 4.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h5:1600",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h6:2000",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h6:2200",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 4.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h7:2400",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m7",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h8:2800",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 28.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m8",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h9:3000",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h9:3100",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:A"
+        ],
+        "onset": 31.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h9:3200",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Eb"
+        ],
+        "onset": 32.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m9",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h9:3300",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m9",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 4.0,
+        "figured_bass_like_summary": "E22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__130 Meine Seele erhebt den Herren:h10:3400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__130 Meine Seele erhebt den Herren:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ],
+        "measure": 2,
+        "strength": 0.43,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 5,
+        "strength": 0.52,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ],
+        "measure": 10,
+        "strength": 0.85,
+        "type": "IAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 7,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "parallel_8ves",
+          "measure": null,
+          "message": "Parallel octaves detected.",
+          "severity": "error",
+          "voice_ids": []
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__130 Meine Seele erhebt den Herren",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__130 Meine Seele erhebt den Herren"
+    },
+    "voice_leading": {
+      "contrary": 6,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 16.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "measure": 8,
+            "onset": 28.0,
+            "type": "parallel_8ves",
+            "voices": "A|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 10,
+            "onset": 34.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 1,
+        "suspension_details": [
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 3
+      },
+      "oblique": 9,
+      "parallel": 1,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 7,
+      "spacing_issues": [
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 7,
+          "onset": 24.0,
+          "voices": "A|T"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__130 Meine Seele erhebt den Herren",
+    "genre": "chorale",
+    "key": "G major",
+    "key_mode": "major",
+    "key_tonic": "G"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__130 Meine Seele erhebt den Herren",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/130 Meine Seele erhebt den Herren.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__130 Meine Seele erhebt den Herren:m8",
+    "Harmonic ambiguity at notes__130 Meine Seele erhebt den Herren:m9"
+  ],
+  "work_id": "notes__130 Meine Seele erhebt den Herren"
+}

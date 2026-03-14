@@ -1,0 +1,1735 @@
+{
+  "bundle_id": "EB-notes__102 Ermuntre dich, mein schwacher Geist-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 1.46,
+      "10": 0.54,
+      "11": 0.46,
+      "12": 1.21,
+      "13": 1.46,
+      "14": 0.54,
+      "15": 1.46,
+      "16": 0.54,
+      "17": 0.54,
+      "18": 0.54,
+      "19": 1.46,
+      "2": 0.54,
+      "20": 0.46,
+      "21": 0.04,
+      "22": 1.21,
+      "3": 1.46,
+      "4": 0.54,
+      "5": 0.54,
+      "6": 1.21,
+      "7": 0.54,
+      "8": 1.21,
+      "9": 1.46
+    },
+    "cadences": [
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:2",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m2",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "3-1",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:3",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m3",
+        "soprano_formula": "5-5",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "1-5",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:6",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m6",
+        "soprano_formula": "3-2",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:7",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.5,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m7",
+        "soprano_formula": "2-1",
+        "strength": 0.5,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:8",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.52,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m8",
+        "soprano_formula": "7-1",
+        "strength": 0.52,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "3-2",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:10",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m10",
+        "soprano_formula": "3-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-2",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:12",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m12",
+        "soprano_formula": "3-2",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-2",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:14",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m14",
+        "soprano_formula": "3-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "3-6",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:16",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m16",
+        "soprano_formula": null,
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:17",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.99,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m17",
+        "soprano_formula": "7-1",
+        "strength": 0.99,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "6-1",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:21",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m21",
+        "soprano_formula": "4-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__102 Ermuntre dich, mein schwacher Geist:cad:22",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.99,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m22",
+        "soprano_formula": "2-1",
+        "strength": 0.99,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__102 Ermuntre dich, mein schwacher Geist-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 12 cadence candidate(s) across 52 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__102 Ermuntre dich, mein schwacher Geist-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 18 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 3.0,
+        "10": 1.0,
+        "11": 2.0,
+        "12": 0.33,
+        "13": 3.0,
+        "14": 1.0,
+        "15": 3.0,
+        "16": 1.0,
+        "17": 1.0,
+        "18": 1.0,
+        "19": 3.0,
+        "2": 1.0,
+        "20": 2.0,
+        "21": 1.5,
+        "22": 0.33,
+        "3": 3.0,
+        "4": 1.0,
+        "5": 1.0,
+        "6": 0.33,
+        "7": 1.0,
+        "8": 0.33,
+        "9": 3.0
+      },
+      "pitch_class_histogram": {
+        "0": 18,
+        "1": 1,
+        "10": 0,
+        "11": 30,
+        "2": 40,
+        "3": 2,
+        "4": 26,
+        "5": 0,
+        "6": 13,
+        "7": 32,
+        "8": 6,
+        "9": 28
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h1:0",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h1:100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h1:200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m1",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h2:300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m2",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h2:450",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.5,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m2",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h2:500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m2",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h3:600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h3:700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 7.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m3",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h3:800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m3",
+        "roman_numeral_candidate_set": [
+          "V/V",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h4:900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h4:1100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m4",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "I"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h5:1200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h5:1400",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h6:1500",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h7:1800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m7",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h7:1900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h8:2100",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m8",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h9:2400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m9",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h9:2500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F#"
+        ],
+        "onset": 25.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m9",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h9:2600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m9",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h10:2700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h10:2900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h11:3000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h11:3150",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.5,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m11",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h11:3200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h11:3250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.5,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m11",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 3.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h12:3300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h13:3600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m13",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h13:3700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m13",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h13:3800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m13",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h14:3900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h14:4050",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.5,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m14",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h14:4100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h15:4200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m15",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h15:4300",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m15",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h15:4400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m15",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h16:4500",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h16:4700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m16",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h17:4800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m17",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h17:5000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m17",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h18:5100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m18",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h18:5300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 53.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m18",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h19:5400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m19",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h19:5500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m19",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h19:5600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 56.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m19",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h20:5700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 57.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m20",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h20:5850",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 58.5,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m20",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h20:5900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m20",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h21:6000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 60.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m21",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h21:6100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 61.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m21",
+        "roman_numeral_candidate_set": [
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h21:6200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m21",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__102 Ermuntre dich, mein schwacher Geist:h22:6300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 63.0,
+        "ref_id": "notes__102 Ermuntre dich, mein schwacher Geist:m22",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 2,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 3,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 6,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ],
+        "measure": 7,
+        "strength": 0.5,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-1"
+        ],
+        "measure": 8,
+        "strength": 0.52,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 10,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 12,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 14,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 16,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-1"
+        ],
+        "measure": 17,
+        "strength": 0.99,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 21,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 22,
+        "strength": 0.99,
+        "type": "PAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [],
+      "passed": true,
+      "subject_id": "notes__102 Ermuntre dich, mein schwacher Geist",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__102 Ermuntre dich, mein schwacher Geist"
+    },
+    "voice_leading": {
+      "contrary": 18,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 0,
+            "measure": 9,
+            "onset": 24.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 12,
+            "onset": 33.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 13,
+            "onset": 36.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 22,
+            "onset": 63.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 2,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 14,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 15,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 20,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 15,
+            "type": "possible_suspension",
+            "voice": "S"
+          }
+        ],
+        "suspensions": 7
+      },
+      "oblique": 15,
+      "parallel": 2,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 18,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__102 Ermuntre dich, mein schwacher Geist",
+    "genre": "chorale",
+    "key": "G major",
+    "key_mode": "major",
+    "key_tonic": "G"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 21,
+      "measure_start": 21,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 22,
+      "measure_start": 22,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__102 Ermuntre dich, mein schwacher Geist",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/102 Ermuntre dich, mein schwacher Geist.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__102 Ermuntre dich, mein schwacher Geist:m3",
+    "Harmonic ambiguity at notes__102 Ermuntre dich, mein schwacher Geist:m9",
+    "Harmonic ambiguity at notes__102 Ermuntre dich, mein schwacher Geist:m11"
+  ],
+  "work_id": "notes__102 Ermuntre dich, mein schwacher Geist"
+}

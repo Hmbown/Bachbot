@@ -1,0 +1,1471 @@
+{
+  "bundle_id": "EB-notes__094 Warum betr\u00fcbst du dich, mein Herz-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 3.95,
+      "10": 2.05,
+      "11": 0.05,
+      "2": 1.05,
+      "3": 0.05,
+      "4": 1.05,
+      "5": 0.05,
+      "6": 0.05,
+      "7": 3.45,
+      "8": 3.05,
+      "9": 0.05
+    },
+    "cadences": [
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:cad:4",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.63,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "soprano_formula": "2-1",
+        "strength": 0.63,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "soprano_formula": "2-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-5",
+        "cadence_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:cad:11",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m11",
+        "soprano_formula": "2-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__094 Warum betr\u00fcbst du dich, mein Herz-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 3 cadence candidate(s) across 56 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__094 Warum betr\u00fcbst du dich, mein Herz-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 12 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 7.0,
+        "11": 5.0,
+        "2": 6.0,
+        "3": 5.0,
+        "4": 6.0,
+        "5": 5.0,
+        "6": 5.0,
+        "7": 1.5,
+        "8": 8.0,
+        "9": 5.0
+      },
+      "pitch_class_histogram": {
+        "0": 20,
+        "1": 3,
+        "10": 20,
+        "11": 5,
+        "2": 34,
+        "3": 10,
+        "4": 3,
+        "5": 13,
+        "6": 9,
+        "7": 41,
+        "8": 3,
+        "9": 18
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h1:0",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m1",
+        "roman_numeral_candidate_set": [
+          "V/iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h2:100",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h2:150",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h2:200",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h2:250",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 2.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h2:300",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h2:400",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h3:500",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m3",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h3:600",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h3:700",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h3:800",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h3:850",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m3",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h4:900",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h4:950",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h4:1000",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h4:1050",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h4:1100",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h4:1200",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h5:1300",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m5",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h5:1350",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 13.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m5",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00f87",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h5:1400",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m5",
+        "roman_numeral_candidate_set": [
+          "V/iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h5:1500",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m5",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h5:1600",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h6:1700",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m6",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h6:1750",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m6",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h6:1800",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h6:1900",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m6",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h6:2000",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 3.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h7:2100",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h7:2400",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h7:2450",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 24.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2500",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2550",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 25.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2600",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 26.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2650",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F",
+          "SUS:C#"
+        ],
+        "onset": 26.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2700",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Ab"
+        ],
+        "onset": 27.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2750",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2800",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 28.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h8:2850",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 28.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h9:2900",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:Ab"
+        ],
+        "onset": 29.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m9",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h9:3000",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F"
+        ],
+        "onset": 30.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h9:3050",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m9",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h9:3100",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m9",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h9:3200",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m9",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3300",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3350",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Db33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3400",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3500",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3550",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 35.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3600",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h10:3650",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m10",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h11:3700",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Db33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h11:3750",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m11",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h11:3800",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h11:3850",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.5,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m11",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:h11:3900",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:B"
+        ],
+        "onset": 39.0,
+        "ref_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz:m11",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "soprano formula 2-1"
+        ],
+        "measure": 4,
+        "strength": 0.63,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 11,
+        "strength": 0.48,
+        "type": "cadential"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 6,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 9,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__094 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    "voice_leading": {
+      "contrary": 20,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 4,
+            "onset": 10.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 6,
+            "onset": 20.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 7,
+            "onset": 24.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 8,
+            "onset": 25.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 11,
+            "onset": 39.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "measure": 5,
+            "onset": 13.0,
+            "type": "voice_crossing",
+            "voices": "S|A"
+          },
+          {
+            "measure": 5,
+            "onset": 13.5,
+            "type": "voice_crossing",
+            "voices": "S|A"
+          },
+          {
+            "measure": 9,
+            "onset": 29.0,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 10,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 3
+      },
+      "oblique": 23,
+      "parallel": 1,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 12,
+      "spacing_issues": [
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 6,
+          "onset": 19.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 9,
+          "onset": 29.0,
+          "voices": "A|T"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz",
+    "genre": "chorale",
+    "key": "G minor",
+    "key_mode": "minor",
+    "key_tonic": "G"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/094 Warum betr\u00fcbst du dich, mein Herz.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__094 Warum betr\u00fcbst du dich, mein Herz:m1",
+    "Harmonic ambiguity at notes__094 Warum betr\u00fcbst du dich, mein Herz:m4",
+    "Harmonic ambiguity at notes__094 Warum betr\u00fcbst du dich, mein Herz:m5",
+    "Harmonic ambiguity at notes__094 Warum betr\u00fcbst du dich, mein Herz:m8",
+    "Harmonic ambiguity at notes__094 Warum betr\u00fcbst du dich, mein Herz:m11"
+  ],
+  "work_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz"
+}

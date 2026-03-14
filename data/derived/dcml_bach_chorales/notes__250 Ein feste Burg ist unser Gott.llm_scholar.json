@@ -1,0 +1,1766 @@
+{
+  "artifact_stem": "notes__250 Ein feste Burg ist unser Gott",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__250 Ein feste Burg ist unser Gott.evidence_bundle.json",
+  "executed": false,
+  "mode": "scholar",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:16.212221+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Scholar Mode.\n\nYou may use only the supplied evidence bundle.\nEvery nontrivial statement must remain consistent with these labels:\n- supported_fact\n- inference\n- speculation\n\nDo not invent score events, provenance, dates, editorial claims, or source relationships.\nWhen evidence is ambiguous, preserve the ambiguity.\nAlways reference measure ranges and voices when available.\nConclude with:\n1. What the bundle strongly supports\n2. What remains interpretive\n3. What additional source checks would matter\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__250 Ein feste Burg ist unser Gott-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "6-6",
+              "cadence_id": "notes__250 Ein feste Burg ist unser Gott:cad:3",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "soprano_formula": "1-1",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__250 Ein feste Burg ist unser Gott:cad:5",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m5",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__250 Ein feste Burg ist unser Gott:cad:13",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m13",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D44",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h1:0",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#44",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h1:50",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m1",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h2:450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h3:850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:1000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:1050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:1100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:1150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:1200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h4:1250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m4",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h5:1300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m5",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h5:1350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m5",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h5:1400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h5:1450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m5",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h5:1500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h6:1600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h6:1650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m6",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:1700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:1750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:1800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:1850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:1900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:1950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:2000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h7:2050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h8:2100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m8",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h8:2200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h8:2250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m8",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h8:2300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m8",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h8:2400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m8",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h8:2450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2725",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.25,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h9:2850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m9",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:2900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:3000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:3050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:3100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:3150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vii\u00b0",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:3200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h10:3250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h11:3300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m11",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h11:3350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m11",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h11:3400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m11",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h11:3500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m11",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h11:3600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m11",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h11:3650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m11",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:3700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:3750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:3800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:3850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:3900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:3950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:4000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h12:4050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h13:4100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m13",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h13:4150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m13",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h13:4200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m13",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h13:4250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m13",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__250 Ein feste Burg ist unser Gott:h13:4300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__250 Ein feste Burg ist unser Gott:m13",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 3,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 5,
+              "strength": 0.8,
+              "type": "IAC"
+            },
+            {
+              "measure": 13,
+              "strength": 0.8,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 25,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 3,
+                  "onset": 5.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 3,
+                  "onset": 7.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 4,
+                  "onset": 10.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 21.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 8,
+                  "onset": 23.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 24.0,
+                  "type": "parallel_5ths",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 9,
+                  "onset": 27.5,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 10,
+                  "onset": 29.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 10,
+                  "onset": 30.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 13,
+                  "onset": 42.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 7,
+                  "onset": 19.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 7,
+                  "onset": 19.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 7,
+                  "onset": 20.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 7,
+                  "onset": 20.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 21.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 3,
+              "parallel_8ves": 7,
+              "suspension_details": [],
+              "suspensions": 0
+            },
+            "oblique": 34,
+            "parallel": 4,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 19,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__250 Ein feste Burg ist unser Gott",
+          "genre": "chorale",
+          "key": "D",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__250 Ein feste Burg ist unser Gott",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/250 Ein feste Burg ist unser Gott.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__250 Ein feste Burg ist unser Gott:m3",
+          "Harmonic ambiguity at notes__250 Ein feste Burg ist unser Gott:m6",
+          "Harmonic ambiguity at notes__250 Ein feste Burg ist unser Gott:m7",
+          "Harmonic ambiguity at notes__250 Ein feste Burg ist unser Gott:m9",
+          "Harmonic ambiguity at notes__250 Ein feste Burg ist unser Gott:m11",
+          "Harmonic ambiguity at notes__250 Ein feste Burg ist unser Gott:m11"
+        ],
+        "work_id": "notes__250 Ein feste Burg ist unser Gott"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared scholar prompt with 13 passage refs and 79 harmonic events."
+}

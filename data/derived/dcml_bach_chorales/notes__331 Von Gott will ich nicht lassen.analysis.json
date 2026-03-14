@@ -1,0 +1,2065 @@
+{
+  "anomalies": {
+    "1": 2.45,
+    "10": 1.55,
+    "11": 3.45,
+    "12": 1.55,
+    "13": 0.22,
+    "14": 3.55,
+    "15": 0.22,
+    "16": 3.55,
+    "17": 4.12,
+    "2": 0.55,
+    "3": 1.45,
+    "4": 2.55,
+    "5": 3.45,
+    "6": 2.55,
+    "7": 0.45,
+    "8": 2.55,
+    "9": 3.45
+  },
+  "cadences": [
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__331 Von Gott will ich nicht lassen:cad:6",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "soprano_formula": "5-1",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__331 Von Gott will ich nicht lassen:cad:8",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "soprano_formula": "7-1",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__331 Von Gott will ich nicht lassen:cad:16",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "soprano_formula": "6-5",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__331 Von Gott will ich nicht lassen-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__331 Von Gott will ich nicht lassen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__331 Von Gott will ich nicht lassen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__331 Von Gott will ich nicht lassen:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 3 cadence candidate(s) across 92 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__331 Von Gott will ich nicht lassen-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__331 Von Gott will ich nicht lassen:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 21 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 6.0,
+      "11": 1.0,
+      "12": 6.0,
+      "13": 4.67,
+      "14": 8.0,
+      "15": 4.67,
+      "16": 8.0,
+      "17": 0.33,
+      "2": 5.0,
+      "3": 3.0,
+      "4": 7.0,
+      "5": 1.0,
+      "6": 7.0,
+      "7": 4.0,
+      "8": 7.0,
+      "9": 1.0
+    },
+    "pitch_class_histogram": {
+      "0": 32,
+      "1": 3,
+      "10": 0,
+      "11": 37,
+      "2": 33,
+      "3": 4,
+      "4": 47,
+      "5": 15,
+      "6": 12,
+      "7": 38,
+      "8": 7,
+      "9": 48
+    }
+  },
+  "encoding_id": "notes__331 Von Gott will ich nicht lassen",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h1:0",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m1",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h1:50",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D",
+        "PT:B"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m1",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h2:100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h2:200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m2",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h2:300",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h2:350",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m2",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h2:400",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m2",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h3:500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h3:550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 5.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h3:600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m3",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h3:650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 6.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m3",
+      "roman_numeral_candidate_set": [
+        "viio7/VII"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h3:700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "NCT:E"
+      ],
+      "onset": 7.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h3:800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m3",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:900",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 9.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:950",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B",
+        "SUS:F"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:1000",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:1100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:1150",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F",
+        "PT:A"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:1200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 12.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h4:1250",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m4",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h5:1300",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h5:1600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h5:1650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:1700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:1800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:1850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:1900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:1950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 19.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:2000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h6:2050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h7:2100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m7",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h7:2150",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Ab"
+      ],
+      "onset": 21.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m7",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h7:2200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B",
+        "PT:F"
+      ],
+      "onset": 22.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h7:2250",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 22.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m7",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h7:2300",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h7:2400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:B"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [
+        "viio7/ii\u00b0",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h8:2800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m8",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h9:2900",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m9",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h9:3200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h9:3250",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m9",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h10:3300",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m10",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h10:3400",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h10:3500",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 35.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h10:3550",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h10:3600",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h10:3650",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h11:3700",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h11:4000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h11:4050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m11",
+      "roman_numeral_candidate_set": [
+        "viio7/ii",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h12:4100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h12:4200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h12:4300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m12",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h12:4350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m12",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h12:4400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h12:4450",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m12",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4550",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 45.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "ii7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4650",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h13:4850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 48.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m13",
+      "roman_numeral_candidate_set": [
+        "viio7/VI",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:4900",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:4950",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F",
+        "NT:D"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:5000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:5050",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:5100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:5150",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 51.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "VI7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:5200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 52.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h14:5250",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m14",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5350",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#",
+        "PT:E"
+      ],
+      "onset": 53.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5450",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5500",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h15:5650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 56.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:5700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 57.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:5750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:5800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:5850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:5900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:5950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:6000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h16:6050",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.5,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m16",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__331 Von Gott will ich nicht lassen:h17:6100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:C#"
+      ],
+      "onset": 61.0,
+      "ref_id": "notes__331 Von Gott will ich nicht lassen:m17",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 6,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 7-1"
+      ],
+      "measure": 8,
+      "strength": 0.63,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 16,
+      "strength": 0.5,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 9,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 9,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__331 Von Gott will ich nicht lassen",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__331 Von Gott will ich nicht lassen"
+  },
+  "voice_leading": {
+    "contrary": 20,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 2,
+          "onset": 1.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 5,
+          "onset": 13.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 9,
+          "onset": 32.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 12,
+          "onset": 42.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "measure": 12,
+          "onset": 42.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 12,
+          "onset": 43.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 12,
+          "onset": 43.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 5
+    },
+    "oblique": 50,
+    "parallel": 5,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 21,
+    "spacing_issues": [
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 9,
+        "onset": 32.0,
+        "voices": "S|A"
+      },
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 9,
+        "onset": 32.5,
+        "voices": "S|A"
+      },
+      {
+        "interval": 22,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 36.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 43.0,
+        "voices": "S|A"
+      },
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 43.5,
+        "voices": "S|A"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__331 Von Gott will ich nicht lassen"
+}

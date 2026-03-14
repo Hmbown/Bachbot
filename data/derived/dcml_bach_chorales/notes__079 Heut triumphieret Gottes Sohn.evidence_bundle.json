@@ -1,0 +1,2079 @@
+{
+  "bundle_id": "EB-notes__079 Heut triumphieret Gottes Sohn-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 2.09,
+      "10": 0.41,
+      "11": 1.09,
+      "12": 1.58,
+      "13": 3.09,
+      "14": 0.59,
+      "15": 0.41,
+      "16": 1.58,
+      "17": 3.09,
+      "18": 0.41,
+      "19": 0.41,
+      "2": 0.41,
+      "20": 0.91,
+      "21": 0.41,
+      "22": 0.41,
+      "23": 0.41,
+      "24": 1.58,
+      "3": 0.41,
+      "4": 1.58,
+      "5": 1.09,
+      "6": 1.09,
+      "7": 0.41,
+      "8": 0.91,
+      "9": 0.09
+    },
+    "cadences": [
+      {
+        "bass_formula": "7-3",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:2",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m2",
+        "soprano_formula": "4-5",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-5",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:3",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m3",
+        "soprano_formula": "4-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "7-3",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:4",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m4",
+        "soprano_formula": "2-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-3",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:7",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.63,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m7",
+        "soprano_formula": "2-1",
+        "strength": 0.63,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:8",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m8",
+        "soprano_formula": null,
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:9",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m9",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:11",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m11",
+        "soprano_formula": "7-6",
+        "strength": 0.5,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "bass formula 2-1",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "4-3",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:19",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m19",
+        "soprano_formula": "2-1",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:20",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m20",
+        "soprano_formula": null,
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:21",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m21",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "2-5",
+        "cadence_id": "notes__079 Heut triumphieret Gottes Sohn:cad:24",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m24",
+        "soprano_formula": null,
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__079 Heut triumphieret Gottes Sohn-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 11 cadence candidate(s) across 70 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__079 Heut triumphieret Gottes Sohn-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 18 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 4.0,
+        "10": 1.5,
+        "11": 3.0,
+        "12": 0.33,
+        "13": 5.0,
+        "14": 2.5,
+        "15": 1.5,
+        "16": 0.33,
+        "17": 5.0,
+        "18": 1.5,
+        "19": 1.5,
+        "2": 1.5,
+        "20": 1.0,
+        "21": 1.5,
+        "22": 1.5,
+        "23": 1.5,
+        "24": 0.33,
+        "3": 1.5,
+        "4": 0.33,
+        "5": 3.0,
+        "6": 3.0,
+        "7": 1.5,
+        "8": 1.0,
+        "9": 2.0
+      },
+      "pitch_class_histogram": {
+        "0": 36,
+        "1": 1,
+        "10": 0,
+        "11": 29,
+        "2": 24,
+        "3": 1,
+        "4": 49,
+        "5": 21,
+        "6": 2,
+        "7": 25,
+        "8": 11,
+        "9": 31
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h1:0",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h1:50",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h1:100",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h1:200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m1",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h2:300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m2",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h2:400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 4.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m2",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I",
+          "vi7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h2:500",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m2",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h3:600",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h3:700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m3",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h3:800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h4:900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h5:1200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m5",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h5:1300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m5",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h5:1400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m5",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h6:1500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m6",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h6:1600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h6:1700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m6",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h7:1800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h7:1900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h7:2000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h8:2100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h8:2300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m8",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h9:2400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h9:2450",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 24.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h9:2500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h9:2600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m9",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.5,
+        "figured_bass_like_summary": "C44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h10:2700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m10",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h10:2850",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 28.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m10",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h10:2900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h11:3000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m11",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h11:3100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E",
+          "NCT:E"
+        ],
+        "onset": 31.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m11",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h11:3200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m11",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h12:3300",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m12",
+        "roman_numeral_candidate_set": [
+          "V/iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h13:3600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m13",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h13:3700",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m13",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h13:3750",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:F"
+        ],
+        "onset": 37.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m13",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h13:3800",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m13",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h13:3850",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m13",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h14:3900",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m14",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h14:3950",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:C"
+        ],
+        "onset": 39.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m14",
+        "roman_numeral_candidate_set": [
+          "III",
+          "VI7",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h14:4000",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m14",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h14:4050",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 40.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h14:4100",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:F"
+        ],
+        "onset": 41.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m14",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h15:4200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 42.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m15",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h15:4300",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m15",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h15:4400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m15",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h16:4500",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 45.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m16",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h17:4800",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 48.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m17",
+        "roman_numeral_candidate_set": [
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h17:4850",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B",
+          "NT:D"
+        ],
+        "onset": 48.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m17",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h17:4900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E",
+          "PT:E"
+        ],
+        "onset": 49.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m17",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h17:4950",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F",
+          "PT:F"
+        ],
+        "onset": 49.5,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m17",
+        "roman_numeral_candidate_set": [
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h17:5000",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:G"
+        ],
+        "onset": 50.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m17",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h18:5100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m18",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h18:5200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h18:5300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 53.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m18",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h19:5400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m19",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h19:5500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m19",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h19:5600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 56.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m19",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h20:5700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 57.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m20",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h20:5900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m20",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h21:6000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 60.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m21",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h21:6100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 61.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m21",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h21:6200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m21",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h22:6300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 63.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m22",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h22:6400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 64.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m22",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h22:6500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 65.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m22",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h23:6600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F#"
+        ],
+        "onset": 66.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m23",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h23:6700",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 67.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m23",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h23:6800",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 68.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m23",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__079 Heut triumphieret Gottes Sohn:h24:6900",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Ab"
+        ],
+        "onset": 69.0,
+        "ref_id": "notes__079 Heut triumphieret Gottes Sohn:m24",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 2,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 3,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 4,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "soprano formula 2-1"
+        ],
+        "measure": 7,
+        "strength": 0.63,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 8,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 9,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "bass formula 2-1",
+          "soprano formula 7-6"
+        ],
+        "measure": 11,
+        "strength": 0.5,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 2-1"
+        ],
+        "measure": 19,
+        "strength": 0.85,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 20,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 21,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 24,
+        "strength": 0.5,
+        "type": "IAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [],
+      "passed": true,
+      "subject_id": "notes__079 Heut triumphieret Gottes Sohn",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__079 Heut triumphieret Gottes Sohn"
+    },
+    "voice_leading": {
+      "contrary": 19,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 0,
+            "measure": 8,
+            "onset": 23.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 12,
+            "onset": 33.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 14,
+            "onset": 39.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 20,
+            "onset": 59.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 17,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 18,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 2,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 22,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 23,
+            "type": "possible_suspension",
+            "voice": "S"
+          }
+        ],
+        "suspensions": 6
+      },
+      "oblique": 32,
+      "parallel": 6,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 18,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__079 Heut triumphieret Gottes Sohn",
+    "genre": "chorale",
+    "key": "A minor",
+    "key_mode": "minor",
+    "key_tonic": "A"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 21,
+      "measure_start": 21,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 22,
+      "measure_start": 22,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 23,
+      "measure_start": 23,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 24,
+      "measure_start": 24,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__079 Heut triumphieret Gottes Sohn",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/079 Heut triumphieret Gottes Sohn.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m12",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m14",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m15",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m16",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m17",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m17",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m23",
+    "Harmonic ambiguity at notes__079 Heut triumphieret Gottes Sohn:m24"
+  ],
+  "work_id": "notes__079 Heut triumphieret Gottes Sohn"
+}

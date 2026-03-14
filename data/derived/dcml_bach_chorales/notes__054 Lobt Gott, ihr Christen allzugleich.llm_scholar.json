@@ -1,0 +1,1229 @@
+{
+  "artifact_stem": "notes__054 Lobt Gott, ihr Christen allzugleich",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__054 Lobt Gott, ihr Christen allzugleich.evidence_bundle.json",
+  "executed": false,
+  "mode": "scholar",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:16.212221+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Scholar Mode.\n\nYou may use only the supplied evidence bundle.\nEvery nontrivial statement must remain consistent with these labels:\n- supported_fact\n- inference\n- speculation\n\nDo not invent score events, provenance, dates, editorial claims, or source relationships.\nWhen evidence is ambiguous, preserve the ambiguity.\nAlways reference measure ranges and voices when available.\nConclude with:\n1. What the bundle strongly supports\n2. What remains interpretive\n3. What additional source checks would matter\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__054 Lobt Gott, ihr Christen allzugleich-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "3-1",
+              "cadence_id": "notes__054 Lobt Gott, ihr Christen allzugleich:cad:9",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__054 Lobt Gott, ihr Christen allzugleich:cad:11",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "G major",
+              "key_before": "G major",
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m11",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h1:0",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:150",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:250",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:350",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h2:400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h3:500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m3",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h3:550",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h3:600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D44",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h3:650",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h3:700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h3:800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h4:900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h4:950",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h4:1000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m4",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h4:1100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h4:1150",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h4:1200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h5:1300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h5:1600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h5:1650",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m5",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h6:1700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m6",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h6:1800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m6",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h6:1900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m6",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h6:2000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h6:2050",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h7:2100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h7:2200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h7:2250",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h7:2300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h7:2400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m7",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2550",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2650",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2750",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h8:2800",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h9:2900",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h9:2950",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h9:3000",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h9:3050",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h9:3100",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h9:3200",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3300",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3350",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3400",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3450",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3500",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3600",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h10:3650",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m10",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G major",
+              "harmonic_event_id": "notes__054 Lobt Gott, ihr Christen allzugleich:h11:3700",
+              "local_key": "G major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__054 Lobt Gott, ihr Christen allzugleich:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 9,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 11,
+              "strength": 0.8,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 11,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 4,
+                  "onset": 9.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 5,
+                  "onset": 13.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 7,
+                  "onset": 23.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 37.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 3,
+                  "onset": 5.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 3,
+                  "onset": 6.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                }
+              ],
+              "parallel_5ths": 0,
+              "parallel_8ves": 4,
+              "suspension_details": [],
+              "suspensions": 0
+            },
+            "oblique": 25,
+            "parallel": 5,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 17,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__054 Lobt Gott, ihr Christen allzugleich",
+          "genre": "chorale",
+          "key": "G",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__054 Lobt Gott, ihr Christen allzugleich",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/054 Lobt Gott, ihr Christen allzugleich.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [],
+        "work_id": "notes__054 Lobt Gott, ihr Christen allzugleich"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared scholar prompt with 11 passage refs and 54 harmonic events."
+}

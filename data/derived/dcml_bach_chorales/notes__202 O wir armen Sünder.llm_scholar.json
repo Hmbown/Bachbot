@@ -1,0 +1,3386 @@
+{
+  "artifact_stem": "notes__202 O wir armen S\u00fcnder",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__202 O wir armen S\u00fcnder.evidence_bundle.json",
+  "executed": false,
+  "mode": "scholar",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:16.212221+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Scholar Mode.\n\nYou may use only the supplied evidence bundle.\nEvery nontrivial statement must remain consistent with these labels:\n- supported_fact\n- inference\n- speculation\n\nDo not invent score events, provenance, dates, editorial claims, or source relationships.\nWhen evidence is ambiguous, preserve the ambiguity.\nAlways reference measure ranges and voices when available.\nConclude with:\n1. What the bundle strongly supports\n2. What remains interpretive\n3. What additional source checks would matter\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__202 O wir armen S\u00fcnder-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:4",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m4",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:10",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "3-4",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:13",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.5,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-5",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:15",
+              "cadence_type": "HC",
+              "detector_confidence": 0.43,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "soprano_formula": "2-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "HC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:16",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m16",
+              "soprano_formula": "1-1",
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1"
+              ]
+            },
+            {
+              "bass_formula": null,
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:22",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "soprano_formula": "6-6",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "4-4",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:26",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "soprano_formula": "4-4",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__202 O wir armen S\u00fcnder:cad:27",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.58,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "soprano_formula": "2-1",
+              "strength": 0.58,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:0",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h1:350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m1",
+              "roman_numeral_candidate_set": [
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h2:400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h2:450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h2:475",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m2",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h2:500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h2:600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h2:700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:875",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:1000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:1050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:1075",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:1100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h3:1150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 4.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h4:1200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h5:1950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m5",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h6:2000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m6",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h6:2050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m6",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h6:2100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h6:2150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m6",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h6:2200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m6",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h7:2750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m7",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 4.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h8:2800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m8",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h9:3550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m9",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h10:3950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4275",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h11:4350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m11",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 4.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h12:4400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m12",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:4800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:4850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:4900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:4950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:5000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:5050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:5100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h13:5150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m13",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5475",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h14:5500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m14",
+              "roman_numeral_candidate_set": [
+                "vi"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5875",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h15:5950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m15",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 4.0,
+              "figured_bass_like_summary": "D22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h16:6000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m16",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h17:6400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m17",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h17:6500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 65.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m17",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h17:6600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m17",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h17:6700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m17",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h17:6750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m17",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h18:6800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m18",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h18:6900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m18",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h18:6950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m18",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h18:7000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 70.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m18",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h18:7100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m18",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h18:7150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m18",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h19:7200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m19",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h19:7300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 73.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m19",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h19:7400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 74.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m19",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h19:7500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 75.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m19",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h19:7550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 75.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m19",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 4.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h20:7600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 76.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m20",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h21:8000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 80.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m21",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h21:8100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 81.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m21",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h21:8150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 81.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m21",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h21:8200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 82.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m21",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h21:8300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 83.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m21",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h21:8350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 83.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m21",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h22:8400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 84.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h22:8450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 84.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h22:8500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 85.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h22:8600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 86.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h22:8650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 86.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h22:8700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 87.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m22",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h23:8800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 88.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m23",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h23:8900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 89.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m23",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h23:8950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 89.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m23",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h23:9000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m23",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h23:9050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m23",
+              "roman_numeral_candidate_set": [
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h23:9100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 91.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m23",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h24:9200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 92.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m24",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h24:9300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 93.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m24",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h24:9350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 93.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m24",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h24:9400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 94.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m24",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h24:9500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 95.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m24",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h24:9550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 95.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m24",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h25:9600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 96.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m25",
+              "roman_numeral_candidate_set": [
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h25:9700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 97.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m25",
+              "roman_numeral_candidate_set": [
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h25:9800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 98.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m25",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h25:9900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 99.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m25",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 100.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 100.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 101.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 101.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 102.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10225",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 102.25,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 102.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 103.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 103.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h26:10375",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 103.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m26",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 104.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 104.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10475",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 104.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 105.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 105.5,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10575",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 105.75,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__202 O wir armen S\u00fcnder:h27:10600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 106.0,
+              "ref_id": "notes__202 O wir armen S\u00fcnder:m27",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 4,
+              "strength": 0.8,
+              "type": "IAC"
+            },
+            {
+              "measure": 10,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 13,
+              "strength": 0.5,
+              "type": "cadential"
+            },
+            {
+              "measure": 15,
+              "strength": 0.43,
+              "type": "HC"
+            },
+            {
+              "measure": 16,
+              "strength": 0.65,
+              "type": "IAC"
+            },
+            {
+              "measure": 22,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 26,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 27,
+              "strength": 0.58,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 25,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 17,
+                  "onset": 64.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 21,
+                  "onset": 80.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 27,
+                  "onset": 106.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 6,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 25,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 2,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 10,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 19,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 26,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 27,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 8
+            },
+            "oblique": 119,
+            "parallel": 5,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 13,
+            "spacing_issues": [
+              {
+                "interval": 24,
+                "issue": "spacing",
+                "measure": 7,
+                "voices": "T|B"
+              },
+              {
+                "interval": 15,
+                "issue": "spacing",
+                "measure": 18,
+                "voices": "A|T"
+              },
+              {
+                "interval": 15,
+                "issue": "spacing",
+                "measure": 21,
+                "voices": "A|T"
+              },
+              {
+                "interval": 15,
+                "issue": "spacing",
+                "measure": 22,
+                "voices": "A|T"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__202 O wir armen S\u00fcnder",
+          "genre": "chorale",
+          "key": "D",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 20,
+            "measure_start": 20,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 21,
+            "measure_start": 21,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 22,
+            "measure_start": 22,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 23,
+            "measure_start": 23,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 24,
+            "measure_start": 24,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 25,
+            "measure_start": 25,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 26,
+            "measure_start": 26,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 27,
+            "measure_start": 27,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__202 O wir armen S\u00fcnder",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/202 O wir armen S\u00fcnder.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m1",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m6",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m6",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m7",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m7",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m7",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m7",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m7",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m9",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m10",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m14",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m14",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m14",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m17",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m17",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m18",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m18",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m18",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m18",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m19",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m19",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m19",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m20",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m22",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m23",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m23",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m23",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m26",
+          "Harmonic ambiguity at notes__202 O wir armen S\u00fcnder:m27"
+        ],
+        "work_id": "notes__202 O wir armen S\u00fcnder"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared scholar prompt with 27 passage refs and 158 harmonic events."
+}

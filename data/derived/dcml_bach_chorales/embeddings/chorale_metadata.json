@@ -1,0 +1,2532 @@
+{
+  "chorales": [
+    {
+      "encoding_id": "notes__001 Aus meines Herzens Grunde",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__001 Aus meines Herzens Grunde"
+    },
+    {
+      "encoding_id": "notes__002 Ich danke dir, lieber Herre",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__002 Ich danke dir, lieber Herre"
+    },
+    {
+      "encoding_id": "notes__003 Ach Gott, vom Himmel sieh darein",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__003 Ach Gott, vom Himmel sieh darein"
+    },
+    {
+      "encoding_id": "notes__004 Es ist das Heil uns kommen her",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "work_id": "notes__004 Es ist das Heil uns kommen her"
+    },
+    {
+      "encoding_id": "notes__005 An Wasserfl\u00fcssen Babylon",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__005 An Wasserfl\u00fcssen Babylon"
+    },
+    {
+      "encoding_id": "notes__006 Nun lob, mein Seel, den Herren",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__006 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__007 Christus, der ist mein Leben",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__007 Christus, der ist mein Leben"
+    },
+    {
+      "encoding_id": "notes__008 Freuet euch, ihr Christen alle",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "work_id": "notes__008 Freuet euch, ihr Christen alle"
+    },
+    {
+      "encoding_id": "notes__009 Ermuntre dich, mein schwacher Geist",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__009 Ermuntre dich, mein schwacher Geist"
+    },
+    {
+      "encoding_id": "notes__010 Aus tiefer Not schrei ich zu dir",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__010 Aus tiefer Not schrei ich zu dir"
+    },
+    {
+      "encoding_id": "notes__011 Jesu, nun sei gepreiset",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__011 Jesu, nun sei gepreiset"
+    },
+    {
+      "encoding_id": "notes__012 Puer natus in Bethlehem",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__012 Puer natus in Bethlehem"
+    },
+    {
+      "encoding_id": "notes__013 Allein zu dir, Herr Jesu Christ",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__013 Allein zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__014 O Herre Gott, dein g\u00f6ttlich Wort",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__014 O Herre Gott, dein g\u00f6ttlich Wort"
+    },
+    {
+      "encoding_id": "notes__015 Christ lag in Todesbanden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__015 Christ lag in Todesbanden"
+    },
+    {
+      "encoding_id": "notes__016 Es woll uns Gott gen\u00e4dig sein",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__016 Es woll uns Gott gen\u00e4dig sein"
+    },
+    {
+      "encoding_id": "notes__017 Erschienen ist der herrliche Tag",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__017 Erschienen ist der herrliche Tag"
+    },
+    {
+      "encoding_id": "notes__018 Gottes Sohn ist kommen",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__018 Gottes Sohn ist kommen"
+    },
+    {
+      "encoding_id": "notes__019 Ich hab mein Sach Gott heimgestellt",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__019 Ich hab mein Sach Gott heimgestellt"
+    },
+    {
+      "encoding_id": "notes__020 Ein feste Burg ist unser Gott",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__020 Ein feste Burg ist unser Gott"
+    },
+    {
+      "encoding_id": "notes__021 Herzlich tut mich verlangen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__021 Herzlich tut mich verlangen"
+    },
+    {
+      "encoding_id": "notes__022 Schm\u00fccke dich, o liebe Seele",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__022 Schm\u00fccke dich, o liebe Seele"
+    },
+    {
+      "encoding_id": "notes__023 Zeuch ein zu deinen Toren",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__023 Zeuch ein zu deinen Toren"
+    },
+    {
+      "encoding_id": "notes__024 Valet will ich dir geben",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__024 Valet will ich dir geben"
+    },
+    {
+      "encoding_id": "notes__025 Wo soll ich fliehen hin",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "work_id": "notes__025 Wo soll ich fliehen hin"
+    },
+    {
+      "encoding_id": "notes__026 O Ewigkeit, du Donnerwort",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__026 O Ewigkeit, du Donnerwort"
+    },
+    {
+      "encoding_id": "notes__027 Es spricht der Unweisen Mund wohl",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__027 Es spricht der Unweisen Mund wohl"
+    },
+    {
+      "encoding_id": "notes__028 Nun komm, der Heiden Heiland",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__028 Nun komm, der Heiden Heiland"
+    },
+    {
+      "encoding_id": "notes__029 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__029 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__030 Jesus Christus, unser Heiland",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__030 Jesus Christus, unser Heiland"
+    },
+    {
+      "encoding_id": "notes__031 Ach lieben Christen, seid getrost",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__031 Ach lieben Christen, seid getrost"
+    },
+    {
+      "encoding_id": "notes__032 Nun danket alle Gott",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__032 Nun danket alle Gott"
+    },
+    {
+      "encoding_id": "notes__033 Erbarm dich mein, o Herre Gott",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__033 Erbarm dich mein, o Herre Gott"
+    },
+    {
+      "encoding_id": "notes__034 Gott des Himmels und der Erden",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__034 Gott des Himmels und der Erden"
+    },
+    {
+      "encoding_id": "notes__035 Herr, ich habe mi\u00dfgehandelt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__035 Herr, ich habe mi\u00dfgehandelt"
+    },
+    {
+      "encoding_id": "notes__036 Nun bitten wir den heiligen Geist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__036 Nun bitten wir den heiligen Geist"
+    },
+    {
+      "encoding_id": "notes__037 Jesu, der du meine Seele",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__037 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__038 Straf mich nicht in deinem Zorn",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__038 Straf mich nicht in deinem Zorn"
+    },
+    {
+      "encoding_id": "notes__039 Ach, was soll ich S\u00fcnder machen",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__039 Ach, was soll ich S\u00fcnder machen"
+    },
+    {
+      "encoding_id": "notes__040 Ach Gott und Herr",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__040 Ach Gott und Herr"
+    },
+    {
+      "encoding_id": "notes__041 Was mein Gott will, das gescheh allzeit",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__041 Was mein Gott will, das gescheh allzeit"
+    },
+    {
+      "encoding_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__043 Liebster Gott, wenn werd ich sterben",
+      "key": "C# minor",
+      "key_mode": "minor",
+      "key_tonic": "C#",
+      "work_id": "notes__043 Liebster Gott, wenn werd ich sterben"
+    },
+    {
+      "encoding_id": "notes__044 Machs mit mir Gott, nach deiner G\u00fct",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__044 Machs mit mir Gott, nach deiner G\u00fct"
+    },
+    {
+      "encoding_id": "notes__045 Vom Himmel hoch, da komm ich her",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__045 Vom Himmel hoch, da komm ich her"
+    },
+    {
+      "encoding_id": "notes__046 Kommt her zu mir, spricht Gottes Sohn",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__046 Kommt her zu mir, spricht Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__047 Vater unser im Himmelreich",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__047 Vater unser im Himmelreich"
+    },
+    {
+      "encoding_id": "notes__048 Ach wie nichtig, ach wie fl\u00fcchtig",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__048 Ach wie nichtig, ach wie fl\u00fcchtig"
+    },
+    {
+      "encoding_id": "notes__049 Mit Fried und Freud ich fahr dahin",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__049 Mit Fried und Freud ich fahr dahin"
+    },
+    {
+      "encoding_id": "notes__051 Wenn mein St\u00fcndlein vorhanden ist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__051 Wenn mein St\u00fcndlein vorhanden ist"
+    },
+    {
+      "encoding_id": "notes__052 Das neugeborne Kindelein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__052 Das neugeborne Kindelein"
+    },
+    {
+      "encoding_id": "notes__053 Gelobet seist du, Jesu Christ",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__053 Gelobet seist du, Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__054 Lobt Gott, ihr Christen allzugleich",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__054 Lobt Gott, ihr Christen allzugleich"
+    },
+    {
+      "encoding_id": "notes__055 Christum wir sollen loben schon",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__055 Christum wir sollen loben schon"
+    },
+    {
+      "encoding_id": "notes__056 Herzlich lieb hab ich dich, o Herr",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__056 Herzlich lieb hab ich dich, o Herr"
+    },
+    {
+      "encoding_id": "notes__057 Wir Christenleut",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__057 Wir Christenleut"
+    },
+    {
+      "encoding_id": "notes__059 Jesu Leiden, Pein und Tod",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__059 Jesu Leiden, Pein und Tod"
+    },
+    {
+      "encoding_id": "notes__060 O Traurigkeit, o Herzeleid",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__060 O Traurigkeit, o Herzeleid"
+    },
+    {
+      "encoding_id": "notes__061 Ich freue mich in dir",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__061 Ich freue mich in dir"
+    },
+    {
+      "encoding_id": "notes__062 Nun ruhen alle W\u00e4lder",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__062 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__063 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__063 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__064 Was Gott tut, das ist wohlgetan",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__064 Was Gott tut, das ist wohlgetan"
+    },
+    {
+      "encoding_id": "notes__065 Christ unser Herr zum Jordan kam",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__065 Christ unser Herr zum Jordan kam"
+    },
+    {
+      "encoding_id": "notes__066 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__066 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__067 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__067 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__068 Wenn wir in h\u00f6chsten N\u00f6ten sein",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__068 Wenn wir in h\u00f6chsten N\u00f6ten sein"
+    },
+    {
+      "encoding_id": "notes__069 Komm, heiliger Geist, Herre Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__069 Komm, heiliger Geist, Herre Gott"
+    },
+    {
+      "encoding_id": "notes__070 Gott sei gelobet und gebenedeiet",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__070 Gott sei gelobet und gebenedeiet"
+    },
+    {
+      "encoding_id": "notes__071 Ich ruf zu dir, Herr Jesu Christ",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__071 Ich ruf zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__072 Erhalt uns, Herr, bei deinem Wort",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__072 Erhalt uns, Herr, bei deinem Wort"
+    },
+    {
+      "encoding_id": "notes__073 Herr Jesu Christ, du h\u00f6chstes Gut",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__073 Herr Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__074 O Haupt voll Blut und Wunden",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__074 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__075 Das walt mein Gott",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__075 Das walt mein Gott"
+    },
+    {
+      "encoding_id": "notes__076 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__076 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__077 In dich hab ich gehoffet, Herr",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__077 In dich hab ich gehoffet, Herr"
+    },
+    {
+      "encoding_id": "notes__078 Herzliebster Jesu, was hast du verbrochen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__078 Herzliebster Jesu, was hast du verbrochen"
+    },
+    {
+      "encoding_id": "notes__079 Heut triumphieret Gottes Sohn",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__079 Heut triumphieret Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__080 Christus, der uns selig macht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__080 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__081 O gro\u00dfer Gott von Macht",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__081 O gro\u00dfer Gott von Macht"
+    },
+    {
+      "encoding_id": "notes__082 Jesu Leiden, Pein und Tod",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__082 Jesu Leiden, Pein und Tod"
+    },
+    {
+      "encoding_id": "notes__083 Nun bitten wir den Heiligen Geist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__083 Nun bitten wir den Heiligen Geist"
+    },
+    {
+      "encoding_id": "notes__084 O Gott, du frommer Gott",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "work_id": "notes__084 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__085 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__085 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude"
+    },
+    {
+      "encoding_id": "notes__087 O Haupt voll Blut und Wunden",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__087 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__088 Helft mir Gottes G\u00fcte preisen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__088 Helft mir Gottes G\u00fcte preisen"
+    },
+    {
+      "encoding_id": "notes__089 O Haupt voll Blut und Wunden",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__089 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__090 Hast du denn, Jesu, dein",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__090 Hast du denn, Jesu, dein"
+    },
+    {
+      "encoding_id": "notes__091 Verleih uns Frieden gn\u00e4diglich",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "work_id": "notes__091 Verleih uns Frieden gn\u00e4diglich"
+    },
+    {
+      "encoding_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__093 Wach auf mein Herz und singe",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__093 Wach auf mein Herz und singe"
+    },
+    {
+      "encoding_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    {
+      "encoding_id": "notes__095 Werde munter, mein Gem\u00fcte",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__095 Werde munter, mein Gem\u00fcte"
+    },
+    {
+      "encoding_id": "notes__096 Jesu, meine Freude",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__096 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__097 Nun bitten wir den Heiligen Geist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__097 Nun bitten wir den Heiligen Geist"
+    },
+    {
+      "encoding_id": "notes__098 O Haupt voll Blut und Wunden",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__098 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__099 Helft mir Gottes G\u00fcte preisen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__099 Helft mir Gottes G\u00fcte preisen"
+    },
+    {
+      "encoding_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__101 Herr Christ, der ein'ge Gottes Sohn",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__101 Herr Christ, der ein'ge Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__102 Ermuntre dich, mein schwacher Geist",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__102 Ermuntre dich, mein schwacher Geist"
+    },
+    {
+      "encoding_id": "notes__104 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__104 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__105 Herzliebster Jesu, was hast du verbrochen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__105 Herzliebster Jesu, was hast du verbrochen"
+    },
+    {
+      "encoding_id": "notes__106 Jesu Leiden, Pein und Tod",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__106 Jesu Leiden, Pein und Tod"
+    },
+    {
+      "encoding_id": "notes__107 Herzlich lieb hab ich dich, o Herr",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__107 Herzlich lieb hab ich dich, o Herr"
+    },
+    {
+      "encoding_id": "notes__108 Valet will ich dir geben",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__108 Valet will ich dir geben"
+    },
+    {
+      "encoding_id": "notes__109 Singen wir aus Herzens Grund",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__109 Singen wir aus Herzens Grund"
+    },
+    {
+      "encoding_id": "notes__110 Vater unser im Himmelreich",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__110 Vater unser im Himmelreich"
+    },
+    {
+      "encoding_id": "notes__111 Herzliebster Jesu, was hast du verbrochen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__111 Herzliebster Jesu, was hast du verbrochen"
+    },
+    {
+      "encoding_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__113 Christus, der uns selig macht",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__113 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__114 Von Gott will ich nicht lassen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__114 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__115 Was mein Gott will, das gescheh allezeit",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__115 Was mein Gott will, das gescheh allezeit"
+    },
+    {
+      "encoding_id": "notes__116 Nun lob, mein Seel, den Herren",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__116 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__117 Nun ruhen alle W\u00e4lder",
+      "key": "Ab major",
+      "key_mode": "major",
+      "key_tonic": "Ab",
+      "work_id": "notes__117 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__118 In dich hab ich gehoffet, Herr",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__118 In dich hab ich gehoffet, Herr"
+    },
+    {
+      "encoding_id": "notes__119 Christ unser Herr zum Jordan kam",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__119 Christ unser Herr zum Jordan kam"
+    },
+    {
+      "encoding_id": "notes__120 Was mein Gott will, das gescheh allezeit",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__120 Was mein Gott will, das gescheh allezeit"
+    },
+    {
+      "encoding_id": "notes__121 Werde munter, mein Gem\u00fcte",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__121 Werde munter, mein Gem\u00fcte"
+    },
+    {
+      "encoding_id": "notes__122 Ist Gott mein Schild und Helfersmann",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__122 Ist Gott mein Schild und Helfersmann"
+    },
+    {
+      "encoding_id": "notes__123 Helft mir Gottes G\u00fcte preisen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__123 Helft mir Gottes G\u00fcte preisen"
+    },
+    {
+      "encoding_id": "notes__124 Auf, auf mein Herz, und du mein ganzer Sinn",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__124 Auf, auf mein Herz, und du mein ganzer Sinn"
+    },
+    {
+      "encoding_id": "notes__125 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__125 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__126 Durch Adams Fall ist ganz verderbt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__126 Durch Adams Fall ist ganz verderbt"
+    },
+    {
+      "encoding_id": "notes__127 Dies sind die heilgen zehn Gebot",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__127 Dies sind die heilgen zehn Gebot"
+    },
+    {
+      "encoding_id": "notes__128 Alles ist an Gottes Segen",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__128 Alles ist an Gottes Segen"
+    },
+    {
+      "encoding_id": "notes__129 Keinen hat Gott verlassen",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__129 Keinen hat Gott verlassen"
+    },
+    {
+      "encoding_id": "notes__130 Meine Seele erhebt den Herren",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__130 Meine Seele erhebt den Herren"
+    },
+    {
+      "encoding_id": "notes__131 Liebster Jesu, wir sind hier",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__131 Liebster Jesu, wir sind hier"
+    },
+    {
+      "encoding_id": "notes__132 Kyrie, Gott Vater in Ewigkeit",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__132 Kyrie, Gott Vater in Ewigkeit"
+    },
+    {
+      "encoding_id": "notes__133 Wir glauben all an einen Gott",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__133 Wir glauben all an einen Gott"
+    },
+    {
+      "encoding_id": "notes__134 Gott der Vater wohn uns bei",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__134 Gott der Vater wohn uns bei"
+    },
+    {
+      "encoding_id": "notes__135 Wer Gott vertraut, hat wohl gebaut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__135 Wer Gott vertraut, hat wohl gebaut"
+    },
+    {
+      "encoding_id": "notes__136 Herr Jesu Christ, dich zu uns wend",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__136 Herr Jesu Christ, dich zu uns wend"
+    },
+    {
+      "encoding_id": "notes__137 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__137 Du, o sch\u00f6nes Weltgeb\u00e4ude"
+    },
+    {
+      "encoding_id": "notes__138 Jesu, meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__138 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__139 Warum sollt ich mich denn gr\u00e4men",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__139 Warum sollt ich mich denn gr\u00e4men"
+    },
+    {
+      "encoding_id": "notes__140 In allen meinen Taten",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__140 In allen meinen Taten"
+    },
+    {
+      "encoding_id": "notes__141 Seelenbr\u00e4utigam",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__141 Seelenbr\u00e4utigam"
+    },
+    {
+      "encoding_id": "notes__142 Schwing dich auf zu deinem Gott",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__142 Schwing dich auf zu deinem Gott"
+    },
+    {
+      "encoding_id": "notes__143 In dulci jubilo",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__143 In dulci jubilo"
+    },
+    {
+      "encoding_id": "notes__144 Wer in dem Schutz des H\u00f6chsten ist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__144 Wer in dem Schutz des H\u00f6chsten ist"
+    },
+    {
+      "encoding_id": "notes__145 Warum betr\u00fcbst du dich, mein Herz",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__145 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    {
+      "encoding_id": "notes__146 Wer nur den lieben Got l\u00e4\u00dft walten",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__146 Wer nur den lieben Got l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__147 Wenn ich in Angst und Not",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__147 Wenn ich in Angst und Not"
+    },
+    {
+      "encoding_id": "notes__148 Uns ist ein Kindlein heut geborn",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__148 Uns ist ein Kindlein heut geborn"
+    },
+    {
+      "encoding_id": "notes__149 Nicht so traurig, nicht so sehr",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "work_id": "notes__149 Nicht so traurig, nicht so sehr"
+    },
+    {
+      "encoding_id": "notes__150 Welt ade, ich bin dein m\u00fcde",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__150 Welt ade, ich bin dein m\u00fcde"
+    },
+    {
+      "encoding_id": "notes__151 Meinen Jesum la\u00df ich nicht, Jesus",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__151 Meinen Jesum la\u00df ich nicht, Jesus"
+    },
+    {
+      "encoding_id": "notes__152 Meinen Jesum la\u00df ich nicht, weil etc",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__152 Meinen Jesum la\u00df ich nicht, weil etc"
+    },
+    {
+      "encoding_id": "notes__153 Alle Menschen m\u00fcssen sterben",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__153 Alle Menschen m\u00fcssen sterben"
+    },
+    {
+      "encoding_id": "notes__154 Der du bist drei in Einigkeit",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__154 Der du bist drei in Einigkeit"
+    },
+    {
+      "encoding_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen"
+    },
+    {
+      "encoding_id": "notes__156 Ach Gott, wie manches Herzeleid",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__156 Ach Gott, wie manches Herzeleid"
+    },
+    {
+      "encoding_id": "notes__157 Wo Gott zum Haus nicht gibt sein Gunst",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__157 Wo Gott zum Haus nicht gibt sein Gunst"
+    },
+    {
+      "encoding_id": "notes__158 Der Tag, der ist so freudenreich",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__158 Der Tag, der ist so freudenreich"
+    },
+    {
+      "encoding_id": "notes__159 Als der g\u00fctige Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__159 Als der g\u00fctige Gott"
+    },
+    {
+      "encoding_id": "notes__160 Gelobet seist du, Jesu Christ",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__160 Gelobet seist du, Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte"
+    },
+    {
+      "encoding_id": "notes__162 Das alte Jahr vergangen ist",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__162 Das alte Jahr vergangen ist"
+    },
+    {
+      "encoding_id": "notes__163 F\u00fcr Freuden la\u00dft uns springen",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__163 F\u00fcr Freuden la\u00dft uns springen"
+    },
+    {
+      "encoding_id": "notes__164 Du gro\u00dfer Schmerzensmann",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__164 Du gro\u00dfer Schmerzensmann"
+    },
+    {
+      "encoding_id": "notes__165 O Lamm Gottes, unschuldig",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__165 O Lamm Gottes, unschuldig"
+    },
+    {
+      "encoding_id": "notes__166 Es stehn vor Gottes Throne",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__166 Es stehn vor Gottes Throne"
+    },
+    {
+      "encoding_id": "notes__167 Herr Gott, dich loben wir alle",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__167 Herr Gott, dich loben wir alle"
+    },
+    {
+      "encoding_id": "notes__168 Heut ist, o Mensch, ein gro\u00dfer Trauertag",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__168 Heut ist, o Mensch, ein gro\u00dfer Trauertag"
+    },
+    {
+      "encoding_id": "notes__169 Jesu, der du selbsten wohl",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__169 Jesu, der du selbsten wohl"
+    },
+    {
+      "encoding_id": "notes__170 Nun komm, der Heiden Heiland",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__170 Nun komm, der Heiden Heiland"
+    },
+    {
+      "encoding_id": "notes__171 Schaut, ihr S\u00fcnder",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__171 Schaut, ihr S\u00fcnder"
+    },
+    {
+      "encoding_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig"
+    },
+    {
+      "encoding_id": "notes__173 O Herzenangst",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__173 O Herzenangst"
+    },
+    {
+      "encoding_id": "notes__174 Jesus Christus, unser Heiland, der den Tod",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__174 Jesus Christus, unser Heiland, der den Tod"
+    },
+    {
+      "encoding_id": "notes__175 Jesus, meine Zuversicht",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__175 Jesus, meine Zuversicht"
+    },
+    {
+      "encoding_id": "notes__176 Erstanden ist der heilige Christ",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__176 Erstanden ist der heilige Christ"
+    },
+    {
+      "encoding_id": "notes__177 Ach bleib bei uns, Herr Jesu Christ",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__177 Ach bleib bei uns, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__178 Das neugeborne Kindelein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__178 Das neugeborne Kindelein"
+    },
+    {
+      "encoding_id": "notes__179 Wachet auf, ruft uns die Stimme",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__179 Wachet auf, ruft uns die Stimme"
+    },
+    {
+      "encoding_id": "notes__180 Als Jesus Christus in der Nacht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__180 Als Jesus Christus in der Nacht"
+    },
+    {
+      "encoding_id": "notes__181 Gott hat das Evangelium",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__181 Gott hat das Evangelium"
+    },
+    {
+      "encoding_id": "notes__182 W\u00e4r Gott nicht mit uns diese Zeit",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__182 W\u00e4r Gott nicht mit uns diese Zeit"
+    },
+    {
+      "encoding_id": "notes__183 Nun freut euch, lieben Christen gmein",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__183 Nun freut euch, lieben Christen gmein"
+    },
+    {
+      "encoding_id": "notes__184 Christ lag in Todesbanden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__184 Christ lag in Todesbanden"
+    },
+    {
+      "encoding_id": "notes__185 Nun freut euch, Gottes Kinder all",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__185 Nun freut euch, Gottes Kinder all"
+    },
+    {
+      "encoding_id": "notes__186 Ach Gott, erh\u00f6r mein Seufzen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__186 Ach Gott, erh\u00f6r mein Seufzen"
+    },
+    {
+      "encoding_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist"
+    },
+    {
+      "encoding_id": "notes__188 Ich danke dir schon durch deinen Sohn",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__188 Ich danke dir schon durch deinen Sohn"
+    },
+    {
+      "encoding_id": "notes__189 Herr Jesu Christ, wahr' Mensch und Gott",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__189 Herr Jesu Christ, wahr' Mensch und Gott"
+    },
+    {
+      "encoding_id": "notes__190 Herr, nun la\u00df in Friede",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__190 Herr, nun la\u00df in Friede"
+    },
+    {
+      "encoding_id": "notes__191 Von Gott will ich nicht lassen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__191 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__192 Gottlob, es geht nunmehr zu Ende",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__192 Gottlob, es geht nunmehr zu Ende"
+    },
+    {
+      "encoding_id": "notes__193 Was bist du doch, o Seele, so betr\u00fcbt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__193 Was bist du doch, o Seele, so betr\u00fcbt"
+    },
+    {
+      "encoding_id": "notes__194 Liebster Immanuel, Herzog aller Frommen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__194 Liebster Immanuel, Herzog aller Frommen"
+    },
+    {
+      "encoding_id": "notes__195 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__195 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__196 Da der Herr Christ zu Tische sa\u00df",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "work_id": "notes__196 Da der Herr Christ zu Tische sa\u00df"
+    },
+    {
+      "encoding_id": "notes__197 Christ ist erstanden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__197 Christ ist erstanden"
+    },
+    {
+      "encoding_id": "notes__198 Christus, der uns selig macht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__198 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__199 Hilf, Gott, da\u00df mirs gelinge",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__199 Hilf, Gott, da\u00df mirs gelinge"
+    },
+    {
+      "encoding_id": "notes__200 Christus ist erstanden, hat \u00fcberwunden",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__200 Christus ist erstanden, hat \u00fcberwunden"
+    },
+    {
+      "encoding_id": "notes__201 O Mensch, bewein dein S\u00fcnde gro\u00df",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__201 O Mensch, bewein dein S\u00fcnde gro\u00df"
+    },
+    {
+      "encoding_id": "notes__202 O wir armen S\u00fcnder",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__202 O wir armen S\u00fcnder"
+    },
+    {
+      "encoding_id": "notes__203 O Mensch, schau Jesum Christum an",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__203 O Mensch, schau Jesum Christum an"
+    },
+    {
+      "encoding_id": "notes__204 Wer wei\u00df, wie nahe mir mein Ende",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__204 Wer wei\u00df, wie nahe mir mein Ende"
+    },
+    {
+      "encoding_id": "notes__205 Herr Gott, dich loben wir",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__205 Herr Gott, dich loben wir"
+    },
+    {
+      "encoding_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht"
+    },
+    {
+      "encoding_id": "notes__207 Des Heilgen Geistes reiche Gnad",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__207 Des Heilgen Geistes reiche Gnad"
+    },
+    {
+      "encoding_id": "notes__208 Als vierzig Tag nach Ostern war",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__208 Als vierzig Tag nach Ostern war"
+    },
+    {
+      "encoding_id": "notes__209 Dir, dir, Jehova, will ich singen",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__209 Dir, dir, Jehova, will ich singen"
+    },
+    {
+      "encoding_id": "notes__210 Christe, du Beistand deiner Kreuzgemeinde",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__210 Christe, du Beistand deiner Kreuzgemeinde"
+    },
+    {
+      "encoding_id": "notes__211 Weltlich Ehr und zeitlich Gut",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__211 Weltlich Ehr und zeitlich Gut"
+    },
+    {
+      "encoding_id": "notes__212 Herr, ich denk an jene Zeit",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__212 Herr, ich denk an jene Zeit"
+    },
+    {
+      "encoding_id": "notes__213 O wie selig seid ihr doch, ihr Frommen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__213 O wie selig seid ihr doch, ihr Frommen"
+    },
+    {
+      "encoding_id": "notes__214 Mitten wir im Leben sind",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__214 Mitten wir im Leben sind"
+    },
+    {
+      "encoding_id": "notes__215 Verleih uns Frieden gn\u00e4diglich",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__215 Verleih uns Frieden gn\u00e4diglich"
+    },
+    {
+      "encoding_id": "notes__216 Es ist genug, so nimm, Herr",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__216 Es ist genug, so nimm, Herr"
+    },
+    {
+      "encoding_id": "notes__218 La\u00df, o Herr, dein Ohr sich neigen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__218 La\u00df, o Herr, dein Ohr sich neigen"
+    },
+    {
+      "encoding_id": "notes__219 O wie seid ihr doch, ihr Frommen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__219 O wie seid ihr doch, ihr Frommen"
+    },
+    {
+      "encoding_id": "notes__220 Sollt ich meniem Gott nicht singen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__220 Sollt ich meniem Gott nicht singen"
+    },
+    {
+      "encoding_id": "notes__221 Herr, straf mich nicht in deinem Zorn",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__221 Herr, straf mich nicht in deinem Zorn"
+    },
+    {
+      "encoding_id": "notes__222 Nun preiset alle Gottes Barmherzigkeit",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__222 Nun preiset alle Gottes Barmherzigkeit"
+    },
+    {
+      "encoding_id": "notes__223 Ich dank dir, Gott, f\u00fcr deine Wohltat",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__223 Ich dank dir, Gott, f\u00fcr deine Wohltat"
+    },
+    {
+      "encoding_id": "notes__224 Das walt Gott Vater und Gott Sohn",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__224 Das walt Gott Vater und Gott Sohn"
+    },
+    {
+      "encoding_id": "notes__225 Gott, der du selber bist das Licht",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__225 Gott, der du selber bist das Licht"
+    },
+    {
+      "encoding_id": "notes__226 Herr Jesu Christ, du hast bereit'",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__226 Herr Jesu Christ, du hast bereit'"
+    },
+    {
+      "encoding_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich"
+    },
+    {
+      "encoding_id": "notes__228 Danket dem Herren, denn er ist sehr freundlich",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__228 Danket dem Herren, denn er ist sehr freundlich"
+    },
+    {
+      "encoding_id": "notes__229 Ich danke dir, o Gott, in deinem Throne",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__229 Ich danke dir, o Gott, in deinem Throne"
+    },
+    {
+      "encoding_id": "notes__230 Christ, der du bist der helle Tag",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__230 Christ, der du bist der helle Tag"
+    },
+    {
+      "encoding_id": "notes__231 Die Nacht ist kommen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__231 Die Nacht ist kommen"
+    },
+    {
+      "encoding_id": "notes__232 Die Sonn hat sich mit ihrem Glanz gewendet",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__232 Die Sonn hat sich mit ihrem Glanz gewendet"
+    },
+    {
+      "encoding_id": "notes__233 Werde munter, mein Gem\u00fcte",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__233 Werde munter, mein Gem\u00fcte"
+    },
+    {
+      "encoding_id": "notes__234 Gott lebet noch",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__234 Gott lebet noch"
+    },
+    {
+      "encoding_id": "notes__235 Heilig, heilig",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__235 Heilig, heilig"
+    },
+    {
+      "encoding_id": "notes__236 O Jesu, du mein Br\u00e4utigam",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__236 O Jesu, du mein Br\u00e4utigam"
+    },
+    {
+      "encoding_id": "notes__237 Was betr\u00fcbst du dich, mein Herze",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__237 Was betr\u00fcbst du dich, mein Herze"
+    },
+    {
+      "encoding_id": "notes__239 Den Vater dort oben",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__239 Den Vater dort oben"
+    },
+    {
+      "encoding_id": "notes__240 Nun sich der Tag geendet hat",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__240 Nun sich der Tag geendet hat"
+    },
+    {
+      "encoding_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken"
+    },
+    {
+      "encoding_id": "notes__242 Wie bist du, Seele, in mir so gar betr\u00fcbt",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__242 Wie bist du, Seele, in mir so gar betr\u00fcbt"
+    },
+    {
+      "encoding_id": "notes__243 Jesu, du mein liebstes Leben",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__243 Jesu, du mein liebstes Leben"
+    },
+    {
+      "encoding_id": "notes__244 Jesu, Jesu, du bist mein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__244 Jesu, Jesu, du bist mein"
+    },
+    {
+      "encoding_id": "notes__245 Christe, der du bist Tag und Licht",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__245 Christe, der du bist Tag und Licht"
+    },
+    {
+      "encoding_id": "notes__246 Singt dem Herrn ein neues Lied",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__246 Singt dem Herrn ein neues Lied"
+    },
+    {
+      "encoding_id": "notes__247 Wenn wir in h\u00f6chsten N\u00f6ten sein",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__247 Wenn wir in h\u00f6chsten N\u00f6ten sein"
+    },
+    {
+      "encoding_id": "notes__248 Sei lob und Ehr dem h\u00f6chsten Gut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__248 Sei lob und Ehr dem h\u00f6chsten Gut"
+    },
+    {
+      "encoding_id": "notes__249 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__249 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__250 Ein feste Burg ist unser Gott",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__250 Ein feste Burg ist unser Gott"
+    },
+    {
+      "encoding_id": "notes__251 Ich bin ja, Herr, in deiner Macht",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__251 Ich bin ja, Herr, in deiner Macht"
+    },
+    {
+      "encoding_id": "notes__252 Jesu, nun sei gepreist",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__252 Jesu, nun sei gepreist"
+    },
+    {
+      "encoding_id": "notes__253 Ach Gott, vom Himmel sieh darein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__253 Ach Gott, vom Himmel sieh darein"
+    },
+    {
+      "encoding_id": "notes__254 Weg, mein Herz, mit den Gedanken",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__254 Weg, mein Herz, mit den Gedanken"
+    },
+    {
+      "encoding_id": "notes__255 Was frag ich nach der Welt",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__255 Was frag ich nach der Welt"
+    },
+    {
+      "encoding_id": "notes__256 Jesu, deine tiefen Wunden",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__256 Jesu, deine tiefen Wunden"
+    },
+    {
+      "encoding_id": "notes__257 Nun la\u00dft uns Gott den Herren",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__257 Nun la\u00dft uns Gott den Herren"
+    },
+    {
+      "encoding_id": "notes__258 Mein Augen schlie\u00df ich jetzt in Gottes Namen",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__258 Mein Augen schlie\u00df ich jetzt in Gottes Namen"
+    },
+    {
+      "encoding_id": "notes__259 Verleih uns Frieden gn\u00e4diglich",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "work_id": "notes__259 Verleih uns Frieden gn\u00e4diglich"
+    },
+    {
+      "encoding_id": "notes__260 Es ist gewi\u00dflich an der Zeit",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__260 Es ist gewi\u00dflich an der Zeit"
+    },
+    {
+      "encoding_id": "notes__261 Christ lag in Todesbanden",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__261 Christ lag in Todesbanden"
+    },
+    {
+      "encoding_id": "notes__262 Ach Gott, vom Himmel sieh darein",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__262 Ach Gott, vom Himmel sieh darein"
+    },
+    {
+      "encoding_id": "notes__263 Jesu, meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__263 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__264 Jesu, meines Herzens Freud",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__264 Jesu, meines Herzens Freud"
+    },
+    {
+      "encoding_id": "notes__265 Was mein Gott will, das gescheh allzeit",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__265 Was mein Gott will, das gescheh allzeit"
+    },
+    {
+      "encoding_id": "notes__266 Herr Jesu Christ, du h\u00f6chstes Gut",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__266 Herr Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__267 Vater unser im Himmelreich",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__267 Vater unser im Himmelreich"
+    },
+    {
+      "encoding_id": "notes__268 Nun lob, mein Seel, den Herren",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__268 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__269 Jesu, der du meine Seele",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__269 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__270 Befiehl du deine Wege",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__270 Befiehl du deine Wege"
+    },
+    {
+      "encoding_id": "notes__271 Gib dich zufrieden und sei stille",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__271 Gib dich zufrieden und sei stille"
+    },
+    {
+      "encoding_id": "notes__273 Ein feste Burg ist unser Gott",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__273 Ein feste Burg ist unser Gott"
+    },
+    {
+      "encoding_id": "notes__274 O Ewigkeit, du Donnerwort",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__274 O Ewigkeit, du Donnerwort"
+    },
+    {
+      "encoding_id": "notes__275 O Welt, sieh hier dein Leben",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__275 O Welt, sieh hier dein Leben"
+    },
+    {
+      "encoding_id": "notes__276 Lobt Gott, ihr Christen allzugleich",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__276 Lobt Gott, ihr Christen allzugleich"
+    },
+    {
+      "encoding_id": "notes__277 Herzlieb lieb hab ich dich, o Herr",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__277 Herzlieb lieb hab ich dich, o Herr"
+    },
+    {
+      "encoding_id": "notes__278 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "work_id": "notes__278 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__279 Ach Gott und Herr",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__279 Ach Gott und Herr"
+    },
+    {
+      "encoding_id": "notes__280 Eins ist not!, ach Herr, dies Eine",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__280 Eins ist not!, ach Herr, dies Eine"
+    },
+    {
+      "encoding_id": "notes__281 Wo soll ich fliehen hin",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__281 Wo soll ich fliehen hin"
+    },
+    {
+      "encoding_id": "notes__282 Freu dich sehr, o meine Seele",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__282 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__283 Jesu, meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__283 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__283bis Herr Jesu Christ, wahr' Mensch und Gott",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__283bis Herr Jesu Christ, wahr' Mensch und Gott"
+    },
+    {
+      "encoding_id": "notes__284 W\u00e4r Gott nicht mit uns diese Zeit",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__284 W\u00e4r Gott nicht mit uns diese Zeit"
+    },
+    {
+      "encoding_id": "notes__285 Befiehl du deine Wege",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__285 Befiehl du deine Wege"
+    },
+    {
+      "encoding_id": "notes__286 Herr, ich habe mi\u00dfgehandelt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__286 Herr, ich habe mi\u00dfgehandelt"
+    },
+    {
+      "encoding_id": "notes__287 Gelobet seist du, Jesu Christ",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__287 Gelobet seist du, Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__288 Nun ruhen alle W\u00e4lder",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__288 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__289 Es ist das Heil uns kommen her",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "work_id": "notes__289 Es ist das Heil uns kommen her"
+    },
+    {
+      "encoding_id": "notes__290 Was frag ich nach der Welt",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__290 Was frag ich nach der Welt"
+    },
+    {
+      "encoding_id": "notes__291 Nimm von uns, Herr, du treuer Gott",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__291 Nimm von uns, Herr, du treuer Gott"
+    },
+    {
+      "encoding_id": "notes__292 Was Gott tut, das ist wohlgetan",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__292 Was Gott tut, das ist wohlgetan"
+    },
+    {
+      "encoding_id": "notes__293 Herr Jesu Christ, du h\u00f6chstes Gut",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__293 Herr Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__294 Herr Jesu Christ, mein's Lebens Licht",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__294 Herr Jesu Christ, mein's Lebens Licht"
+    },
+    {
+      "encoding_id": "notes__295 Nun lob, mein Seel, den Herren",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__295 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__296 Jesu, der du meine Seele",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__296 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__297 Weg, mein Herz, mit den Gedanken",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__297 Weg, mein Herz, mit den Gedanken"
+    },
+    {
+      "encoding_id": "notes__298 Meinen Jesum lass ich nicht, weil",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__298 Meinen Jesum lass ich nicht, weil"
+    },
+    {
+      "encoding_id": "notes__299 Warum betr\u00fcbst du dich, mein Herz",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__299 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    {
+      "encoding_id": "notes__300 Ach lieben Christen, seid getrost",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__300 Ach lieben Christen, seid getrost"
+    },
+    {
+      "encoding_id": "notes__301 Hilf, Gott, da\u00df mirs gelinge",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__301 Hilf, Gott, da\u00df mirs gelinge"
+    },
+    {
+      "encoding_id": "notes__302 Herr Christ, der ein'ge Gottes Sohn",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__302 Herr Christ, der ein'ge Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__303 Auf meinen lieben Gott",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__303 Auf meinen lieben Gott"
+    },
+    {
+      "encoding_id": "notes__304 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__304 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__305 O Mensch, bewein dein S\u00fcnde gro\u00df",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "work_id": "notes__305 O Mensch, bewein dein S\u00fcnde gro\u00df"
+    },
+    {
+      "encoding_id": "notes__306 Christus, der uns selig macht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__306 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__307 Ach Gott, wie manches Herzeleid",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__307 Ach Gott, wie manches Herzeleid"
+    },
+    {
+      "encoding_id": "notes__308 Ein L\u00e4mmlein geht und tr\u00e4gt die Schuld",
+      "key": "Ab major",
+      "key_mode": "major",
+      "key_tonic": "Ab",
+      "work_id": "notes__308 Ein L\u00e4mmlein geht und tr\u00e4gt die Schuld"
+    },
+    {
+      "encoding_id": "notes__309 Machs mit mir, Gott, nach deiner G\u00fcte",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "work_id": "notes__309 Machs mit mir, Gott, nach deiner G\u00fcte"
+    },
+    {
+      "encoding_id": "notes__310 Dank sei Gott in der H\u00f6he",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__310 Dank sei Gott in der H\u00f6he"
+    },
+    {
+      "encoding_id": "notes__311 O Gott, du frommer Gott",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__311 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__312 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__312 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__313 Das alte Jahr vergangen ist",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__313 Das alte Jahr vergangen ist"
+    },
+    {
+      "encoding_id": "notes__314 O Gott, du frommer Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__314 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__315 Christus, der ist mein Leben",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__315 Christus, der ist mein Leben"
+    },
+    {
+      "encoding_id": "notes__316 Herr, wie du willst, so schicks mit mir",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__316 Herr, wie du willst, so schicks mit mir"
+    },
+    {
+      "encoding_id": "notes__317 Herr, wie du willst, so schicks mit mir",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__317 Herr, wie du willst, so schicks mit mir"
+    },
+    {
+      "encoding_id": "notes__318 Sanctus, Sanctus Dominus Deus Sabaoth",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__318 Sanctus, Sanctus Dominus Deus Sabaoth"
+    },
+    {
+      "encoding_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "work_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig"
+    },
+    {
+      "encoding_id": "notes__320 Wir Christenleut",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__320 Wir Christenleut"
+    },
+    {
+      "encoding_id": "notes__321 Wenn mein St\u00fcndlein vorhanden ist",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__321 Wenn mein St\u00fcndlein vorhanden ist"
+    },
+    {
+      "encoding_id": "notes__322 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__322 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__323 Jesu meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__323 Jesu meine Freude"
+    },
+    {
+      "encoding_id": "notes__325 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__325 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__326 Jesu, nun sei gepreiset",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__326 Jesu, nun sei gepreiset"
+    },
+    {
+      "encoding_id": "notes__327 Liebster Jesu, wir sind hier",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__327 Liebster Jesu, wir sind hier"
+    },
+    {
+      "encoding_id": "notes__328 Sei Lob und Ehr dem h\u00f6chsten Gut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__328 Sei Lob und Ehr dem h\u00f6chsten Gut"
+    },
+    {
+      "encoding_id": "notes__329 Nun danket alle Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__329 Nun danket alle Gott"
+    },
+    {
+      "encoding_id": "notes__330 Wo soll ich fliehen hin",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__330 Wo soll ich fliehen hin"
+    },
+    {
+      "encoding_id": "notes__331 Von Gott will ich nicht lassen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__331 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__332 Es woll uns Gott gen\u00e4dig sein",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__332 Es woll uns Gott gen\u00e4dig sein"
+    },
+    {
+      "encoding_id": "notes__334 Es ist das Heil uns kommen her",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__334 Es ist das Heil uns kommen her"
+    },
+    {
+      "encoding_id": "notes__335 Wo Gott der Herr nicht bei uns h\u00e4lt",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__335 Wo Gott der Herr nicht bei uns h\u00e4lt"
+    },
+    {
+      "encoding_id": "notes__336 O Gott, du frommer Gott",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__336 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__337 Jesus, meine Zuversicht",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "work_id": "notes__337 Jesus, meine Zuversicht"
+    },
+    {
+      "encoding_id": "notes__338 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__338 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__339 Befiehl du deine Wege",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__339 Befiehl du deine Wege"
+    },
+    {
+      "encoding_id": "notes__340 Ich dank dir, lieber Herre",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__340 Ich dank dir, lieber Herre"
+    },
+    {
+      "encoding_id": "notes__341 Lobt Gott, ihr Christen allzugleich",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__341 Lobt Gott, ihr Christen allzugleich"
+    },
+    {
+      "encoding_id": "notes__343 Vom Himmel hoch, da komm ich her",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__343 Vom Himmel hoch, da komm ich her"
+    },
+    {
+      "encoding_id": "notes__344 O Haupt voll Blut und Wunden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__344 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__345 Meines Lebens letzte Zeit",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__345 Meines Lebens letzte Zeit"
+    },
+    {
+      "encoding_id": "notes__346 Was Gott tut, das ist wohlgetan",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__346 Was Gott tut, das ist wohlgetan"
+    },
+    {
+      "encoding_id": "notes__347 Meinen Jesum la\u00df ich nicht, weil",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__347 Meinen Jesum la\u00df ich nicht, weil"
+    },
+    {
+      "encoding_id": "notes__348 Ich hab in Gottes Herz und Sinn",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__348 Ich hab in Gottes Herz und Sinn"
+    },
+    {
+      "encoding_id": "notes__349 Jesu, meiner Seelen Wonne",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__349 Jesu, meiner Seelen Wonne"
+    },
+    {
+      "encoding_id": "notes__351 Es woll uns Gott gen\u00e4dig sein",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__351 Es woll uns Gott gen\u00e4dig sein"
+    },
+    {
+      "encoding_id": "notes__352 Der Herr ist mein getreuer Hirt",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__352 Der Herr ist mein getreuer Hirt"
+    },
+    {
+      "encoding_id": "notes__353 Sei Lob und Ehr dem h\u00f6chsten Gut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__353 Sei Lob und Ehr dem h\u00f6chsten Gut"
+    },
+    {
+      "encoding_id": "notes__354 Nun ruhen alle W\u00e4lder",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "work_id": "notes__354 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__355 Jesu, meine Freude",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "work_id": "notes__355 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__356 Warum sollt ich mich denn gr\u00e4men",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "work_id": "notes__356 Warum sollt ich mich denn gr\u00e4men"
+    },
+    {
+      "encoding_id": "notes__357 Meine Seel erhebt den Herren",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "work_id": "notes__357 Meine Seel erhebt den Herren"
+    },
+    {
+      "encoding_id": "notes__358 Allein zu dir, Herr Jesu Christ",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__358 Allein zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__359 Wir Christenleut",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "work_id": "notes__359 Wir Christenleut"
+    },
+    {
+      "encoding_id": "notes__360 Du Lebensf\u00fcrst, Herr Jesu Christ",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__360 Du Lebensf\u00fcrst, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__361 Es ist gewi\u00dflich an der Zeit",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "work_id": "notes__361 Es ist gewi\u00dflich an der Zeit"
+    },
+    {
+      "encoding_id": "notes__362 O Welt, sieh hier dein Leben",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__362 O Welt, sieh hier dein Leben"
+    },
+    {
+      "encoding_id": "notes__363 Von Gott will ich nicht lassen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__363 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__364 Jesu, meiner Seelen Wonne",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__364 Jesu, meiner Seelen Wonne"
+    },
+    {
+      "encoding_id": "notes__365 O Welt, sieh hier dein Leben",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "work_id": "notes__365 O Welt, sieh hier dein Leben"
+    },
+    {
+      "encoding_id": "notes__366 Befiel du deine Wege",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "work_id": "notes__366 Befiel du deine Wege"
+    },
+    {
+      "encoding_id": "notes__367 Hilf, Herr Jesu, la\u00df gelingen",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "work_id": "notes__367 Hilf, Herr Jesu, la\u00df gelingen"
+    },
+    {
+      "encoding_id": "notes__368 Jesu, der du meine Seele",
+      "key": "F minor",
+      "key_mode": "minor",
+      "key_tonic": "F",
+      "work_id": "notes__368 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__369 Kommt her zu mir, spricht Gottes Sohn",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "work_id": "notes__369 Kommt her zu mir, spricht Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__370 Christ lag in Todesbanden",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "work_id": "notes__370 Christ lag in Todesbanden"
+    }
+  ],
+  "generated_at": "2026-03-10T01:00:53.936618+00:00"
+}

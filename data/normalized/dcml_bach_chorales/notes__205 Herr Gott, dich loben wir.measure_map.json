@@ -1,0 +1,692 @@
+{
+  "dataset_id": "dcml_bach_chorales",
+  "encoding_id": "notes__205 Herr Gott, dich loben wir",
+  "measures": [
+    {
+      "duration": 1.0,
+      "measure_number_logical": 1,
+      "measure_number_notated": 1,
+      "onset": 0.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 2,
+      "measure_number_notated": 2,
+      "onset": 1.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 3,
+      "measure_number_notated": 3,
+      "onset": 5.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 4,
+      "measure_number_notated": 4,
+      "onset": 9.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 5,
+      "measure_number_notated": 5,
+      "onset": 13.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 6,
+      "measure_number_notated": 6,
+      "onset": 16.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 7,
+      "measure_number_notated": 7,
+      "onset": 17.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 8,
+      "measure_number_notated": 8,
+      "onset": 21.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 9,
+      "measure_number_notated": 9,
+      "onset": 25.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 10,
+      "measure_number_notated": 10,
+      "onset": 29.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 11,
+      "measure_number_notated": 11,
+      "onset": 32.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 12,
+      "measure_number_notated": 12,
+      "onset": 33.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 13,
+      "measure_number_notated": 13,
+      "onset": 37.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 14,
+      "measure_number_notated": 14,
+      "onset": 40.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 15,
+      "measure_number_notated": 15,
+      "onset": 41.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 16,
+      "measure_number_notated": 16,
+      "onset": 45.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 17,
+      "measure_number_notated": 17,
+      "onset": 49.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 18,
+      "measure_number_notated": 18,
+      "onset": 52.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 19,
+      "measure_number_notated": 19,
+      "onset": 53.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 20,
+      "measure_number_notated": 20,
+      "onset": 57.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 21,
+      "measure_number_notated": 21,
+      "onset": 61.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 22,
+      "measure_number_notated": 22,
+      "onset": 65.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 23,
+      "measure_number_notated": 23,
+      "onset": 68.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 24,
+      "measure_number_notated": 24,
+      "onset": 69.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 25,
+      "measure_number_notated": 25,
+      "onset": 73.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 26,
+      "measure_number_notated": 26,
+      "onset": 77.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 27,
+      "measure_number_notated": 27,
+      "onset": 81.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 28,
+      "measure_number_notated": 28,
+      "onset": 84.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 29,
+      "measure_number_notated": 29,
+      "onset": 85.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 30,
+      "measure_number_notated": 30,
+      "onset": 89.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 31,
+      "measure_number_notated": 31,
+      "onset": 93.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 32,
+      "measure_number_notated": 32,
+      "onset": 97.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 33,
+      "measure_number_notated": 33,
+      "onset": 101.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 34,
+      "measure_number_notated": 34,
+      "onset": 105.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 35,
+      "measure_number_notated": 35,
+      "onset": 109.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 36,
+      "measure_number_notated": 36,
+      "onset": 113.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 37,
+      "measure_number_notated": 37,
+      "onset": 117.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 38,
+      "measure_number_notated": 38,
+      "onset": 121.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 39,
+      "measure_number_notated": 39,
+      "onset": 125.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 40,
+      "measure_number_notated": 40,
+      "onset": 129.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 41,
+      "measure_number_notated": 41,
+      "onset": 133.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 42,
+      "measure_number_notated": 42,
+      "onset": 137.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 43,
+      "measure_number_notated": 43,
+      "onset": 141.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 44,
+      "measure_number_notated": 44,
+      "onset": 145.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 45,
+      "measure_number_notated": 45,
+      "onset": 148.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 46,
+      "measure_number_notated": 46,
+      "onset": 149.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 47,
+      "measure_number_notated": 47,
+      "onset": 153.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 48,
+      "measure_number_notated": 48,
+      "onset": 157.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 3.0,
+      "measure_number_logical": 49,
+      "measure_number_notated": 49,
+      "onset": 161.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 1.0,
+      "measure_number_logical": 50,
+      "measure_number_notated": 50,
+      "onset": 164.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 51,
+      "measure_number_notated": 51,
+      "onset": 165.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 52,
+      "measure_number_notated": 52,
+      "onset": 169.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 53,
+      "measure_number_notated": 53,
+      "onset": 173.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 54,
+      "measure_number_notated": 54,
+      "onset": 177.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 55,
+      "measure_number_notated": 55,
+      "onset": 181.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 56,
+      "measure_number_notated": 56,
+      "onset": 185.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 57,
+      "measure_number_notated": 57,
+      "onset": 189.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "source_relpath": "notes/205 Herr Gott, dich loben wir.notes.tsv",
+  "work_id": "notes__205 Herr Gott, dich loben wir"
+}

@@ -1,0 +1,1467 @@
+{
+  "bundle_id": "EB-notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 2.33,
+      "10": 0.67,
+      "11": 0.83,
+      "12": 3.67,
+      "13": 1.83,
+      "2": 4.67,
+      "3": 1.33,
+      "4": 2.33,
+      "5": 3.67,
+      "6": 3.08,
+      "7": 1.33,
+      "8": 1.67,
+      "9": 1.33
+    },
+    "cadences": [
+      {
+        "bass_formula": "1-4",
+        "cadence_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:cad:6",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m6",
+        "soprano_formula": "5-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-4",
+        "cadence_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:cad:7",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m7",
+        "soprano_formula": "4-6",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "1-6",
+        "cadence_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:cad:12",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "soprano_formula": null,
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:cad:13",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G minor",
+        "key_before": "G minor",
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m13",
+        "soprano_formula": "4-4",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 4 cadence candidate(s) across 56 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 9 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 4.0,
+        "11": 2.5,
+        "12": 7.0,
+        "13": 1.5,
+        "2": 8.0,
+        "3": 2.0,
+        "4": 1.0,
+        "5": 7.0,
+        "6": 0.25,
+        "7": 2.0,
+        "8": 5.0,
+        "9": 2.0
+      },
+      "pitch_class_histogram": {
+        "0": 34,
+        "1": 0,
+        "10": 16,
+        "11": 6,
+        "2": 20,
+        "3": 25,
+        "4": 1,
+        "5": 12,
+        "6": 5,
+        "7": 38,
+        "8": 10,
+        "9": 8
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h1:100",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m1",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h1:300",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:400",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:450",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:500",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:550",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:600",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 6.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:650",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:700",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h2:750",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m2",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h3:800",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 8.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h3:900",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m3",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h3:950",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m3",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h3:1000",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:B"
+        ],
+        "onset": 10.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m3",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h4:1300",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m4",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h4:1500",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1600",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1650",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1700",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "PT:F#"
+        ],
+        "onset": 17.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1750",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1800",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1900",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h5:1950",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 4.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h6:2000",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h7:2400",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h7:2500",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 25.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h7:2600",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Bb"
+        ],
+        "onset": 26.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h7:2700",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m7",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h8:2800",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m8",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h8:2900",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m8",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h8:3000",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 30.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h8:3050",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Eb"
+        ],
+        "onset": 30.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m8",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I",
+          "vi7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h8:3100",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m8",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h9:3200",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m9",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h9:3300",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m9",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h9:3350",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m9",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h9:3400",
+        "local_key": "G minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m9",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h10:3600",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m10",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h10:3700",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m10",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h10:3800",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h10:3900",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m10",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h11:4000",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m11",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h11:4050",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 40.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h11:4100",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "PT:F#"
+        ],
+        "onset": 41.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h11:4150",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m11",
+        "roman_numeral_candidate_set": [
+          "V7/V"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h11:4200",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4400",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4450",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 44.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4500",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4600",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4650",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4700",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h12:4750",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.5,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h13:4800",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h13:4900",
+        "local_key": "C minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m13",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C22",
+        "global_key": "G minor",
+        "harmonic_event_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:h13:5000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m13",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 6,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 7,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 12,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 13,
+        "strength": 0.48,
+        "type": "cadential"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 13,
+          "message": "Spacing violation between T|B.",
+          "severity": "error",
+          "voice_ids": [
+            "T",
+            "B"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude"
+    },
+    "voice_leading": {
+      "contrary": 19,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 3,
+            "onset": 10.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 7,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 13,
+            "type": "possible_suspension",
+            "voice": "S"
+          }
+        ],
+        "suspensions": 7
+      },
+      "oblique": 27,
+      "parallel": 1,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 9,
+      "spacing_issues": [
+        {
+          "interval": 28,
+          "issue": "spacing",
+          "measure": 13,
+          "onset": 50.0,
+          "voices": "T|B"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+    "genre": "chorale",
+    "key": "G minor",
+    "key_mode": "minor",
+    "key_tonic": "G"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/086 Du, o sch\u00f6nes Weltgeb\u00e4ude.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m3",
+    "Harmonic ambiguity at notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m3",
+    "Harmonic ambiguity at notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m5",
+    "Harmonic ambiguity at notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude:m11"
+  ],
+  "work_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude"
+}

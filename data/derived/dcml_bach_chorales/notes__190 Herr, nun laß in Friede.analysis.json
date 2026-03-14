@@ -1,0 +1,1915 @@
+{
+  "anomalies": {
+    "1": 2.67,
+    "10": 2.33,
+    "11": 2.67,
+    "12": 2.83,
+    "2": 2.83,
+    "3": 2.67,
+    "4": 2.33,
+    "5": 2.67,
+    "6": 2.83,
+    "7": 2.67,
+    "8": 2.83,
+    "9": 2.67
+  },
+  "cadences": [
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m2",
+      "soprano_formula": null,
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "5-5",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:5",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "soprano_formula": "2-3",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:6",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.65,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m6",
+      "soprano_formula": "2-1",
+      "strength": 0.65,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:7",
+      "cadence_type": "DC",
+      "detector_confidence": 0.57,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "soprano_formula": null,
+      "strength": 0.57,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6"
+      ]
+    },
+    {
+      "bass_formula": "3-3",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "soprano_formula": "5-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:10",
+      "cadence_type": "DC",
+      "detector_confidence": 0.57,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "soprano_formula": "4-3",
+      "strength": 0.57,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__190 Herr, nun la\u00df in Friede:cad:11",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__190 Herr, nun la\u00df in Friede-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 8 cadence candidate(s) across 80 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__190 Herr, nun la\u00df in Friede-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 5 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 8.0,
+      "10": 3.0,
+      "11": 8.0,
+      "12": 2.5,
+      "2": 2.5,
+      "3": 8.0,
+      "4": 3.0,
+      "5": 8.0,
+      "6": 2.5,
+      "7": 8.0,
+      "8": 2.5,
+      "9": 8.0
+    },
+    "pitch_class_histogram": {
+      "0": 34,
+      "1": 1,
+      "10": 1,
+      "11": 27,
+      "2": 28,
+      "3": 1,
+      "4": 35,
+      "5": 13,
+      "6": 6,
+      "7": 23,
+      "8": 11,
+      "9": 28
+    }
+  },
+  "encoding_id": "notes__190 Herr, nun la\u00df in Friede",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:0",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:E",
+        "NCT:E"
+      ],
+      "onset": 0.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:50",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:150",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Ab"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:250",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 2.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h1:350",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m1",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h2:400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h2:450",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h2:500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h2:550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h2:600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 8.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "viio7",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:1000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:1050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:1100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 11.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h3:1150",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m3",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h4:1200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h4:1250",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h4:1300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h4:1350",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 13.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h4:1400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 14.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h4:1500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#",
+        "NT:D"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 19.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h5:1950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m5",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h6:2000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h6:2050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h6:2100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#",
+        "NCT:Eb"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h6:2150",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m6",
+      "roman_numeral_candidate_set": [
+        "V7/V"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h6:2200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2450",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 24.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G",
+        "SUS:G"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h7:2750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m7",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h8:2800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h8:2850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m8",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h8:2900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h8:2950",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h8:3000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3250",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3350",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3450",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 34.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "ii7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h9:3550",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h10:3600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h10:3650",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B",
+        "PT:B"
+      ],
+      "onset": 36.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h10:3700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h10:3750",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 37.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h10:3800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h10:3900",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m10",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4000",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 40.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B",
+        "PT:G"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VII",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4150",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 41.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 42.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4250",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 42.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h11:4350",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:C"
+      ],
+      "onset": 43.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m11",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h12:4400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h12:4450",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 44.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "VI7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h12:4500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h12:4550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__190 Herr, nun la\u00df in Friede:h12:4600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__190 Herr, nun la\u00df in Friede:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 2,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 4,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 5,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "soprano formula 2-1"
+      ],
+      "measure": 6,
+      "strength": 0.65,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6"
+      ],
+      "measure": 7,
+      "strength": 0.57,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 9,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ],
+      "measure": 10,
+      "strength": 0.57,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ],
+      "measure": 11,
+      "strength": 0.3,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__190 Herr, nun la\u00df in Friede",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__190 Herr, nun la\u00df in Friede"
+  },
+  "voice_leading": {
+    "contrary": 16,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 7,
+          "onset": 27.5,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 11,
+          "onset": 40.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 9
+    },
+    "oblique": 58,
+    "parallel": 2,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 5,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__190 Herr, nun la\u00df in Friede"
+}

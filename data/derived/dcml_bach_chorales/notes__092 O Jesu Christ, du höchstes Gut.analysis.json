@@ -1,0 +1,1691 @@
+{
+  "anomalies": {
+    "1": 3.51,
+    "10": 1.49,
+    "11": 0.51,
+    "12": 1.01,
+    "13": 4.18,
+    "2": 2.49,
+    "3": 1.49,
+    "4": 2.49,
+    "5": 2.01,
+    "6": 3.51,
+    "7": 3.49,
+    "8": 2.49,
+    "9": 0.82
+  },
+  "cadences": [
+    {
+      "bass_formula": "4-5",
+      "cadence_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:cad:3",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-3",
+      "cadence_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:cad:6",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m6",
+      "soprano_formula": "2-5",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "soprano_formula": "4-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:cad:9",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "soprano_formula": "3-2",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:cad:10",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "soprano_formula": null,
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:cad:13",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.8,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m13",
+      "soprano_formula": "2-1",
+      "strength": 0.8,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__092 O Jesu Christ, du h\u00f6chstes Gut-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 6 cadence candidate(s) across 72 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__092 O Jesu Christ, du h\u00f6chstes Gut-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 21 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 6.0,
+      "11": 4.0,
+      "12": 3.5,
+      "13": 0.33,
+      "2": 7.0,
+      "3": 6.0,
+      "4": 7.0,
+      "5": 2.5,
+      "6": 1.0,
+      "7": 8.0,
+      "8": 7.0,
+      "9": 5.33
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 29,
+      "10": 10,
+      "11": 34,
+      "2": 24,
+      "3": 1,
+      "4": 27,
+      "5": 2,
+      "6": 41,
+      "7": 9,
+      "8": 10,
+      "9": 20
+    }
+  },
+  "encoding_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h1:0",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h2:450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m2",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h3:500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h3:550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 5.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "ii\u00b0",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h3:600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h3:650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h3:700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h3:800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m3",
+      "roman_numeral_candidate_set": [
+        "V/VII",
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:1000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:1100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:1150",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:1200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "NCT:C#"
+      ],
+      "onset": 12.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h4:1250",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m4",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h5:1300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 13.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h5:1350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Bb"
+      ],
+      "onset": 13.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h5:1400",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h5:1450",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m5",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h5:1500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h6:1600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:1700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:1750",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Ab"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:1800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:1850",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:1900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:1950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 19.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:2000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h7:2050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2150",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 22.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2250",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2400",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h8:2450",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2500",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2550",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2600",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2650",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2700",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2750",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2800",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h9:2850",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h10:2900",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h10:2950",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h10:3000",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h10:3100",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h10:3200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h10:3250",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m10",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3350",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3400",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3450",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "viio7/iv",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3500",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3550",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3600",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h11:3650",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m11",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:3700",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:3750",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:3800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:3850",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:3900",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#",
+        "NT:G"
+      ],
+      "onset": 39.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:4000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h12:4050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.5,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:h13:4100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 41.0,
+      "ref_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut:m13",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "B minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 3,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 6,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 9,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 13,
+      "strength": 0.8,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__092 O Jesu Christ, du h\u00f6chstes Gut"
+  },
+  "voice_leading": {
+    "contrary": 15,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 7.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 4,
+          "onset": 10.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 7,
+          "onset": 18.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 23.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 13,
+          "onset": 41.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "measure": 12,
+          "onset": 37.5,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 5
+    },
+    "oblique": 35,
+    "parallel": 6,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 21,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut"
+}

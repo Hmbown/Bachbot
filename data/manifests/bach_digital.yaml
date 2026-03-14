@@ -1,0 +1,37 @@
+dataset_id: bach_digital
+name: "Bach Digital"
+type: authority_metadata
+scope:
+  - works
+  - sources
+  - persons
+  - repositories
+source_url: "https://www.bach-digital.de/"
+api_or_export_notes:
+  - "Use persistent work and source identifiers where available."
+  - "Capture export format per retrieval, including JSON-LD or MEI endpoints when present."
+retrieved_at: "2026-03-07"
+catalog_context:
+  default_revision: "BWV3-era"
+  notes:
+    - "Persist exact catalog revision and retrieval date alongside any work mapping."
+license:
+  data: "ODC PDDL 1.0"
+  site_content: "CC BY-NC 4.0 unless otherwise noted"
+checksum_policy: sha256
+storage_policy:
+  raw_dir: "data/raw/bach_digital"
+  normalized_dir: "data/normalized/bach_digital"
+  derived_dir: "data/derived/bach_digital"
+redistribution:
+  metadata_allowed: true
+  raw_assets_allowed: "case-by-case"
+provenance_requirements:
+  - persistent identifier
+  - retrieval timestamp
+  - source URL
+  - export format
+  - checksum
+notes:
+  - "Treat work/source relationships as first-class, not merely score download metadata."
+  - "Store newly added or addendum statuses without collapsing them into a single authenticity field."

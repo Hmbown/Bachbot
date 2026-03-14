@@ -1,0 +1,1966 @@
+{
+  "artifact_stem": "notes__253 Ach Gott, vom Himmel sieh darein",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__253 Ach Gott, vom Himmel sieh darein.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__253 Ach Gott, vom Himmel sieh darein-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__253 Ach Gott, vom Himmel sieh darein:cad:2",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "soprano_formula": "5-5",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__253 Ach Gott, vom Himmel sieh darein:cad:7",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "soprano_formula": "5-5",
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__253 Ach Gott, vom Himmel sieh darein:cad:11",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m11",
+              "soprano_formula": "1-1",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__253 Ach Gott, vom Himmel sieh darein:cad:16",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m16",
+              "soprano_formula": "1-1",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h1:0",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m1",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h2:450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h3:500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m3",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h3:550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h3:600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h3:650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h3:700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m3",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h4:1000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h4:1100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h4:1150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h4:1200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m4",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h4:1250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m4",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1475",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.75,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h5:1650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h6:1700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h6:2000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m6",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h7:2450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h8:2500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m8",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h8:2550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m8",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h8:2600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h8:2650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h8:2700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m8",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h9:3000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m9",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h9:3100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h9:3150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h9:3200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h9:3250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3475",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.75,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h10:3650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m10",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h11:3700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h11:4000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Db33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h12:4100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m12",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h12:4200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h12:4300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m12",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h12:4350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m12",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h12:4400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m12",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h12:4450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h13:4500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m13",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h13:4600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h13:4650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 3.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h13:4700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m13",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h14:5000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m14",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h14:5100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h14:5150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h14:5200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h14:5250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h14:5275",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.75,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5575",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.75,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h15:5600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h16:5700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h16:6000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h17:6100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m17",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h17:6200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h17:6300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 63.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m17",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h17:6400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m17",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h17:6450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.5,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h18:6500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 65.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m18",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Db44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h18:6600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D44",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__253 Ach Gott, vom Himmel sieh darein:h18:6700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.0,
+              "ref_id": "notes__253 Ach Gott, vom Himmel sieh darein:m18",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 2,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 7,
+              "strength": 0.65,
+              "type": "IAC"
+            },
+            {
+              "measure": 11,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 16,
+              "strength": 0.5,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 36,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 6,
+                  "onset": 17.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 6,
+                  "onset": 20.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 11,
+                  "onset": 37.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 2,
+                  "onset": 3.5,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                },
+                {
+                  "measure": 7,
+                  "onset": 23.5,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                },
+                {
+                  "measure": 18,
+                  "onset": 67.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 15,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 1
+            },
+            "oblique": 39,
+            "parallel": 4,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 14,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__253 Ach Gott, vom Himmel sieh darein",
+          "genre": "chorale",
+          "key": "G",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__253 Ach Gott, vom Himmel sieh darein",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/253 Ach Gott, vom Himmel sieh darein.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m1",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m3",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m3",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m5",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m6",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m7",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m8",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m8",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m10",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m12",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m12",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m12",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m15",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m15",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m17",
+          "Harmonic ambiguity at notes__253 Ach Gott, vom Himmel sieh darein:m18"
+        ],
+        "work_id": "notes__253 Ach Gott, vom Himmel sieh darein"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 18 passage refs and 90 harmonic events."
+}

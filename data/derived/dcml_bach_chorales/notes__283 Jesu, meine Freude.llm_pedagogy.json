@@ -1,0 +1,2267 @@
+{
+  "artifact_stem": "notes__283 Jesu, meine Freude",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__283 Jesu, meine Freude.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__283 Jesu, meine Freude-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__283 Jesu, meine Freude:cad:13",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "E minor",
+              "key_before": "E minor",
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "soprano_formula": "1-1",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:0",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:50",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h1:350",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:450",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:475",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:550",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:650",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h2:750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m2",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:825",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.25,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:1000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:1050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:1100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:1150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h3:1175",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m3",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1275",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1325",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.25,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1350",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1450",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h4:1550",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1650",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h5:1950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h6:2000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h6:2050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m6",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h6:2100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h6:2125",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.25,
+              "ref_id": "notes__283 Jesu, meine Freude:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h6:2150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h6:2200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m6",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2450",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2550",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2650",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h7:2750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:2800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:2850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:2900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:2950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:3000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:3050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:3100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h8:3150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m8",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3350",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3375",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3450",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3475",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3550",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h9:3575",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3650",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3775",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h10:3950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m10",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4150",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4200",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4250",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4275",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4300",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h11:4350",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4400",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4450",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E44",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4500",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4550",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4600",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4650",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4675",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4700",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h12:4750",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:4800",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:4850",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:4875",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.75,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:4900",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:4925",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.25,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:4950",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:5000",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:5050",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.5,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "E minor",
+              "harmonic_event_id": "notes__283 Jesu, meine Freude:h13:5100",
+              "local_key": "E minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__283 Jesu, meine Freude:m13",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 13,
+              "strength": 0.5,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 18,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 8,
+                  "onset": 30.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 11,
+                  "onset": 40.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 1,
+                  "onset": 3.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 2,
+                  "onset": 7.5,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                },
+                {
+                  "measure": 12,
+                  "onset": 45.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 12,
+                  "onset": 47.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 13,
+                  "onset": 49.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 13,
+                  "onset": 49.25,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                }
+              ],
+              "parallel_5ths": 0,
+              "parallel_8ves": 2,
+              "suspension_details": [
+                {
+                  "measure": 4,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 6,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 10,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 12,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 12,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 5
+            },
+            "oblique": 84,
+            "parallel": 1,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 11,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__283 Jesu, meine Freude",
+          "genre": "chorale",
+          "key": "E",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__283 Jesu, meine Freude",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/283 Jesu, meine Freude.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m1",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m2",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m2",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m2",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m2",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m3",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m4",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m4",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m6",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m6",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m8",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m9",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m10",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m10",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m10",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m10",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m11",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m11",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m11",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m11",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m13",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m13",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m13",
+          "Harmonic ambiguity at notes__283 Jesu, meine Freude:m13"
+        ],
+        "work_id": "notes__283 Jesu, meine Freude"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 13 passage refs and 114 harmonic events."
+}

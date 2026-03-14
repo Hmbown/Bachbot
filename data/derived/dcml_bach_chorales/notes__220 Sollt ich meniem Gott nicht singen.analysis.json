@@ -1,0 +1,3697 @@
+{
+  "anomalies": {
+    "1": 0.55,
+    "10": 0.22,
+    "11": 0.22,
+    "12": 0.78,
+    "13": 0.28,
+    "14": 0.22,
+    "15": 3.22,
+    "16": 2.45,
+    "17": 0.22,
+    "18": 0.22,
+    "19": 0.22,
+    "2": 0.22,
+    "20": 2.11,
+    "21": 0.22,
+    "22": 0.22,
+    "23": 3.22,
+    "24": 1.78,
+    "25": 0.22,
+    "26": 0.22,
+    "27": 0.22,
+    "28": 2.45,
+    "29": 0.22,
+    "3": 1.22,
+    "30": 1.22,
+    "31": 3.22,
+    "32": 2.45,
+    "4": 0.78,
+    "5": 0.22,
+    "6": 0.22,
+    "7": 0.22,
+    "8": 2.45,
+    "9": 0.78
+  },
+  "cadences": [
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "soprano_formula": "4-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "4-5",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:3",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m3",
+      "soprano_formula": "1-1",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:4",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.65,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m4",
+      "soprano_formula": null,
+      "strength": 0.65,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "soprano_formula": "1-3",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:6",
+      "cadence_type": "DC",
+      "detector_confidence": 0.72,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "soprano_formula": "2-1",
+      "strength": 0.72,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:7",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.35,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "soprano_formula": "7-1",
+      "strength": 0.35,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "soprano formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "7-3",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m8",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "6-5",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:10",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "soprano_formula": "6-7",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "7-7",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:13",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m13",
+      "soprano_formula": "4-4",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:14",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "soprano_formula": "5-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:15",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.35,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "soprano_formula": "7-6",
+      "strength": 0.35,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "soprano formula 7-6"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:16",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m16",
+      "soprano_formula": "6-4",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-2",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:18",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "soprano_formula": "6-7",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:19",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.37,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "soprano_formula": "5-6",
+      "strength": 0.37,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "7-5",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:21",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "soprano_formula": "4-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:22",
+      "cadence_type": "DC",
+      "detector_confidence": 0.57,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "soprano_formula": "3-3",
+      "strength": 0.57,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:24",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m24",
+      "soprano_formula": "4-5",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:30",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__220 Sollt ich meniem Gott nicht singen:cad:32",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.65,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m32",
+      "soprano_formula": null,
+      "strength": 0.65,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__220 Sollt ich meniem Gott nicht singen-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 19 cadence candidate(s) across 154 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__220 Sollt ich meniem Gott nicht singen-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 23 similar-motion transition(s) with 0 parallel fifth(s) and 1 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 3.33,
+      "10": 3.0,
+      "11": 3.0,
+      "12": 2.0,
+      "13": 2.5,
+      "14": 3.0,
+      "15": 6.0,
+      "16": 0.33,
+      "17": 3.0,
+      "18": 3.0,
+      "19": 3.0,
+      "2": 3.0,
+      "20": 0.67,
+      "21": 3.0,
+      "22": 3.0,
+      "23": 6.0,
+      "24": 1.0,
+      "25": 3.0,
+      "26": 3.0,
+      "27": 3.0,
+      "28": 0.33,
+      "29": 3.0,
+      "3": 4.0,
+      "30": 4.0,
+      "31": 6.0,
+      "32": 0.33,
+      "4": 2.0,
+      "5": 3.0,
+      "6": 3.0,
+      "7": 3.0,
+      "8": 0.33,
+      "9": 2.0
+    },
+    "pitch_class_histogram": {
+      "0": 53,
+      "1": 7,
+      "10": 32,
+      "11": 1,
+      "2": 68,
+      "3": 4,
+      "4": 43,
+      "5": 66,
+      "6": 4,
+      "7": 55,
+      "8": 0,
+      "9": 61
+    }
+  },
+  "encoding_id": "notes__220 Sollt ich meniem Gott nicht singen",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h1:0",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h1:100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h1:150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h1:200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h1:250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 2.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m1",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h2:300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h2:350",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h2:400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h2:450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h2:500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h2:550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 5.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h3:600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h3:700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m3",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h3:800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h3:850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h4:900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 9.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h4:1000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h4:1050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h4:1100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h5:1200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h5:1250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h5:1300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h5:1350",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 13.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h5:1400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "NCT:A"
+      ],
+      "onset": 14.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h5:1450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "NCT:A"
+      ],
+      "onset": 14.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h6:1500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 15.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h6:1550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "PT:C"
+      ],
+      "onset": 15.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h6:1600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h6:1650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h6:1700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h6:1750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h7:1800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h7:1850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h7:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h7:1950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h7:2000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "NCT:C"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h7:2050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h8:2100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h9:2400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h9:2500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h9:2600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m9",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h9:2650",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m9",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h10:2700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h10:2750",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:G"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h10:2800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "SUS:C"
+      ],
+      "onset": 28.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h10:2850",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h10:2900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h10:2950",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h11:3000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h11:3050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 30.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h11:3100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h11:3150",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 31.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m11",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h11:3200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h11:3250",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h12:3300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h12:3400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h12:3450",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "SUS:C"
+      ],
+      "onset": 34.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h12:3500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h13:3600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h13:3700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h13:3750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 37.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h13:3800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "NCT:A"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h13:3850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h14:3900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 39.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h14:3950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 39.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h14:4000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h14:4050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h14:4100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h14:4150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D",
+        "PT:D"
+      ],
+      "onset": 41.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m14",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h15:4200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h15:4250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h15:4300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h15:4350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h15:4400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h15:4450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 44.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m15",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h16:4500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h17:4800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m17",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h17:4850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E",
+        "NT:C#"
+      ],
+      "onset": 48.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m17",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h17:4900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m17",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h17:4950",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m17",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h17:5000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m17",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h17:5050",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 50.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m17",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h18:5100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h18:5150",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h18:5200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h18:5250",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h18:5300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h18:5350",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 53.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m18",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h19:5400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h19:5450",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 54.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h19:5500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h19:5550",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 55.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h19:5600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h19:5650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 56.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m19",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h20:5700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 57.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m20",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h20:5800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m20",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h21:6000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h21:6050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 60.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h21:6100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h21:6150",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 61.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h21:6200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h21:6250",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 62.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m21",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h22:6300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h22:6350",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E"
+      ],
+      "onset": 63.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h22:6400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "PT:E"
+      ],
+      "onset": 64.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h22:6450",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h22:6500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 65.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h22:6550",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 65.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m22",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h23:6600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m23",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h23:6650",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m23",
+      "roman_numeral_candidate_set": [
+        "ii"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h23:6700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 67.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m23",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h23:6750",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 67.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m23",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h23:6800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 68.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m23",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h23:6850",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m23",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h24:6900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 69.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m24",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h24:7100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 71.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m24",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h25:7200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m25",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h25:7250",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m25",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h25:7300",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 73.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m25",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h25:7350",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 73.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m25",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h25:7400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 74.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m25",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h25:7450",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 74.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m25",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h26:7500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 75.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m26",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h26:7550",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G",
+        "PT:G"
+      ],
+      "onset": 75.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m26",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h26:7600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 76.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m26",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h26:7650",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 76.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m26",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h26:7700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 77.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m26",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h26:7750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 77.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m26",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h27:7800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 78.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m27",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h27:7850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 78.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m27",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h27:7900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 79.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m27",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h27:7950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:G"
+      ],
+      "onset": 79.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m27",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h27:8000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 80.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m27",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h27:8050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 80.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m27",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h28:8100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 81.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m28",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h29:8400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 84.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m29",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h29:8450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 84.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m29",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h29:8500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 85.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m29",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h29:8550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 85.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m29",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h29:8600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "PT:E"
+      ],
+      "onset": 86.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m29",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h29:8650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 86.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m29",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h30:8700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 87.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h30:8750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 87.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h30:8800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 88.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h30:8850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 88.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h30:8900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 89.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h30:8950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 89.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m30",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h31:9000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 90.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m31",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h31:9050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 90.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m31",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h31:9100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 91.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m31",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h31:9150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 91.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m31",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h31:9200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 92.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m31",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h31:9250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 92.5,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m31",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__220 Sollt ich meniem Gott nicht singen:h32:9300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 93.0,
+      "ref_id": "notes__220 Sollt ich meniem Gott nicht singen:m32",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "D minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 2,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 3,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 4,
+      "strength": 0.65,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 5,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ],
+      "measure": 6,
+      "strength": 0.72,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "soprano formula 7-1"
+      ],
+      "measure": 7,
+      "strength": 0.35,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 10,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 13,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 14,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "soprano formula 7-6"
+      ],
+      "measure": 15,
+      "strength": 0.35,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 16,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 18,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 19,
+      "strength": 0.37,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 21,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 22,
+      "strength": 0.57,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 24,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 30,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 32,
+      "strength": 0.65,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 4,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "parallel_8ves",
+        "measure": null,
+        "message": "Parallel octaves detected.",
+        "severity": "error",
+        "voice_ids": []
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__220 Sollt ich meniem Gott nicht singen",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__220 Sollt ich meniem Gott nicht singen"
+  },
+  "voice_leading": {
+    "contrary": 30,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 9,
+          "onset": 24.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "measure": 10,
+          "onset": 29.0,
+          "type": "parallel_8ves",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 17,
+          "onset": 48.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 1,
+      "suspension_details": [
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 25,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 21,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 30,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 20,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 26,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 30,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 31,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 22,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 25,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 16
+    },
+    "oblique": 100,
+    "parallel": 6,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 23,
+    "spacing_issues": [
+      {
+        "interval": 27,
+        "issue": "spacing",
+        "measure": 4,
+        "onset": 11.0,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__220 Sollt ich meniem Gott nicht singen"
+}

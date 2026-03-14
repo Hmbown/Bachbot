@@ -1,0 +1,1594 @@
+{
+  "anomalies": {
+    "1": 1.95,
+    "10": 0.45,
+    "11": 3.05,
+    "12": 0.95,
+    "13": 3.05,
+    "14": 3.62,
+    "2": 1.05,
+    "3": 1.45,
+    "4": 3.05,
+    "5": 3.62,
+    "6": 1.95,
+    "7": 4.05,
+    "8": 3.28,
+    "9": 3.05
+  },
+  "cadences": [
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__099 Helft mir Gottes G\u00fcte preisen:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "soprano_formula": "5-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__099 Helft mir Gottes G\u00fcte preisen:cad:5",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m5",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__099 Helft mir Gottes G\u00fcte preisen:cad:12",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.65,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "soprano_formula": "5-4",
+      "strength": 0.65,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-6"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__099 Helft mir Gottes G\u00fcte preisen:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "soprano_formula": "5-4",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__099 Helft mir Gottes G\u00fcte preisen:cad:14",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.8,
+      "key_after": "A minor",
+      "key_before": "A minor",
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m14",
+      "soprano_formula": "2-1",
+      "strength": 0.8,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__099 Helft mir Gottes G\u00fcte preisen-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 5 cadence candidate(s) across 67 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__099 Helft mir Gottes G\u00fcte preisen-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 14 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 3.5,
+      "11": 7.0,
+      "12": 3.0,
+      "13": 7.0,
+      "14": 0.33,
+      "2": 5.0,
+      "3": 2.5,
+      "4": 7.0,
+      "5": 0.33,
+      "6": 2.0,
+      "7": 8.0,
+      "8": 0.67,
+      "9": 7.0
+    },
+    "pitch_class_histogram": {
+      "0": 20,
+      "1": 2,
+      "10": 1,
+      "11": 24,
+      "2": 26,
+      "3": 0,
+      "4": 39,
+      "5": 13,
+      "6": 7,
+      "7": 21,
+      "8": 9,
+      "9": 33
+    }
+  },
+  "encoding_id": "notes__099 Helft mir Gottes G\u00fcte preisen",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h1:0",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m1",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h1:50",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m1",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h2:100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F",
+        "PT:F"
+      ],
+      "onset": 1.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h2:200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m2",
+      "roman_numeral_candidate_set": [
+        "viio7/ii\u00b0",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h2:250",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h2:300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m2",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h2:400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m2",
+      "roman_numeral_candidate_set": [
+        "V/VII",
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h3:500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h3:600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "PT:F#"
+      ],
+      "onset": 6.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h3:650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m3",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h3:700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 7.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m3",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h3:800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:950",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:1000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:1050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:1100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:1200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h4:1250",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h5:1300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h6:1600",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h6:1650",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:1700",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:1750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:1800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:1850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:1900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:1950",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:2000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h7:2050",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m7",
+      "roman_numeral_candidate_set": [
+        "viio7/V",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h8:2100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h8:2400",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Ab"
+      ],
+      "onset": 24.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m8",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 25.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2600",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F",
+        "NCT:F"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:C",
+        "NCT:C"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2750",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2800",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h9:2850",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:2900",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:2950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "SUS:F#"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:3000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:3050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:3100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:3200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h10:3250",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3450",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 34.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 35.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3550",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F",
+        "SUS:Bb"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h11:3650",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h12:3700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F",
+        "PT:F"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h12:3750",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 37.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h12:3800",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h12:3850",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h12:3900",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h12:4000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:E"
+      ],
+      "onset": 41.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4150",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4200",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 42.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4250",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4300",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4400",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h13:4450",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A minor",
+      "harmonic_event_id": "notes__099 Helft mir Gottes G\u00fcte preisen:h14:4500",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:C#"
+      ],
+      "onset": 45.0,
+      "ref_id": "notes__099 Helft mir Gottes G\u00fcte preisen:m14",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 4,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 5,
+      "strength": 0.99,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-6"
+      ],
+      "measure": 12,
+      "strength": 0.65,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 14,
+      "strength": 0.8,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 13,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 13,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__099 Helft mir Gottes G\u00fcte preisen",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__099 Helft mir Gottes G\u00fcte preisen"
+  },
+  "voice_leading": {
+    "contrary": 19,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 2,
+          "onset": 4.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 13.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 9,
+          "onset": 27.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 39.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 14,
+          "onset": 45.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [],
+      "suspensions": 0
+    },
+    "oblique": 33,
+    "parallel": 7,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 14,
+    "spacing_issues": [
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 40.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 13,
+        "onset": 41.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 13,
+        "onset": 41.5,
+        "voices": "A|T"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__099 Helft mir Gottes G\u00fcte preisen"
+}

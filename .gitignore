@@ -15,8 +15,12 @@ env/
 # Node
 web/node_modules/
 
-# Large data (corpus, cache, derived)
-data/
+# Large data (raw downloads, cache, non-core datasets)
+data/raw/
+data/normalized/bach_digital/
+data/normalized/rism/
+data/derived/bach_digital/
+data/derived/rism/
 cache/
 
 # IDE

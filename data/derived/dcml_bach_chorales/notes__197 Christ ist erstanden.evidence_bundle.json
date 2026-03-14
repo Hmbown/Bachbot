@@ -1,0 +1,5268 @@
+{
+  "bundle_id": "EB-notes__197 Christ ist erstanden-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 3.2,
+      "10": 1.2,
+      "11": 4.2,
+      "12": 2.8,
+      "13": 1.7,
+      "14": 3.8,
+      "15": 1.2,
+      "16": 4.8,
+      "17": 1.8,
+      "18": 0.7,
+      "19": 2.7,
+      "2": 2.13,
+      "20": 0.7,
+      "21": 4.2,
+      "22": 4.2,
+      "23": 1.8,
+      "24": 0.53,
+      "25": 2.8,
+      "26": 3.8,
+      "27": 2.8,
+      "28": 6.8,
+      "29": 2.7,
+      "3": 1.7,
+      "30": 0.2,
+      "31": 3.95,
+      "4": 0.8,
+      "5": 4.2,
+      "6": 2.13,
+      "7": 1.8,
+      "8": 0.8,
+      "9": 1.7
+    },
+    "cadences": [
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:4",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.8,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "soprano_formula": "7-1",
+        "strength": 0.8,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-6",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "1-4",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:5",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m5",
+        "soprano_formula": "5-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__197 Christ ist erstanden:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "soprano_formula": "7-6",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__197 Christ ist erstanden:cad:10",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "soprano_formula": "5-4",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-4",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:12",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "soprano_formula": "4-1",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:13",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.43,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "soprano_formula": null,
+        "strength": 0.43,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:15",
+        "cadence_type": "HC",
+        "detector_confidence": 0.43,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "soprano_formula": "6-5",
+        "strength": 0.43,
+        "type_candidates": [
+          "HC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:17",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "soprano_formula": "3-6",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-4",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:18",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "soprano_formula": "1-1",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__197 Christ ist erstanden:cad:19",
+        "cadence_type": "HC",
+        "detector_confidence": 0.43,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m19",
+        "soprano_formula": "6-5",
+        "strength": 0.43,
+        "type_candidates": [
+          "HC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__197 Christ ist erstanden:cad:23",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "soprano_formula": "1-6",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__197 Christ ist erstanden:cad:28",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.35,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "soprano_formula": "7-6",
+        "strength": 0.35,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__197 Christ ist erstanden:cad:30",
+        "cadence_type": "DC",
+        "detector_confidence": 0.42,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "soprano_formula": "5-4",
+        "strength": 0.42,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__197 Christ ist erstanden-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__197 Christ ist erstanden:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__197 Christ ist erstanden:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__197 Christ ist erstanden:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 13 cadence candidate(s) across 223 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__197 Christ ist erstanden-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__197 Christ ist erstanden:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 26 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 2.0,
+        "10": 4.0,
+        "11": 1.0,
+        "12": 8.0,
+        "13": 3.5,
+        "14": 9.0,
+        "15": 4.0,
+        "16": 10.0,
+        "17": 7.0,
+        "18": 4.5,
+        "19": 2.5,
+        "2": 7.33,
+        "20": 4.5,
+        "21": 1.0,
+        "22": 1.0,
+        "23": 7.0,
+        "24": 4.67,
+        "25": 8.0,
+        "26": 9.0,
+        "27": 8.0,
+        "28": 12.0,
+        "29": 2.5,
+        "3": 3.5,
+        "30": 5.0,
+        "31": 1.25,
+        "4": 6.0,
+        "5": 1.0,
+        "6": 7.33,
+        "7": 7.0,
+        "8": 6.0,
+        "9": 3.5
+      },
+      "pitch_class_histogram": {
+        "0": 62,
+        "1": 16,
+        "10": 38,
+        "11": 14,
+        "2": 96,
+        "3": 1,
+        "4": 62,
+        "5": 79,
+        "6": 15,
+        "7": 89,
+        "8": 5,
+        "9": 109
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h1:0",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__197 Christ ist erstanden:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h1:50",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 0.5,
+        "ref_id": "notes__197 Christ ist erstanden:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F",
+          "PT:B"
+        ],
+        "onset": 1.0,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B"
+        ],
+        "onset": 1.5,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:175",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 1.75,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "V/VII",
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 2.0,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.5,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "viio7/VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "PT:A"
+        ],
+        "onset": 3.0,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.5,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A",
+          "SUS:A"
+        ],
+        "onset": 3.75,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.5,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h2:475",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 4.75,
+        "ref_id": "notes__197 Christ ist erstanden:m2",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:A"
+        ],
+        "onset": 5.0,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.5,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:575",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 5.75,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h3:850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 8.5,
+        "ref_id": "notes__197 Christ ist erstanden:m3",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 9.5,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "i",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.5,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.5,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 12.0,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.5,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h4:1275",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.75,
+        "ref_id": "notes__197 Christ ist erstanden:m4",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h5:1300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__197 Christ ist erstanden:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h5:1600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__197 Christ ist erstanden:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 17.5,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1775",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 17.75,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 18.5,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 19.0,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1925",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 19.25,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:1950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 19.5,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "viio7/VII"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:2000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B",
+          "PT:A"
+        ],
+        "onset": 20.0,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:2050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.5,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h6:2075",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C",
+          "SUS:A"
+        ],
+        "onset": 20.75,
+        "ref_id": "notes__197 Christ ist erstanden:m6",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.5,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 22.0,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.5,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h7:2450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.5,
+        "ref_id": "notes__197 Christ ist erstanden:m7",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 25.0,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.5,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.5,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 27.5,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.0,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2825",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.25,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h8:2850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 28.5,
+        "ref_id": "notes__197 Christ ist erstanden:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:2900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:2925",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 29.25,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:2950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.5,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:3000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:3025",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 30.25,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:3050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.5,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h9:3100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__197 Christ ist erstanden:m9",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F#"
+        ],
+        "onset": 33.0,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.5,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C",
+          "NCT:F#"
+        ],
+        "onset": 34.0,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.5,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "V7/iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 35.0,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 35.5,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h10:3650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.5,
+        "ref_id": "notes__197 Christ ist erstanden:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h11:3700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__197 Christ ist erstanden:m11",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h11:3800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 38.0,
+        "ref_id": "notes__197 Christ ist erstanden:m11",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h11:3850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.5,
+        "ref_id": "notes__197 Christ ist erstanden:m11",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h11:3900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F#"
+        ],
+        "onset": 39.0,
+        "ref_id": "notes__197 Christ ist erstanden:m11",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 41.5,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 42.0,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 42.5,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 43.0,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 43.5,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h12:4450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 44.5,
+        "ref_id": "notes__197 Christ ist erstanden:m12",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.5,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 46.0,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.5,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.0,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h13:4850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.5,
+        "ref_id": "notes__197 Christ ist erstanden:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:4900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.0,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:4950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.5,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:4975",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.75,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:5000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:5050",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 50.5,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:5100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.0,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:5150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.5,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:5200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.0,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h14:5250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 52.5,
+        "ref_id": "notes__197 Christ ist erstanden:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h15:5300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 53.0,
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h15:5350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 53.5,
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h15:5400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h15:5450",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.5,
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h15:5500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:Bb"
+        ],
+        "onset": 55.0,
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h15:5600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 56.0,
+        "ref_id": "notes__197 Christ ist erstanden:m15",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 57.0,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5750",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 57.5,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 58.0,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 58.5,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 59.0,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.5,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:5975",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.75,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:6000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C",
+          "PT:A"
+        ],
+        "onset": 60.0,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:6050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "SUS:A"
+        ],
+        "onset": 60.5,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h16:6075",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 60.75,
+        "ref_id": "notes__197 Christ ist erstanden:m16",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 61.0,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 61.5,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 62.0,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.5,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 63.0,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 64.0,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h17:6450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 64.5,
+        "ref_id": "notes__197 Christ ist erstanden:m17",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 65.0,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 65.5,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 66.0,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 66.5,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6675",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 66.75,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 67.0,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 67.5,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 68.0,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h18:6850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 68.5,
+        "ref_id": "notes__197 Christ ist erstanden:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h19:6900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 69.0,
+        "ref_id": "notes__197 Christ ist erstanden:m19",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h19:6950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:A"
+        ],
+        "onset": 69.5,
+        "ref_id": "notes__197 Christ ist erstanden:m19",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h19:7000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 70.0,
+        "ref_id": "notes__197 Christ ist erstanden:m19",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h19:7050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 70.5,
+        "ref_id": "notes__197 Christ ist erstanden:m19",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h19:7100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 71.0,
+        "ref_id": "notes__197 Christ ist erstanden:m19",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 73.0,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 73.5,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "NCT:C"
+        ],
+        "onset": 74.0,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 74.5,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 75.0,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 75.5,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7575",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:A"
+        ],
+        "onset": 75.75,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.0,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h20:7650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.5,
+        "ref_id": "notes__197 Christ ist erstanden:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h21:7700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 77.0,
+        "ref_id": "notes__197 Christ ist erstanden:m21",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h21:7800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 78.0,
+        "ref_id": "notes__197 Christ ist erstanden:m21",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h21:7850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 78.5,
+        "ref_id": "notes__197 Christ ist erstanden:m21",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h21:7900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F#"
+        ],
+        "onset": 79.0,
+        "ref_id": "notes__197 Christ ist erstanden:m21",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h22:8100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 81.0,
+        "ref_id": "notes__197 Christ ist erstanden:m22",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 82.0,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 82.5,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 83.0,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 83.5,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 84.0,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 85.0,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h23:8550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 85.5,
+        "ref_id": "notes__197 Christ ist erstanden:m23",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 86.0,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 86.5,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 87.0,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8750",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 87.5,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "V7/VI",
+          "III",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 88.0,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C#"
+        ],
+        "onset": 89.0,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h24:8950",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 89.5,
+        "ref_id": "notes__197 Christ ist erstanden:m24",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 90.0,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9050",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 90.5,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E",
+          "PT:E"
+        ],
+        "onset": 91.0,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9150",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 91.5,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 92.0,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:Bb"
+        ],
+        "onset": 92.5,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 93.0,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h25:9350",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 93.5,
+        "ref_id": "notes__197 Christ ist erstanden:m25",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 94.0,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9425",
+        "local_key": "F major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B"
+        ],
+        "onset": 94.25,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "vii\u00f87",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9450",
+        "local_key": "F major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 94.5,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "viio7/VII",
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 95.0,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 95.5,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#",
+          "SUS:C"
+        ],
+        "onset": 96.0,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 96.5,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 97.0,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h26:9750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C",
+          "SUS:A"
+        ],
+        "onset": 97.5,
+        "ref_id": "notes__197 Christ ist erstanden:m26",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:9800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 98.0,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:9825",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 98.25,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "ii\u00b0",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:9850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 98.5,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:9900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 99.0,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:9950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 99.5,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:10000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 100.0,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:10100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 101.0,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h27:10150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 101.5,
+        "ref_id": "notes__197 Christ ist erstanden:m27",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 102.0,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 102.5,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10275",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 102.75,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Eb"
+        ],
+        "onset": 103.0,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 103.5,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 103.75,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 104.0,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 104.5,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10475",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 104.75,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 105.0,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 105.5,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h28:10575",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 105.75,
+        "ref_id": "notes__197 Christ ist erstanden:m28",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h29:10600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 106.0,
+        "ref_id": "notes__197 Christ ist erstanden:m29",
+        "roman_numeral_candidate_set": [
+          "viio7/VII"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h29:10650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "NCT:A"
+        ],
+        "onset": 106.5,
+        "ref_id": "notes__197 Christ ist erstanden:m29",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h29:10700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 107.0,
+        "ref_id": "notes__197 Christ ist erstanden:m29",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h29:10750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 107.5,
+        "ref_id": "notes__197 Christ ist erstanden:m29",
+        "roman_numeral_candidate_set": [
+          "V7/V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h29:10800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 108.0,
+        "ref_id": "notes__197 Christ ist erstanden:m29",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 110.0,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 110.5,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11100",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C",
+          "PT:A"
+        ],
+        "onset": 111.0,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11150",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 111.5,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11200",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb",
+          "SUS:A"
+        ],
+        "onset": 112.0,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "PT:A"
+        ],
+        "onset": 112.5,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11275",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 112.75,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "V/iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 113.0,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11325",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "SUS:Bb"
+        ],
+        "onset": 113.25,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h30:11350",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 113.5,
+        "ref_id": "notes__197 Christ ist erstanden:m30",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h31:11400",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Bb"
+        ],
+        "onset": 114.0,
+        "ref_id": "notes__197 Christ ist erstanden:m31",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h31:11450",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 114.5,
+        "ref_id": "notes__197 Christ ist erstanden:m31",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h31:11500",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Bb"
+        ],
+        "onset": 115.0,
+        "ref_id": "notes__197 Christ ist erstanden:m31",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h31:11550",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 115.5,
+        "ref_id": "notes__197 Christ ist erstanden:m31",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__197 Christ ist erstanden:h31:11600",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 116.0,
+        "ref_id": "notes__197 Christ ist erstanden:m31",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-6",
+          "soprano formula 7-1"
+        ],
+        "measure": 4,
+        "strength": 0.8,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 5,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ],
+        "measure": 8,
+        "strength": 0.85,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 10,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 12,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ],
+        "measure": 13,
+        "strength": 0.43,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ],
+        "measure": 15,
+        "strength": 0.43,
+        "type": "HC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 17,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 18,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 7-1"
+        ],
+        "measure": 19,
+        "strength": 0.43,
+        "type": "HC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 23,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "soprano formula 7-6"
+        ],
+        "measure": 28,
+        "strength": 0.35,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 30,
+        "strength": 0.42,
+        "type": "DC"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 2,
+          "message": "Spacing violation between T|B.",
+          "severity": "error",
+          "voice_ids": [
+            "T",
+            "B"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 24,
+          "message": "Spacing violation between T|B.",
+          "severity": "error",
+          "voice_ids": [
+            "T",
+            "B"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 24,
+          "message": "Spacing violation between T|B.",
+          "severity": "error",
+          "voice_ids": [
+            "T",
+            "B"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__197 Christ ist erstanden",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__197 Christ ist erstanden"
+    },
+    "voice_leading": {
+      "contrary": 50,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 0,
+            "measure": 12,
+            "onset": 41.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 19,
+            "onset": 69.5,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 24,
+            "onset": 86.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 25,
+            "onset": 92.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 25,
+            "onset": 93.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 29,
+            "onset": 108.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "measure": 12,
+            "onset": 43.5,
+            "type": "voice_crossing",
+            "voices": "S|A"
+          },
+          {
+            "measure": 29,
+            "onset": 107.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 17,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 26,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 29,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 8,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 8,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 13,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 15,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 21,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 28,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 28,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 30,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 31,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 2,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 8,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 15,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 16,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 16,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 19,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 20,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 28,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 31,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 14,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 18,
+            "type": "possible_suspension",
+            "voice": "S"
+          }
+        ],
+        "suspensions": 32
+      },
+      "oblique": 146,
+      "parallel": 8,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 26,
+      "spacing_issues": [
+        {
+          "interval": 20,
+          "issue": "spacing",
+          "measure": 2,
+          "onset": 3.5,
+          "voices": "T|B"
+        },
+        {
+          "interval": 24,
+          "issue": "spacing",
+          "measure": 24,
+          "onset": 87.0,
+          "voices": "T|B"
+        },
+        {
+          "interval": 22,
+          "issue": "spacing",
+          "measure": 24,
+          "onset": 87.5,
+          "voices": "T|B"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__197 Christ ist erstanden",
+    "genre": "chorale",
+    "key": "A minor",
+    "key_mode": "minor",
+    "key_tonic": "A"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 21,
+      "measure_start": 21,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 22,
+      "measure_start": 22,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 23,
+      "measure_start": 23,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 24,
+      "measure_start": 24,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 25,
+      "measure_start": 25,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 26,
+      "measure_start": 26,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 27,
+      "measure_start": 27,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 28,
+      "measure_start": 28,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 29,
+      "measure_start": 29,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 30,
+      "measure_start": 30,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 31,
+      "measure_start": 31,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__197 Christ ist erstanden",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/197 Christ ist erstanden.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m2",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m6",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m10",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m10",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m11",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m11",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m13",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m15",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m21",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m21",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m24",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m25",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m26",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m26",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m28",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m28",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m29",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m29",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m29",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m30",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m30",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m31",
+    "Harmonic ambiguity at notes__197 Christ ist erstanden:m31"
+  ],
+  "work_id": "notes__197 Christ ist erstanden"
+}

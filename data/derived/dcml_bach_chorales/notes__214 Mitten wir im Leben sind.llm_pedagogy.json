@@ -1,0 +1,3579 @@
+{
+  "artifact_stem": "notes__214 Mitten wir im Leben sind",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__214 Mitten wir im Leben sind.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__214 Mitten wir im Leben sind-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "6-5",
+              "cadence_id": "notes__214 Mitten wir im Leben sind:cad:3",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "A minor",
+              "key_before": "A minor",
+              "ref_id": "notes__214 Mitten wir im Leben sind:m3",
+              "soprano_formula": "2-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__214 Mitten wir im Leben sind:cad:6",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "A minor",
+              "key_before": "A minor",
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "soprano_formula": "6-6",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "1-7",
+              "cadence_id": "notes__214 Mitten wir im Leben sind:cad:11",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "A minor",
+              "key_before": "A minor",
+              "ref_id": "notes__214 Mitten wir im Leben sind:m11",
+              "soprano_formula": "3-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "2-2",
+              "cadence_id": "notes__214 Mitten wir im Leben sind:cad:18",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.37,
+              "key_after": "A minor",
+              "key_before": "A minor",
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "soprano_formula": "2-1",
+              "strength": 0.37,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "dominant-like penultimate",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:0",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h1:350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m1",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:475",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h2:775",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h3:800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h3:1000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m3",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h3:1050",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m3",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h3:1100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m3",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1475",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h4:1575",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 5.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h5:1600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h6:2100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h6:2150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h6:2200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h6:2250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h6:2300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h6:2350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m6",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h7:2775",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m7",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 3.0,
+              "figured_bass_like_summary": "C22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h8:2800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h8:3100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h8:3150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h9:3550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m9",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3675",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3850",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3875",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3900",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h10:3950",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m10",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h11:4000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h11:4200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h11:4300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h11:4350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h12:4750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h13:4800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m13",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h13:5100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m13",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h13:5150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h14:5575",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m14",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h15:5600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h15:5900",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6175",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 63.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h16:6350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 63.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m16",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 2.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h17:6400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m17",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h17:6600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h17:6650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h17:6700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m17",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h17:6750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m17",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:6800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:6850",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:6900",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:6950",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:7000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 70.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:7050",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 70.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:7100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h18:7150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m18",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7275",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 73.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 73.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7375",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 73.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 74.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h19:7500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 75.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m19",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 76.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 76.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 77.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 77.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 78.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7850",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 78.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7900",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 79.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h20:7950",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 79.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m20",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 2.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h21:8000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 80.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m21",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h21:8200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 82.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m21",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h21:8250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 82.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m21",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h21:8300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 83.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m21",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h21:8350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 83.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m21",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 84.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 84.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 85.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 86.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8650",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 86.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8700",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 87.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8750",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 87.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h22:8775",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 87.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m22",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h23:8800",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 88.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m23",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h23:9000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m23",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h23:9050",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m23",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h23:9100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 91.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m23",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h23:9150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 91.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m23",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 92.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 92.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 93.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 93.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 94.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9450",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 94.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9500",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 95.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h24:9550",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 95.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m24",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h25:9600",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 96.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m25",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h25:9900",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 99.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m25",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h25:9950",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 99.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m25",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10000",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 100.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10050",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 100.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10100",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 101.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10150",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 101.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10200",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 102.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10250",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 102.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10300",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 103.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10350",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 103.5,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h26:10375",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 103.75,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m26",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 4.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "A minor",
+              "harmonic_event_id": "notes__214 Mitten wir im Leben sind:h27:10400",
+              "local_key": "A minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 104.0,
+              "ref_id": "notes__214 Mitten wir im Leben sind:m27",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 3,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 6,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 11,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 18,
+              "strength": 0.37,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 53,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 3,
+                  "onset": 8.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 3,
+                  "onset": 10.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 8,
+                  "onset": 28.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 11,
+                  "onset": 40.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 11,
+                  "onset": 42.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 19,
+                  "onset": 72.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 20,
+                  "onset": 76.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 22,
+                  "onset": 87.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 24,
+                  "onset": 95.0,
+                  "type": "parallel_5ths",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 24,
+                  "onset": 95.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 2,
+              "parallel_8ves": 7,
+              "suspension_details": [
+                {
+                  "measure": 12,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 24,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 4,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 7,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 12,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 2,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 4,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 4,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 7,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 7,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 7,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 9,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 12,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 12,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 16,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 19,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 19,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 20,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 20,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 21,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 26,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 23
+            },
+            "oblique": 95,
+            "parallel": 4,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 20,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__214 Mitten wir im Leben sind",
+          "genre": "chorale",
+          "key": "A",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 20,
+            "measure_start": 20,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 21,
+            "measure_start": 21,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 22,
+            "measure_start": 22,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 23,
+            "measure_start": 23,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 24,
+            "measure_start": 24,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 25,
+            "measure_start": 25,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 26,
+            "measure_start": 26,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 27,
+            "measure_start": 27,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__214 Mitten wir im Leben sind",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/214 Mitten wir im Leben sind.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m1",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m2",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m2",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m5",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m10",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m10",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m10",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m11",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m12",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m13",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m16",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m18",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m19",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m19",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m22",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m24",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m25",
+          "Harmonic ambiguity at notes__214 Mitten wir im Leben sind:m27"
+        ],
+        "work_id": "notes__214 Mitten wir im Leben sind"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 27 passage refs and 169 harmonic events."
+}

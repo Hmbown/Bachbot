@@ -1,0 +1,1988 @@
+{
+  "anomalies": {
+    "1": 1.1,
+    "10": 2.4,
+    "11": 0.6,
+    "12": 0.1,
+    "13": 1.1,
+    "14": 2.4,
+    "15": 0.6,
+    "16": 2.27,
+    "17": 0.4,
+    "18": 2.4,
+    "19": 0.6,
+    "2": 2.4,
+    "20": 2.27,
+    "3": 0.6,
+    "4": 0.1,
+    "5": 1.4,
+    "6": 1.4,
+    "7": 0.1,
+    "8": 2.27,
+    "9": 1.1
+  },
+  "cadences": [
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m2",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:6",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m6",
+      "soprano_formula": "7-3",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "3-7",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m9",
+      "soprano_formula": "3-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:10",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m10",
+      "soprano_formula": "1-2",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "7-3",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:12",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.43,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m12",
+      "soprano_formula": "2-1",
+      "strength": 0.43,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:14",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m14",
+      "soprano_formula": "2-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:15",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "soprano_formula": "5-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "6-5",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:16",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m16",
+      "soprano_formula": "4-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-5",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:17",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "soprano_formula": "5-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__243 Jesu, du mein liebstes Leben:cad:20",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m20",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__243 Jesu, du mein liebstes Leben-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 10 cadence candidate(s) across 79 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__243 Jesu, du mein liebstes Leben-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 27 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.5,
+      "10": 5.0,
+      "11": 2.0,
+      "12": 2.5,
+      "13": 1.5,
+      "14": 5.0,
+      "15": 2.0,
+      "16": 0.33,
+      "17": 3.0,
+      "18": 5.0,
+      "19": 2.0,
+      "2": 5.0,
+      "20": 0.33,
+      "3": 2.0,
+      "4": 2.5,
+      "5": 4.0,
+      "6": 4.0,
+      "7": 2.5,
+      "8": 0.33,
+      "9": 1.5
+    },
+    "pitch_class_histogram": {
+      "0": 29,
+      "1": 0,
+      "10": 33,
+      "11": 1,
+      "2": 41,
+      "3": 13,
+      "4": 6,
+      "5": 20,
+      "6": 10,
+      "7": 40,
+      "8": 0,
+      "9": 34
+    }
+  },
+  "encoding_id": "notes__243 Jesu, du mein liebstes Leben",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h1:100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h1:200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h2:300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h2:350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h2:400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m2",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h2:450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h2:500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h3:600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:E"
+      ],
+      "onset": 6.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m3",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h3:700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m3",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h3:800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h3:850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h4:900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m4",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h4:950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m4",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h4:1000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h4:1050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h4:1100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h5:1200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h5:1300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m5",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h5:1350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h5:1400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m5",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h6:1500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h6:1600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h6:1650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h6:1700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m6",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h7:1800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h7:1900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 19.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m7",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h7:1950",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m7",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h7:2000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h7:2050",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m7",
+      "roman_numeral_candidate_set": [
+        "viio7/ii",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h8:2100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m8",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h9:2400",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h9:2500",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h9:2600",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h10:2700",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h10:2750",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h10:2800",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m10",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h10:2850",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m10",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h10:2900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h11:3000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m11",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h11:3100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h11:3200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 32.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m11",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h11:3250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h12:3300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h12:3350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h12:3400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m12",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h12:3450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m12",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h12:3500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h13:3600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m13",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h13:3700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m13",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h13:3800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h14:3900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h14:3950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h14:4000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 40.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m14",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h14:4050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m14",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h14:4100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h15:4200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h15:4250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 42.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h15:4300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 43.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h15:4350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h15:4400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb",
+        "SUS:Eb"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h15:4450",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m15",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h16:4500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h17:4800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h17:4850",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h17:4900",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h17:4950",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h17:5000",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h17:5050",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m17",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h18:5100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m18",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h18:5150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 51.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m18",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h18:5200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "NCT:A"
+      ],
+      "onset": 52.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m18",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h18:5250",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m18",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h18:5300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 53.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m18",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h19:5400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m19",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h19:5500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m19",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h19:5600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m19",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h19:5650",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.5,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m19",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__243 Jesu, du mein liebstes Leben:h20:5700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__243 Jesu, du mein liebstes Leben:m20",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "G minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 2,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-1"
+      ],
+      "measure": 6,
+      "strength": 0.63,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 9,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "soprano formula 2-1"
+      ],
+      "measure": 12,
+      "strength": 0.43,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 14,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 15,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 16,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 17,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 20,
+      "strength": 0.3,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 17,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__243 Jesu, du mein liebstes Leben",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__243 Jesu, du mein liebstes Leben"
+  },
+  "voice_leading": {
+    "contrary": 10,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 4,
+          "onset": 11.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 12.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 21.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 35.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 16,
+          "onset": 45.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 20,
+          "onset": 57.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 15,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 19,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 15,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 14
+    },
+    "oblique": 41,
+    "parallel": 9,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 27,
+    "spacing_issues": [
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 17,
+        "onset": 48.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__243 Jesu, du mein liebstes Leben"
+}

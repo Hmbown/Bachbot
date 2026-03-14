@@ -1,0 +1,3068 @@
+{
+  "anomalies": {
+    "1": 1.97,
+    "10": 0.97,
+    "11": 3.03,
+    "12": 1.03,
+    "13": 1.97,
+    "14": 2.03,
+    "15": 0.97,
+    "16": 3.03,
+    "17": 1.47,
+    "18": 4.03,
+    "19": 0.97,
+    "2": 0.47,
+    "20": 1.03,
+    "21": 0.03,
+    "22": 3.64,
+    "3": 1.47,
+    "4": 0.03,
+    "5": 1.47,
+    "6": 3.03,
+    "7": 0.97,
+    "8": 2.97,
+    "9": 2.03
+  },
+  "cadences": [
+    {
+      "bass_formula": "4-3",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:3",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m3",
+      "soprano_formula": "6-5",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:4",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 7-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m5",
+      "soprano_formula": "6-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "soprano_formula": "5-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-5",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:11",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "soprano_formula": "5-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m13",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:15",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "soprano_formula": "6-5",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:16",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.37,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "soprano_formula": "2-3",
+      "strength": 0.37,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "5-5",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:18",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "soprano_formula": "5-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:20",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m20",
+      "soprano_formula": "1-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__070 Gott sei gelobet und gebenedeiet:cad:22",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m22",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__070 Gott sei gelobet und gebenedeiet-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 cadence candidate(s) across 132 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__070 Gott sei gelobet und gebenedeiet-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 15 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 3.0,
+      "11": 7.0,
+      "12": 5.0,
+      "13": 2.0,
+      "14": 6.0,
+      "15": 3.0,
+      "16": 7.0,
+      "17": 2.5,
+      "18": 8.0,
+      "19": 3.0,
+      "2": 3.5,
+      "20": 5.0,
+      "21": 4.0,
+      "22": 0.33,
+      "3": 2.5,
+      "4": 4.0,
+      "5": 2.5,
+      "6": 7.0,
+      "7": 3.0,
+      "8": 1.0,
+      "9": 6.0
+    },
+    "pitch_class_histogram": {
+      "0": 55,
+      "1": 3,
+      "10": 1,
+      "11": 44,
+      "2": 57,
+      "3": 0,
+      "4": 39,
+      "5": 20,
+      "6": 17,
+      "7": 79,
+      "8": 0,
+      "9": 36
+    }
+  },
+  "encoding_id": "notes__070 Gott sei gelobet und gebenedeiet",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h1:0",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m1",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h1:50",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m1",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:150",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:200",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:250",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 2.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "NCT:F"
+      ],
+      "onset": 4.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h2:450",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m2",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h3:500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h3:700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h3:750",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 7.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h3:800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D",
+        "PT:F"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h3:850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m3",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:1000",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:1100",
+      "local_key": "A minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 11.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:1150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:1175",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E"
+      ],
+      "onset": 11.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:1200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 12.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h4:1250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#",
+        "PT:C"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h5:1300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h5:1500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h5:1550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 15.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h5:1600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h5:1650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:1700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:1750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:1800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:1850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:1950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:B"
+      ],
+      "onset": 19.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h6:2000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h7:2100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h7:2150",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "SUS:F"
+      ],
+      "onset": 21.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m7",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h7:2175",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 21.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m7",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h7:2200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h7:2250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m7",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h7:2300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m7",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h8:2400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m8",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2550",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2650",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2750",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2775",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 28.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h9:2850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m9",
+      "roman_numeral_candidate_set": [
+        "viio7/iii",
+        "ii7",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h10:2900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m10",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h10:2950",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h10:3000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m10",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h10:3025",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 30.25,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h10:3050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m10",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h10:3100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m10",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3450",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3550",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h11:3600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3750",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3950",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:3975",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:4000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:4050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h12:4075",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h13:4100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h13:4300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h13:4350",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 43.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h13:4400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m13",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4550",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 45.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4600",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4650",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "NCT:A"
+      ],
+      "onset": 47.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4750",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 47.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "viio7/ii",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4775",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 47.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h14:4850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 48.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m14",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h15:4900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 49.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h15:4950",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h15:5000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h15:5050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 50.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "roman_numeral_candidate_set": [
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h15:5075",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "roman_numeral_candidate_set": [
+        "V7/V",
+        "ii7",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h15:5100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m15",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5550",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h16:5650",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m16",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h17:5700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m17",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h17:5750",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m17",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h17:5800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m17",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h17:5850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m17",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h17:5900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m17",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6150",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 62.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 62.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h18:6450",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m18",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h19:6500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 65.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m19",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h19:6550",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 65.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m19",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h19:6600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 66.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m19",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h19:6650",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m19",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h19:6675",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.75,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m19",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h19:6700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 67.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m19",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h20:7000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 70.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m20",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h20:7050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 70.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m20",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h20:7100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 71.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m20",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h20:7200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m20",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h20:7250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m20",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 73.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 73.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "viio7/ii",
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 74.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7450",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 74.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 75.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7550",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 75.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 76.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h21:7650",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 76.5,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m21",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__070 Gott sei gelobet und gebenedeiet:h22:7700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 77.0,
+      "ref_id": "notes__070 Gott sei gelobet und gebenedeiet:m22",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "C major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 3,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "bass formula 7-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 4,
+      "strength": 0.3,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 5,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 9,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 11,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 15,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 16,
+      "strength": 0.37,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 18,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 20,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 22,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 4,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 4,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 10,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__070 Gott sei gelobet und gebenedeiet",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__070 Gott sei gelobet und gebenedeiet"
+  },
+  "voice_leading": {
+    "contrary": 34,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 5,
+          "onset": 15.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 7,
+          "onset": 23.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 8,
+          "onset": 24.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 13,
+          "onset": 41.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 13,
+          "onset": 43.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 15,
+          "onset": 49.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 17,
+          "onset": 59.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 22,
+          "onset": 77.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 4,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 18,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 9
+    },
+    "oblique": 82,
+    "parallel": 1,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 15,
+    "spacing_issues": [
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 4,
+        "onset": 12.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 22,
+        "issue": "spacing",
+        "measure": 4,
+        "onset": 12.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 30.25,
+        "voices": "T|B"
+      },
+      {
+        "interval": 22,
+        "issue": "spacing",
+        "measure": 10,
+        "onset": 30.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__070 Gott sei gelobet und gebenedeiet"
+}

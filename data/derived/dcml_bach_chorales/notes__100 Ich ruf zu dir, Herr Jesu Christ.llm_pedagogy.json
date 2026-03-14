@@ -1,0 +1,1795 @@
+{
+  "artifact_stem": "notes__100 Ich ruf zu dir, Herr Jesu Christ",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__100 Ich ruf zu dir, Herr Jesu Christ.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__100 Ich ruf zu dir, Herr Jesu Christ-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": null,
+              "cadence_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:cad:2",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+              "soprano_formula": "7-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "soprano formula 7-1"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:cad:15",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.52,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m15",
+              "soprano_formula": "2-1",
+              "strength": 0.52,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h1:0",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m1",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h2:100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h2:150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h2:200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h2:300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h2:400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h3:850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m3",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:950",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:1000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:1050",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:1100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:1150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:1200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h4:1250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m4",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h5:1300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h5:1350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h5:1400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h5:1450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h5:1500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m5",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h6:1600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:1700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:1750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:1800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:1850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:1900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:1950",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:2000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h7:2050",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m7",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h8:2450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h9:2850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h10:2900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h10:3000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h10:3050",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h10:3100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h10:3200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h11:3650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h12:3700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h12:3750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h12:3800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h12:3850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h12:3900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h12:4000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h13:4450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h14:4850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.5,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:h15:4900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ:m15",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 2,
+              "strength": 0.43,
+              "type": "cadential"
+            },
+            {
+              "measure": 15,
+              "strength": 0.52,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 21,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 5,
+                  "onset": 15.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 6,
+                  "onset": 16.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 23.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 12,
+                  "onset": 37.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 12,
+                  "onset": 39.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 12,
+                  "onset": 40.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 15,
+                  "onset": 49.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                }
+              ],
+              "parallel_5ths": 3,
+              "parallel_8ves": 4,
+              "suspension_details": [],
+              "suspensions": 0
+            },
+            "oblique": 46,
+            "parallel": 4,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 17,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ",
+          "genre": "chorale",
+          "key": "G",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/100 Ich ruf zu dir, Herr Jesu Christ.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m1",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m2",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m5",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m9",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m10",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m11",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m12",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m13",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m14",
+          "Harmonic ambiguity at notes__100 Ich ruf zu dir, Herr Jesu Christ:m15"
+        ],
+        "work_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 15 passage refs and 85 harmonic events."
+}

@@ -1,0 +1,2841 @@
+{
+  "anomalies": {
+    "1": 2.14,
+    "10": 1.14,
+    "11": 4.86,
+    "12": 1.14,
+    "13": 0.86,
+    "14": 5.86,
+    "15": 0.86,
+    "16": 2.64,
+    "17": 0.36,
+    "18": 3.14,
+    "19": 0.64,
+    "2": 0.14,
+    "20": 3.81,
+    "3": 3.14,
+    "4": 0.36,
+    "5": 1.64,
+    "6": 0.14,
+    "7": 3.14,
+    "8": 3.86,
+    "9": 5.86
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:2",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "soprano_formula": "4-1",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-6"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:3",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m3",
+      "soprano_formula": "4-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "soprano_formula": "5-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:5",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.65,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m5",
+      "soprano_formula": null,
+      "strength": 0.65,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:10",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "soprano_formula": "5-4",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:11",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "soprano_formula": "5-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "7-6",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:12",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "soprano_formula": null,
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:16",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m16",
+      "soprano_formula": "5-4",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:17",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "soprano_formula": "4-1",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:19",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "soprano_formula": "5-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:cad:20",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "D minor",
+      "key_before": "D minor",
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m20",
+      "soprano_formula": null,
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__227 Lobet den Herren, denn er ist sehr freundlich-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 cadence candidate(s) across 122 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__227 Lobet den Herren, denn er ist sehr freundlich-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 3.0,
+      "11": 9.0,
+      "12": 3.0,
+      "13": 5.0,
+      "14": 10.0,
+      "15": 5.0,
+      "16": 1.5,
+      "17": 4.5,
+      "18": 1.0,
+      "19": 3.5,
+      "2": 4.0,
+      "20": 0.33,
+      "3": 1.0,
+      "4": 4.5,
+      "5": 2.5,
+      "6": 4.0,
+      "7": 1.0,
+      "8": 8.0,
+      "9": 10.0
+    },
+    "pitch_class_histogram": {
+      "0": 35,
+      "1": 2,
+      "10": 49,
+      "11": 0,
+      "2": 63,
+      "3": 13,
+      "4": 10,
+      "5": 22,
+      "6": 21,
+      "7": 64,
+      "8": 1,
+      "9": 53
+    }
+  },
+  "encoding_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h1:50",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m1",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:375",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h2:450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h3:500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h3:800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "V/VII",
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1225",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 12.25,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h4:1250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h5:1300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m5",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h5:1500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h5:1550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m5",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h5:1600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 16.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m5",
+      "roman_numeral_candidate_set": [
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h5:1650",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:1700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "NCT:Eb"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:1750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "NCT:C"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:1800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:1850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:1900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:1950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 19.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:2000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h6:2050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h7:2100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Eb",
+        "NCT:Eb"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h7:2400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h8:2850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:2900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:2950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3125",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 31.25,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "ii\u00f87",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 32.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h9:3275",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h10:3300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h10:3350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h10:3375",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 33.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h10:3400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h10:3450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h10:3500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m10",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:3975",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:4000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h11:4050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m11",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h12:4100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h12:4150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 41.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h12:4200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h12:4250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h12:4300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 43.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h12:4400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h13:4600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h13:4700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h13:4750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 47.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m13",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h13:4800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m13",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h13:4850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m13",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:4900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:4950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5075",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5225",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.25,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h14:5250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5375",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 54.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5475",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.75,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h15:5675",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m15",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h16:5700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h16:6000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h16:6050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "PT:A"
+      ],
+      "onset": 60.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "PT:F"
+      ],
+      "onset": 62.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VII",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6375",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.75,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h17:6450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m17",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h18:6500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 65.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m18",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h18:6800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m18",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:6900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 69.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:6950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 69.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:7000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 70.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:7050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:E"
+      ],
+      "onset": 70.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:7100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 71.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:7150",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 71.5,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h19:7200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m19",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "D minor",
+      "harmonic_event_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:h20:7300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 73.0,
+      "ref_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich:m20",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "D minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "bass formula 5-6"
+      ],
+      "measure": 2,
+      "strength": 0.63,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 3,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 4,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 5,
+      "strength": 0.65,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 10,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 11,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 12,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 16,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-6"
+      ],
+      "measure": 17,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 19,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 20,
+      "strength": 0.85,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 6,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 17,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__227 Lobet den Herren, denn er ist sehr freundlich"
+  },
+  "voice_leading": {
+    "contrary": 29,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 5.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 10,
+          "onset": 35.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 12,
+          "onset": 43.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 16,
+          "onset": 57.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 18,
+          "onset": 65.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|S"
+        },
+        {
+          "measure": 2,
+          "onset": 4.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 2,
+          "onset": 4.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 8,
+          "onset": 26.5,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 10,
+          "onset": 34.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 17,
+          "onset": 64.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 15,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 17,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 12
+    },
+    "oblique": 81,
+    "parallel": 1,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 11,
+    "spacing_issues": [
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 6,
+        "onset": 18.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 17,
+        "onset": 64.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich"
+}

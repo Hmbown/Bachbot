@@ -7,7 +7,7 @@ import yaml
 from fastapi.testclient import TestClient
 from typer.testing import CliRunner
 
-from bachbot.api import app as api_app
+from bachbot.api import api_app
 from bachbot.cli.main import app
 
 

@@ -1,0 +1,2322 @@
+{
+  "anomalies": {
+    "1": 3.09,
+    "10": 0.09,
+    "11": 0.41,
+    "12": 1.58,
+    "13": 0.41,
+    "14": 0.59,
+    "15": 0.41,
+    "16": 1.58,
+    "17": 0.59,
+    "18": 0.59,
+    "19": 0.41,
+    "2": 0.09,
+    "20": 1.58,
+    "21": 0.41,
+    "22": 0.41,
+    "23": 0.41,
+    "24": 1.58,
+    "25": 1.09,
+    "26": 0.59,
+    "27": 0.09,
+    "28": 1.58,
+    "3": 2.76,
+    "4": 1.58,
+    "5": 1.09,
+    "6": 0.59,
+    "7": 0.41,
+    "8": 1.58,
+    "9": 3.09
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:7",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m7",
+      "soprano_formula": "5-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:8",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m8",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "1-5",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m9",
+      "soprano_formula": "1-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:11",
+      "cadence_type": "DC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m11",
+      "soprano_formula": "3-2",
+      "strength": 0.7,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:14",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m14",
+      "soprano_formula": null,
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:15",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m15",
+      "soprano_formula": null,
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:16",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m16",
+      "soprano_formula": null,
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:23",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m23",
+      "soprano_formula": "6-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:27",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m27",
+      "soprano_formula": "5-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__109 Singen wir aus Herzens Grund:cad:28",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.8,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m28",
+      "soprano_formula": "2-1",
+      "strength": 0.8,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__109 Singen wir aus Herzens Grund-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__109 Singen wir aus Herzens Grund:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__109 Singen wir aus Herzens Grund:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__109 Singen wir aus Herzens Grund:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 10 cadence candidate(s) across 97 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__109 Singen wir aus Herzens Grund-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__109 Singen wir aus Herzens Grund:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 16 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 5.0,
+      "10": 2.0,
+      "11": 1.5,
+      "12": 0.33,
+      "13": 1.5,
+      "14": 2.5,
+      "15": 1.5,
+      "16": 0.33,
+      "17": 2.5,
+      "18": 2.5,
+      "19": 1.5,
+      "2": 2.0,
+      "20": 0.33,
+      "21": 1.5,
+      "22": 1.5,
+      "23": 1.5,
+      "24": 0.33,
+      "25": 3.0,
+      "26": 2.5,
+      "27": 2.0,
+      "28": 0.33,
+      "3": 4.67,
+      "4": 0.33,
+      "5": 3.0,
+      "6": 2.5,
+      "7": 1.5,
+      "8": 0.33,
+      "9": 5.0
+    },
+    "pitch_class_histogram": {
+      "0": 29,
+      "1": 4,
+      "10": 37,
+      "11": 2,
+      "2": 56,
+      "3": 7,
+      "4": 10,
+      "5": 21,
+      "6": 22,
+      "7": 49,
+      "8": 0,
+      "9": 45
+    }
+  },
+  "encoding_id": "notes__109 Singen wir aus Herzens Grund",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h1:50",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m1",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h1:100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h1:150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h1:200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h2:300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h2:400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h2:450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h2:500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m2",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 7.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#",
+        "SUS:C#"
+      ],
+      "onset": 8.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h3:875",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.75,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m3",
+      "roman_numeral_candidate_set": [
+        "viio7/V",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h4:900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h5:1200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h5:1250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h5:1300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h5:1400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 14.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h5:1450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:A",
+        "SUS:F"
+      ],
+      "onset": 14.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VII",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h5:1475",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 14.75,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h6:1500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 15.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m6",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h6:1550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 15.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m6",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h6:1600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m6",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h6:1650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:G"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m6",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h6:1700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h7:1800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h7:1900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m7",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h7:2000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h8:2100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h9:2400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h9:2450",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 24.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h9:2500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h9:2550",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h9:2600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m9",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h10:2700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:A"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h10:2750",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "SUS:A"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h10:2800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 28.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h10:2900",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m10",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h11:3000",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m11",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h11:3100",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m11",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h11:3200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h12:3300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m12",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h13:3600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m13",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h13:3700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m13",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h13:3800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m13",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h14:3900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h14:4000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m14",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h14:4050",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h14:4100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m14",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h14:4150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m14",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h15:4200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m15",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h15:4300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m15",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h15:4400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h16:4500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 45.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m16",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h17:4800",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m17",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h17:4850",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 48.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m17",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h17:4900",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m17",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h17:4950",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m17",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h17:5000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m17",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h18:5100",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m18",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h18:5150",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m18",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h18:5200",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m18",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h18:5250",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m18",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h18:5300",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 53.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m18",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h19:5400",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F#"
+      ],
+      "onset": 54.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m19",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h19:5500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m19",
+      "roman_numeral_candidate_set": [
+        "V7/iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h19:5600",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m19",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h20:5700",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m20",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h21:6000",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m21",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h21:6100",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m21",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h21:6200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb",
+        "NT:Bb"
+      ],
+      "onset": 62.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m21",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h22:6300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m22",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h22:6400",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C",
+        "SUS:A"
+      ],
+      "onset": 64.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m22",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h22:6500",
+      "local_key": "D minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Eb",
+        "NT:F#"
+      ],
+      "onset": 65.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m22",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h23:6600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m23",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h23:6700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 67.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m23",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h23:6800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m23",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h24:6900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 69.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m24",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h25:7200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m25",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h25:7250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 72.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m25",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h25:7300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 73.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m25",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h25:7400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 74.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m25",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h25:7450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 74.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m25",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h25:7475",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 74.75,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m25",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h26:7500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 75.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m26",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h26:7550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 75.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m26",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h26:7600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 76.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m26",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "viio7",
+        "iv7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h26:7650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 76.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m26",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h26:7700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 77.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m26",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h27:7800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 78.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m27",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h27:7900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 79.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m27",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h27:8000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 80.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m27",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h27:8050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 80.5,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m27",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__109 Singen wir aus Herzens Grund:h28:8100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:B"
+      ],
+      "onset": 81.0,
+      "ref_id": "notes__109 Singen wir aus Herzens Grund:m28",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "G minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 7,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 8,
+      "strength": 0.99,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 9,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 11,
+      "strength": 0.7,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 14,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 15,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 16,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 23,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 27,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 28,
+      "strength": 0.8,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 6,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__109 Singen wir aus Herzens Grund",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__109 Singen wir aus Herzens Grund"
+  },
+  "voice_leading": {
+    "contrary": 25,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 3,
+          "onset": 6.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 4,
+          "onset": 9.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 21.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 9,
+          "onset": 24.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 33.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 13,
+          "onset": 36.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 24,
+          "onset": 69.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 28,
+          "onset": 81.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 18,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 21,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 3
+    },
+    "oblique": 55,
+    "parallel": 0,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 16,
+    "spacing_issues": [
+      {
+        "interval": 14,
+        "issue": "spacing",
+        "measure": 6,
+        "onset": 16.5,
+        "voices": "A|T"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__109 Singen wir aus Herzens Grund"
+}

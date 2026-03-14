@@ -1,0 +1,4048 @@
+{
+  "artifact_stem": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__241 Was willst du mich, o meine Seele, kr\u00e4nken.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__241 Was willst du mich, o meine Seele, kr\u00e4nken-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "5-5",
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:4",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-5",
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:10",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m10",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "1-1",
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:13",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m13",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "3-3",
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:15",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m15",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "1-7",
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:17",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": null,
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:25",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "soprano_formula": "4-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:cad:26",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.43,
+              "key_after": "D minor",
+              "key_before": "D minor",
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "soprano_formula": "1-1",
+              "strength": 0.43,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h1:0",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h1:50",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m1",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:350",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h2:450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m2",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h3:850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:1000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:1050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:1100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:1200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h4:1250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1350",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1375",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h5:1650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:1975",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:2000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:2050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h6:2075",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m6",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 3.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h7:2100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m7",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h7:2400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m7",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h7:2450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m7",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h8:2850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m8",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:2900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:2950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:2975",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3075",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3175",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h9:3275",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h10:3300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m10",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h10:3600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m10",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3775",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:3950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:4000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h11:4050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4350",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4375",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h12:4475",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m12",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h13:4500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h13:4800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h13:4850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:4900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:4950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5075",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5175",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h14:5275",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 52.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h15:5300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m15",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h15:5600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m15",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h15:5650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m15",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5775",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5875",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:5975",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:6000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h16:6050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6175",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 61.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6275",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 62.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 63.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h17:6450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 64.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 65.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 65.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6575",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 65.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6675",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 66.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 67.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h18:6875",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 68.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:6900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:6925",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.25,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:6950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:6975",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 69.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 70.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7025",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 70.25,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 70.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7125",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.25,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7175",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 71.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "C22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h19:7275",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 72.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 3.0,
+              "figured_bass_like_summary": "F22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h20:7300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 73.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m20",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h20:7600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 76.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m20",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:7700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 77.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:7800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 78.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:7850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 78.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:7875",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 78.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:7900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 79.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:7950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 79.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:8000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 80.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h21:8050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 80.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 3.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h22:8100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 81.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m22",
+              "roman_numeral_candidate_set": [
+                "VI",
+                "iv",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h22:8400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 84.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m22",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 85.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 85.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 86.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 86.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 87.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 87.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 88.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 88.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h23:8875",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 88.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:8900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 89.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:8950",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 89.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:8975",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 89.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9000",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9050",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9075",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 90.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "iv"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9100",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 91.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.25,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9150",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 91.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9175",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 91.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9200",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 92.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h24:9250",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 92.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9300",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 93.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9350",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 93.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9400",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 94.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9450",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 94.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9500",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 95.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9550",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 95.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9600",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 96.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h25:9650",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 96.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9700",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 97.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9750",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 97.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9775",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 97.75,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9800",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 98.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.25,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9825",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 98.25,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "V",
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9850",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 98.5,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D minor",
+              "harmonic_event_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:h26:9900",
+              "local_key": "D minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 99.0,
+              "ref_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 4,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 10,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 13,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 15,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 17,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 25,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 26,
+              "strength": 0.43,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 44,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 7,
+                  "onset": 24.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 7,
+                  "onset": 24.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 17,
+                  "onset": 63.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 24,
+                  "onset": 91.5,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 12,
+                  "onset": 44.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 23,
+                  "onset": 88.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 26,
+                  "onset": 97.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 26,
+                  "onset": 97.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 26,
+                  "onset": 97.75,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 3,
+              "suspension_details": [
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 16,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 21,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 8,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 9,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 18,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 25,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 25,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 5,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 6,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 8,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 11,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 26,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 15
+            },
+            "oblique": 123,
+            "parallel": 6,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 29,
+            "spacing_issues": [
+              {
+                "interval": 22,
+                "issue": "spacing",
+                "measure": 19,
+                "voices": "T|B"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken",
+          "genre": "chorale",
+          "key": "D",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 20,
+            "measure_start": 20,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 21,
+            "measure_start": 21,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 22,
+            "measure_start": 22,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 23,
+            "measure_start": 23,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 24,
+            "measure_start": 24,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 25,
+            "measure_start": 25,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 26,
+            "measure_start": 26,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/241 Was willst du mich, o meine Seele, kr\u00e4nken.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m3",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m4",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m5",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m9",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m11",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m14",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m16",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m17",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m18",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m21",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m22",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m23",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m24",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m25",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26",
+          "Harmonic ambiguity at notes__241 Was willst du mich, o meine Seele, kr\u00e4nken:m26"
+        ],
+        "work_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 26 passage refs and 197 harmonic events."
+}

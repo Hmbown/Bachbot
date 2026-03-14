@@ -1,0 +1,1445 @@
+{
+  "bundle_id": "EB-notes__012 Puer natus in Bethlehem-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.34,
+      "10": 0.16,
+      "11": 1.66,
+      "12": 0.34,
+      "13": 0.16,
+      "14": 0.16,
+      "15": 0.16,
+      "16": 0.16,
+      "17": 0.84,
+      "2": 0.16,
+      "3": 0.16,
+      "4": 0.16,
+      "5": 1.01,
+      "6": 0.34,
+      "7": 0.16,
+      "8": 0.34,
+      "9": 0.16
+    },
+    "cadences": [
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:2",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m2",
+        "soprano_formula": "1-1",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-5",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:4",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m4",
+        "soprano_formula": "2-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-3",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:5",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m5",
+        "soprano_formula": "1-7",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "3-3",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:6",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m6",
+        "soprano_formula": "7-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:7",
+        "cadence_type": "DC",
+        "detector_confidence": 0.57,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m7",
+        "soprano_formula": "4-3",
+        "strength": 0.57,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "7-3",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m8",
+        "soprano_formula": "2-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-6",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:13",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m13",
+        "soprano_formula": "1-7",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:15",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m15",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:16",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m16",
+        "soprano_formula": "2-1",
+        "strength": 0.5,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__012 Puer natus in Bethlehem:cad:17",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.65,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__012 Puer natus in Bethlehem:m17",
+        "soprano_formula": null,
+        "strength": 0.65,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__012 Puer natus in Bethlehem-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__012 Puer natus in Bethlehem:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__012 Puer natus in Bethlehem:m2"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__012 Puer natus in Bethlehem:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 10 cadence candidate(s) across 43 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__012 Puer natus in Bethlehem-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__012 Puer natus in Bethlehem:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 9 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 1.5,
+        "11": 3.0,
+        "12": 1.0,
+        "13": 1.5,
+        "14": 1.5,
+        "15": 1.5,
+        "16": 1.5,
+        "17": 0.5,
+        "2": 1.5,
+        "3": 1.5,
+        "4": 1.5,
+        "5": 0.33,
+        "6": 1.0,
+        "7": 1.5,
+        "8": 1.0,
+        "9": 1.5
+      },
+      "pitch_class_histogram": {
+        "0": 23,
+        "1": 2,
+        "10": 0,
+        "11": 14,
+        "2": 20,
+        "3": 2,
+        "4": 23,
+        "5": 8,
+        "6": 7,
+        "7": 22,
+        "8": 3,
+        "9": 23
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h1:0",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m1",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h2:100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h2:200",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m2",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h2:300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m2",
+        "roman_numeral_candidate_set": [
+          "V/V",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h3:400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h3:500",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h3:600",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m3",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h4:700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h4:800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C"
+        ],
+        "onset": 8.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m4",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I",
+          "vi7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h4:900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m4",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h5:1000",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m5",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h6:1300",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h6:1400",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h6:1500",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m6",
+        "roman_numeral_candidate_set": [
+          "V7/vi",
+          "vii\u00b0",
+          "iii",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h7:1600",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m7",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h7:1700",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m7",
+        "roman_numeral_candidate_set": [
+          "V7/V",
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h7:1800",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h8:1900",
+        "local_key": "C major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h8:2100",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m8",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h9:2200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h9:2300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F#"
+        ],
+        "onset": 23.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m9",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h9:2400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m9",
+        "roman_numeral_candidate_set": [
+          "V7/VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h10:2500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h10:2600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E",
+          "NCT:E"
+        ],
+        "onset": 26.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h10:2700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m10",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h11:2800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 28.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m11",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h11:2900",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h11:3000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m11",
+        "roman_numeral_candidate_set": [
+          "V/ii",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h12:3100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m12",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h12:3300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F"
+        ],
+        "onset": 33.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m12",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h13:3400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m13",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h13:3500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m13",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h13:3600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m13",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h14:3700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m14",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h14:3800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m14",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h14:3900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:G"
+        ],
+        "onset": 39.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m14",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h15:4000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m15",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h15:4100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m15",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h15:4200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m15",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h16:4300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 43.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m16",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h16:4400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m16",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h16:4500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m16",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__012 Puer natus in Bethlehem:h17:4600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C#"
+        ],
+        "onset": 46.0,
+        "ref_id": "notes__012 Puer natus in Bethlehem:m17",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 2,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 4,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 5,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 6,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 2-1"
+        ],
+        "measure": 7,
+        "strength": 0.57,
+        "type": "DC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 13,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 7-1"
+        ],
+        "measure": 15,
+        "strength": 0.85,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ],
+        "measure": 16,
+        "strength": 0.5,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 17,
+        "strength": 0.65,
+        "type": "PAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [],
+      "passed": true,
+      "subject_id": "notes__012 Puer natus in Bethlehem",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__012 Puer natus in Bethlehem"
+    },
+    "voice_leading": {
+      "contrary": 12,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 0,
+            "measure": 14,
+            "onset": 39.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 13,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 7,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 16,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 7
+      },
+      "oblique": 21,
+      "parallel": 2,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 9,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__012 Puer natus in Bethlehem",
+    "genre": "chorale",
+    "key": "A minor",
+    "key_mode": "minor",
+    "key_tonic": "A"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__012 Puer natus in Bethlehem",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/012 Puer natus in Bethlehem.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__012 Puer natus in Bethlehem:m2",
+    "Harmonic ambiguity at notes__012 Puer natus in Bethlehem:m9",
+    "Harmonic ambiguity at notes__012 Puer natus in Bethlehem:m11",
+    "Harmonic ambiguity at notes__012 Puer natus in Bethlehem:m12",
+    "Harmonic ambiguity at notes__012 Puer natus in Bethlehem:m17"
+  ],
+  "work_id": "notes__012 Puer natus in Bethlehem"
+}

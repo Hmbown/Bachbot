@@ -1,0 +1,1291 @@
+{
+  "anomalies": {
+    "1": 4.22,
+    "2": 0.78,
+    "3": 0.78,
+    "4": 1.78,
+    "5": 0.22,
+    "6": 1.78,
+    "7": 0.22,
+    "8": 1.78,
+    "9": 2.22
+  },
+  "cadences": [
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__307 Ach Gott, wie manches Herzeleid:cad:2",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "soprano_formula": "1-1",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__307 Ach Gott, wie manches Herzeleid:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "soprano_formula": "6-7",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__307 Ach Gott, wie manches Herzeleid-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 2 cadence candidate(s) across 56 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__307 Ach Gott, wie manches Herzeleid-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 9 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "2": 7.0,
+      "3": 7.0,
+      "4": 8.0,
+      "5": 6.0,
+      "6": 8.0,
+      "7": 6.0,
+      "8": 8.0,
+      "9": 4.0
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 19,
+      "10": 1,
+      "11": 25,
+      "2": 11,
+      "3": 8,
+      "4": 29,
+      "5": 1,
+      "6": 23,
+      "7": 0,
+      "8": 20,
+      "9": 30
+    }
+  },
+  "encoding_id": "notes__307 Ach Gott, wie manches Herzeleid",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h1:0",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m1",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h1:50",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m1",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:150",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:350",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h2:450",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m2",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:500",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:550",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:600",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:650",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:700",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:800",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h3:850",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:900",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:950",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:A"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:1000",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:1050",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:1100",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 11.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:1150",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:1200",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h4:1250",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m4",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h5:1300",
+      "local_key": "B major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m5",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h5:1350",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h5:1400",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h5:1450",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h5:1500",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h5:1600",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:1700",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:1750",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:1800",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 18.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:1850",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "V/ii",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:1900",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:1950",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 19.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:2000",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb",
+        "PT:D"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h6:2050",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m6",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h7:2100",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m7",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h7:2150",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m7",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h7:2200",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m7",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h7:2250",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 22.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h7:2300",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h7:2400",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2500",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2550",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2600",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2650",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2750",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h8:2850",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h9:2900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 29.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m9",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h9:2950",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h9:3000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__307 Ach Gott, wie manches Herzeleid:h9:3100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__307 Ach Gott, wie manches Herzeleid:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 2,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 4,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 7,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 7,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__307 Ach Gott, wie manches Herzeleid",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__307 Ach Gott, wie manches Herzeleid"
+  },
+  "voice_leading": {
+    "contrary": 19,
+    "counterpoint": {
+      "issues": [
+        {
+          "measure": 2,
+          "onset": 2.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 6,
+          "onset": 18.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 6,
+          "onset": 18.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 7,
+          "onset": 22.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 7,
+          "onset": 22.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 8,
+          "onset": 26.0,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 8,
+          "onset": 26.5,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 1
+    },
+    "oblique": 27,
+    "parallel": 4,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 9,
+    "spacing_issues": [
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 7,
+        "onset": 21.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 7,
+        "onset": 22.0,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__307 Ach Gott, wie manches Herzeleid"
+}

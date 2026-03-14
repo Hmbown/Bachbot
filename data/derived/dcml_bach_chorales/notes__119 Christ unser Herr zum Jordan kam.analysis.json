@@ -1,0 +1,2750 @@
+{
+  "anomalies": {
+    "1": 4.39,
+    "10": 1.61,
+    "11": 0.39,
+    "12": 0.39,
+    "13": 0.61,
+    "14": 1.61,
+    "15": 0.39,
+    "16": 0.61,
+    "17": 0.61,
+    "18": 1.61,
+    "19": 3.06,
+    "2": 0.61,
+    "3": 0.39,
+    "4": 0.61,
+    "5": 0.61,
+    "6": 0.39,
+    "7": 1.39,
+    "8": 1.61,
+    "9": 0.61
+  },
+  "cadences": [
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__119 Christ unser Herr zum Jordan kam:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "soprano_formula": "3-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-4",
+      "cadence_id": "notes__119 Christ unser Herr zum Jordan kam:cad:7",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m7",
+      "soprano_formula": "3-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__119 Christ unser Herr zum Jordan kam:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "soprano_formula": "3-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "1-4",
+      "cadence_id": "notes__119 Christ unser Herr zum Jordan kam:cad:14",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "soprano_formula": "5-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__119 Christ unser Herr zum Jordan kam:cad:16",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "soprano_formula": null,
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__119 Christ unser Herr zum Jordan kam:cad:19",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.63,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m19",
+      "soprano_formula": "7-6",
+      "strength": 0.63,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 7-6"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__119 Christ unser Herr zum Jordan kam-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 6 cadence candidate(s) across 123 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__119 Christ unser Herr zum Jordan kam-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 22 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 8.0,
+      "11": 6.0,
+      "12": 6.0,
+      "13": 7.0,
+      "14": 8.0,
+      "15": 6.0,
+      "16": 7.0,
+      "17": 7.0,
+      "18": 8.0,
+      "19": 3.33,
+      "2": 7.0,
+      "3": 6.0,
+      "4": 7.0,
+      "5": 7.0,
+      "6": 6.0,
+      "7": 5.0,
+      "8": 8.0,
+      "9": 7.0
+    },
+    "pitch_class_histogram": {
+      "0": 69,
+      "1": 8,
+      "10": 43,
+      "11": 6,
+      "2": 31,
+      "3": 36,
+      "4": 12,
+      "5": 57,
+      "6": 0,
+      "7": 63,
+      "8": 34,
+      "9": 2
+    }
+  },
+  "encoding_id": "notes__119 Christ unser Herr zum Jordan kam",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m1",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h1:50",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:150",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab",
+        "NCT:Ab"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h2:450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h3:500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h3:550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 5.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m3",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h3:600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h3:650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 6.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h3:700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h3:800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G",
+        "NCT:G"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:1000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:1050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:1100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:1150",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:1200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h4:1250",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m4",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "VII",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 13.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 14.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1450",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h5:1650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h6:1700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h6:1750",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m6",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h6:1800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m6",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h6:1900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m6",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h6:2000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h6:2050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m6",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h7:2100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h7:2200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h7:2250",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 22.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h7:2300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h7:2400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G",
+        "NCT:G"
+      ],
+      "onset": 24.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2550",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2750",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:C#"
+      ],
+      "onset": 28.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h8:2850",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m8",
+      "roman_numeral_candidate_set": [
+        "viio7/iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:2900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:2950",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Bb"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:3000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "PT:Bb"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:3050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 30.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:3100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:3200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h9:3250",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3450",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3550",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h10:3650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h11:3700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 37.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h11:3750",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m11",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h11:3800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m11",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h11:3900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h11:4000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h11:4050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h12:4100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m12",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h12:4200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h12:4300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m12",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h12:4350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Eb"
+      ],
+      "onset": 43.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h12:4400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m12",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h12:4450",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 44.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4500",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4550",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4650",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 46.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4675",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.75,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h13:4800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:4900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:4950",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 49.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:5000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:5050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 50.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:5100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:5150",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:5200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 52.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h14:5250",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 52.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m14",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h15:5300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 53.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m15",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h15:5350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m15",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h15:5400",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m15",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h15:5500",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m15",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h15:5600",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m15",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h15:5650",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 56.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m15",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:5700",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:5750",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:5800",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 58.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:5900",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 59.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:5950",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Ab"
+      ],
+      "onset": 59.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "i",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Db33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:6000",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h16:6050",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m16",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6100",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6150",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6200",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6250",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 62.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6275",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 62.75,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6300",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 63.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h17:6400",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 64.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m17",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6500",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 65.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6550",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb",
+        "PT:C"
+      ],
+      "onset": 65.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6600",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D"
+      ],
+      "onset": 66.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6650",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 66.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "V/VII",
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6700",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 67.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6750",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 67.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6800",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h18:6850",
+      "local_key": "F minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 68.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m18",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h19:6900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 69.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h19:6950",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F"
+      ],
+      "onset": 69.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m19",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h19:7000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 70.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m19",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h19:7050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 70.5,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m19",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__119 Christ unser Herr zum Jordan kam:h19:7100",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:E"
+      ],
+      "onset": 71.0,
+      "ref_id": "notes__119 Christ unser Herr zum Jordan kam:m19",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "G minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 4,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 7,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 14,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 16,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "soprano formula 7-6"
+      ],
+      "measure": 19,
+      "strength": 0.63,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 8,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 8,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 8,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 17,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__119 Christ unser Herr zum Jordan kam",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__119 Christ unser Herr zum Jordan kam"
+  },
+  "voice_leading": {
+    "contrary": 41,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 15.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 25.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 9,
+          "onset": 31.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 13,
+          "onset": 46.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 13,
+          "onset": 47.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 13,
+          "onset": 48.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 17,
+          "onset": 62.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 17,
+          "onset": 63.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "measure": 15,
+          "onset": 53.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 15,
+          "onset": 53.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 17,
+          "onset": 64.0,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 19,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 14,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 4
+    },
+    "oblique": 59,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 22,
+    "spacing_issues": [
+      {
+        "interval": 19,
+        "issue": "spacing",
+        "measure": 8,
+        "onset": 26.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 15,
+        "issue": "spacing",
+        "measure": 8,
+        "onset": 26.5,
+        "voices": "A|T"
+      },
+      {
+        "interval": 14,
+        "issue": "spacing",
+        "measure": 8,
+        "onset": 27.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 19,
+        "issue": "spacing",
+        "measure": 17,
+        "onset": 64.0,
+        "voices": "A|T"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__119 Christ unser Herr zum Jordan kam"
+}

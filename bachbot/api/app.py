@@ -864,21 +864,38 @@ def create_app() -> FastAPI:
             "total_keys": len({s.key for s in summaries if s.key}),
         }
 
-    # Serve built frontend if available (production mode)
-    _web_dist = Path(__file__).resolve().parent.parent.parent / "web" / "dist"
-    if _web_dist.is_dir():
-        app.mount("/assets", StaticFiles(directory=str(_web_dist / "assets")), name="static")
-
-        @app.get("/{full_path:path}")
-        def serve_spa(full_path: str) -> FileResponse:
-            file_path = _web_dist / full_path
-            if file_path.is_file():
-                return FileResponse(str(file_path))
-            return FileResponse(str(_web_dist / "index.html"))
-
     return app
 
 
-app = create_app()
+def create_production_app() -> FastAPI:
+    """Wrap the API app with SPA serving when web/dist is available."""
+    api = create_app()
+    _web_dist = Path(__file__).resolve().parent.parent.parent / "web" / "dist"
+    if not _web_dist.is_dir():
+        return api
 
-__all__ = ["app", "create_app"]
+    root = FastAPI(title="Bachbot")
+    root.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+    root.mount("/api", api)
+    root.mount("/assets", StaticFiles(directory=str(_web_dist / "assets")), name="static")
+
+    @root.get("/{full_path:path}")
+    def serve_spa(full_path: str) -> FileResponse:
+        file_path = _web_dist / full_path
+        if file_path.is_file():
+            return FileResponse(str(file_path))
+        return FileResponse(str(_web_dist / "index.html"))
+
+    return root
+
+
+# `api_app` is the raw API (for tests); `app` is the production app (API + SPA)
+api_app = create_app()
+app = create_production_app()
+
+__all__ = ["api_app", "app", "create_app", "create_production_app"]

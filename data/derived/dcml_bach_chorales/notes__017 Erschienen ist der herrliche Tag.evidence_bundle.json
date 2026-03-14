@@ -1,0 +1,1656 @@
+{
+  "bundle_id": "EB-notes__017 Erschienen ist der herrliche Tag-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 2.13,
+      "10": 0.37,
+      "11": 0.63,
+      "12": 0.87,
+      "13": 0.37,
+      "14": 0.13,
+      "15": 0.63,
+      "16": 0.87,
+      "17": 0.13,
+      "18": 1.54,
+      "2": 0.37,
+      "3": 2.13,
+      "4": 1.54,
+      "5": 1.13,
+      "6": 0.63,
+      "7": 0.37,
+      "8": 0.87,
+      "9": 0.37
+    },
+    "cadences": [
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:5",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m5",
+        "soprano_formula": "4-5",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:6",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.65,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m6",
+        "soprano_formula": null,
+        "strength": 0.65,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "3-2",
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:7",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m7",
+        "soprano_formula": "5-7",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "2-5",
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m8",
+        "soprano_formula": null,
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-7",
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:12",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m12",
+        "soprano_formula": "1-7",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:13",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.37,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m13",
+        "soprano_formula": "7-3",
+        "strength": 0.37,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__017 Erschienen ist der herrliche Tag:cad:18",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.3,
+        "key_after": "E minor",
+        "key_before": "E minor",
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m18",
+        "soprano_formula": "2-1",
+        "strength": 0.3,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__017 Erschienen ist der herrliche Tag-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 7 cadence candidate(s) across 57 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__017 Erschienen ist der herrliche Tag-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 15 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 4.0,
+        "10": 1.5,
+        "11": 2.5,
+        "12": 1.0,
+        "13": 1.5,
+        "14": 2.0,
+        "15": 2.5,
+        "16": 1.0,
+        "17": 2.0,
+        "18": 0.33,
+        "2": 1.5,
+        "3": 4.0,
+        "4": 0.33,
+        "5": 3.0,
+        "6": 2.5,
+        "7": 1.5,
+        "8": 1.0,
+        "9": 1.5
+      },
+      "pitch_class_histogram": {
+        "0": 5,
+        "1": 7,
+        "10": 1,
+        "11": 32,
+        "2": 18,
+        "3": 5,
+        "4": 28,
+        "5": 0,
+        "6": 24,
+        "7": 23,
+        "8": 5,
+        "9": 28
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h1:0",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h1:50",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A",
+          "PT:F#"
+        ],
+        "onset": 0.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h1:100",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 1.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h1:200",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 2.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m1",
+        "roman_numeral_candidate_set": [
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h2:300",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m2",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h2:400",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h2:500",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m2",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h3:600",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h3:650",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 6.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h3:700",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m3",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h3:800",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h4:900",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m4",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h5:1200",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m5",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h5:1300",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h5:1400",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m5",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h6:1500",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 15.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m6",
+        "roman_numeral_candidate_set": [
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h6:1550",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 15.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m6",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "iii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h6:1600",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 16.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m6",
+        "roman_numeral_candidate_set": [
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h6:1650",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 16.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m6",
+        "roman_numeral_candidate_set": [
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h6:1700",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m6",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h7:1800",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h7:1900",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h7:2000",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h8:2100",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m8",
+        "roman_numeral_candidate_set": [
+          "V/iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h8:2300",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m8",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h9:2400",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m9",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h9:2500",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m9",
+        "roman_numeral_candidate_set": [
+          "V7/VI",
+          "III",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h9:2600",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m9",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h10:2700",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h10:2800",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m10",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h10:2900",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m10",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h11:3000",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m11",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h11:3050",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 30.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m11",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h11:3100",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m11",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h11:3200",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m11",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h11:3250",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 32.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m11",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h12:3300",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m12",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h12:3500",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B",
+          "NCT:B"
+        ],
+        "onset": 35.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m12",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h13:3600",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m13",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h13:3700",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C"
+        ],
+        "onset": 37.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m13",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h13:3800",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m13",
+        "roman_numeral_candidate_set": [
+          "V7/VI",
+          "III",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h14:3900",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m14",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h14:3950",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m14",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h14:4000",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Eb"
+        ],
+        "onset": 40.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m14",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h14:4100",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m14",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h15:4200",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m15",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h15:4250",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 42.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m15",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h15:4300",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m15",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h15:4350",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m15",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h15:4400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m15",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h16:4500",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m16",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h16:4700",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m16",
+        "roman_numeral_candidate_set": [
+          "viio7/iv",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h17:4800",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h17:4900",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#",
+          "PT:A"
+        ],
+        "onset": 49.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h17:4950",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F#"
+        ],
+        "onset": 49.5,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h17:5000",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m17",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "E minor",
+        "harmonic_event_id": "notes__017 Erschienen ist der herrliche Tag:h18:5100",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Ab"
+        ],
+        "onset": 51.0,
+        "ref_id": "notes__017 Erschienen ist der herrliche Tag:m18",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 5,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 2-1"
+        ],
+        "measure": 6,
+        "strength": 0.65,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 7,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 12,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 13,
+        "strength": 0.37,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 18,
+        "strength": 0.3,
+        "type": "cadential"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 3,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__017 Erschienen ist der herrliche Tag",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__017 Erschienen ist der herrliche Tag"
+    },
+    "voice_leading": {
+      "contrary": 16,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 4,
+            "onset": 9.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 8,
+            "onset": 21.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 15,
+            "onset": 43.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 15,
+            "onset": 43.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "measure": 2,
+            "onset": 3.0,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 2,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 7,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 16,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 4
+      },
+      "oblique": 25,
+      "parallel": 3,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 15,
+      "spacing_issues": [
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 3,
+          "onset": 7.0,
+          "voices": "A|T"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__017 Erschienen ist der herrliche Tag",
+    "genre": "chorale",
+    "key": "E minor",
+    "key_mode": "minor",
+    "key_tonic": "E"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__017 Erschienen ist der herrliche Tag",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/017 Erschienen ist der herrliche Tag.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m1",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m1",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m6",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m6",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m8",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m14",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m16",
+    "Harmonic ambiguity at notes__017 Erschienen ist der herrliche Tag:m18"
+  ],
+  "work_id": "notes__017 Erschienen ist der herrliche Tag"
+}

@@ -1,0 +1,1000 @@
+{
+  "anomalies": {
+    "1": 1.88,
+    "10": 0.38,
+    "11": 2.55,
+    "2": 2.12,
+    "3": 1.12,
+    "4": 2.12,
+    "5": 2.55,
+    "6": 0.88,
+    "7": 2.12,
+    "8": 1.12,
+    "9": 0.38
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:cad:5",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m5",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "1-5",
+      "cadence_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:cad:6",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m6",
+      "soprano_formula": "3-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:cad:8",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m8",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:cad:11",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m11",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__042 Du Friedef\u00fcrst, Herr Jesu Christ-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 4 cadence candidate(s) across 38 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__042 Du Friedef\u00fcrst, Herr Jesu Christ-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 2.5,
+      "11": 0.33,
+      "2": 5.0,
+      "3": 4.0,
+      "4": 5.0,
+      "5": 0.33,
+      "6": 2.0,
+      "7": 5.0,
+      "8": 4.0,
+      "9": 2.5
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 18,
+      "10": 0,
+      "11": 16,
+      "2": 13,
+      "3": 0,
+      "4": 29,
+      "5": 2,
+      "6": 13,
+      "7": 0,
+      "8": 15,
+      "9": 26
+    }
+  },
+  "encoding_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h1:0",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m1",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h2:100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h2:150",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.5,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h2:200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h2:300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h2:400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h3:500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h3:600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h3:700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h3:800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h4:900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h4:950",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 9.5,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h4:1000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h4:1100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m4",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h4:1200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h5:1300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h6:1600",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h6:1650",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h7:1700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h7:1800",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h7:1900",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m7",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h7:2000",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m7",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h7:2050",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m7",
+      "roman_numeral_candidate_set": [
+        "viio7/ii",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h8:2100",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m8",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h8:2200",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:D"
+      ],
+      "onset": 22.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m8",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h8:2300",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 23.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m8",
+      "roman_numeral_candidate_set": [
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h8:2400",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m8",
+      "roman_numeral_candidate_set": [
+        "V/ii",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h9:2500",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m9",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h9:2600",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h9:2700",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m9",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h9:2800",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h9:2850",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m9",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h10:2900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h10:3000",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m10",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h10:3100",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B",
+        "NT:D"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h10:3200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m10",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h10:3250",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.5,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m10",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:h11:3300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 5,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 6,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ],
+      "measure": 8,
+      "strength": 0.3,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 11,
+      "strength": 0.99,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 2,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 3,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 3,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__042 Du Friedef\u00fcrst, Herr Jesu Christ"
+  },
+  "voice_leading": {
+    "contrary": 14,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 11,
+          "onset": 33.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [],
+      "suspensions": 0
+    },
+    "oblique": 12,
+    "parallel": 2,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 11,
+    "spacing_issues": [
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 2,
+        "onset": 4.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 3,
+        "onset": 5.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 3,
+        "onset": 6.0,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ"
+}

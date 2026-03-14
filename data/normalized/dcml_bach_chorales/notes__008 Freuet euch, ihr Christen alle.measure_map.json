@@ -1,0 +1,248 @@
+{
+  "dataset_id": "dcml_bach_chorales",
+  "encoding_id": "notes__008 Freuet euch, ihr Christen alle",
+  "measures": [
+    {
+      "duration": 4.0,
+      "measure_number_logical": 1,
+      "measure_number_notated": 1,
+      "onset": 0.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 2,
+      "measure_number_notated": 2,
+      "onset": 4.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 3,
+      "measure_number_notated": 3,
+      "onset": 8.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 4,
+      "measure_number_notated": 4,
+      "onset": 12.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 5,
+      "measure_number_notated": 5,
+      "onset": 16.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 6,
+      "measure_number_notated": 6,
+      "onset": 20.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 7,
+      "measure_number_notated": 7,
+      "onset": 24.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 8,
+      "measure_number_notated": 8,
+      "onset": 28.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 9,
+      "measure_number_notated": 9,
+      "onset": 32.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 10,
+      "measure_number_notated": 10,
+      "onset": 36.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 11,
+      "measure_number_notated": 11,
+      "onset": 40.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 12,
+      "measure_number_notated": 12,
+      "onset": 44.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 13,
+      "measure_number_notated": 13,
+      "onset": 48.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 14,
+      "measure_number_notated": 14,
+      "onset": 52.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 15,
+      "measure_number_notated": 15,
+      "onset": 56.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 16,
+      "measure_number_notated": 16,
+      "onset": 60.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 17,
+      "measure_number_notated": 17,
+      "onset": 64.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 18,
+      "measure_number_notated": 18,
+      "onset": 68.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 19,
+      "measure_number_notated": 19,
+      "onset": 72.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "duration": 4.0,
+      "measure_number_logical": 20,
+      "measure_number_notated": 20,
+      "onset": 76.0,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "source_relpath": "notes/008 Freuet euch, ihr Christen alle.notes.tsv",
+  "work_id": "notes__008 Freuet euch, ihr Christen alle"
+}

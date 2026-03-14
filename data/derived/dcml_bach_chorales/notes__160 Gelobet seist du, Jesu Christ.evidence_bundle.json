@@ -1,0 +1,1575 @@
+{
+  "bundle_id": "EB-notes__160 Gelobet seist du, Jesu Christ-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 3.59,
+      "10": 0.59,
+      "11": 3.59,
+      "2": 0.41,
+      "3": 3.09,
+      "4": 0.41,
+      "5": 0.41,
+      "6": 3.41,
+      "7": 2.41,
+      "8": 1.41,
+      "9": 2.41
+    },
+    "cadences": [
+      {
+        "bass_formula": "7-5",
+        "cadence_id": "notes__160 Gelobet seist du, Jesu Christ:cad:2",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2",
+        "soprano_formula": "7-7",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "1-5",
+        "cadence_id": "notes__160 Gelobet seist du, Jesu Christ:cad:4",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m4",
+        "soprano_formula": "3-2",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "4-7",
+        "cadence_id": "notes__160 Gelobet seist du, Jesu Christ:cad:5",
+        "cadence_type": "DC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m5",
+        "soprano_formula": "4-2",
+        "strength": 0.7,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__160 Gelobet seist du, Jesu Christ:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "soprano_formula": "4-1",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__160 Gelobet seist du, Jesu Christ:cad:9",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "3-4",
+        "cadence_id": "notes__160 Gelobet seist du, Jesu Christ:cad:10",
+        "cadence_type": "HC",
+        "detector_confidence": 0.43,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "soprano_formula": "2-1",
+        "strength": 0.43,
+        "type_candidates": [
+          "HC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "soprano formula 2-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__160 Gelobet seist du, Jesu Christ-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 6 cadence candidate(s) across 59 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__160 Gelobet seist du, Jesu Christ-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 12 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 4.0,
+        "11": 1.0,
+        "2": 5.0,
+        "3": 1.5,
+        "4": 5.0,
+        "5": 5.0,
+        "6": 8.0,
+        "7": 7.0,
+        "8": 6.0,
+        "9": 7.0
+      },
+      "pitch_class_histogram": {
+        "0": 25,
+        "1": 2,
+        "10": 0,
+        "11": 23,
+        "2": 33,
+        "3": 0,
+        "4": 20,
+        "5": 6,
+        "6": 9,
+        "7": 31,
+        "8": 2,
+        "9": 27
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h1:0",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m1",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h2:100",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h2:200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h2:300",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F",
+          "NCT:F"
+        ],
+        "onset": 3.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h2:400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h2:450",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 4.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h3:500",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m3",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h3:600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m3",
+        "roman_numeral_candidate_set": [
+          "viio7/iv",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h3:700",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m3",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h4:900",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h4:1000",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m4",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h4:1100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m4",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h4:1150",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m4",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h4:1200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h5:1300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m5",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "I"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h5:1350",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m5",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h5:1400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m5",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h5:1500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m5",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h5:1600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m5",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:1700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:1750",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:1800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:1850",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 18.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:1900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:1950",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 19.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:2000",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h6:2050",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 20.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m6",
+        "roman_numeral_candidate_set": [
+          "viio7/ii",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2100",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2150",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2200",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2250",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2300",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2400",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "I"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h7:2450",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m7",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h8:2500",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h8:2550",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 25.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h8:2600",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "V"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h8:2650",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 26.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "roman_numeral_candidate_set": [
+          "vii\u00f87",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h8:2700",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:C"
+        ],
+        "onset": 27.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h8:2800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m8",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:2900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:3000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F"
+        ],
+        "onset": 30.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:3050",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F",
+          "PT:B"
+        ],
+        "onset": 30.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:3100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:3150",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:3200",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h9:3250",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 32.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m9",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 33.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3350",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 33.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 34.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3450",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 34.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 35.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3550",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 36.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h10:3650",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m10",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h11:3700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m11",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h11:3800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m11",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h11:3850",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.5,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m11",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__160 Gelobet seist du, Jesu Christ:h11:3900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__160 Gelobet seist du, Jesu Christ:m11",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 2,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 4,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 5,
+        "strength": 0.7,
+        "type": "DC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 2-1"
+        ],
+        "measure": 9,
+        "strength": 0.85,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "soprano formula 2-1"
+        ],
+        "measure": 10,
+        "strength": 0.43,
+        "type": "HC"
+      }
+    ],
+    "validation_report": {
+      "issues": [],
+      "passed": true,
+      "subject_id": "notes__160 Gelobet seist du, Jesu Christ",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__160 Gelobet seist du, Jesu Christ"
+    },
+    "voice_leading": {
+      "contrary": 15,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 15.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 16.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 7,
+            "onset": 21.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 8,
+            "onset": 25.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 8,
+            "onset": 26.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 10,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 4
+      },
+      "oblique": 31,
+      "parallel": 1,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 12,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__160 Gelobet seist du, Jesu Christ",
+    "genre": "chorale",
+    "key": "A minor",
+    "key_mode": "minor",
+    "key_tonic": "A"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__160 Gelobet seist du, Jesu Christ",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/160 Gelobet seist du, Jesu Christ.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__160 Gelobet seist du, Jesu Christ:m3",
+    "Harmonic ambiguity at notes__160 Gelobet seist du, Jesu Christ:m6"
+  ],
+  "work_id": "notes__160 Gelobet seist du, Jesu Christ"
+}

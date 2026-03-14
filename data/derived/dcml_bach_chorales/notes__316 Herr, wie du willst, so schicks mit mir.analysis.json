@@ -1,0 +1,1662 @@
+{
+  "anomalies": {
+    "1": 2.71,
+    "10": 2.29,
+    "11": 1.29,
+    "12": 1.62,
+    "13": 0.21,
+    "14": 3.38,
+    "2": 0.29,
+    "3": 1.29,
+    "4": 3.29,
+    "5": 1.21,
+    "6": 3.38,
+    "7": 2.71,
+    "8": 3.29,
+    "9": 0.29
+  },
+  "cadences": [
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:3",
+      "cadence_type": "DC",
+      "detector_confidence": 0.57,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m3",
+      "soprano_formula": "2-1",
+      "strength": 0.57,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:4",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "soprano_formula": "4-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:6",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m6",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "1-7",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:8",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "soprano_formula": "1-2",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "6-6",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:11",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m11",
+      "soprano_formula": "3-4",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "4-5",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:13",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "soprano_formula": "1-7",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__316 Herr, wie du willst, so schicks mit mir:cad:14",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m14",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__316 Herr, wie du willst, so schicks mit mir-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 7 cadence candidate(s) across 66 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__316 Herr, wie du willst, so schicks mit mir-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 14 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 6.0,
+      "11": 5.0,
+      "12": 5.33,
+      "13": 3.5,
+      "14": 0.33,
+      "2": 4.0,
+      "3": 5.0,
+      "4": 7.0,
+      "5": 2.5,
+      "6": 0.33,
+      "7": 1.0,
+      "8": 7.0,
+      "9": 4.0
+    },
+    "pitch_class_histogram": {
+      "0": 36,
+      "1": 1,
+      "10": 0,
+      "11": 24,
+      "2": 27,
+      "3": 1,
+      "4": 28,
+      "5": 17,
+      "6": 7,
+      "7": 39,
+      "8": 3,
+      "9": 20
+    }
+  },
+  "encoding_id": "notes__316 Herr, wie du willst, so schicks mit mir",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h1:0",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m1",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h2:100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h2:200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h2:250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h2:300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h2:350",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h2:400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m2",
+      "roman_numeral_candidate_set": [
+        "V7/vi",
+        "vii\u00b0",
+        "iii",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h3:500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h3:550",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h3:600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h3:700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h3:800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:1000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:1050",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:1100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:1150",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:1200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h4:1250",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m4",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h5:1300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h5:1400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h5:1500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m5",
+      "roman_numeral_candidate_set": [
+        "V7/V",
+        "ii7",
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h5:1600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h5:1650",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m5",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h6:1700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h7:2000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m7",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2150",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "I"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F"
+      ],
+      "onset": 22.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 23.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "V7/ii",
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h8:2450",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m8",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h9:2500",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h9:2550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m9",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h9:2600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m9",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h9:2650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m9",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h9:2700",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h9:2800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m9",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h10:2900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h10:2950",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h10:3000",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h10:3050",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 30.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "iv7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h10:3100",
+      "local_key": "E minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h10:3200",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m10",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h11:3300",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F"
+      ],
+      "onset": 33.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m11",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h11:3350",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D",
+        "SUS:D"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m11",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h11:3400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m11",
+      "roman_numeral_candidate_set": [
+        "V7/ii",
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h11:3500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m11",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h11:3600",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m11",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:3700",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:3750",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:3800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F",
+        "NT:F"
+      ],
+      "onset": 38.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:3850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:3900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 39.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:3950",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:F"
+      ],
+      "onset": 39.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:4000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h12:4050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 40.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4150",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 43.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h13:4450",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m13",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__316 Herr, wie du willst, so schicks mit mir:h14:4500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__316 Herr, wie du willst, so schicks mit mir:m14",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "C major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "soprano formula 2-1"
+      ],
+      "measure": 3,
+      "strength": 0.57,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ],
+      "measure": 4,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 6,
+      "strength": 0.99,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 8,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 11,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 13,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 14,
+      "strength": 0.3,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 11,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 11,
+        "message": "Spacing violation between S|A.",
+        "severity": "error",
+        "voice_ids": [
+          "S",
+          "A"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__316 Herr, wie du willst, so schicks mit mir",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__316 Herr, wie du willst, so schicks mit mir"
+  },
+  "voice_leading": {
+    "contrary": 23,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 6.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 6,
+          "onset": 17.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 10,
+          "onset": 31.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 40.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "measure": 3,
+          "onset": 5.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 5,
+          "onset": 13.0,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        },
+        {
+          "measure": 10,
+          "onset": 32.0,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 11,
+          "onset": 33.0,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 11,
+          "onset": 33.5,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 5
+    },
+    "oblique": 28,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 14,
+    "spacing_issues": [
+      {
+        "interval": 15,
+        "issue": "spacing",
+        "measure": 11,
+        "onset": 33.0,
+        "voices": "S|A"
+      },
+      {
+        "interval": 14,
+        "issue": "spacing",
+        "measure": 11,
+        "onset": 33.5,
+        "voices": "S|A"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__316 Herr, wie du willst, so schicks mit mir"
+}

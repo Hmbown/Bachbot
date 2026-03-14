@@ -1,0 +1,5987 @@
+{
+  "bundle_id": "EB-notes__133 Wir glauben all an einen Gott-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.78,
+      "10": 0.22,
+      "11": 2.55,
+      "12": 1.78,
+      "13": 0.78,
+      "14": 0.78,
+      "15": 0.78,
+      "16": 0.78,
+      "17": 1.78,
+      "18": 0.78,
+      "19": 3.22,
+      "2": 0.22,
+      "20": 0.78,
+      "21": 0.28,
+      "22": 0.78,
+      "23": 2.28,
+      "24": 3.22,
+      "25": 0.78,
+      "26": 0.78,
+      "27": 0.55,
+      "28": 3.28,
+      "29": 1.78,
+      "3": 2.28,
+      "30": 0.28,
+      "31": 6.22,
+      "32": 3.78,
+      "4": 7.22,
+      "5": 0.78,
+      "6": 1.89,
+      "7": 1.78,
+      "8": 1.22,
+      "9": 1.22
+    },
+    "cadences": [
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:4",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "soprano_formula": "7-6",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "1-4",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:5",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "soprano_formula": null,
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "1-4",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:11",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "soprano_formula": "5-6",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:12",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.8,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "soprano_formula": "7-6",
+        "strength": 0.8,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 7-1",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "1-3",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:18",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "soprano_formula": "5-1",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "4-4",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:19",
+        "cadence_type": "DC",
+        "detector_confidence": 0.42,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "soprano_formula": "2-3",
+        "strength": 0.42,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:20",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.65,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "soprano_formula": null,
+        "strength": 0.65,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "3-6",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:22",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.65,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "soprano_formula": "7-1",
+        "strength": 0.65,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "5-4",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:24",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.85,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "soprano_formula": "7-6",
+        "strength": 0.85,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "7-6",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:25",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "soprano_formula": "5-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "1-4",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:26",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "soprano_formula": "5-4",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:27",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.58,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "soprano_formula": "7-1",
+        "strength": 0.58,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 5-6",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "3-6",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:28",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.43,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m28",
+        "soprano_formula": "2-1",
+        "strength": 0.43,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-5",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:31",
+        "cadence_type": "HC",
+        "detector_confidence": 0.43,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "soprano_formula": "7-6",
+        "strength": 0.43,
+        "type_candidates": [
+          "HC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "1-4",
+        "cadence_id": "notes__133 Wir glauben all an einen Gott:cad:32",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "A minor",
+        "key_before": "A minor",
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m32",
+        "soprano_formula": null,
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__133 Wir glauben all an einen Gott-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__133 Wir glauben all an einen Gott:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__133 Wir glauben all an einen Gott:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__133 Wir glauben all an einen Gott:m1"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 15 cadence candidate(s) across 250 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__133 Wir glauben all an einen Gott-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__133 Wir glauben all an einen Gott:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 33 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 4.0,
+        "10": 5.0,
+        "11": 7.33,
+        "12": 3.0,
+        "13": 4.0,
+        "14": 4.0,
+        "15": 4.0,
+        "16": 4.0,
+        "17": 3.0,
+        "18": 4.0,
+        "19": 8.0,
+        "2": 5.0,
+        "20": 4.0,
+        "21": 4.5,
+        "22": 4.0,
+        "23": 2.5,
+        "24": 8.0,
+        "25": 4.0,
+        "26": 4.0,
+        "27": 5.33,
+        "28": 1.5,
+        "29": 3.0,
+        "3": 2.5,
+        "30": 4.5,
+        "31": 11.0,
+        "32": 1.0,
+        "4": 12.0,
+        "5": 4.0,
+        "6": 6.67,
+        "7": 3.0,
+        "8": 6.0,
+        "9": 6.0
+      },
+      "pitch_class_histogram": {
+        "0": 46,
+        "1": 35,
+        "10": 24,
+        "11": 33,
+        "2": 108,
+        "3": 1,
+        "4": 102,
+        "5": 69,
+        "6": 9,
+        "7": 72,
+        "8": 11,
+        "9": 116
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.25,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:0",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 1.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h1:375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m1",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 4.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:475",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 5.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "V7/V",
+          "i",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:575",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 6.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h2:750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m2",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h3:800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 8.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h3:900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m3",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G44",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h3:1000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m3",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h3:1100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:B"
+        ],
+        "onset": 11.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m3",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h3:1150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m3",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 12.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1425",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 14.25,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1475",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1525",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#"
+        ],
+        "onset": 15.25,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h4:1550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m4",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 16.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1675",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 16.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E",
+          "PT:E"
+        ],
+        "onset": 18.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h5:1950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m5",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:B"
+        ],
+        "onset": 20.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.25,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2075",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "viio7/VII",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 21.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C",
+          "SUS:E"
+        ],
+        "onset": 21.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VII",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B"
+        ],
+        "onset": 22.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2350",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h6:2375",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m6",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h7:2400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:Ab"
+        ],
+        "onset": 24.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h7:2450",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m7",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h7:2500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 25.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m7",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "VI7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h7:2550",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m7",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h7:2575",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m7",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 3.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h7:2600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m7",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h8:2900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:E",
+          "NCT:E"
+        ],
+        "onset": 29.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m8",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h8:2950",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m8",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h8:3000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m8",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h8:3050",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m8",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h8:3100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m8",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h8:3150",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m8",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C#"
+        ],
+        "onset": 32.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C#"
+        ],
+        "onset": 33.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3350",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3450",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3475",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 34.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h9:3550",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 36.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3650",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 36.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3675",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:B"
+        ],
+        "onset": 36.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "V/iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:Bb"
+        ],
+        "onset": 38.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 38.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3875",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h10:3975",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m10",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 40.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4075",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4275",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 43.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h11:4375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m11",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h12:4400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 44.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h12:4450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h12:4500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h12:4550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h12:4575",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h12:4600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:4800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 48.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:4850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C",
+          "PT:A"
+        ],
+        "onset": 48.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:4900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:B"
+        ],
+        "onset": 49.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:4950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "V/VII",
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:5000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:5050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 50.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:5100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:B"
+        ],
+        "onset": 51.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h13:5150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m13",
+        "roman_numeral_candidate_set": [
+          "V/VII",
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 52.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5300",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Bb"
+        ],
+        "onset": 53.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5350",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 53.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5400",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5450",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5500",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 55.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h14:5550",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 55.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m14",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5600",
+        "local_key": "D major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 56.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 56.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5675",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 56.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:F#"
+        ],
+        "onset": 57.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 58.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E",
+          "PT:F#"
+        ],
+        "onset": 58.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h15:5950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 59.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m15",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:A"
+        ],
+        "onset": 60.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 60.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 61.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 61.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A",
+          "SUS:A"
+        ],
+        "onset": 62.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:E"
+        ],
+        "onset": 63.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h16:6350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 63.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m16",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h17:6400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 64.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h17:6450",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 64.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h17:6500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 65.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h17:6550",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 65.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m17",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h17:6575",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 65.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m17",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h17:6600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C#"
+        ],
+        "onset": 66.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m17",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:6800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 68.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:6850",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 68.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:6900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 69.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:6950",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 69.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:7000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 70.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:7050",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 70.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:7100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 71.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h18:7150",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 71.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m18",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 72.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 72.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "viio7/VII",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:E",
+          "NCT:E"
+        ],
+        "onset": 73.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7350",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C"
+        ],
+        "onset": 73.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 74.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7450",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 74.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 75.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h19:7550",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 75.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m19",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7600",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 76.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7650",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7675",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:B"
+        ],
+        "onset": 76.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 77.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:E"
+        ],
+        "onset": 78.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7850",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G",
+          "SUS:E"
+        ],
+        "onset": 78.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 79.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h20:7950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 79.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m20",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8000",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 80.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8050",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 80.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8075",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 80.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 81.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 82.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 82.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 83.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 83.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h21:8375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 83.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m21",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 84.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A",
+          "SUS:A"
+        ],
+        "onset": 84.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:E"
+        ],
+        "onset": 85.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 85.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 86.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 86.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "ii\u00f87",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 87.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h22:8750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 87.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m22",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h23:8800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:A"
+        ],
+        "onset": 88.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m23",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h23:9000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 90.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m23",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h23:9050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 90.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m23",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h23:9100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 91.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m23",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h23:9150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 91.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m23",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 92.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 92.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 93.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:A"
+        ],
+        "onset": 93.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 94.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 94.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 95.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h24:9550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 95.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m24",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 96.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 96.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 97.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 97.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 98.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 98.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 99.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h25:9950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 99.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m25",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:A"
+        ],
+        "onset": 100.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 100.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10075",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 100.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 101.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 102.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 102.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 103.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h26:10350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 103.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m26",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 104.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A",
+          "SUS:A"
+        ],
+        "onset": 104.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 105.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10550",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 105.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "V/VII",
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 106.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C"
+        ],
+        "onset": 106.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 107.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h27:10750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B"
+        ],
+        "onset": 107.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m27",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 3.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h28:10800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 108.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m28",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h28:11100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:G"
+        ],
+        "onset": 111.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m28",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h28:11150",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 111.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m28",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h29:11200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 112.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m29",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h29:11250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb",
+          "NCT:Bb"
+        ],
+        "onset": 112.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m29",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h29:11300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 113.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m29",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h29:11350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 113.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m29",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h29:11375",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 113.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m29",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h29:11400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 114.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m29",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 116.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11650",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 116.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "V7/V",
+          "i",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11700",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 117.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11750",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 117.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11800",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 118.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11850",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 118.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11900",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 119.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "ii\u00b0",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11950",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 119.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h30:11975",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 119.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m30",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12000",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 120.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12050",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 120.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12075",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 120.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12100",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 121.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12150",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 121.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12175",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 121.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12200",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 122.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12250",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 122.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 123.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12325",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#"
+        ],
+        "onset": 123.25,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h31:12350",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 123.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m31",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h32:12400",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 124.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m32",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h32:12450",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 124.5,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m32",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h32:12475",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 124.75,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m32",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "D22",
+        "global_key": "A minor",
+        "harmonic_event_id": "notes__133 Wir glauben all an einen Gott:h32:12500",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F#"
+        ],
+        "onset": 125.0,
+        "ref_id": "notes__133 Wir glauben all an einen Gott:m32",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ],
+        "measure": 4,
+        "strength": 0.85,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 5,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 11,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 7-1",
+          "soprano formula 7-6"
+        ],
+        "measure": 12,
+        "strength": 0.8,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 18,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 19,
+        "strength": 0.42,
+        "type": "DC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 20,
+        "strength": 0.65,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "soprano formula 7-1"
+        ],
+        "measure": 22,
+        "strength": 0.65,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "soprano formula 7-6"
+        ],
+        "measure": 24,
+        "strength": 0.85,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 25,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 26,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 5-6",
+          "soprano formula 7-1"
+        ],
+        "measure": 27,
+        "strength": 0.58,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "soprano formula 2-1"
+        ],
+        "measure": 28,
+        "strength": 0.43,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "soprano formula 7-6"
+        ],
+        "measure": 31,
+        "strength": 0.43,
+        "type": "HC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 32,
+        "strength": 0.5,
+        "type": "IAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 8,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 12,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 13,
+          "message": "Spacing violation between S|A.",
+          "severity": "error",
+          "voice_ids": [
+            "S",
+            "A"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 13,
+          "message": "Spacing violation between S|A.",
+          "severity": "error",
+          "voice_ids": [
+            "S",
+            "A"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 13,
+          "message": "Spacing violation between S|A.",
+          "severity": "error",
+          "voice_ids": [
+            "S",
+            "A"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 13,
+          "message": "Spacing violation between S|A.",
+          "severity": "error",
+          "voice_ids": [
+            "S",
+            "A"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 13,
+          "message": "Spacing violation between S|A.",
+          "severity": "error",
+          "voice_ids": [
+            "S",
+            "A"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 22,
+          "message": "Spacing violation between T|B.",
+          "severity": "error",
+          "voice_ids": [
+            "T",
+            "B"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__133 Wir glauben all an einen Gott",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__133 Wir glauben all an einen Gott"
+    },
+    "voice_leading": {
+      "contrary": 55,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 1,
+            "onset": 2.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 3,
+            "onset": 11.5,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "A|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 5,
+            "onset": 18.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 7,
+            "onset": 26.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 8,
+            "onset": 29.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 12,
+            "onset": 46.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 13,
+            "onset": 48.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 13,
+            "onset": 51.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 15,
+            "onset": 59.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 20,
+            "onset": 78.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 23,
+            "onset": 88.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 0,
+            "measure": 24,
+            "onset": 92.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 26,
+            "onset": 100.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 26,
+            "onset": 102.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "measure": 1,
+            "onset": 3.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 1,
+            "onset": 3.75,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 13,
+            "onset": 51.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 16,
+            "onset": 61.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 16,
+            "onset": 61.5,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 19,
+            "onset": 74.5,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 19,
+            "onset": 75.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 19,
+            "onset": 75.5,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 20,
+            "onset": 76.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 20,
+            "onset": 76.5,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 20,
+            "onset": 76.75,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 20,
+            "onset": 77.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 23,
+            "onset": 91.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 23,
+            "onset": 91.5,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 24,
+            "onset": 95.0,
+            "type": "voice_crossing",
+            "voices": "A|T"
+          },
+          {
+            "measure": 24,
+            "onset": 95.5,
+            "type": "voice_crossing",
+            "voices": "S|A"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 24,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 24,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 31,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 2,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 5,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 17,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 19,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 22,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 26,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 32,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 10,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 15,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 20,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 21,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 22,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 29,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 30,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 23
+      },
+      "oblique": 161,
+      "parallel": 9,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 33,
+      "spacing_issues": [
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 8,
+          "onset": 30.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 12,
+          "onset": 44.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 13,
+          "onset": 48.0,
+          "voices": "S|A"
+        },
+        {
+          "interval": 14,
+          "issue": "spacing",
+          "measure": 13,
+          "onset": 48.5,
+          "voices": "S|A"
+        },
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 13,
+          "onset": 49.5,
+          "voices": "S|A"
+        },
+        {
+          "interval": 16,
+          "issue": "spacing",
+          "measure": 13,
+          "onset": 50.0,
+          "voices": "S|A"
+        },
+        {
+          "interval": 16,
+          "issue": "spacing",
+          "measure": 13,
+          "onset": 50.5,
+          "voices": "S|A"
+        },
+        {
+          "interval": 21,
+          "issue": "spacing",
+          "measure": 22,
+          "onset": 87.5,
+          "voices": "T|B"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__133 Wir glauben all an einen Gott",
+    "genre": "chorale",
+    "key": "A minor",
+    "key_mode": "minor",
+    "key_tonic": "A"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 21,
+      "measure_start": 21,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 22,
+      "measure_start": 22,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 23,
+      "measure_start": 23,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 24,
+      "measure_start": 24,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 25,
+      "measure_start": 25,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 26,
+      "measure_start": 26,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 27,
+      "measure_start": 27,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 28,
+      "measure_start": 28,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 29,
+      "measure_start": 29,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 30,
+      "measure_start": 30,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 31,
+      "measure_start": 31,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 32,
+      "measure_start": 32,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__133 Wir glauben all an einen Gott",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/133 Wir glauben all an einen Gott.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m1",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m3",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m3",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m5",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m6",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m6",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m6",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m9",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m9",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m10",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m10",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m10",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m11",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m13",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m13",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m13",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m13",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m13",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m14",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m14",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m15",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m15",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m15",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m15",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m17",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m20",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m27",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m27",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m30",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m32",
+    "Harmonic ambiguity at notes__133 Wir glauben all an einen Gott:m32"
+  ],
+  "work_id": "notes__133 Wir glauben all an einen Gott"
+}

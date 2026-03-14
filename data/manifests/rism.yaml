@@ -1,0 +1,30 @@
+dataset_id: rism
+name: "RISM"
+type: authority_metadata
+scope:
+  - bibliographic_records
+  - source_repositories
+  - incipits
+source_url: "https://rism.online/"
+api_or_export_notes:
+  - "Use permanent record identifiers."
+  - "Prefer API and monthly export references over scraped HTML."
+retrieved_at: "2026-03-07"
+license:
+  data: "CC BY"
+checksum_policy: sha256
+storage_policy:
+  raw_dir: "data/raw/rism"
+  normalized_dir: "data/normalized/rism"
+  derived_dir: "data/derived/rism"
+redistribution:
+  metadata_allowed: true
+  raw_assets_allowed: true
+provenance_requirements:
+  - permanent record id
+  - retrieval timestamp
+  - query parameters or export batch id
+  - checksum
+notes:
+  - "Use RISM primarily for authority enrichment, repository linkage, and source comparison context."
+  - "Keep RISM identifiers separate from Bach Digital identifiers and join through explicit mappings."

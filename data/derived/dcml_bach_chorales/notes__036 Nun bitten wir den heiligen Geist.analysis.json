@@ -1,0 +1,1872 @@
+{
+  "anomalies": {
+    "1": 2.81,
+    "10": 0.31,
+    "11": 1.81,
+    "12": 3.19,
+    "13": 0.31,
+    "14": 1.81,
+    "15": 1.19,
+    "2": 3.19,
+    "3": 3.19,
+    "4": 2.81,
+    "5": 3.19,
+    "6": 0.86,
+    "7": 1.31,
+    "8": 0.81,
+    "9": 2.81
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__036 Nun bitten wir den heiligen Geist:cad:4",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.99,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m4",
+      "soprano_formula": "2-1",
+      "strength": 0.99,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "1-3",
+      "cadence_id": "notes__036 Nun bitten wir den heiligen Geist:cad:6",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "soprano_formula": "3-1",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__036 Nun bitten wir den heiligen Geist:cad:7",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.8,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m7",
+      "soprano_formula": "2-1",
+      "strength": 0.8,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__036 Nun bitten wir den heiligen Geist:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "soprano_formula": "3-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__036 Nun bitten wir den heiligen Geist:cad:12",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.37,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "soprano_formula": "2-3",
+      "strength": 0.37,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "2-5",
+      "cadence_id": "notes__036 Nun bitten wir den heiligen Geist:cad:14",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "A major",
+      "key_before": "A major",
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m14",
+      "soprano_formula": "6-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__036 Nun bitten wir den heiligen Geist-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 6 cadence candidate(s) across 79 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__036 Nun bitten wir den heiligen Geist-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 13 similar-motion transition(s) with 1 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 3.5,
+      "11": 2.0,
+      "12": 7.0,
+      "13": 3.5,
+      "14": 2.0,
+      "15": 5.0,
+      "2": 7.0,
+      "3": 7.0,
+      "4": 1.0,
+      "5": 7.0,
+      "6": 4.67,
+      "7": 2.5,
+      "8": 3.0,
+      "9": 1.0
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 34,
+      "10": 0,
+      "11": 31,
+      "2": 24,
+      "3": 2,
+      "4": 40,
+      "5": 2,
+      "6": 28,
+      "7": 1,
+      "8": 26,
+      "9": 48
+    }
+  },
+  "encoding_id": "notes__036 Nun bitten wir den heiligen Geist",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h1:0",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m1",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:100",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:150",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "ii7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:250",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h2:450",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m2",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:650",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:750",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 8.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h3:850",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h4:900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h4:1200",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h4:1250",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1300",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1350",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1400",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1450",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1500",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1600",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h5:1650",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m5",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:1700",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:1800",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:1850",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:1900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:1950",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:2000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h6:2050",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 2.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h7:2100",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h7:2300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h7:2350",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 23.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h7:2400",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 24.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m7",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h7:2450",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h8:2500",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h8:2550",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab",
+        "PT:E"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VII",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h8:2600",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h8:2650",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h8:2700",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h8:2800",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m8",
+      "roman_numeral_candidate_set": [
+        "V/iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h9:2900",
+      "local_key": "C# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h9:3200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3350",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3400",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 34.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3450",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3500",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3550",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 35.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h10:3600",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m10",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h11:3700",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m11",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h11:3900",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m11",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h11:3950",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:B",
+        "SUS:B"
+      ],
+      "onset": 39.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m11",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h11:4000",
+      "local_key": "A major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m11",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4100",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4150",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 41.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "IV7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4200",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 42.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4250",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4300",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 44.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h12:4450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Ab"
+      ],
+      "onset": 45.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 46.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4700",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4800",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h13:4850",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h14:4900",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m14",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h14:5100",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:D",
+        "PT:D"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m14",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h14:5200",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 52.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m14",
+      "roman_numeral_candidate_set": [
+        "vi7",
+        "vi",
+        "iii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h14:5250",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m14",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h15:5300",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m15",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h15:5350",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m15",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h15:5400",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:B"
+      ],
+      "onset": 54.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m15",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h15:5450",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 54.5,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m15",
+      "roman_numeral_candidate_set": [
+        "V7/IV",
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "A major",
+      "harmonic_event_id": "notes__036 Nun bitten wir den heiligen Geist:h15:5500",
+      "local_key": "E major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 55.0,
+      "ref_id": "notes__036 Nun bitten wir den heiligen Geist:m15",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "A major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 4,
+      "strength": 0.99,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 6,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 7,
+      "strength": 0.8,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 12,
+      "strength": 0.37,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 14,
+      "strength": 0.7,
+      "type": "IAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 5,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 5,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 13,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "parallel_5ths",
+        "measure": null,
+        "message": "Parallel fifths detected.",
+        "severity": "error",
+        "voice_ids": []
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__036 Nun bitten wir den heiligen Geist",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__036 Nun bitten wir den heiligen Geist"
+  },
+  "voice_leading": {
+    "contrary": 28,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 8.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 4,
+          "onset": 9.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 4,
+          "onset": 12.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 7,
+          "onset": 21.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "measure": 7,
+          "onset": 23.0,
+          "type": "parallel_5ths",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 41.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        }
+      ],
+      "parallel_5ths": 1,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "B"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 13,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 3
+    },
+    "oblique": 37,
+    "parallel": 2,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 13,
+    "spacing_issues": [
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 5,
+        "onset": 14.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 5,
+        "onset": 14.5,
+        "voices": "A|T"
+      },
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 13,
+        "onset": 45.5,
+        "voices": "A|T"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__036 Nun bitten wir den heiligen Geist"
+}

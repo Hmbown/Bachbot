@@ -1,0 +1,5325 @@
+{
+  "chorale_metadata_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/chorale_metadata.json",
+  "chorale_projection_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/chorale_projection.umap.npy",
+  "chorale_vectors_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/chorale_embeddings.32d.npy",
+  "chorales": [
+    {
+      "encoding_id": "notes__001 Aus meines Herzens Grunde",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        0.7495,
+        3.8598
+      ],
+      "work_id": "notes__001 Aus meines Herzens Grunde"
+    },
+    {
+      "encoding_id": "notes__002 Ich danke dir, lieber Herre",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        2.0343,
+        3.1839
+      ],
+      "work_id": "notes__002 Ich danke dir, lieber Herre"
+    },
+    {
+      "encoding_id": "notes__003 Ach Gott, vom Himmel sieh darein",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.2951,
+        3.6367
+      ],
+      "work_id": "notes__003 Ach Gott, vom Himmel sieh darein"
+    },
+    {
+      "encoding_id": "notes__004 Es ist das Heil uns kommen her",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "projection_2d": [
+        -0.3348,
+        6.0721
+      ],
+      "work_id": "notes__004 Es ist das Heil uns kommen her"
+    },
+    {
+      "encoding_id": "notes__005 An Wasserfl\u00fcssen Babylon",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.2089,
+        3.1
+      ],
+      "work_id": "notes__005 An Wasserfl\u00fcssen Babylon"
+    },
+    {
+      "encoding_id": "notes__006 Nun lob, mein Seel, den Herren",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        6.1885,
+        1.5912
+      ],
+      "work_id": "notes__006 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__007 Christus, der ist mein Leben",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        0.1471,
+        4.0368
+      ],
+      "work_id": "notes__007 Christus, der ist mein Leben"
+    },
+    {
+      "encoding_id": "notes__008 Freuet euch, ihr Christen alle",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "projection_2d": [
+        9.4299,
+        1.5978
+      ],
+      "work_id": "notes__008 Freuet euch, ihr Christen alle"
+    },
+    {
+      "encoding_id": "notes__009 Ermuntre dich, mein schwacher Geist",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        1.5249,
+        2.8591
+      ],
+      "work_id": "notes__009 Ermuntre dich, mein schwacher Geist"
+    },
+    {
+      "encoding_id": "notes__010 Aus tiefer Not schrei ich zu dir",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.0926,
+        0.1092
+      ],
+      "work_id": "notes__010 Aus tiefer Not schrei ich zu dir"
+    },
+    {
+      "encoding_id": "notes__011 Jesu, nun sei gepreiset",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        5.2298,
+        2.7713
+      ],
+      "work_id": "notes__011 Jesu, nun sei gepreiset"
+    },
+    {
+      "encoding_id": "notes__012 Puer natus in Bethlehem",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        2.2924,
+        3.5327
+      ],
+      "work_id": "notes__012 Puer natus in Bethlehem"
+    },
+    {
+      "encoding_id": "notes__013 Allein zu dir, Herr Jesu Christ",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.5671,
+        2.134
+      ],
+      "work_id": "notes__013 Allein zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__014 O Herre Gott, dein g\u00f6ttlich Wort",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        0.3758,
+        4.5306
+      ],
+      "work_id": "notes__014 O Herre Gott, dein g\u00f6ttlich Wort"
+    },
+    {
+      "encoding_id": "notes__015 Christ lag in Todesbanden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.3773,
+        3.2362
+      ],
+      "work_id": "notes__015 Christ lag in Todesbanden"
+    },
+    {
+      "encoding_id": "notes__016 Es woll uns Gott gen\u00e4dig sein",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        7.1713,
+        2.1605
+      ],
+      "work_id": "notes__016 Es woll uns Gott gen\u00e4dig sein"
+    },
+    {
+      "encoding_id": "notes__017 Erschienen ist der herrliche Tag",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        6.5335,
+        0.9414
+      ],
+      "work_id": "notes__017 Erschienen ist der herrliche Tag"
+    },
+    {
+      "encoding_id": "notes__018 Gottes Sohn ist kommen",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.4328,
+        6.2146
+      ],
+      "work_id": "notes__018 Gottes Sohn ist kommen"
+    },
+    {
+      "encoding_id": "notes__019 Ich hab mein Sach Gott heimgestellt",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        6.6184,
+        1.1039
+      ],
+      "work_id": "notes__019 Ich hab mein Sach Gott heimgestellt"
+    },
+    {
+      "encoding_id": "notes__020 Ein feste Burg ist unser Gott",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        7.8896,
+        1.2266
+      ],
+      "work_id": "notes__020 Ein feste Burg ist unser Gott"
+    },
+    {
+      "encoding_id": "notes__021 Herzlich tut mich verlangen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.9904,
+        0.3144
+      ],
+      "work_id": "notes__021 Herzlich tut mich verlangen"
+    },
+    {
+      "encoding_id": "notes__022 Schm\u00fccke dich, o liebe Seele",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        -0.3672,
+        5.2194
+      ],
+      "work_id": "notes__022 Schm\u00fccke dich, o liebe Seele"
+    },
+    {
+      "encoding_id": "notes__023 Zeuch ein zu deinen Toren",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.6896,
+        3.4518
+      ],
+      "work_id": "notes__023 Zeuch ein zu deinen Toren"
+    },
+    {
+      "encoding_id": "notes__024 Valet will ich dir geben",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        2.7489,
+        2.9142
+      ],
+      "work_id": "notes__024 Valet will ich dir geben"
+    },
+    {
+      "encoding_id": "notes__025 Wo soll ich fliehen hin",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "projection_2d": [
+        8.6401,
+        0.2291
+      ],
+      "work_id": "notes__025 Wo soll ich fliehen hin"
+    },
+    {
+      "encoding_id": "notes__026 O Ewigkeit, du Donnerwort",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        1.1263,
+        4.4612
+      ],
+      "work_id": "notes__026 O Ewigkeit, du Donnerwort"
+    },
+    {
+      "encoding_id": "notes__027 Es spricht der Unweisen Mund wohl",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        -1.2666,
+        6.7365
+      ],
+      "work_id": "notes__027 Es spricht der Unweisen Mund wohl"
+    },
+    {
+      "encoding_id": "notes__028 Nun komm, der Heiden Heiland",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.7882,
+        2.2143
+      ],
+      "work_id": "notes__028 Nun komm, der Heiden Heiland"
+    },
+    {
+      "encoding_id": "notes__029 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.0543,
+        6.5391
+      ],
+      "work_id": "notes__029 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__030 Jesus Christus, unser Heiland",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.6606,
+        1.6458
+      ],
+      "work_id": "notes__030 Jesus Christus, unser Heiland"
+    },
+    {
+      "encoding_id": "notes__031 Ach lieben Christen, seid getrost",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.4097,
+        0.1545
+      ],
+      "work_id": "notes__031 Ach lieben Christen, seid getrost"
+    },
+    {
+      "encoding_id": "notes__032 Nun danket alle Gott",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -1.2786,
+        6.2984
+      ],
+      "work_id": "notes__032 Nun danket alle Gott"
+    },
+    {
+      "encoding_id": "notes__033 Erbarm dich mein, o Herre Gott",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        6.3025,
+        1.4853
+      ],
+      "work_id": "notes__033 Erbarm dich mein, o Herre Gott"
+    },
+    {
+      "encoding_id": "notes__034 Gott des Himmels und der Erden",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -0.1558,
+        5.7623
+      ],
+      "work_id": "notes__034 Gott des Himmels und der Erden"
+    },
+    {
+      "encoding_id": "notes__035 Herr, ich habe mi\u00dfgehandelt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.2929,
+        2.3914
+      ],
+      "work_id": "notes__035 Herr, ich habe mi\u00dfgehandelt"
+    },
+    {
+      "encoding_id": "notes__036 Nun bitten wir den heiligen Geist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.9559,
+        3.0655
+      ],
+      "work_id": "notes__036 Nun bitten wir den heiligen Geist"
+    },
+    {
+      "encoding_id": "notes__037 Jesu, der du meine Seele",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.1907,
+        3.3485
+      ],
+      "work_id": "notes__037 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__038 Straf mich nicht in deinem Zorn",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        -0.8472,
+        5.6334
+      ],
+      "work_id": "notes__038 Straf mich nicht in deinem Zorn"
+    },
+    {
+      "encoding_id": "notes__039 Ach, was soll ich S\u00fcnder machen",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        6.2871,
+        2.1259
+      ],
+      "work_id": "notes__039 Ach, was soll ich S\u00fcnder machen"
+    },
+    {
+      "encoding_id": "notes__040 Ach Gott und Herr",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -1.1864,
+        6.8404
+      ],
+      "work_id": "notes__040 Ach Gott und Herr"
+    },
+    {
+      "encoding_id": "notes__041 Was mein Gott will, das gescheh allzeit",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.634,
+        0.9515
+      ],
+      "work_id": "notes__041 Was mein Gott will, das gescheh allzeit"
+    },
+    {
+      "encoding_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -0.5322,
+        6.3565
+      ],
+      "work_id": "notes__042 Du Friedef\u00fcrst, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__043 Liebster Gott, wenn werd ich sterben",
+      "key": "C# minor",
+      "key_mode": "minor",
+      "key_tonic": "C#",
+      "projection_2d": [
+        3.0728,
+        3.009
+      ],
+      "work_id": "notes__043 Liebster Gott, wenn werd ich sterben"
+    },
+    {
+      "encoding_id": "notes__044 Machs mit mir Gott, nach deiner G\u00fct",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        -0.5053,
+        5.6141
+      ],
+      "work_id": "notes__044 Machs mit mir Gott, nach deiner G\u00fct"
+    },
+    {
+      "encoding_id": "notes__045 Vom Himmel hoch, da komm ich her",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        -1.3292,
+        5.6619
+      ],
+      "work_id": "notes__045 Vom Himmel hoch, da komm ich her"
+    },
+    {
+      "encoding_id": "notes__046 Kommt her zu mir, spricht Gottes Sohn",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.9206,
+        3.0999
+      ],
+      "work_id": "notes__046 Kommt her zu mir, spricht Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__047 Vater unser im Himmelreich",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        10.1167,
+        2.7606
+      ],
+      "work_id": "notes__047 Vater unser im Himmelreich"
+    },
+    {
+      "encoding_id": "notes__048 Ach wie nichtig, ach wie fl\u00fcchtig",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.4081,
+        2.9492
+      ],
+      "work_id": "notes__048 Ach wie nichtig, ach wie fl\u00fcchtig"
+    },
+    {
+      "encoding_id": "notes__049 Mit Fried und Freud ich fahr dahin",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.3223,
+        1.6689
+      ],
+      "work_id": "notes__049 Mit Fried und Freud ich fahr dahin"
+    },
+    {
+      "encoding_id": "notes__051 Wenn mein St\u00fcndlein vorhanden ist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        2.195,
+        3.3662
+      ],
+      "work_id": "notes__051 Wenn mein St\u00fcndlein vorhanden ist"
+    },
+    {
+      "encoding_id": "notes__052 Das neugeborne Kindelein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.6993,
+        2.0872
+      ],
+      "work_id": "notes__052 Das neugeborne Kindelein"
+    },
+    {
+      "encoding_id": "notes__053 Gelobet seist du, Jesu Christ",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.1375,
+        6.5135
+      ],
+      "work_id": "notes__053 Gelobet seist du, Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__054 Lobt Gott, ihr Christen allzugleich",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.6031,
+        5.9509
+      ],
+      "work_id": "notes__054 Lobt Gott, ihr Christen allzugleich"
+    },
+    {
+      "encoding_id": "notes__055 Christum wir sollen loben schon",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.999,
+        1.9249
+      ],
+      "work_id": "notes__055 Christum wir sollen loben schon"
+    },
+    {
+      "encoding_id": "notes__056 Herzlich lieb hab ich dich, o Herr",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        5.9267,
+        1.5017
+      ],
+      "work_id": "notes__056 Herzlich lieb hab ich dich, o Herr"
+    },
+    {
+      "encoding_id": "notes__057 Wir Christenleut",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        10.2507,
+        1.9147
+      ],
+      "work_id": "notes__057 Wir Christenleut"
+    },
+    {
+      "encoding_id": "notes__059 Jesu Leiden, Pein und Tod",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        1.5786,
+        2.9826
+      ],
+      "work_id": "notes__059 Jesu Leiden, Pein und Tod"
+    },
+    {
+      "encoding_id": "notes__060 O Traurigkeit, o Herzeleid",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.755,
+        3.6643
+      ],
+      "work_id": "notes__060 O Traurigkeit, o Herzeleid"
+    },
+    {
+      "encoding_id": "notes__061 Ich freue mich in dir",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        1.3233,
+        3.2406
+      ],
+      "work_id": "notes__061 Ich freue mich in dir"
+    },
+    {
+      "encoding_id": "notes__062 Nun ruhen alle W\u00e4lder",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -0.814,
+        5.0972
+      ],
+      "work_id": "notes__062 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__063 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.3848,
+        3.2989
+      ],
+      "work_id": "notes__063 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__064 Was Gott tut, das ist wohlgetan",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.0674,
+        6.6202
+      ],
+      "work_id": "notes__064 Was Gott tut, das ist wohlgetan"
+    },
+    {
+      "encoding_id": "notes__065 Christ unser Herr zum Jordan kam",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        10.1029,
+        1.0921
+      ],
+      "work_id": "notes__065 Christ unser Herr zum Jordan kam"
+    },
+    {
+      "encoding_id": "notes__066 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.5858,
+        3.8852
+      ],
+      "work_id": "notes__066 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__067 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.5908,
+        3.9412
+      ],
+      "work_id": "notes__067 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__068 Wenn wir in h\u00f6chsten N\u00f6ten sein",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        -0.7676,
+        4.9746
+      ],
+      "work_id": "notes__068 Wenn wir in h\u00f6chsten N\u00f6ten sein"
+    },
+    {
+      "encoding_id": "notes__069 Komm, heiliger Geist, Herre Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.124,
+        4.1463
+      ],
+      "work_id": "notes__069 Komm, heiliger Geist, Herre Gott"
+    },
+    {
+      "encoding_id": "notes__070 Gott sei gelobet und gebenedeiet",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.0274,
+        5.8839
+      ],
+      "work_id": "notes__070 Gott sei gelobet und gebenedeiet"
+    },
+    {
+      "encoding_id": "notes__071 Ich ruf zu dir, Herr Jesu Christ",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.7824,
+        2.0449
+      ],
+      "work_id": "notes__071 Ich ruf zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__072 Erhalt uns, Herr, bei deinem Wort",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.8296,
+        3.5274
+      ],
+      "work_id": "notes__072 Erhalt uns, Herr, bei deinem Wort"
+    },
+    {
+      "encoding_id": "notes__073 Herr Jesu Christ, du h\u00f6chstes Gut",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.5608,
+        3.5616
+      ],
+      "work_id": "notes__073 Herr Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__074 O Haupt voll Blut und Wunden",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        6.9108,
+        1.0492
+      ],
+      "work_id": "notes__074 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__075 Das walt mein Gott",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        0.9018,
+        3.0239
+      ],
+      "work_id": "notes__075 Das walt mein Gott"
+    },
+    {
+      "encoding_id": "notes__076 Freu dich sehr, o meine Seele",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.4096,
+        3.6837
+      ],
+      "work_id": "notes__076 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__077 In dich hab ich gehoffet, Herr",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.2884,
+        5.1105
+      ],
+      "work_id": "notes__077 In dich hab ich gehoffet, Herr"
+    },
+    {
+      "encoding_id": "notes__078 Herzliebster Jesu, was hast du verbrochen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        8.1305,
+        2.8892
+      ],
+      "work_id": "notes__078 Herzliebster Jesu, was hast du verbrochen"
+    },
+    {
+      "encoding_id": "notes__079 Heut triumphieret Gottes Sohn",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.6361,
+        2.4712
+      ],
+      "work_id": "notes__079 Heut triumphieret Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__080 Christus, der uns selig macht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.0725,
+        0.4427
+      ],
+      "work_id": "notes__080 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__081 O gro\u00dfer Gott von Macht",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.0344,
+        0.4888
+      ],
+      "work_id": "notes__081 O gro\u00dfer Gott von Macht"
+    },
+    {
+      "encoding_id": "notes__082 Jesu Leiden, Pein und Tod",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        4.826,
+        2.8041
+      ],
+      "work_id": "notes__082 Jesu Leiden, Pein und Tod"
+    },
+    {
+      "encoding_id": "notes__083 Nun bitten wir den Heiligen Geist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.0755,
+        4.0327
+      ],
+      "work_id": "notes__083 Nun bitten wir den Heiligen Geist"
+    },
+    {
+      "encoding_id": "notes__084 O Gott, du frommer Gott",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "projection_2d": [
+        -0.5649,
+        5.9415
+      ],
+      "work_id": "notes__084 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__085 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.6135,
+        2.8778
+      ],
+      "work_id": "notes__085 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.3759,
+        3.8095
+      ],
+      "work_id": "notes__086 Du, o sch\u00f6nes Weltgeb\u00e4ude"
+    },
+    {
+      "encoding_id": "notes__087 O Haupt voll Blut und Wunden",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        6.9913,
+        1.2355
+      ],
+      "work_id": "notes__087 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__088 Helft mir Gottes G\u00fcte preisen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.776,
+        3.3555
+      ],
+      "work_id": "notes__088 Helft mir Gottes G\u00fcte preisen"
+    },
+    {
+      "encoding_id": "notes__089 O Haupt voll Blut und Wunden",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.3539,
+        0.037
+      ],
+      "work_id": "notes__089 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__090 Hast du denn, Jesu, dein",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        -0.9623,
+        6.7533
+      ],
+      "work_id": "notes__090 Hast du denn, Jesu, dein"
+    },
+    {
+      "encoding_id": "notes__091 Verleih uns Frieden gn\u00e4diglich",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "projection_2d": [
+        6.8627,
+        1.7147
+      ],
+      "work_id": "notes__091 Verleih uns Frieden gn\u00e4diglich"
+    },
+    {
+      "encoding_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        10.6995,
+        2.1109
+      ],
+      "work_id": "notes__092 O Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__093 Wach auf mein Herz und singe",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        2.4004,
+        3.2016
+      ],
+      "work_id": "notes__093 Wach auf mein Herz und singe"
+    },
+    {
+      "encoding_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.5497,
+        3.2896
+      ],
+      "work_id": "notes__094 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    {
+      "encoding_id": "notes__095 Werde munter, mein Gem\u00fcte",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        1.2261,
+        3.9779
+      ],
+      "work_id": "notes__095 Werde munter, mein Gem\u00fcte"
+    },
+    {
+      "encoding_id": "notes__096 Jesu, meine Freude",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        7.8343,
+        3.6076
+      ],
+      "work_id": "notes__096 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__097 Nun bitten wir den Heiligen Geist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -0.3022,
+        4.4953
+      ],
+      "work_id": "notes__097 Nun bitten wir den Heiligen Geist"
+    },
+    {
+      "encoding_id": "notes__098 O Haupt voll Blut und Wunden",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        6.931,
+        1.4102
+      ],
+      "work_id": "notes__098 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__099 Helft mir Gottes G\u00fcte preisen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.5084,
+        2.8861
+      ],
+      "work_id": "notes__099 Helft mir Gottes G\u00fcte preisen"
+    },
+    {
+      "encoding_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.5507,
+        1.8012
+      ],
+      "work_id": "notes__100 Ich ruf zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__101 Herr Christ, der ein'ge Gottes Sohn",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        6.0559,
+        1.3048
+      ],
+      "work_id": "notes__101 Herr Christ, der ein'ge Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__102 Ermuntre dich, mein schwacher Geist",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.1406,
+        2.6895
+      ],
+      "work_id": "notes__102 Ermuntre dich, mein schwacher Geist"
+    },
+    {
+      "encoding_id": "notes__104 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        10.1319,
+        1.7757
+      ],
+      "work_id": "notes__104 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__105 Herzliebster Jesu, was hast du verbrochen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.8819,
+        1.3099
+      ],
+      "work_id": "notes__105 Herzliebster Jesu, was hast du verbrochen"
+    },
+    {
+      "encoding_id": "notes__106 Jesu Leiden, Pein und Tod",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -1.2582,
+        6.4798
+      ],
+      "work_id": "notes__106 Jesu Leiden, Pein und Tod"
+    },
+    {
+      "encoding_id": "notes__107 Herzlich lieb hab ich dich, o Herr",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        5.6558,
+        1.4464
+      ],
+      "work_id": "notes__107 Herzlich lieb hab ich dich, o Herr"
+    },
+    {
+      "encoding_id": "notes__108 Valet will ich dir geben",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        -0.9594,
+        6.0976
+      ],
+      "work_id": "notes__108 Valet will ich dir geben"
+    },
+    {
+      "encoding_id": "notes__109 Singen wir aus Herzens Grund",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.0844,
+        3.8576
+      ],
+      "work_id": "notes__109 Singen wir aus Herzens Grund"
+    },
+    {
+      "encoding_id": "notes__110 Vater unser im Himmelreich",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.2015,
+        1.1619
+      ],
+      "work_id": "notes__110 Vater unser im Himmelreich"
+    },
+    {
+      "encoding_id": "notes__111 Herzliebster Jesu, was hast du verbrochen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.965,
+        1.6676
+      ],
+      "work_id": "notes__111 Herzliebster Jesu, was hast du verbrochen"
+    },
+    {
+      "encoding_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        8.8074,
+        4.0245
+      ],
+      "work_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__113 Christus, der uns selig macht",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        10.5981,
+        1.8183
+      ],
+      "work_id": "notes__113 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__114 Von Gott will ich nicht lassen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        10.1147,
+        1.814
+      ],
+      "work_id": "notes__114 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__115 Was mein Gott will, das gescheh allezeit",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.629,
+        0.7766
+      ],
+      "work_id": "notes__115 Was mein Gott will, das gescheh allezeit"
+    },
+    {
+      "encoding_id": "notes__116 Nun lob, mein Seel, den Herren",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.5923,
+        4.8569
+      ],
+      "work_id": "notes__116 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__117 Nun ruhen alle W\u00e4lder",
+      "key": "Ab major",
+      "key_mode": "major",
+      "key_tonic": "Ab",
+      "projection_2d": [
+        2.7181,
+        3.3516
+      ],
+      "work_id": "notes__117 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__118 In dich hab ich gehoffet, Herr",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        0.4639,
+        5.1151
+      ],
+      "work_id": "notes__118 In dich hab ich gehoffet, Herr"
+    },
+    {
+      "encoding_id": "notes__119 Christ unser Herr zum Jordan kam",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.2568,
+        1.1945
+      ],
+      "work_id": "notes__119 Christ unser Herr zum Jordan kam"
+    },
+    {
+      "encoding_id": "notes__120 Was mein Gott will, das gescheh allezeit",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        7.3228,
+        1.7204
+      ],
+      "work_id": "notes__120 Was mein Gott will, das gescheh allezeit"
+    },
+    {
+      "encoding_id": "notes__121 Werde munter, mein Gem\u00fcte",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.0623,
+        4.1948
+      ],
+      "work_id": "notes__121 Werde munter, mein Gem\u00fcte"
+    },
+    {
+      "encoding_id": "notes__122 Ist Gott mein Schild und Helfersmann",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        7.2549,
+        2.2184
+      ],
+      "work_id": "notes__122 Ist Gott mein Schild und Helfersmann"
+    },
+    {
+      "encoding_id": "notes__123 Helft mir Gottes G\u00fcte preisen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.6465,
+        2.9223
+      ],
+      "work_id": "notes__123 Helft mir Gottes G\u00fcte preisen"
+    },
+    {
+      "encoding_id": "notes__124 Auf, auf mein Herz, und du mein ganzer Sinn",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        8.9353,
+        0.8797
+      ],
+      "work_id": "notes__124 Auf, auf mein Herz, und du mein ganzer Sinn"
+    },
+    {
+      "encoding_id": "notes__125 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        0.5412,
+        4.273
+      ],
+      "work_id": "notes__125 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__126 Durch Adams Fall ist ganz verderbt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.4397,
+        1.7975
+      ],
+      "work_id": "notes__126 Durch Adams Fall ist ganz verderbt"
+    },
+    {
+      "encoding_id": "notes__127 Dies sind die heilgen zehn Gebot",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.9671,
+        3.0231
+      ],
+      "work_id": "notes__127 Dies sind die heilgen zehn Gebot"
+    },
+    {
+      "encoding_id": "notes__128 Alles ist an Gottes Segen",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.9134,
+        5.7777
+      ],
+      "work_id": "notes__128 Alles ist an Gottes Segen"
+    },
+    {
+      "encoding_id": "notes__129 Keinen hat Gott verlassen",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        2.992,
+        3.111
+      ],
+      "work_id": "notes__129 Keinen hat Gott verlassen"
+    },
+    {
+      "encoding_id": "notes__130 Meine Seele erhebt den Herren",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        6.6925,
+        2.9497
+      ],
+      "work_id": "notes__130 Meine Seele erhebt den Herren"
+    },
+    {
+      "encoding_id": "notes__131 Liebster Jesu, wir sind hier",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.3401,
+        5.2917
+      ],
+      "work_id": "notes__131 Liebster Jesu, wir sind hier"
+    },
+    {
+      "encoding_id": "notes__132 Kyrie, Gott Vater in Ewigkeit",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        6.4926,
+        1.4627
+      ],
+      "work_id": "notes__132 Kyrie, Gott Vater in Ewigkeit"
+    },
+    {
+      "encoding_id": "notes__133 Wir glauben all an einen Gott",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.777,
+        3.1614
+      ],
+      "work_id": "notes__133 Wir glauben all an einen Gott"
+    },
+    {
+      "encoding_id": "notes__134 Gott der Vater wohn uns bei",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.808,
+        4.0249
+      ],
+      "work_id": "notes__134 Gott der Vater wohn uns bei"
+    },
+    {
+      "encoding_id": "notes__135 Wer Gott vertraut, hat wohl gebaut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        0.6852,
+        3.6165
+      ],
+      "work_id": "notes__135 Wer Gott vertraut, hat wohl gebaut"
+    },
+    {
+      "encoding_id": "notes__136 Herr Jesu Christ, dich zu uns wend",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.7958,
+        6.7036
+      ],
+      "work_id": "notes__136 Herr Jesu Christ, dich zu uns wend"
+    },
+    {
+      "encoding_id": "notes__137 Du, o sch\u00f6nes Weltgeb\u00e4ude",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        8.2493,
+        3.6264
+      ],
+      "work_id": "notes__137 Du, o sch\u00f6nes Weltgeb\u00e4ude"
+    },
+    {
+      "encoding_id": "notes__138 Jesu, meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        7.9052,
+        3.4592
+      ],
+      "work_id": "notes__138 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__139 Warum sollt ich mich denn gr\u00e4men",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        0.2292,
+        5.175
+      ],
+      "work_id": "notes__139 Warum sollt ich mich denn gr\u00e4men"
+    },
+    {
+      "encoding_id": "notes__140 In allen meinen Taten",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        5.8209,
+        1.7198
+      ],
+      "work_id": "notes__140 In allen meinen Taten"
+    },
+    {
+      "encoding_id": "notes__141 Seelenbr\u00e4utigam",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.5655,
+        3.201
+      ],
+      "work_id": "notes__141 Seelenbr\u00e4utigam"
+    },
+    {
+      "encoding_id": "notes__142 Schwing dich auf zu deinem Gott",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.8138,
+        1.1926
+      ],
+      "work_id": "notes__142 Schwing dich auf zu deinem Gott"
+    },
+    {
+      "encoding_id": "notes__143 In dulci jubilo",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        2.3087,
+        3.327
+      ],
+      "work_id": "notes__143 In dulci jubilo"
+    },
+    {
+      "encoding_id": "notes__144 Wer in dem Schutz des H\u00f6chsten ist",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        5.9724,
+        1.933
+      ],
+      "work_id": "notes__144 Wer in dem Schutz des H\u00f6chsten ist"
+    },
+    {
+      "encoding_id": "notes__145 Warum betr\u00fcbst du dich, mein Herz",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.2483,
+        3.862
+      ],
+      "work_id": "notes__145 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    {
+      "encoding_id": "notes__146 Wer nur den lieben Got l\u00e4\u00dft walten",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        10.1455,
+        2.6355
+      ],
+      "work_id": "notes__146 Wer nur den lieben Got l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__147 Wenn ich in Angst und Not",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        -0.3274,
+        5.0007
+      ],
+      "work_id": "notes__147 Wenn ich in Angst und Not"
+    },
+    {
+      "encoding_id": "notes__148 Uns ist ein Kindlein heut geborn",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.3853,
+        5.0459
+      ],
+      "work_id": "notes__148 Uns ist ein Kindlein heut geborn"
+    },
+    {
+      "encoding_id": "notes__149 Nicht so traurig, nicht so sehr",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "projection_2d": [
+        8.6111,
+        3.516
+      ],
+      "work_id": "notes__149 Nicht so traurig, nicht so sehr"
+    },
+    {
+      "encoding_id": "notes__150 Welt ade, ich bin dein m\u00fcde",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        6.0659,
+        2.382
+      ],
+      "work_id": "notes__150 Welt ade, ich bin dein m\u00fcde"
+    },
+    {
+      "encoding_id": "notes__151 Meinen Jesum la\u00df ich nicht, Jesus",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.4841,
+        5.2199
+      ],
+      "work_id": "notes__151 Meinen Jesum la\u00df ich nicht, Jesus"
+    },
+    {
+      "encoding_id": "notes__152 Meinen Jesum la\u00df ich nicht, weil etc",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        -1.0345,
+        6.0464
+      ],
+      "work_id": "notes__152 Meinen Jesum la\u00df ich nicht, weil etc"
+    },
+    {
+      "encoding_id": "notes__153 Alle Menschen m\u00fcssen sterben",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        1.648,
+        3.6834
+      ],
+      "work_id": "notes__153 Alle Menschen m\u00fcssen sterben"
+    },
+    {
+      "encoding_id": "notes__154 Der du bist drei in Einigkeit",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -1.346,
+        5.1755
+      ],
+      "work_id": "notes__154 Der du bist drei in Einigkeit"
+    },
+    {
+      "encoding_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        5.5953,
+        2.4309
+      ],
+      "work_id": "notes__155 Hilf, Herr Jesu, la\u00df gelingen"
+    },
+    {
+      "encoding_id": "notes__156 Ach Gott, wie manches Herzeleid",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.0542,
+        4.3932
+      ],
+      "work_id": "notes__156 Ach Gott, wie manches Herzeleid"
+    },
+    {
+      "encoding_id": "notes__157 Wo Gott zum Haus nicht gibt sein Gunst",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        1.4268,
+        3.0189
+      ],
+      "work_id": "notes__157 Wo Gott zum Haus nicht gibt sein Gunst"
+    },
+    {
+      "encoding_id": "notes__158 Der Tag, der ist so freudenreich",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.5851,
+        5.1314
+      ],
+      "work_id": "notes__158 Der Tag, der ist so freudenreich"
+    },
+    {
+      "encoding_id": "notes__159 Als der g\u00fctige Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.3279,
+        5.001
+      ],
+      "work_id": "notes__159 Als der g\u00fctige Gott"
+    },
+    {
+      "encoding_id": "notes__160 Gelobet seist du, Jesu Christ",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.2123,
+        3.9702
+      ],
+      "work_id": "notes__160 Gelobet seist du, Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        8.2446,
+        3.2851
+      ],
+      "work_id": "notes__161 Ihr Gestirn, ihr hohlen L\u00fcfte"
+    },
+    {
+      "encoding_id": "notes__162 Das alte Jahr vergangen ist",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.9522,
+        2.0664
+      ],
+      "work_id": "notes__162 Das alte Jahr vergangen ist"
+    },
+    {
+      "encoding_id": "notes__163 F\u00fcr Freuden la\u00dft uns springen",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.1818,
+        2.3265
+      ],
+      "work_id": "notes__163 F\u00fcr Freuden la\u00dft uns springen"
+    },
+    {
+      "encoding_id": "notes__164 Du gro\u00dfer Schmerzensmann",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        5.5461,
+        1.3621
+      ],
+      "work_id": "notes__164 Du gro\u00dfer Schmerzensmann"
+    },
+    {
+      "encoding_id": "notes__165 O Lamm Gottes, unschuldig",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        0.9167,
+        4.6084
+      ],
+      "work_id": "notes__165 O Lamm Gottes, unschuldig"
+    },
+    {
+      "encoding_id": "notes__166 Es stehn vor Gottes Throne",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.7222,
+        3.4243
+      ],
+      "work_id": "notes__166 Es stehn vor Gottes Throne"
+    },
+    {
+      "encoding_id": "notes__167 Herr Gott, dich loben wir alle",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        5.5779,
+        1.3332
+      ],
+      "work_id": "notes__167 Herr Gott, dich loben wir alle"
+    },
+    {
+      "encoding_id": "notes__168 Heut ist, o Mensch, ein gro\u00dfer Trauertag",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.2022,
+        2.6062
+      ],
+      "work_id": "notes__168 Heut ist, o Mensch, ein gro\u00dfer Trauertag"
+    },
+    {
+      "encoding_id": "notes__169 Jesu, der du selbsten wohl",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.7232,
+        2.8669
+      ],
+      "work_id": "notes__169 Jesu, der du selbsten wohl"
+    },
+    {
+      "encoding_id": "notes__170 Nun komm, der Heiden Heiland",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.5226,
+        3.7137
+      ],
+      "work_id": "notes__170 Nun komm, der Heiden Heiland"
+    },
+    {
+      "encoding_id": "notes__171 Schaut, ihr S\u00fcnder",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        5.3824,
+        2.5372
+      ],
+      "work_id": "notes__171 Schaut, ihr S\u00fcnder"
+    },
+    {
+      "encoding_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        7.2396,
+        3.0011
+      ],
+      "work_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig"
+    },
+    {
+      "encoding_id": "notes__173 O Herzenangst",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        0.9766,
+        2.9714
+      ],
+      "work_id": "notes__173 O Herzenangst"
+    },
+    {
+      "encoding_id": "notes__174 Jesus Christus, unser Heiland, der den Tod",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        10.641,
+        2.2137
+      ],
+      "work_id": "notes__174 Jesus Christus, unser Heiland, der den Tod"
+    },
+    {
+      "encoding_id": "notes__175 Jesus, meine Zuversicht",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        6.5585,
+        0.9552
+      ],
+      "work_id": "notes__175 Jesus, meine Zuversicht"
+    },
+    {
+      "encoding_id": "notes__176 Erstanden ist der heilige Christ",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        2.7405,
+        2.991
+      ],
+      "work_id": "notes__176 Erstanden ist der heilige Christ"
+    },
+    {
+      "encoding_id": "notes__177 Ach bleib bei uns, Herr Jesu Christ",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -1.3807,
+        4.9579
+      ],
+      "work_id": "notes__177 Ach bleib bei uns, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__178 Das neugeborne Kindelein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.8041,
+        2.0181
+      ],
+      "work_id": "notes__178 Das neugeborne Kindelein"
+    },
+    {
+      "encoding_id": "notes__179 Wachet auf, ruft uns die Stimme",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        -1.1963,
+        6.108
+      ],
+      "work_id": "notes__179 Wachet auf, ruft uns die Stimme"
+    },
+    {
+      "encoding_id": "notes__180 Als Jesus Christus in der Nacht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        10.1691,
+        1.7006
+      ],
+      "work_id": "notes__180 Als Jesus Christus in der Nacht"
+    },
+    {
+      "encoding_id": "notes__181 Gott hat das Evangelium",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.4592,
+        3.5452
+      ],
+      "work_id": "notes__181 Gott hat das Evangelium"
+    },
+    {
+      "encoding_id": "notes__182 W\u00e4r Gott nicht mit uns diese Zeit",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.1401,
+        0.4371
+      ],
+      "work_id": "notes__182 W\u00e4r Gott nicht mit uns diese Zeit"
+    },
+    {
+      "encoding_id": "notes__183 Nun freut euch, lieben Christen gmein",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.8556,
+        5.4041
+      ],
+      "work_id": "notes__183 Nun freut euch, lieben Christen gmein"
+    },
+    {
+      "encoding_id": "notes__184 Christ lag in Todesbanden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.1347,
+        3.7713
+      ],
+      "work_id": "notes__184 Christ lag in Todesbanden"
+    },
+    {
+      "encoding_id": "notes__185 Nun freut euch, Gottes Kinder all",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.7215,
+        0.6261
+      ],
+      "work_id": "notes__185 Nun freut euch, Gottes Kinder all"
+    },
+    {
+      "encoding_id": "notes__186 Ach Gott, erh\u00f6r mein Seufzen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.3332,
+        0.3055
+      ],
+      "work_id": "notes__186 Ach Gott, erh\u00f6r mein Seufzen"
+    },
+    {
+      "encoding_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -0.7267,
+        5.2096
+      ],
+      "work_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist"
+    },
+    {
+      "encoding_id": "notes__188 Ich danke dir schon durch deinen Sohn",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        -1.3493,
+        6.4296
+      ],
+      "work_id": "notes__188 Ich danke dir schon durch deinen Sohn"
+    },
+    {
+      "encoding_id": "notes__189 Herr Jesu Christ, wahr' Mensch und Gott",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.6578,
+        4.3592
+      ],
+      "work_id": "notes__189 Herr Jesu Christ, wahr' Mensch und Gott"
+    },
+    {
+      "encoding_id": "notes__190 Herr, nun la\u00df in Friede",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.538,
+        2.6816
+      ],
+      "work_id": "notes__190 Herr, nun la\u00df in Friede"
+    },
+    {
+      "encoding_id": "notes__191 Von Gott will ich nicht lassen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        6.2471,
+        1.3569
+      ],
+      "work_id": "notes__191 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__192 Gottlob, es geht nunmehr zu Ende",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        -0.8066,
+        5.2542
+      ],
+      "work_id": "notes__192 Gottlob, es geht nunmehr zu Ende"
+    },
+    {
+      "encoding_id": "notes__193 Was bist du doch, o Seele, so betr\u00fcbt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.327,
+        3.3312
+      ],
+      "work_id": "notes__193 Was bist du doch, o Seele, so betr\u00fcbt"
+    },
+    {
+      "encoding_id": "notes__194 Liebster Immanuel, Herzog aller Frommen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        5.7932,
+        2.2362
+      ],
+      "work_id": "notes__194 Liebster Immanuel, Herzog aller Frommen"
+    },
+    {
+      "encoding_id": "notes__195 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.6701,
+        2.8498
+      ],
+      "work_id": "notes__195 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__196 Da der Herr Christ zu Tische sa\u00df",
+      "key": "C minor",
+      "key_mode": "minor",
+      "key_tonic": "C",
+      "projection_2d": [
+        9.8016,
+        2.4835
+      ],
+      "work_id": "notes__196 Da der Herr Christ zu Tische sa\u00df"
+    },
+    {
+      "encoding_id": "notes__197 Christ ist erstanden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.565,
+        1.0574
+      ],
+      "work_id": "notes__197 Christ ist erstanden"
+    },
+    {
+      "encoding_id": "notes__198 Christus, der uns selig macht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.9106,
+        0.2389
+      ],
+      "work_id": "notes__198 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__199 Hilf, Gott, da\u00df mirs gelinge",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.8221,
+        2.6058
+      ],
+      "work_id": "notes__199 Hilf, Gott, da\u00df mirs gelinge"
+    },
+    {
+      "encoding_id": "notes__200 Christus ist erstanden, hat \u00fcberwunden",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.1555,
+        3.7935
+      ],
+      "work_id": "notes__200 Christus ist erstanden, hat \u00fcberwunden"
+    },
+    {
+      "encoding_id": "notes__201 O Mensch, bewein dein S\u00fcnde gro\u00df",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        6.4181,
+        1.4785
+      ],
+      "work_id": "notes__201 O Mensch, bewein dein S\u00fcnde gro\u00df"
+    },
+    {
+      "encoding_id": "notes__202 O wir armen S\u00fcnder",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        1.8319,
+        3.8025
+      ],
+      "work_id": "notes__202 O wir armen S\u00fcnder"
+    },
+    {
+      "encoding_id": "notes__203 O Mensch, schau Jesum Christum an",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        8.6461,
+        3.2214
+      ],
+      "work_id": "notes__203 O Mensch, schau Jesum Christum an"
+    },
+    {
+      "encoding_id": "notes__204 Wer wei\u00df, wie nahe mir mein Ende",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.1362,
+        4.1049
+      ],
+      "work_id": "notes__204 Wer wei\u00df, wie nahe mir mein Ende"
+    },
+    {
+      "encoding_id": "notes__205 Herr Gott, dich loben wir",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        6.7597,
+        1.2889
+      ],
+      "work_id": "notes__205 Herr Gott, dich loben wir"
+    },
+    {
+      "encoding_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        5.7304,
+        2.2254
+      ],
+      "work_id": "notes__206 So gibst du nun, mein Jesu, gute Nacht"
+    },
+    {
+      "encoding_id": "notes__207 Des Heilgen Geistes reiche Gnad",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        7.7106,
+        2.2322
+      ],
+      "work_id": "notes__207 Des Heilgen Geistes reiche Gnad"
+    },
+    {
+      "encoding_id": "notes__208 Als vierzig Tag nach Ostern war",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        6.6757,
+        2.2074
+      ],
+      "work_id": "notes__208 Als vierzig Tag nach Ostern war"
+    },
+    {
+      "encoding_id": "notes__209 Dir, dir, Jehova, will ich singen",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        0.9825,
+        3.2923
+      ],
+      "work_id": "notes__209 Dir, dir, Jehova, will ich singen"
+    },
+    {
+      "encoding_id": "notes__210 Christe, du Beistand deiner Kreuzgemeinde",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.2985,
+        1.005
+      ],
+      "work_id": "notes__210 Christe, du Beistand deiner Kreuzgemeinde"
+    },
+    {
+      "encoding_id": "notes__211 Weltlich Ehr und zeitlich Gut",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.3642,
+        4.5011
+      ],
+      "work_id": "notes__211 Weltlich Ehr und zeitlich Gut"
+    },
+    {
+      "encoding_id": "notes__212 Herr, ich denk an jene Zeit",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        -1.3536,
+        6.7604
+      ],
+      "work_id": "notes__212 Herr, ich denk an jene Zeit"
+    },
+    {
+      "encoding_id": "notes__213 O wie selig seid ihr doch, ihr Frommen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        7.3052,
+        2.6136
+      ],
+      "work_id": "notes__213 O wie selig seid ihr doch, ihr Frommen"
+    },
+    {
+      "encoding_id": "notes__214 Mitten wir im Leben sind",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.6334,
+        0.4892
+      ],
+      "work_id": "notes__214 Mitten wir im Leben sind"
+    },
+    {
+      "encoding_id": "notes__215 Verleih uns Frieden gn\u00e4diglich",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        7.5896,
+        1.9564
+      ],
+      "work_id": "notes__215 Verleih uns Frieden gn\u00e4diglich"
+    },
+    {
+      "encoding_id": "notes__216 Es ist genug, so nimm, Herr",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.8734,
+        3.503
+      ],
+      "work_id": "notes__216 Es ist genug, so nimm, Herr"
+    },
+    {
+      "encoding_id": "notes__218 La\u00df, o Herr, dein Ohr sich neigen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        6.7723,
+        2.6336
+      ],
+      "work_id": "notes__218 La\u00df, o Herr, dein Ohr sich neigen"
+    },
+    {
+      "encoding_id": "notes__219 O wie seid ihr doch, ihr Frommen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        4.962,
+        2.6363
+      ],
+      "work_id": "notes__219 O wie seid ihr doch, ihr Frommen"
+    },
+    {
+      "encoding_id": "notes__220 Sollt ich meniem Gott nicht singen",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        5.5172,
+        2.5442
+      ],
+      "work_id": "notes__220 Sollt ich meniem Gott nicht singen"
+    },
+    {
+      "encoding_id": "notes__221 Herr, straf mich nicht in deinem Zorn",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.402,
+        2.8979
+      ],
+      "work_id": "notes__221 Herr, straf mich nicht in deinem Zorn"
+    },
+    {
+      "encoding_id": "notes__222 Nun preiset alle Gottes Barmherzigkeit",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        0.4775,
+        3.4173
+      ],
+      "work_id": "notes__222 Nun preiset alle Gottes Barmherzigkeit"
+    },
+    {
+      "encoding_id": "notes__223 Ich dank dir, Gott, f\u00fcr deine Wohltat",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        2.3394,
+        3.0257
+      ],
+      "work_id": "notes__223 Ich dank dir, Gott, f\u00fcr deine Wohltat"
+    },
+    {
+      "encoding_id": "notes__224 Das walt Gott Vater und Gott Sohn",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        -1.1183,
+        5.003
+      ],
+      "work_id": "notes__224 Das walt Gott Vater und Gott Sohn"
+    },
+    {
+      "encoding_id": "notes__225 Gott, der du selber bist das Licht",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.3083,
+        1.434
+      ],
+      "work_id": "notes__225 Gott, der du selber bist das Licht"
+    },
+    {
+      "encoding_id": "notes__226 Herr Jesu Christ, du hast bereit'",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.3953,
+        2.6276
+      ],
+      "work_id": "notes__226 Herr Jesu Christ, du hast bereit'"
+    },
+    {
+      "encoding_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.4769,
+        3.0585
+      ],
+      "work_id": "notes__227 Lobet den Herren, denn er ist sehr freundlich"
+    },
+    {
+      "encoding_id": "notes__228 Danket dem Herren, denn er ist sehr freundlich",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        10.7823,
+        1.9968
+      ],
+      "work_id": "notes__228 Danket dem Herren, denn er ist sehr freundlich"
+    },
+    {
+      "encoding_id": "notes__229 Ich danke dir, o Gott, in deinem Throne",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.0185,
+        3.6293
+      ],
+      "work_id": "notes__229 Ich danke dir, o Gott, in deinem Throne"
+    },
+    {
+      "encoding_id": "notes__230 Christ, der du bist der helle Tag",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        5.4915,
+        2.4339
+      ],
+      "work_id": "notes__230 Christ, der du bist der helle Tag"
+    },
+    {
+      "encoding_id": "notes__231 Die Nacht ist kommen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.1592,
+        2.7834
+      ],
+      "work_id": "notes__231 Die Nacht ist kommen"
+    },
+    {
+      "encoding_id": "notes__232 Die Sonn hat sich mit ihrem Glanz gewendet",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.1921,
+        2.11
+      ],
+      "work_id": "notes__232 Die Sonn hat sich mit ihrem Glanz gewendet"
+    },
+    {
+      "encoding_id": "notes__233 Werde munter, mein Gem\u00fcte",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.968,
+        4.1041
+      ],
+      "work_id": "notes__233 Werde munter, mein Gem\u00fcte"
+    },
+    {
+      "encoding_id": "notes__234 Gott lebet noch",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        0.6813,
+        3.2121
+      ],
+      "work_id": "notes__234 Gott lebet noch"
+    },
+    {
+      "encoding_id": "notes__235 Heilig, heilig",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        -0.4473,
+        6.111
+      ],
+      "work_id": "notes__235 Heilig, heilig"
+    },
+    {
+      "encoding_id": "notes__236 O Jesu, du mein Br\u00e4utigam",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.7101,
+        1.4584
+      ],
+      "work_id": "notes__236 O Jesu, du mein Br\u00e4utigam"
+    },
+    {
+      "encoding_id": "notes__237 Was betr\u00fcbst du dich, mein Herze",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        6.9182,
+        1.2873
+      ],
+      "work_id": "notes__237 Was betr\u00fcbst du dich, mein Herze"
+    },
+    {
+      "encoding_id": "notes__239 Den Vater dort oben",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -1.0158,
+        5.0685
+      ],
+      "work_id": "notes__239 Den Vater dort oben"
+    },
+    {
+      "encoding_id": "notes__240 Nun sich der Tag geendet hat",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.2691,
+        3.9173
+      ],
+      "work_id": "notes__240 Nun sich der Tag geendet hat"
+    },
+    {
+      "encoding_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.3339,
+        1.3025
+      ],
+      "work_id": "notes__241 Was willst du mich, o meine Seele, kr\u00e4nken"
+    },
+    {
+      "encoding_id": "notes__242 Wie bist du, Seele, in mir so gar betr\u00fcbt",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        6.1807,
+        2.7998
+      ],
+      "work_id": "notes__242 Wie bist du, Seele, in mir so gar betr\u00fcbt"
+    },
+    {
+      "encoding_id": "notes__243 Jesu, du mein liebstes Leben",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        6.7364,
+        1.7598
+      ],
+      "work_id": "notes__243 Jesu, du mein liebstes Leben"
+    },
+    {
+      "encoding_id": "notes__244 Jesu, Jesu, du bist mein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.3564,
+        3.0184
+      ],
+      "work_id": "notes__244 Jesu, Jesu, du bist mein"
+    },
+    {
+      "encoding_id": "notes__245 Christe, der du bist Tag und Licht",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.3565,
+        4.0044
+      ],
+      "work_id": "notes__245 Christe, der du bist Tag und Licht"
+    },
+    {
+      "encoding_id": "notes__246 Singt dem Herrn ein neues Lied",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        5.6609,
+        2.6872
+      ],
+      "work_id": "notes__246 Singt dem Herrn ein neues Lied"
+    },
+    {
+      "encoding_id": "notes__247 Wenn wir in h\u00f6chsten N\u00f6ten sein",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.3775,
+        0.3156
+      ],
+      "work_id": "notes__247 Wenn wir in h\u00f6chsten N\u00f6ten sein"
+    },
+    {
+      "encoding_id": "notes__248 Sei lob und Ehr dem h\u00f6chsten Gut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.1386,
+        5.4689
+      ],
+      "work_id": "notes__248 Sei lob und Ehr dem h\u00f6chsten Gut"
+    },
+    {
+      "encoding_id": "notes__249 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.8371,
+        0.177
+      ],
+      "work_id": "notes__249 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__250 Ein feste Burg ist unser Gott",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        2.7362,
+        3.3746
+      ],
+      "work_id": "notes__250 Ein feste Burg ist unser Gott"
+    },
+    {
+      "encoding_id": "notes__251 Ich bin ja, Herr, in deiner Macht",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.9547,
+        3.2168
+      ],
+      "work_id": "notes__251 Ich bin ja, Herr, in deiner Macht"
+    },
+    {
+      "encoding_id": "notes__252 Jesu, nun sei gepreist",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        2.7468,
+        3.0672
+      ],
+      "work_id": "notes__252 Jesu, nun sei gepreist"
+    },
+    {
+      "encoding_id": "notes__253 Ach Gott, vom Himmel sieh darein",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.7013,
+        3.0899
+      ],
+      "work_id": "notes__253 Ach Gott, vom Himmel sieh darein"
+    },
+    {
+      "encoding_id": "notes__254 Weg, mein Herz, mit den Gedanken",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.6105,
+        4.832
+      ],
+      "work_id": "notes__254 Weg, mein Herz, mit den Gedanken"
+    },
+    {
+      "encoding_id": "notes__255 Was frag ich nach der Welt",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.0747,
+        5.0752
+      ],
+      "work_id": "notes__255 Was frag ich nach der Welt"
+    },
+    {
+      "encoding_id": "notes__256 Jesu, deine tiefen Wunden",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        1.541,
+        3.3721
+      ],
+      "work_id": "notes__256 Jesu, deine tiefen Wunden"
+    },
+    {
+      "encoding_id": "notes__257 Nun la\u00dft uns Gott den Herren",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        2.4635,
+        3.145
+      ],
+      "work_id": "notes__257 Nun la\u00dft uns Gott den Herren"
+    },
+    {
+      "encoding_id": "notes__258 Mein Augen schlie\u00df ich jetzt in Gottes Namen",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.3753,
+        4.0978
+      ],
+      "work_id": "notes__258 Mein Augen schlie\u00df ich jetzt in Gottes Namen"
+    },
+    {
+      "encoding_id": "notes__259 Verleih uns Frieden gn\u00e4diglich",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "projection_2d": [
+        7.3449,
+        1.752
+      ],
+      "work_id": "notes__259 Verleih uns Frieden gn\u00e4diglich"
+    },
+    {
+      "encoding_id": "notes__260 Es ist gewi\u00dflich an der Zeit",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        5.7013,
+        2.1386
+      ],
+      "work_id": "notes__260 Es ist gewi\u00dflich an der Zeit"
+    },
+    {
+      "encoding_id": "notes__261 Christ lag in Todesbanden",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.2395,
+        3.4611
+      ],
+      "work_id": "notes__261 Christ lag in Todesbanden"
+    },
+    {
+      "encoding_id": "notes__262 Ach Gott, vom Himmel sieh darein",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        8.2974,
+        3.0074
+      ],
+      "work_id": "notes__262 Ach Gott, vom Himmel sieh darein"
+    },
+    {
+      "encoding_id": "notes__263 Jesu, meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.61,
+        2.5951
+      ],
+      "work_id": "notes__263 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__264 Jesu, meines Herzens Freud",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        0.3736,
+        5.4776
+      ],
+      "work_id": "notes__264 Jesu, meines Herzens Freud"
+    },
+    {
+      "encoding_id": "notes__265 Was mein Gott will, das gescheh allzeit",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.4708,
+        1.1454
+      ],
+      "work_id": "notes__265 Was mein Gott will, das gescheh allzeit"
+    },
+    {
+      "encoding_id": "notes__266 Herr Jesu Christ, du h\u00f6chstes Gut",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.1298,
+        3.243
+      ],
+      "work_id": "notes__266 Herr Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__267 Vater unser im Himmelreich",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        10.0306,
+        3.011
+      ],
+      "work_id": "notes__267 Vater unser im Himmelreich"
+    },
+    {
+      "encoding_id": "notes__268 Nun lob, mein Seel, den Herren",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        2.7088,
+        3.178
+      ],
+      "work_id": "notes__268 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__269 Jesu, der du meine Seele",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.0236,
+        3.6607
+      ],
+      "work_id": "notes__269 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__270 Befiehl du deine Wege",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.9918,
+        0.199
+      ],
+      "work_id": "notes__270 Befiehl du deine Wege"
+    },
+    {
+      "encoding_id": "notes__271 Gib dich zufrieden und sei stille",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        8.7977,
+        3.3983
+      ],
+      "work_id": "notes__271 Gib dich zufrieden und sei stille"
+    },
+    {
+      "encoding_id": "notes__273 Ein feste Burg ist unser Gott",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        3.1665,
+        2.8419
+      ],
+      "work_id": "notes__273 Ein feste Burg ist unser Gott"
+    },
+    {
+      "encoding_id": "notes__274 O Ewigkeit, du Donnerwort",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        2.5887,
+        3.4713
+      ],
+      "work_id": "notes__274 O Ewigkeit, du Donnerwort"
+    },
+    {
+      "encoding_id": "notes__275 O Welt, sieh hier dein Leben",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -0.8636,
+        5.4747
+      ],
+      "work_id": "notes__275 O Welt, sieh hier dein Leben"
+    },
+    {
+      "encoding_id": "notes__276 Lobt Gott, ihr Christen allzugleich",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.0783,
+        4.9098
+      ],
+      "work_id": "notes__276 Lobt Gott, ihr Christen allzugleich"
+    },
+    {
+      "encoding_id": "notes__277 Herzlieb lieb hab ich dich, o Herr",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.2947,
+        1.0488
+      ],
+      "work_id": "notes__277 Herzlieb lieb hab ich dich, o Herr"
+    },
+    {
+      "encoding_id": "notes__278 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "projection_2d": [
+        1.2595,
+        4.026
+      ],
+      "work_id": "notes__278 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__279 Ach Gott und Herr",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        -0.1749,
+        5.5473
+      ],
+      "work_id": "notes__279 Ach Gott und Herr"
+    },
+    {
+      "encoding_id": "notes__280 Eins ist not!, ach Herr, dies Eine",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        2.4131,
+        3.6108
+      ],
+      "work_id": "notes__280 Eins ist not!, ach Herr, dies Eine"
+    },
+    {
+      "encoding_id": "notes__281 Wo soll ich fliehen hin",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        6.7316,
+        2.033
+      ],
+      "work_id": "notes__281 Wo soll ich fliehen hin"
+    },
+    {
+      "encoding_id": "notes__282 Freu dich sehr, o meine Seele",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.1992,
+        5.9903
+      ],
+      "work_id": "notes__282 Freu dich sehr, o meine Seele"
+    },
+    {
+      "encoding_id": "notes__283 Jesu, meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.9309,
+        3.2833
+      ],
+      "work_id": "notes__283 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__283bis Herr Jesu Christ, wahr' Mensch und Gott",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        7.1726,
+        1.1076
+      ],
+      "work_id": "notes__283bis Herr Jesu Christ, wahr' Mensch und Gott"
+    },
+    {
+      "encoding_id": "notes__284 W\u00e4r Gott nicht mit uns diese Zeit",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.8896,
+        0.7522
+      ],
+      "work_id": "notes__284 W\u00e4r Gott nicht mit uns diese Zeit"
+    },
+    {
+      "encoding_id": "notes__285 Befiehl du deine Wege",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.5872,
+        0.0421
+      ],
+      "work_id": "notes__285 Befiehl du deine Wege"
+    },
+    {
+      "encoding_id": "notes__286 Herr, ich habe mi\u00dfgehandelt",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.3524,
+        1.1984
+      ],
+      "work_id": "notes__286 Herr, ich habe mi\u00dfgehandelt"
+    },
+    {
+      "encoding_id": "notes__287 Gelobet seist du, Jesu Christ",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        -0.4224,
+        6.0383
+      ],
+      "work_id": "notes__287 Gelobet seist du, Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__288 Nun ruhen alle W\u00e4lder",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        1.0668,
+        3.7547
+      ],
+      "work_id": "notes__288 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__289 Es ist das Heil uns kommen her",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "projection_2d": [
+        1.9232,
+        3.1108
+      ],
+      "work_id": "notes__289 Es ist das Heil uns kommen her"
+    },
+    {
+      "encoding_id": "notes__290 Was frag ich nach der Welt",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        -0.1547,
+        5.5283
+      ],
+      "work_id": "notes__290 Was frag ich nach der Welt"
+    },
+    {
+      "encoding_id": "notes__291 Nimm von uns, Herr, du treuer Gott",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.9683,
+        1.15
+      ],
+      "work_id": "notes__291 Nimm von uns, Herr, du treuer Gott"
+    },
+    {
+      "encoding_id": "notes__292 Was Gott tut, das ist wohlgetan",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.1092,
+        6.767
+      ],
+      "work_id": "notes__292 Was Gott tut, das ist wohlgetan"
+    },
+    {
+      "encoding_id": "notes__293 Herr Jesu Christ, du h\u00f6chstes Gut",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        10.1984,
+        2.7474
+      ],
+      "work_id": "notes__293 Herr Jesu Christ, du h\u00f6chstes Gut"
+    },
+    {
+      "encoding_id": "notes__294 Herr Jesu Christ, mein's Lebens Licht",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.6647,
+        1.232
+      ],
+      "work_id": "notes__294 Herr Jesu Christ, mein's Lebens Licht"
+    },
+    {
+      "encoding_id": "notes__295 Nun lob, mein Seel, den Herren",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        2.7618,
+        3.2479
+      ],
+      "work_id": "notes__295 Nun lob, mein Seel, den Herren"
+    },
+    {
+      "encoding_id": "notes__296 Jesu, der du meine Seele",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        8.0709,
+        3.4523
+      ],
+      "work_id": "notes__296 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__297 Weg, mein Herz, mit den Gedanken",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -0.2801,
+        6.0545
+      ],
+      "work_id": "notes__297 Weg, mein Herz, mit den Gedanken"
+    },
+    {
+      "encoding_id": "notes__298 Meinen Jesum lass ich nicht, weil",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        0.8624,
+        4.712
+      ],
+      "work_id": "notes__298 Meinen Jesum lass ich nicht, weil"
+    },
+    {
+      "encoding_id": "notes__299 Warum betr\u00fcbst du dich, mein Herz",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        10.4003,
+        2.2914
+      ],
+      "work_id": "notes__299 Warum betr\u00fcbst du dich, mein Herz"
+    },
+    {
+      "encoding_id": "notes__300 Ach lieben Christen, seid getrost",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.974,
+        2.822
+      ],
+      "work_id": "notes__300 Ach lieben Christen, seid getrost"
+    },
+    {
+      "encoding_id": "notes__301 Hilf, Gott, da\u00df mirs gelinge",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        9.8451,
+        2.6139
+      ],
+      "work_id": "notes__301 Hilf, Gott, da\u00df mirs gelinge"
+    },
+    {
+      "encoding_id": "notes__302 Herr Christ, der ein'ge Gottes Sohn",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        9.2875,
+        -0.0738
+      ],
+      "work_id": "notes__302 Herr Christ, der ein'ge Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__303 Auf meinen lieben Gott",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        9.1454,
+        0.4015
+      ],
+      "work_id": "notes__303 Auf meinen lieben Gott"
+    },
+    {
+      "encoding_id": "notes__304 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.5891,
+        2.8543
+      ],
+      "work_id": "notes__304 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__305 O Mensch, bewein dein S\u00fcnde gro\u00df",
+      "key": "Eb major",
+      "key_mode": "major",
+      "key_tonic": "Eb",
+      "projection_2d": [
+        6.3331,
+        1.6552
+      ],
+      "work_id": "notes__305 O Mensch, bewein dein S\u00fcnde gro\u00df"
+    },
+    {
+      "encoding_id": "notes__306 Christus, der uns selig macht",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.9775,
+        0.1292
+      ],
+      "work_id": "notes__306 Christus, der uns selig macht"
+    },
+    {
+      "encoding_id": "notes__307 Ach Gott, wie manches Herzeleid",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.1649,
+        4.5631
+      ],
+      "work_id": "notes__307 Ach Gott, wie manches Herzeleid"
+    },
+    {
+      "encoding_id": "notes__308 Ein L\u00e4mmlein geht und tr\u00e4gt die Schuld",
+      "key": "Ab major",
+      "key_mode": "major",
+      "key_tonic": "Ab",
+      "projection_2d": [
+        1.53,
+        3.2249
+      ],
+      "work_id": "notes__308 Ein L\u00e4mmlein geht und tr\u00e4gt die Schuld"
+    },
+    {
+      "encoding_id": "notes__309 Machs mit mir, Gott, nach deiner G\u00fcte",
+      "key": "E major",
+      "key_mode": "major",
+      "key_tonic": "E",
+      "projection_2d": [
+        2.8987,
+        2.9913
+      ],
+      "work_id": "notes__309 Machs mit mir, Gott, nach deiner G\u00fcte"
+    },
+    {
+      "encoding_id": "notes__310 Dank sei Gott in der H\u00f6he",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        0.3016,
+        4.6115
+      ],
+      "work_id": "notes__310 Dank sei Gott in der H\u00f6he"
+    },
+    {
+      "encoding_id": "notes__311 O Gott, du frommer Gott",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        0.1173,
+        4.3825
+      ],
+      "work_id": "notes__311 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__312 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        5.8828,
+        2.5436
+      ],
+      "work_id": "notes__312 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__313 Das alte Jahr vergangen ist",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        10.6293,
+        1.7397
+      ],
+      "work_id": "notes__313 Das alte Jahr vergangen ist"
+    },
+    {
+      "encoding_id": "notes__314 O Gott, du frommer Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.1274,
+        6.6408
+      ],
+      "work_id": "notes__314 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__315 Christus, der ist mein Leben",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        7.068,
+        1.6578
+      ],
+      "work_id": "notes__315 Christus, der ist mein Leben"
+    },
+    {
+      "encoding_id": "notes__316 Herr, wie du willst, so schicks mit mir",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        0.4689,
+        5.2195
+      ],
+      "work_id": "notes__316 Herr, wie du willst, so schicks mit mir"
+    },
+    {
+      "encoding_id": "notes__317 Herr, wie du willst, so schicks mit mir",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        6.1316,
+        2.0141
+      ],
+      "work_id": "notes__317 Herr, wie du willst, so schicks mit mir"
+    },
+    {
+      "encoding_id": "notes__318 Sanctus, Sanctus Dominus Deus Sabaoth",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        -0.5125,
+        6.1404
+      ],
+      "work_id": "notes__318 Sanctus, Sanctus Dominus Deus Sabaoth"
+    },
+    {
+      "encoding_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "projection_2d": [
+        1.8189,
+        2.7043
+      ],
+      "work_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig"
+    },
+    {
+      "encoding_id": "notes__320 Wir Christenleut",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        10.0492,
+        3.2499
+      ],
+      "work_id": "notes__320 Wir Christenleut"
+    },
+    {
+      "encoding_id": "notes__321 Wenn mein St\u00fcndlein vorhanden ist",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        5.6512,
+        1.1818
+      ],
+      "work_id": "notes__321 Wenn mein St\u00fcndlein vorhanden ist"
+    },
+    {
+      "encoding_id": "notes__322 Wie sch\u00f6n leuchtet der Morgenstern",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        1.4942,
+        4.1581
+      ],
+      "work_id": "notes__322 Wie sch\u00f6n leuchtet der Morgenstern"
+    },
+    {
+      "encoding_id": "notes__323 Jesu meine Freude",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        7.5248,
+        3.5211
+      ],
+      "work_id": "notes__323 Jesu meine Freude"
+    },
+    {
+      "encoding_id": "notes__325 Allein Gott in der H\u00f6h sei Ehr",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        2.4829,
+        3.4242
+      ],
+      "work_id": "notes__325 Allein Gott in der H\u00f6h sei Ehr"
+    },
+    {
+      "encoding_id": "notes__326 Jesu, nun sei gepreiset",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        6.8285,
+        1.8287
+      ],
+      "work_id": "notes__326 Jesu, nun sei gepreiset"
+    },
+    {
+      "encoding_id": "notes__327 Liebster Jesu, wir sind hier",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.0891,
+        5.1222
+      ],
+      "work_id": "notes__327 Liebster Jesu, wir sind hier"
+    },
+    {
+      "encoding_id": "notes__328 Sei Lob und Ehr dem h\u00f6chsten Gut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.961,
+        3.3944
+      ],
+      "work_id": "notes__328 Sei Lob und Ehr dem h\u00f6chsten Gut"
+    },
+    {
+      "encoding_id": "notes__329 Nun danket alle Gott",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.1771,
+        6.5586
+      ],
+      "work_id": "notes__329 Nun danket alle Gott"
+    },
+    {
+      "encoding_id": "notes__330 Wo soll ich fliehen hin",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        8.3,
+        1.9513
+      ],
+      "work_id": "notes__330 Wo soll ich fliehen hin"
+    },
+    {
+      "encoding_id": "notes__331 Von Gott will ich nicht lassen",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        8.9664,
+        0.8549
+      ],
+      "work_id": "notes__331 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__332 Es woll uns Gott gen\u00e4dig sein",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        -0.6023,
+        4.9428
+      ],
+      "work_id": "notes__332 Es woll uns Gott gen\u00e4dig sein"
+    },
+    {
+      "encoding_id": "notes__334 Es ist das Heil uns kommen her",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        1.5399,
+        4.1021
+      ],
+      "work_id": "notes__334 Es ist das Heil uns kommen her"
+    },
+    {
+      "encoding_id": "notes__335 Wo Gott der Herr nicht bei uns h\u00e4lt",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        8.7941,
+        0.1571
+      ],
+      "work_id": "notes__335 Wo Gott der Herr nicht bei uns h\u00e4lt"
+    },
+    {
+      "encoding_id": "notes__336 O Gott, du frommer Gott",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        -1.4604,
+        5.412
+      ],
+      "work_id": "notes__336 O Gott, du frommer Gott"
+    },
+    {
+      "encoding_id": "notes__337 Jesus, meine Zuversicht",
+      "key": "D major",
+      "key_mode": "major",
+      "key_tonic": "D",
+      "projection_2d": [
+        5.8339,
+        1.8403
+      ],
+      "work_id": "notes__337 Jesus, meine Zuversicht"
+    },
+    {
+      "encoding_id": "notes__338 Wer nur den lieben Gott l\u00e4\u00dft walten",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        7.0854,
+        3.253
+      ],
+      "work_id": "notes__338 Wer nur den lieben Gott l\u00e4\u00dft walten"
+    },
+    {
+      "encoding_id": "notes__339 Befiehl du deine Wege",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        8.5125,
+        3.7569
+      ],
+      "work_id": "notes__339 Befiehl du deine Wege"
+    },
+    {
+      "encoding_id": "notes__340 Ich dank dir, lieber Herre",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        1.0974,
+        3.3146
+      ],
+      "work_id": "notes__340 Ich dank dir, lieber Herre"
+    },
+    {
+      "encoding_id": "notes__341 Lobt Gott, ihr Christen allzugleich",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.6299,
+        2.8047
+      ],
+      "work_id": "notes__341 Lobt Gott, ihr Christen allzugleich"
+    },
+    {
+      "encoding_id": "notes__343 Vom Himmel hoch, da komm ich her",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        1.9928,
+        3.7064
+      ],
+      "work_id": "notes__343 Vom Himmel hoch, da komm ich her"
+    },
+    {
+      "encoding_id": "notes__344 O Haupt voll Blut und Wunden",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.7142,
+        0.183
+      ],
+      "work_id": "notes__344 O Haupt voll Blut und Wunden"
+    },
+    {
+      "encoding_id": "notes__345 Meines Lebens letzte Zeit",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        6.6563,
+        1.9736
+      ],
+      "work_id": "notes__345 Meines Lebens letzte Zeit"
+    },
+    {
+      "encoding_id": "notes__346 Was Gott tut, das ist wohlgetan",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -1.2478,
+        6.6383
+      ],
+      "work_id": "notes__346 Was Gott tut, das ist wohlgetan"
+    },
+    {
+      "encoding_id": "notes__347 Meinen Jesum la\u00df ich nicht, weil",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -0.609,
+        5.8346
+      ],
+      "work_id": "notes__347 Meinen Jesum la\u00df ich nicht, weil"
+    },
+    {
+      "encoding_id": "notes__348 Ich hab in Gottes Herz und Sinn",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        7.4322,
+        1.7803
+      ],
+      "work_id": "notes__348 Ich hab in Gottes Herz und Sinn"
+    },
+    {
+      "encoding_id": "notes__349 Jesu, meiner Seelen Wonne",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        1.0033,
+        4.2831
+      ],
+      "work_id": "notes__349 Jesu, meiner Seelen Wonne"
+    },
+    {
+      "encoding_id": "notes__351 Es woll uns Gott gen\u00e4dig sein",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.8456,
+        0.2851
+      ],
+      "work_id": "notes__351 Es woll uns Gott gen\u00e4dig sein"
+    },
+    {
+      "encoding_id": "notes__352 Der Herr ist mein getreuer Hirt",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        5.9439,
+        2.665
+      ],
+      "work_id": "notes__352 Der Herr ist mein getreuer Hirt"
+    },
+    {
+      "encoding_id": "notes__353 Sei Lob und Ehr dem h\u00f6chsten Gut",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.0956,
+        5.3886
+      ],
+      "work_id": "notes__353 Sei Lob und Ehr dem h\u00f6chsten Gut"
+    },
+    {
+      "encoding_id": "notes__354 Nun ruhen alle W\u00e4lder",
+      "key": "Bb major",
+      "key_mode": "major",
+      "key_tonic": "Bb",
+      "projection_2d": [
+        -0.1886,
+        5.6283
+      ],
+      "work_id": "notes__354 Nun ruhen alle W\u00e4lder"
+    },
+    {
+      "encoding_id": "notes__355 Jesu, meine Freude",
+      "key": "D minor",
+      "key_mode": "minor",
+      "key_tonic": "D",
+      "projection_2d": [
+        7.8223,
+        3.7059
+      ],
+      "work_id": "notes__355 Jesu, meine Freude"
+    },
+    {
+      "encoding_id": "notes__356 Warum sollt ich mich denn gr\u00e4men",
+      "key": "C major",
+      "key_mode": "major",
+      "key_tonic": "C",
+      "projection_2d": [
+        -0.0271,
+        5.8088
+      ],
+      "work_id": "notes__356 Warum sollt ich mich denn gr\u00e4men"
+    },
+    {
+      "encoding_id": "notes__357 Meine Seel erhebt den Herren",
+      "key": "G minor",
+      "key_mode": "minor",
+      "key_tonic": "G",
+      "projection_2d": [
+        5.8036,
+        2.621
+      ],
+      "work_id": "notes__357 Meine Seel erhebt den Herren"
+    },
+    {
+      "encoding_id": "notes__358 Allein zu dir, Herr Jesu Christ",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        7.7061,
+        1.8012
+      ],
+      "work_id": "notes__358 Allein zu dir, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__359 Wir Christenleut",
+      "key": "F# minor",
+      "key_mode": "minor",
+      "key_tonic": "F#",
+      "projection_2d": [
+        9.547,
+        3.5211
+      ],
+      "work_id": "notes__359 Wir Christenleut"
+    },
+    {
+      "encoding_id": "notes__360 Du Lebensf\u00fcrst, Herr Jesu Christ",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        1.3426,
+        2.9477
+      ],
+      "work_id": "notes__360 Du Lebensf\u00fcrst, Herr Jesu Christ"
+    },
+    {
+      "encoding_id": "notes__361 Es ist gewi\u00dflich an der Zeit",
+      "key": "G major",
+      "key_mode": "major",
+      "key_tonic": "G",
+      "projection_2d": [
+        -0.6789,
+        4.8252
+      ],
+      "work_id": "notes__361 Es ist gewi\u00dflich an der Zeit"
+    },
+    {
+      "encoding_id": "notes__362 O Welt, sieh hier dein Leben",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        -0.5929,
+        5.3093
+      ],
+      "work_id": "notes__362 O Welt, sieh hier dein Leben"
+    },
+    {
+      "encoding_id": "notes__363 Von Gott will ich nicht lassen",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.1019,
+        0.5753
+      ],
+      "work_id": "notes__363 Von Gott will ich nicht lassen"
+    },
+    {
+      "encoding_id": "notes__364 Jesu, meiner Seelen Wonne",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.6365,
+        3.4657
+      ],
+      "work_id": "notes__364 Jesu, meiner Seelen Wonne"
+    },
+    {
+      "encoding_id": "notes__365 O Welt, sieh hier dein Leben",
+      "key": "A major",
+      "key_mode": "major",
+      "key_tonic": "A",
+      "projection_2d": [
+        0.0798,
+        4.2883
+      ],
+      "work_id": "notes__365 O Welt, sieh hier dein Leben"
+    },
+    {
+      "encoding_id": "notes__366 Befiel du deine Wege",
+      "key": "B minor",
+      "key_mode": "minor",
+      "key_tonic": "B",
+      "projection_2d": [
+        9.7853,
+        0.1794
+      ],
+      "work_id": "notes__366 Befiel du deine Wege"
+    },
+    {
+      "encoding_id": "notes__367 Hilf, Herr Jesu, la\u00df gelingen",
+      "key": "F major",
+      "key_mode": "major",
+      "key_tonic": "F",
+      "projection_2d": [
+        0.7797,
+        2.6763
+      ],
+      "work_id": "notes__367 Hilf, Herr Jesu, la\u00df gelingen"
+    },
+    {
+      "encoding_id": "notes__368 Jesu, der du meine Seele",
+      "key": "F minor",
+      "key_mode": "minor",
+      "key_tonic": "F",
+      "projection_2d": [
+        7.313,
+        2.9274
+      ],
+      "work_id": "notes__368 Jesu, der du meine Seele"
+    },
+    {
+      "encoding_id": "notes__369 Kommt her zu mir, spricht Gottes Sohn",
+      "key": "A minor",
+      "key_mode": "minor",
+      "key_tonic": "A",
+      "projection_2d": [
+        9.4882,
+        2.4801
+      ],
+      "work_id": "notes__369 Kommt her zu mir, spricht Gottes Sohn"
+    },
+    {
+      "encoding_id": "notes__370 Christ lag in Todesbanden",
+      "key": "E minor",
+      "key_mode": "minor",
+      "key_tonic": "E",
+      "projection_2d": [
+        9.1052,
+        3.5429
+      ],
+      "work_id": "notes__370 Christ lag in Todesbanden"
+    }
+  ],
+  "chord_labels_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/chord_labels.json",
+  "chord_type_count": 51,
+  "chord_vectors_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/chord_embeddings.32d.npy",
+  "chords": [
+    {
+      "frequency": 2425,
+      "label": "I",
+      "nearest_neighbors": [
+        {
+          "label": "IV7",
+          "similarity": 0.5866
+        },
+        {
+          "label": "V7/IV",
+          "similarity": 0.5602
+        },
+        {
+          "label": "V7",
+          "similarity": 0.4205
+        },
+        {
+          "label": "V7/iii",
+          "similarity": 0.3335
+        },
+        {
+          "label": "V/IV",
+          "similarity": 0.3275
+        }
+      ]
+    },
+    {
+      "frequency": 1300,
+      "label": "III",
+      "nearest_neighbors": [
+        {
+          "label": "V7/VII",
+          "similarity": 0.4246
+        },
+        {
+          "label": "ii\u00f87",
+          "similarity": 0.3786
+        },
+        {
+          "label": "V7/VI",
+          "similarity": 0.3243
+        },
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.3166
+        },
+        {
+          "label": "V/VI",
+          "similarity": 0.2943
+        }
+      ]
+    },
+    {
+      "frequency": 1499,
+      "label": "IV",
+      "nearest_neighbors": [
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.3395
+        },
+        {
+          "label": "I",
+          "similarity": 0.3262
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.2543
+        },
+        {
+          "label": "viio7/IV",
+          "similarity": 0.2493
+        },
+        {
+          "label": "IV7",
+          "similarity": 0.2104
+        }
+      ]
+    },
+    {
+      "frequency": 284,
+      "label": "IV7",
+      "nearest_neighbors": [
+        {
+          "label": "I",
+          "similarity": 0.5866
+        },
+        {
+          "label": "V7/IV",
+          "similarity": 0.4794
+        },
+        {
+          "label": "viio7/vii\u00b0",
+          "similarity": 0.4375
+        },
+        {
+          "label": "V7/VI",
+          "similarity": 0.4061
+        },
+        {
+          "label": "V/IV",
+          "similarity": 0.3039
+        }
+      ]
+    },
+    {
+      "frequency": 2314,
+      "label": "V",
+      "nearest_neighbors": [
+        {
+          "label": "i",
+          "similarity": 0.3796
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.306
+        },
+        {
+          "label": "viio7",
+          "similarity": 0.3045
+        },
+        {
+          "label": "V7/iii",
+          "similarity": 0.2905
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.257
+        }
+      ]
+    },
+    {
+      "frequency": 3,
+      "label": "V/III",
+      "nearest_neighbors": [
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.4506
+        },
+        {
+          "label": "viio7/vi",
+          "similarity": 0.2809
+        },
+        {
+          "label": "VI",
+          "similarity": 0.2296
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.198
+        },
+        {
+          "label": "viio7/vii\u00b0",
+          "similarity": 0.1737
+        }
+      ]
+    },
+    {
+      "frequency": 2,
+      "label": "V/IV",
+      "nearest_neighbors": [
+        {
+          "label": "V7/IV",
+          "similarity": 0.5612
+        },
+        {
+          "label": "viio7/iv",
+          "similarity": 0.4863
+        },
+        {
+          "label": "I",
+          "similarity": 0.3275
+        },
+        {
+          "label": "V/iv",
+          "similarity": 0.3115
+        },
+        {
+          "label": "IV7",
+          "similarity": 0.3039
+        }
+      ]
+    },
+    {
+      "frequency": 33,
+      "label": "V/V",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/IV",
+          "similarity": 0.4825
+        },
+        {
+          "label": "viio7/iii",
+          "similarity": 0.277
+        },
+        {
+          "label": "V7/V",
+          "similarity": 0.2722
+        },
+        {
+          "label": "I",
+          "similarity": 0.2392
+        },
+        {
+          "label": "viio7/VI",
+          "similarity": 0.2353
+        }
+      ]
+    },
+    {
+      "frequency": 1,
+      "label": "V/VI",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/VI",
+          "similarity": 0.452
+        },
+        {
+          "label": "V7",
+          "similarity": 0.3758
+        },
+        {
+          "label": "V7/VI",
+          "similarity": 0.3067
+        },
+        {
+          "label": "III",
+          "similarity": 0.2943
+        },
+        {
+          "label": "viio7/V",
+          "similarity": 0.2736
+        }
+      ]
+    },
+    {
+      "frequency": 57,
+      "label": "V/VII",
+      "nearest_neighbors": [
+        {
+          "label": "VI7",
+          "similarity": 0.4497
+        },
+        {
+          "label": "viio7/ii\u00b0",
+          "similarity": 0.3805
+        },
+        {
+          "label": "iv",
+          "similarity": 0.3784
+        },
+        {
+          "label": "V7/VII",
+          "similarity": 0.2566
+        },
+        {
+          "label": "V/iv",
+          "similarity": 0.2413
+        }
+      ]
+    },
+    {
+      "frequency": 18,
+      "label": "V/ii",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/vi",
+          "similarity": 0.3426
+        },
+        {
+          "label": "vii\u00f87",
+          "similarity": 0.3056
+        },
+        {
+          "label": "V7/ii",
+          "similarity": 0.2814
+        },
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.247
+        },
+        {
+          "label": "viio7/VI",
+          "similarity": 0.234
+        }
+      ]
+    },
+    {
+      "frequency": 154,
+      "label": "V/iv",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/iv",
+          "similarity": 0.857
+        },
+        {
+          "label": "V/IV",
+          "similarity": 0.3115
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.3051
+        },
+        {
+          "label": "V7/III",
+          "similarity": 0.2875
+        },
+        {
+          "label": "iv",
+          "similarity": 0.2862
+        }
+      ]
+    },
+    {
+      "frequency": 30,
+      "label": "V/vi",
+      "nearest_neighbors": [
+        {
+          "label": "V7/vi",
+          "similarity": 0.5468
+        },
+        {
+          "label": "iii",
+          "similarity": 0.4145
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.3668
+        },
+        {
+          "label": "vi",
+          "similarity": 0.3421
+        },
+        {
+          "label": "viio7/iii",
+          "similarity": 0.2815
+        }
+      ]
+    },
+    {
+      "frequency": 1505,
+      "label": "V7",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/V",
+          "similarity": 0.5195
+        },
+        {
+          "label": "viio7",
+          "similarity": 0.4635
+        },
+        {
+          "label": "I",
+          "similarity": 0.4205
+        },
+        {
+          "label": "ii\u00f87",
+          "similarity": 0.3935
+        },
+        {
+          "label": "V/VI",
+          "similarity": 0.3758
+        }
+      ]
+    },
+    {
+      "frequency": 1,
+      "label": "V7/III",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/III",
+          "similarity": 0.3656
+        },
+        {
+          "label": "V/iv",
+          "similarity": 0.2875
+        },
+        {
+          "label": "iv",
+          "similarity": 0.1848
+        },
+        {
+          "label": "V/vi",
+          "similarity": 0.175
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.1714
+        }
+      ]
+    },
+    {
+      "frequency": 398,
+      "label": "V7/IV",
+      "nearest_neighbors": [
+        {
+          "label": "V/IV",
+          "similarity": 0.5612
+        },
+        {
+          "label": "I",
+          "similarity": 0.5602
+        },
+        {
+          "label": "IV7",
+          "similarity": 0.4794
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.393
+        },
+        {
+          "label": "viio7/IV",
+          "similarity": 0.3749
+        }
+      ]
+    },
+    {
+      "frequency": 157,
+      "label": "V7/V",
+      "nearest_neighbors": [
+        {
+          "label": "ii7",
+          "similarity": 0.5998
+        },
+        {
+          "label": "iii",
+          "similarity": 0.5686
+        },
+        {
+          "label": "V/V",
+          "similarity": 0.2722
+        },
+        {
+          "label": "V7",
+          "similarity": 0.2696
+        },
+        {
+          "label": "vi",
+          "similarity": 0.2391
+        }
+      ]
+    },
+    {
+      "frequency": 152,
+      "label": "V7/VI",
+      "nearest_neighbors": [
+        {
+          "label": "IV7",
+          "similarity": 0.4061
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.3861
+        },
+        {
+          "label": "viio7/vii\u00b0",
+          "similarity": 0.3343
+        },
+        {
+          "label": "III",
+          "similarity": 0.3243
+        },
+        {
+          "label": "V/VI",
+          "similarity": 0.3067
+        }
+      ]
+    },
+    {
+      "frequency": 220,
+      "label": "V7/VII",
+      "nearest_neighbors": [
+        {
+          "label": "ii\u00b0",
+          "similarity": 0.5464
+        },
+        {
+          "label": "III",
+          "similarity": 0.4246
+        },
+        {
+          "label": "viio7/VII",
+          "similarity": 0.4056
+        },
+        {
+          "label": "V7/iv",
+          "similarity": 0.3943
+        },
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.3601
+        }
+      ]
+    },
+    {
+      "frequency": 38,
+      "label": "V7/ii",
+      "nearest_neighbors": [
+        {
+          "label": "vi",
+          "similarity": 0.3015
+        },
+        {
+          "label": "V/ii",
+          "similarity": 0.2814
+        },
+        {
+          "label": "ii",
+          "similarity": 0.2311
+        },
+        {
+          "label": "viio7/V",
+          "similarity": 0.2231
+        },
+        {
+          "label": "viio7/ii",
+          "similarity": 0.2104
+        }
+      ]
+    },
+    {
+      "frequency": 2,
+      "label": "V7/iii",
+      "nearest_neighbors": [
+        {
+          "label": "vi7",
+          "similarity": 0.3729
+        },
+        {
+          "label": "I",
+          "similarity": 0.3335
+        },
+        {
+          "label": "V7",
+          "similarity": 0.3197
+        },
+        {
+          "label": "V",
+          "similarity": 0.2905
+        },
+        {
+          "label": "V7/vi",
+          "similarity": 0.1825
+        }
+      ]
+    },
+    {
+      "frequency": 1,
+      "label": "V7/ii\u00b0",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/ii\u00b0",
+          "similarity": 0.4895
+        },
+        {
+          "label": "V7/VII",
+          "similarity": 0.3601
+        },
+        {
+          "label": "V7",
+          "similarity": 0.355
+        },
+        {
+          "label": "III",
+          "similarity": 0.3166
+        },
+        {
+          "label": "viio7/III",
+          "similarity": 0.3049
+        }
+      ]
+    },
+    {
+      "frequency": 237,
+      "label": "V7/iv",
+      "nearest_neighbors": [
+        {
+          "label": "V7/VII",
+          "similarity": 0.3943
+        },
+        {
+          "label": "vi",
+          "similarity": 0.279
+        },
+        {
+          "label": "ii\u00f87",
+          "similarity": 0.2766
+        },
+        {
+          "label": "V/iv",
+          "similarity": 0.2755
+        },
+        {
+          "label": "viio7/iv",
+          "similarity": 0.1888
+        }
+      ]
+    },
+    {
+      "frequency": 28,
+      "label": "V7/vi",
+      "nearest_neighbors": [
+        {
+          "label": "V/vi",
+          "similarity": 0.5468
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.4229
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.4213
+        },
+        {
+          "label": "viio7/iii",
+          "similarity": 0.3634
+        },
+        {
+          "label": "IV7",
+          "similarity": 0.2144
+        }
+      ]
+    },
+    {
+      "frequency": 932,
+      "label": "VI",
+      "nearest_neighbors": [
+        {
+          "label": "iv7",
+          "similarity": 0.5394
+        },
+        {
+          "label": "III",
+          "similarity": 0.2803
+        },
+        {
+          "label": "V/III",
+          "similarity": 0.2296
+        },
+        {
+          "label": "viio7/ii",
+          "similarity": 0.214
+        },
+        {
+          "label": "viio7/iv",
+          "similarity": 0.1938
+        }
+      ]
+    },
+    {
+      "frequency": 281,
+      "label": "VI7",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/iv",
+          "similarity": 0.4911
+        },
+        {
+          "label": "V/VII",
+          "similarity": 0.4497
+        },
+        {
+          "label": "iv7",
+          "similarity": 0.3901
+        },
+        {
+          "label": "V7/VI",
+          "similarity": 0.3861
+        },
+        {
+          "label": "V7/VII",
+          "similarity": 0.3119
+        }
+      ]
+    },
+    {
+      "frequency": 1369,
+      "label": "VII",
+      "nearest_neighbors": [
+        {
+          "label": "ii\u00b0",
+          "similarity": 0.4348
+        },
+        {
+          "label": "viio7/ii\u00b0",
+          "similarity": 0.431
+        },
+        {
+          "label": "iv",
+          "similarity": 0.2995
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.2884
+        },
+        {
+          "label": "V/iv",
+          "similarity": 0.2861
+        }
+      ]
+    },
+    {
+      "frequency": 2739,
+      "label": "i",
+      "nearest_neighbors": [
+        {
+          "label": "viio7",
+          "similarity": 0.6421
+        },
+        {
+          "label": "V",
+          "similarity": 0.3796
+        },
+        {
+          "label": "viio7/III",
+          "similarity": 0.3197
+        },
+        {
+          "label": "ii\u00b0",
+          "similarity": 0.2997
+        },
+        {
+          "label": "ii\u00f87",
+          "similarity": 0.2549
+        }
+      ]
+    },
+    {
+      "frequency": 664,
+      "label": "ii",
+      "nearest_neighbors": [
+        {
+          "label": "iii",
+          "similarity": 0.3256
+        },
+        {
+          "label": "I",
+          "similarity": 0.2965
+        },
+        {
+          "label": "viio7/ii",
+          "similarity": 0.2674
+        },
+        {
+          "label": "vi",
+          "similarity": 0.2525
+        },
+        {
+          "label": "V7/ii",
+          "similarity": 0.2311
+        }
+      ]
+    },
+    {
+      "frequency": 660,
+      "label": "ii7",
+      "nearest_neighbors": [
+        {
+          "label": "V7/V",
+          "similarity": 0.5998
+        },
+        {
+          "label": "V7/vi",
+          "similarity": 0.4229
+        },
+        {
+          "label": "V7/IV",
+          "similarity": 0.393
+        },
+        {
+          "label": "viio7/iii",
+          "similarity": 0.3537
+        },
+        {
+          "label": "iii",
+          "similarity": 0.3384
+        }
+      ]
+    },
+    {
+      "frequency": 607,
+      "label": "iii",
+      "nearest_neighbors": [
+        {
+          "label": "V7/V",
+          "similarity": 0.5686
+        },
+        {
+          "label": "V/vi",
+          "similarity": 0.4145
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.3384
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.3359
+        },
+        {
+          "label": "ii",
+          "similarity": 0.3256
+        }
+      ]
+    },
+    {
+      "frequency": 659,
+      "label": "ii\u00b0",
+      "nearest_neighbors": [
+        {
+          "label": "V7/VII",
+          "similarity": 0.5464
+        },
+        {
+          "label": "VII",
+          "similarity": 0.4348
+        },
+        {
+          "label": "viio7/VII",
+          "similarity": 0.4109
+        },
+        {
+          "label": "i",
+          "similarity": 0.2997
+        },
+        {
+          "label": "III",
+          "similarity": 0.2137
+        }
+      ]
+    },
+    {
+      "frequency": 664,
+      "label": "ii\u00f87",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/V",
+          "similarity": 0.4682
+        },
+        {
+          "label": "viio7",
+          "similarity": 0.4238
+        },
+        {
+          "label": "V7",
+          "similarity": 0.3935
+        },
+        {
+          "label": "III",
+          "similarity": 0.3786
+        },
+        {
+          "label": "V7/VII",
+          "similarity": 0.3517
+        }
+      ]
+    },
+    {
+      "frequency": 1642,
+      "label": "iv",
+      "nearest_neighbors": [
+        {
+          "label": "V/VII",
+          "similarity": 0.3784
+        },
+        {
+          "label": "VII",
+          "similarity": 0.2995
+        },
+        {
+          "label": "V/iv",
+          "similarity": 0.2862
+        },
+        {
+          "label": "viio7/III",
+          "similarity": 0.2461
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.2445
+        }
+      ]
+    },
+    {
+      "frequency": 614,
+      "label": "iv7",
+      "nearest_neighbors": [
+        {
+          "label": "VI",
+          "similarity": 0.5394
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.3901
+        },
+        {
+          "label": "viio7/V",
+          "similarity": 0.3153
+        },
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.2881
+        },
+        {
+          "label": "iv",
+          "similarity": 0.1986
+        }
+      ]
+    },
+    {
+      "frequency": 700,
+      "label": "vi",
+      "nearest_neighbors": [
+        {
+          "label": "vii\u00f87",
+          "similarity": 0.356
+        },
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.3477
+        },
+        {
+          "label": "V/vi",
+          "similarity": 0.3421
+        },
+        {
+          "label": "iii",
+          "similarity": 0.3104
+        },
+        {
+          "label": "viio7/iii",
+          "similarity": 0.3091
+        }
+      ]
+    },
+    {
+      "frequency": 337,
+      "label": "vi7",
+      "nearest_neighbors": [
+        {
+          "label": "V7/vi",
+          "similarity": 0.4213
+        },
+        {
+          "label": "viio7/ii",
+          "similarity": 0.4156
+        },
+        {
+          "label": "V7/iii",
+          "similarity": 0.3729
+        },
+        {
+          "label": "V/vi",
+          "similarity": 0.3668
+        },
+        {
+          "label": "iii",
+          "similarity": 0.3359
+        }
+      ]
+    },
+    {
+      "frequency": 387,
+      "label": "viio7",
+      "nearest_neighbors": [
+        {
+          "label": "i",
+          "similarity": 0.6421
+        },
+        {
+          "label": "V7",
+          "similarity": 0.4635
+        },
+        {
+          "label": "ii\u00f87",
+          "similarity": 0.4238
+        },
+        {
+          "label": "V",
+          "similarity": 0.3045
+        },
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.2844
+        }
+      ]
+    },
+    {
+      "frequency": 3,
+      "label": "viio7/III",
+      "nearest_neighbors": [
+        {
+          "label": "V7/III",
+          "similarity": 0.3656
+        },
+        {
+          "label": "i",
+          "similarity": 0.3197
+        },
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.3049
+        },
+        {
+          "label": "viio7/ii\u00b0",
+          "similarity": 0.2596
+        },
+        {
+          "label": "iv",
+          "similarity": 0.2461
+        }
+      ]
+    },
+    {
+      "frequency": 15,
+      "label": "viio7/IV",
+      "nearest_neighbors": [
+        {
+          "label": "V/V",
+          "similarity": 0.4825
+        },
+        {
+          "label": "V7/IV",
+          "similarity": 0.3749
+        },
+        {
+          "label": "vii\u00f87",
+          "similarity": 0.2704
+        },
+        {
+          "label": "IV",
+          "similarity": 0.2493
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.2098
+        }
+      ]
+    },
+    {
+      "frequency": 72,
+      "label": "viio7/V",
+      "nearest_neighbors": [
+        {
+          "label": "V7",
+          "similarity": 0.5195
+        },
+        {
+          "label": "ii\u00f87",
+          "similarity": 0.4682
+        },
+        {
+          "label": "iv7",
+          "similarity": 0.3153
+        },
+        {
+          "label": "V/VI",
+          "similarity": 0.2736
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.2389
+        }
+      ]
+    },
+    {
+      "frequency": 4,
+      "label": "viio7/VI",
+      "nearest_neighbors": [
+        {
+          "label": "V/VI",
+          "similarity": 0.452
+        },
+        {
+          "label": "V7/VI",
+          "similarity": 0.2501
+        },
+        {
+          "label": "viio7/iii",
+          "similarity": 0.2486
+        },
+        {
+          "label": "V/V",
+          "similarity": 0.2353
+        },
+        {
+          "label": "V/ii",
+          "similarity": 0.234
+        }
+      ]
+    },
+    {
+      "frequency": 38,
+      "label": "viio7/VII",
+      "nearest_neighbors": [
+        {
+          "label": "ii\u00b0",
+          "similarity": 0.4109
+        },
+        {
+          "label": "V7/VII",
+          "similarity": 0.4056
+        },
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.3043
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.1957
+        },
+        {
+          "label": "VII",
+          "similarity": 0.1912
+        }
+      ]
+    },
+    {
+      "frequency": 59,
+      "label": "viio7/ii",
+      "nearest_neighbors": [
+        {
+          "label": "vi7",
+          "similarity": 0.4156
+        },
+        {
+          "label": "ii",
+          "similarity": 0.2674
+        },
+        {
+          "label": "iii",
+          "similarity": 0.238
+        },
+        {
+          "label": "V/V",
+          "similarity": 0.2162
+        },
+        {
+          "label": "VI",
+          "similarity": 0.214
+        }
+      ]
+    },
+    {
+      "frequency": 14,
+      "label": "viio7/iii",
+      "nearest_neighbors": [
+        {
+          "label": "vii\u00f87",
+          "similarity": 0.4306
+        },
+        {
+          "label": "V7/vi",
+          "similarity": 0.3634
+        },
+        {
+          "label": "ii7",
+          "similarity": 0.3537
+        },
+        {
+          "label": "vi",
+          "similarity": 0.3091
+        },
+        {
+          "label": "V/vi",
+          "similarity": 0.2815
+        }
+      ]
+    },
+    {
+      "frequency": 6,
+      "label": "viio7/ii\u00b0",
+      "nearest_neighbors": [
+        {
+          "label": "V7/ii\u00b0",
+          "similarity": 0.4895
+        },
+        {
+          "label": "VII",
+          "similarity": 0.431
+        },
+        {
+          "label": "V/VII",
+          "similarity": 0.3805
+        },
+        {
+          "label": "III",
+          "similarity": 0.2734
+        },
+        {
+          "label": "viio7/III",
+          "similarity": 0.2596
+        }
+      ]
+    },
+    {
+      "frequency": 90,
+      "label": "viio7/iv",
+      "nearest_neighbors": [
+        {
+          "label": "V/iv",
+          "similarity": 0.857
+        },
+        {
+          "label": "VI7",
+          "similarity": 0.4911
+        },
+        {
+          "label": "V/IV",
+          "similarity": 0.4863
+        },
+        {
+          "label": "VII",
+          "similarity": 0.2425
+        },
+        {
+          "label": "viio7",
+          "similarity": 0.2371
+        }
+      ]
+    },
+    {
+      "frequency": 15,
+      "label": "viio7/vi",
+      "nearest_neighbors": [
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.3926
+        },
+        {
+          "label": "V/ii",
+          "similarity": 0.3426
+        },
+        {
+          "label": "V/III",
+          "similarity": 0.2809
+        },
+        {
+          "label": "viio7/vii\u00b0",
+          "similarity": 0.263
+        },
+        {
+          "label": "viio7",
+          "similarity": 0.2164
+        }
+      ]
+    },
+    {
+      "frequency": 16,
+      "label": "viio7/vii\u00b0",
+      "nearest_neighbors": [
+        {
+          "label": "IV7",
+          "similarity": 0.4375
+        },
+        {
+          "label": "V7/VI",
+          "similarity": 0.3343
+        },
+        {
+          "label": "viio7/vi",
+          "similarity": 0.263
+        },
+        {
+          "label": "vi",
+          "similarity": 0.2611
+        },
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.2521
+        }
+      ]
+    },
+    {
+      "frequency": 509,
+      "label": "vii\u00b0",
+      "nearest_neighbors": [
+        {
+          "label": "V/III",
+          "similarity": 0.4506
+        },
+        {
+          "label": "vii\u00f87",
+          "similarity": 0.4299
+        },
+        {
+          "label": "viio7/vi",
+          "similarity": 0.3926
+        },
+        {
+          "label": "vi",
+          "similarity": 0.3477
+        },
+        {
+          "label": "IV",
+          "similarity": 0.3395
+        }
+      ]
+    },
+    {
+      "frequency": 112,
+      "label": "vii\u00f87",
+      "nearest_neighbors": [
+        {
+          "label": "viio7/iii",
+          "similarity": 0.4306
+        },
+        {
+          "label": "vii\u00b0",
+          "similarity": 0.4299
+        },
+        {
+          "label": "vi",
+          "similarity": 0.356
+        },
+        {
+          "label": "V/ii",
+          "similarity": 0.3056
+        },
+        {
+          "label": "vi7",
+          "similarity": 0.2998
+        }
+      ]
+    }
+  ],
+  "context_window": 2,
+  "corpus_size": 361,
+  "dataset_id": "dcml_bach_chorales",
+  "diagnostics": {
+    "mode_centroid_separation": 7.4025,
+    "mode_separation_ratio": 3.5064,
+    "mode_within_cluster_spread": 2.1111,
+    "related_pair": "V~V7",
+    "related_similarity": 0.1256,
+    "unrelated_pair": "V~ii",
+    "unrelated_similarity": 0.045
+  },
+  "dimension": 32,
+  "manifest_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/embedding_space.32d.json",
+  "projection_method": "umap",
+  "visualization_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/embeddings/chorale_embedding_space.umap.png"
+}

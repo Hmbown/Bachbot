@@ -1,0 +1,2208 @@
+{
+  "bundle_id": "EB-notes__212 Herr, ich denk an jene Zeit-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.83,
+      "10": 3.16,
+      "11": 1.34,
+      "12": 1.34,
+      "13": 1.16,
+      "14": 3.59,
+      "2": 1.84,
+      "3": 1.49,
+      "4": 0.16,
+      "5": 1.34,
+      "6": 5.16,
+      "7": 1.34,
+      "8": 0.16,
+      "9": 1.34
+    },
+    "cadences": [
+      {
+        "bass_formula": "1-5",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:3",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "soprano_formula": "1-7",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "2-5",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:5",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m5",
+        "soprano_formula": "6-5",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-5",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:6",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "soprano_formula": "1-5",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:8",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.43,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "soprano_formula": "5-4",
+        "strength": 0.43,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:9",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.3,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m9",
+        "soprano_formula": "2-1",
+        "strength": 0.3,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "2-5",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:11",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m11",
+        "soprano_formula": null,
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "1-2",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:13",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "soprano_formula": "5-4",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__212 Herr, ich denk an jene Zeit:cad:14",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.3,
+        "key_after": "Eb major",
+        "key_before": "Eb major",
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m14",
+        "soprano_formula": "2-1",
+        "strength": 0.3,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__212 Herr, ich denk an jene Zeit-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 8 cadence candidate(s) across 87 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__212 Herr, ich denk an jene Zeit-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 11 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 4.67,
+        "10": 7.0,
+        "11": 2.5,
+        "12": 2.5,
+        "13": 5.0,
+        "14": 0.25,
+        "2": 2.0,
+        "3": 5.33,
+        "4": 4.0,
+        "5": 2.5,
+        "6": 9.0,
+        "7": 2.5,
+        "8": 4.0,
+        "9": 2.5
+      },
+      "pitch_class_histogram": {
+        "0": 21,
+        "1": 1,
+        "10": 52,
+        "11": 1,
+        "2": 27,
+        "3": 41,
+        "4": 0,
+        "5": 40,
+        "6": 0,
+        "7": 28,
+        "8": 22,
+        "9": 4
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:0",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:100",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:150",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Bb"
+        ],
+        "onset": 1.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:200",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:250",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:300",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h1:350",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 3.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m1",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "V",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h2:400",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m2",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h2:450",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m2",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h2:500",
+        "local_key": "Eb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m2",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h2:600",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m2",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:800",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:850",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 8.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:900",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:950",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:1000",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:1050",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:1100",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h3:1150",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m3",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1200",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1250",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "iii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1300",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1350",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1400",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1450",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1500",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h4:1550",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m4",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h5:1600",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m5",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h5:1800",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h5:1850",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 18.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h5:1900",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h5:1950",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 19.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m5",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2000",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2050",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 20.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2100",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2150",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2200",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab",
+          "NT:F"
+        ],
+        "onset": 22.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2250",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Ab"
+        ],
+        "onset": 22.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2300",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2350",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Ab"
+        ],
+        "onset": 23.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h6:2375",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.75,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m6",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h7:2400",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m7",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h7:2600",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m7",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h7:2650",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 26.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m7",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "V",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h7:2700",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m7",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h7:2750",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 27.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m7",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:2800",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab",
+          "PT:F"
+        ],
+        "onset": 28.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:2850",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:2900",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F"
+        ],
+        "onset": 29.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:2950",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:3000",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Ab"
+        ],
+        "onset": 30.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:3050",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:3100",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h8:3150",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m8",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Eb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h9:3200",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m9",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h9:3400",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m9",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h9:3450",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 34.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m9",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h9:3500",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m9",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h9:3550",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m9",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "iii",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3600",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3650",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3700",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3750",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3800",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Bb"
+        ],
+        "onset": 38.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3850",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h10:3900",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m10",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "iii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h11:4000",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m11",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h11:4200",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Ab"
+        ],
+        "onset": 42.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m11",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h11:4250",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Ab",
+          "SUS:Ab"
+        ],
+        "onset": 42.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m11",
+        "roman_numeral_candidate_set": [
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h11:4300",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m11",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h11:4350",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 43.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m11",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h12:4400",
+        "local_key": "Bb major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m12",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h12:4600",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 46.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m12",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h12:4650",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 46.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m12",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h12:4700",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Eb"
+        ],
+        "onset": 47.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m12",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h12:4750",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m12",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:4800",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Eb"
+        ],
+        "onset": 48.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:4850",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 48.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "F33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:4875",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.75,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:4900",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:4950",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:5000",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Eb"
+        ],
+        "onset": 50.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:5050",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 50.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "Ab33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:5075",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.75,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:5100",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 51.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "Bb22",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h13:5150",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.5,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m13",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 4.0,
+        "figured_bass_like_summary": "Eb33",
+        "global_key": "Eb major",
+        "harmonic_event_id": "notes__212 Herr, ich denk an jene Zeit:h14:5200",
+        "local_key": "F minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.0,
+        "ref_id": "notes__212 Herr, ich denk an jene Zeit:m14",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 3,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 5,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 6,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 2-1"
+        ],
+        "measure": 8,
+        "strength": 0.43,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 9,
+        "strength": 0.3,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 11,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 13,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 14,
+        "strength": 0.3,
+        "type": "cadential"
+      }
+    ],
+    "validation_report": {
+      "issues": [],
+      "passed": true,
+      "subject_id": "notes__212 Herr, ich denk an jene Zeit",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__212 Herr, ich denk an jene Zeit"
+    },
+    "voice_leading": {
+      "contrary": 21,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 1,
+            "onset": 2.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "S|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 16.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 7,
+            "onset": 26.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 9,
+            "onset": 32.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 9,
+            "onset": 34.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 13,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 13,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 10
+      },
+      "oblique": 54,
+      "parallel": 2,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 11,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__212 Herr, ich denk an jene Zeit",
+    "genre": "chorale",
+    "key": "Eb major",
+    "key_mode": "major",
+    "key_tonic": "Eb"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__212 Herr, ich denk an jene Zeit",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/212 Herr, ich denk an jene Zeit.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m6",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m8",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m11",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m11",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m11",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m11",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m12",
+    "Harmonic ambiguity at notes__212 Herr, ich denk an jene Zeit:m13"
+  ],
+  "work_id": "notes__212 Herr, ich denk an jene Zeit"
+}

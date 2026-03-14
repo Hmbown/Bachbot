@@ -1,0 +1,1538 @@
+{
+  "artifact_stem": "notes__118 In dich hab ich gehoffet, Herr",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__118 In dich hab ich gehoffet, Herr.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__118 In dich hab ich gehoffet, Herr-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": null,
+              "cadence_id": "notes__118 In dich hab ich gehoffet, Herr:cad:4",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "Bb major",
+              "key_before": "Bb major",
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m4",
+              "soprano_formula": "2-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__118 In dich hab ich gehoffet, Herr:cad:12",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.58,
+              "key_after": "Bb major",
+              "key_before": "Bb major",
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m12",
+              "soprano_formula": "2-1",
+              "strength": 0.58,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h1:0",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m1",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h1:50",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m1",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:150",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:250",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h2:450",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m2",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h3:500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m3",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h3:600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m3",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h3:700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m3",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h3:750",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h3:800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m3",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h3:850",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h4:900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h4:1000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h4:1100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m4",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h4:1200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m4",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1350",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1450",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1550",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h5:1650",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m5",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h6:1700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m6",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h6:1800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m6",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h6:1900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h6:1950",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m6",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h6:2000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m6",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h6:2050",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m6",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2250",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2350",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h7:2450",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h8:2500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m8",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h8:2600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m8",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h8:2650",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m8",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h8:2700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m8",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h8:2750",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h8:2800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m8",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h9:2900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m9",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h9:3000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h9:3050",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Ab33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h9:3100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m9",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h9:3150",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m9",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h9:3200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m9",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h10:3300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h10:3400",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m10",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h10:3500",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m10",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h10:3550",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m10",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h10:3600",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m10",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h10:3650",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m10",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:3700",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:3750",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:3800",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:3850",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:3900",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "iii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:4000",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h11:4050",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m11",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h12:4100",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m12",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h12:4200",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h12:4250",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m12",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "Bb major",
+              "harmonic_event_id": "notes__118 In dich hab ich gehoffet, Herr:h12:4300",
+              "local_key": "Bb major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__118 In dich hab ich gehoffet, Herr:m12",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 4,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 12,
+              "strength": 0.58,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 26,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 2,
+                  "onset": 2.0,
+                  "type": "parallel_8ves",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 3,
+                  "onset": 8.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 4,
+                  "onset": 9.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 9,
+                  "onset": 30.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 10,
+                  "onset": 33.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 37.0,
+                  "type": "parallel_8ves",
+                  "voices": "A|S"
+                },
+                {
+                  "measure": 12,
+                  "onset": 43.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 7,
+                  "onset": 23.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 7,
+                  "onset": 23.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 6,
+              "suspension_details": [
+                {
+                  "measure": 3,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                }
+              ],
+              "suspensions": 1
+            },
+            "oblique": 29,
+            "parallel": 4,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 13,
+            "spacing_issues": [
+              {
+                "interval": 15,
+                "issue": "spacing",
+                "measure": 5,
+                "voices": "S|A"
+              },
+              {
+                "interval": 18,
+                "issue": "spacing",
+                "measure": 8,
+                "voices": "A|T"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__118 In dich hab ich gehoffet, Herr",
+          "genre": "chorale",
+          "key": "Bb",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__118 In dich hab ich gehoffet, Herr",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/118 In dich hab ich gehoffet, Herr.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__118 In dich hab ich gehoffet, Herr:m5",
+          "Harmonic ambiguity at notes__118 In dich hab ich gehoffet, Herr:m5",
+          "Harmonic ambiguity at notes__118 In dich hab ich gehoffet, Herr:m6"
+        ],
+        "work_id": "notes__118 In dich hab ich gehoffet, Herr"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 12 passage refs and 69 harmonic events."
+}

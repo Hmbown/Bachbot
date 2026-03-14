@@ -1,0 +1,4264 @@
+{
+  "bundle_id": "EB-notes__259 Verleih uns Frieden gn\u00e4diglich-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 2.35,
+      "10": 2.65,
+      "11": 0.35,
+      "12": 2.65,
+      "13": 2.65,
+      "14": 3.35,
+      "15": 0.98,
+      "16": 3.68,
+      "17": 0.98,
+      "18": 1.85,
+      "19": 3.65,
+      "2": 0.85,
+      "20": 2.65,
+      "21": 2.35,
+      "22": 3.65,
+      "23": 1.85,
+      "24": 0.35,
+      "25": 3.35,
+      "26": 2.02,
+      "27": 2.02,
+      "28": 4.02,
+      "3": 1.65,
+      "4": 0.15,
+      "5": 0.85,
+      "6": 3.65,
+      "7": 1.65,
+      "8": 3.65,
+      "9": 1.35
+    },
+    "cadences": [
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:3",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "soprano_formula": "2-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:7",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "soprano_formula": "3-4",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "4-1",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "soprano_formula": "2-3",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:9",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.58,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "soprano_formula": "2-1",
+        "strength": 0.58,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "1-3",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:12",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "soprano_formula": "1-1",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "2-3",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:13",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.5,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "soprano_formula": "4-5",
+        "strength": 0.5,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "7-3",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:14",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m14",
+        "soprano_formula": "4-5",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "4-5",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:15",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "soprano_formula": "6-5",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:17",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "soprano_formula": "5-5",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:18",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.63,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+        "soprano_formula": "6-5",
+        "strength": 0.63,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "bass formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "3-3",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:22",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "soprano_formula": "3-5",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "7-1",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:23",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.63,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m23",
+        "soprano_formula": "4-3",
+        "strength": 0.63,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "bass formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:25",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.35,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m25",
+        "soprano_formula": "1-1",
+        "strength": 0.35,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "bass formula 5-6"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:26",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.78,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "soprano_formula": "7-1",
+        "strength": 0.78,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "bass formula 2-1",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "5-6",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:27",
+        "cadence_type": "DC",
+        "detector_confidence": 0.72,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "soprano_formula": "2-1",
+        "strength": 0.72,
+        "type_candidates": [
+          "DC"
+        ],
+        "voice_leading_evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:cad:28",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.65,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m28",
+        "soprano_formula": null,
+        "strength": 0.65,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__259 Verleih uns Frieden gn\u00e4diglich-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 16 cadence candidate(s) across 167 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__259 Verleih uns Frieden gn\u00e4diglich-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 29 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 2.0,
+        "10": 7.0,
+        "11": 4.0,
+        "12": 7.0,
+        "13": 7.0,
+        "14": 1.0,
+        "15": 5.33,
+        "16": 0.67,
+        "17": 5.33,
+        "18": 2.5,
+        "19": 8.0,
+        "2": 3.5,
+        "20": 7.0,
+        "21": 2.0,
+        "22": 8.0,
+        "23": 2.5,
+        "24": 4.0,
+        "25": 1.0,
+        "26": 2.33,
+        "27": 2.33,
+        "28": 0.33,
+        "3": 6.0,
+        "4": 4.5,
+        "5": 3.5,
+        "6": 8.0,
+        "7": 6.0,
+        "8": 8.0,
+        "9": 3.0
+      },
+      "pitch_class_histogram": {
+        "0": 0,
+        "1": 76,
+        "10": 3,
+        "11": 70,
+        "2": 40,
+        "3": 5,
+        "4": 57,
+        "5": 14,
+        "6": 75,
+        "7": 0,
+        "8": 49,
+        "9": 82
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h1:100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h1:150",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 1.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:350",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:450",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#"
+        ],
+        "onset": 5.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "viio7/V",
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h2:550",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h3:600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h3:650",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h3:700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 7.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h3:750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h3:800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h3:900",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m3",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1050",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 11.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00f87",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1150",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1250",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 12.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 13.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1350",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 13.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h4:1375",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.75,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m4",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1450",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1475",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.75,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 15.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1600",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1700",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h5:1750",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 17.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m5",
+        "roman_numeral_candidate_set": [
+          "IV7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:1800",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 18.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:1850",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 18.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:1900",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:F"
+        ],
+        "onset": 19.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:1950",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:2000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:2050",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:2100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 21.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h6:2150",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F#"
+        ],
+        "onset": 21.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m6",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h7:2200",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Eb"
+        ],
+        "onset": 22.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h7:2250",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h7:2300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 23.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h7:2400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Eb"
+        ],
+        "onset": 24.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h7:2500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:Eb"
+        ],
+        "onset": 25.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h7:2550",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2650",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 26.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2850",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2900",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F"
+        ],
+        "onset": 29.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h8:2950",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h9:3000",
+        "local_key": "B minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h9:3050",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 30.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h9:3100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 31.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h9:3150",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h9:3200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h9:3300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m9",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3550",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 35.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Eb"
+        ],
+        "onset": 36.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3650",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h10:3750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 37.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#44",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h11:3800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 38.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#44",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h11:3850",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h11:3900",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h11:3950",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h11:4000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h11:4100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4250",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 42.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#",
+          "PT:C#"
+        ],
+        "onset": 43.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4450",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 45.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h12:4550",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4650",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 47.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4850",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h13:4900",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 49.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m13",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h14:5000",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m14",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h14:5200",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m14",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "vii\u00f87",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5400",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5550",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5575",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.75,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:A"
+        ],
+        "onset": 56.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5650",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E",
+          "SUS:E"
+        ],
+        "onset": 56.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 57.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h15:5750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E",
+          "SUS:E"
+        ],
+        "onset": 57.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m15",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 3.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h16:5800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 58.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m16",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h16:6100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 61.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m16",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6250",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 62.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 63.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6350",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 63.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6400",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F#"
+        ],
+        "onset": 64.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "viio7/ii",
+          "iii",
+          "V",
+          "I"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6450",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 64.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 65.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h17:6550",
+        "local_key": "C# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D",
+          "NT:F"
+        ],
+        "onset": 65.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+        "roman_numeral_candidate_set": [
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h18:6600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 66.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h18:6800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 68.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h18:6850",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 68.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+        "roman_numeral_candidate_set": [
+          "VII"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h18:6900",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C#"
+        ],
+        "onset": 69.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h18:6950",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 69.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E",
+          "SUS:E"
+        ],
+        "onset": 70.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7050",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E",
+          "SUS:E"
+        ],
+        "onset": 70.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7100",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 71.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7150",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 71.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7200",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 72.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7250",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 72.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7300",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 73.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h19:7350",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 73.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m19",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7400",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 74.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7450",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 74.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "viio7/ii",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7500",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 75.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7550",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 75.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "vii\u00b0",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7600",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7650",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 76.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h20:7700",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 77.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m20",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h21:7800",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 78.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m21",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h21:7900",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 79.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m21",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h21:7950",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 79.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m21",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h21:8000",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 80.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m21",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8200",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 82.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8250",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 82.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8300",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 83.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8350",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 83.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8400",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 84.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8450",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 84.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8500",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 85.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h22:8550",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:E"
+        ],
+        "onset": 85.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m22",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h23:8600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 86.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m23",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h23:8700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 87.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m23",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h23:8750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:A"
+        ],
+        "onset": 87.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m23",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h23:8800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 88.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m23",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h23:8900",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 89.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m23",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h24:9000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:C#",
+          "NCT:C#"
+        ],
+        "onset": 90.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m24",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h24:9100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 91.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m24",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h24:9150",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 91.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m24",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h24:9200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 92.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m24",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h24:9300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 93.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m24",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h24:9350",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 93.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m24",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h25:9400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 94.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m25",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h25:9700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 97.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m25",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h25:9750",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 97.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m25",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i",
+          "VII"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:9800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 98.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:9850",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Ab"
+        ],
+        "onset": 98.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:9900",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#"
+        ],
+        "onset": 99.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:9950",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 99.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:10000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 100.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:10100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 101.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h26:10150",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 101.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m26",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V7",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 102.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10250",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 102.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10300",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 103.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10350",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 103.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 104.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10450",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 104.5,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h27:10500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 105.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m27",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 3.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:h28:10600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:Bb"
+        ],
+        "onset": 106.0,
+        "ref_id": "notes__259 Verleih uns Frieden gn\u00e4diglich:m28",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 3,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 7,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ],
+        "measure": 9,
+        "strength": 0.58,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 12,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate"
+        ],
+        "measure": 13,
+        "strength": 0.5,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 14,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 15,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 17,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "bass formula 2-1"
+        ],
+        "measure": 18,
+        "strength": 0.63,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 22,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "bass formula 7-1"
+        ],
+        "measure": 23,
+        "strength": 0.63,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "bass formula 5-6"
+        ],
+        "measure": 25,
+        "strength": 0.35,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "bass formula 2-1",
+          "soprano formula 7-1"
+        ],
+        "measure": 26,
+        "strength": 0.78,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-6",
+          "soprano formula 2-1"
+        ],
+        "measure": 27,
+        "strength": 0.72,
+        "type": "DC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 28,
+        "strength": 0.65,
+        "type": "PAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "spacing",
+          "measure": 14,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 19,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 19,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 20,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 20,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        },
+        {
+          "code": "spacing",
+          "measure": 27,
+          "message": "Spacing violation between A|T.",
+          "severity": "error",
+          "voice_ids": [
+            "A",
+            "T"
+          ]
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__259 Verleih uns Frieden gn\u00e4diglich",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__259 Verleih uns Frieden gn\u00e4diglich"
+    },
+    "voice_leading": {
+      "contrary": 43,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 3,
+            "onset": 7.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 14,
+            "onset": 52.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "A|B"
+          },
+          {
+            "from_interval": 7,
+            "measure": 21,
+            "onset": 80.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 0,
+            "measure": 24,
+            "onset": 90.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "measure": 12,
+            "onset": 42.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 12,
+            "onset": 43.0,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 12,
+            "onset": 44.0,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 12,
+            "onset": 44.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 12,
+            "onset": 45.0,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 12,
+            "onset": 45.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 17,
+            "onset": 65.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 25,
+            "onset": 97.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 26,
+            "onset": 98.0,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 26,
+            "onset": 98.5,
+            "type": "voice_crossing",
+            "voices": "T|B"
+          },
+          {
+            "measure": 27,
+            "onset": 103.0,
+            "type": "voice_crossing",
+            "voices": "S|A"
+          },
+          {
+            "measure": 27,
+            "onset": 103.5,
+            "type": "voice_crossing",
+            "voices": "S|A"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 26,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 21,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 5,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 7,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 19,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 20,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 23,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 6,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 12,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 17,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 25,
+            "type": "possible_suspension",
+            "voice": "S"
+          }
+        ],
+        "suspensions": 16
+      },
+      "oblique": 94,
+      "parallel": 10,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 29,
+      "spacing_issues": [
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 14,
+          "onset": 52.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 16,
+          "issue": "spacing",
+          "measure": 19,
+          "onset": 73.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 17,
+          "issue": "spacing",
+          "measure": 19,
+          "onset": 73.5,
+          "voices": "A|T"
+        },
+        {
+          "interval": 19,
+          "issue": "spacing",
+          "measure": 20,
+          "onset": 74.0,
+          "voices": "A|T"
+        },
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 20,
+          "onset": 74.5,
+          "voices": "A|T"
+        },
+        {
+          "interval": 15,
+          "issue": "spacing",
+          "measure": 27,
+          "onset": 103.5,
+          "voices": "A|T"
+        }
+      ],
+      "spacing_ok": false
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__259 Verleih uns Frieden gn\u00e4diglich",
+    "genre": "chorale",
+    "key": "F# minor",
+    "key_mode": "minor",
+    "key_tonic": "F#"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 21,
+      "measure_start": 21,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 22,
+      "measure_start": 22,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 23,
+      "measure_start": 23,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 24,
+      "measure_start": 24,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 25,
+      "measure_start": 25,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 26,
+      "measure_start": 26,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 27,
+      "measure_start": 27,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 28,
+      "measure_start": 28,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__259 Verleih uns Frieden gn\u00e4diglich",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/259 Verleih uns Frieden gn\u00e4diglich.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m7",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m8",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m10",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m11",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m17",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m18",
+    "Harmonic ambiguity at notes__259 Verleih uns Frieden gn\u00e4diglich:m28"
+  ],
+  "work_id": "notes__259 Verleih uns Frieden gn\u00e4diglich"
+}

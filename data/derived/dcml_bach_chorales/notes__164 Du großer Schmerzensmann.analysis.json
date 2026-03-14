@@ -1,0 +1,1917 @@
+{
+  "anomalies": {
+    "1": 2.84,
+    "10": 2.16,
+    "11": 2.84,
+    "12": 1.16,
+    "13": 2.34,
+    "14": 3.16,
+    "15": 2.34,
+    "16": 0.66,
+    "17": 3.59,
+    "2": 3.16,
+    "3": 2.34,
+    "4": 3.16,
+    "5": 0.84,
+    "6": 3.16,
+    "7": 2.34,
+    "8": 3.16,
+    "9": 0.34
+  },
+  "cadences": [
+    {
+      "bass_formula": "6-3",
+      "cadence_id": "notes__164 Du gro\u00dfer Schmerzensmann:cad:2",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G major",
+      "key_before": "G major",
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "soprano_formula": "1-1",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "2-1",
+      "cadence_id": "notes__164 Du gro\u00dfer Schmerzensmann:cad:3",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "G major",
+      "key_before": "G major",
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m3",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__164 Du gro\u00dfer Schmerzensmann:cad:9",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "G major",
+      "key_before": "G major",
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "soprano_formula": "1-7",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__164 Du gro\u00dfer Schmerzensmann:cad:10",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "G major",
+      "key_before": "G major",
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "soprano_formula": "7-7",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "6-5",
+      "cadence_id": "notes__164 Du gro\u00dfer Schmerzensmann:cad:11",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.5,
+      "key_after": "G major",
+      "key_before": "G major",
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m11",
+      "soprano_formula": "1-2",
+      "strength": 0.5,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__164 Du gro\u00dfer Schmerzensmann:cad:13",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.37,
+      "key_after": "G major",
+      "key_before": "G major",
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m13",
+      "soprano_formula": "4-3",
+      "strength": 0.37,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__164 Du gro\u00dfer Schmerzensmann-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 6 cadence candidate(s) across 84 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__164 Du gro\u00dfer Schmerzensmann-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 10 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 1.0,
+      "10": 6.0,
+      "11": 1.0,
+      "12": 5.0,
+      "13": 1.5,
+      "14": 7.0,
+      "15": 1.5,
+      "16": 4.5,
+      "17": 0.25,
+      "2": 7.0,
+      "3": 1.5,
+      "4": 7.0,
+      "5": 3.0,
+      "6": 7.0,
+      "7": 1.5,
+      "8": 7.0,
+      "9": 3.5
+    },
+    "pitch_class_histogram": {
+      "0": 18,
+      "1": 6,
+      "10": 2,
+      "11": 42,
+      "2": 41,
+      "3": 7,
+      "4": 29,
+      "5": 0,
+      "6": 28,
+      "7": 40,
+      "8": 0,
+      "9": 23
+    }
+  },
+  "encoding_id": "notes__164 Du gro\u00dfer Schmerzensmann",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h1:0",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m1",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:150",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 1.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h2:450",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m2",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h3:500",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h3:800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h3:850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 8.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m3",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:1000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:1050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:1100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:1150",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:1200",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h4:1250",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h5:1300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 13.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h5:1350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A",
+        "NCT:A"
+      ],
+      "onset": 13.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h5:1400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h5:1450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m5",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h5:1500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h5:1600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:1700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:1750",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:1800",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "V/vi",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:1900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 19.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:1950",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:2000",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h6:2050",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m6",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 3.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h7:2100",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 21.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m7",
+      "roman_numeral_candidate_set": [
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h7:2400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m7",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h7:2450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m7",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "NT:C"
+      ],
+      "onset": 25.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:C"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [
+        "VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2750",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h8:2800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m8",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:2900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#",
+        "NCT:F#"
+      ],
+      "onset": 29.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:2950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:3000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:3050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:3100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:3200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h9:3250",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 32.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m9",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h10:3300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h10:3400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h10:3500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 35.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h10:3550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 35.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h10:3600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 36.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h10:3650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h11:3700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h11:4000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h12:4100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m12",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h12:4150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m12",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h12:4200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m12",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h12:4300",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m12",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h12:4400",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "iii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 3.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h13:4500",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h13:4800",
+      "local_key": "D major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m13",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h13:4850",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 48.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m13",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:4900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:4950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:5000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:5050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 50.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:5100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C",
+        "PT:A"
+      ],
+      "onset": 51.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:5150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h14:5200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 52.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m14",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h15:5300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 53.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m15",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h15:5600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 56.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m15",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h15:5650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C"
+      ],
+      "onset": 56.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m15",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:5700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 57.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:5750",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 57.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D#33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:5800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A",
+        "NCT:Eb"
+      ],
+      "onset": 58.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:5850",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 58.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:5900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 59.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:5950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 59.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:6000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#"
+      ],
+      "onset": 60.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.25,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:6050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Eb"
+      ],
+      "onset": 60.5,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h16:6075",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 60.75,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m16",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "i",
+        "III"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 4.0,
+      "figured_bass_like_summary": "E22",
+      "global_key": "G major",
+      "harmonic_event_id": "notes__164 Du gro\u00dfer Schmerzensmann:h17:6100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 61.0,
+      "ref_id": "notes__164 Du gro\u00dfer Schmerzensmann:m17",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "G major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 2,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 2-1"
+      ],
+      "measure": 3,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 9,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 10,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate"
+      ],
+      "measure": 11,
+      "strength": 0.5,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 13,
+      "strength": 0.37,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__164 Du gro\u00dfer Schmerzensmann",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__164 Du gro\u00dfer Schmerzensmann"
+  },
+  "voice_leading": {
+    "contrary": 23,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 4,
+          "onset": 11.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 15.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 5,
+          "onset": 16.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 12,
+          "onset": 44.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 17,
+          "onset": 61.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 16,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 7
+    },
+    "oblique": 50,
+    "parallel": 1,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 10,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__164 Du gro\u00dfer Schmerzensmann"
+}

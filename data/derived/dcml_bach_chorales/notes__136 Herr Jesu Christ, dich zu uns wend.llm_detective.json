@@ -1,0 +1,1186 @@
+{
+  "artifact_stem": "notes__136 Herr Jesu Christ, dich zu uns wend",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__136 Herr Jesu Christ, dich zu uns wend.evidence_bundle.json",
+  "executed": false,
+  "mode": "detective",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.280486+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Detective Mode.\n\nRank hypotheses by evidence support.\nSeparate supported fact from inference from speculation.\nFor every hypothesis, name at least one falsifier or additional source check.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__136 Herr Jesu Christ, dich zu uns wend-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "2-3",
+              "cadence_id": "notes__136 Herr Jesu Christ, dich zu uns wend:cad:4",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "D major",
+              "key_before": "D major",
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "soprano_formula": "4-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h1:0",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m1",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h2:100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "F#22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h2:200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h2:300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h2:350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h2:400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h2:450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h3:500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m3",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h3:550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m3",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h3:600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h3:700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h3:800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m3",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h3:850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:1000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:1050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:1100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:1150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:1200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h4:1250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m4",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h5:1300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m5",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h5:1350",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m5",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h5:1400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m5",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h5:1450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h5:1500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m5",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h5:1600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:1700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:1750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:1800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:1850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vii\u00b0",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:1900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:1950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:2000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h6:2050",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2150",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2200",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2250",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2300",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2400",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h7:2450",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m7",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2500",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2550",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2600",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2650",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2700",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2750",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "iii",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2800",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h8:2850",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m8",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h9:2900",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m9",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h9:2950",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m9",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h9:3000",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m9",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "D major",
+              "harmonic_event_id": "notes__136 Herr Jesu Christ, dich zu uns wend:h9:3100",
+              "local_key": "D major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__136 Herr Jesu Christ, dich zu uns wend:m9",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 4,
+              "strength": 0.5,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 16,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 3,
+                  "onset": 7.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 3,
+                  "onset": 8.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 5,
+                  "onset": 15.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 5,
+                  "onset": 16.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                }
+              ],
+              "parallel_5ths": 3,
+              "parallel_8ves": 1,
+              "suspension_details": [
+                {
+                  "measure": 5,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 2,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 4,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 3
+            },
+            "oblique": 25,
+            "parallel": 1,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 12,
+            "spacing_issues": [],
+            "spacing_ok": true
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__136 Herr Jesu Christ, dich zu uns wend",
+          "genre": "chorale",
+          "key": "D",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__136 Herr Jesu Christ, dich zu uns wend",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/136 Herr Jesu Christ, dich zu uns wend.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__136 Herr Jesu Christ, dich zu uns wend:m3"
+        ],
+        "work_id": "notes__136 Herr Jesu Christ, dich zu uns wend"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared detective prompt with 9 passage refs and 54 harmonic events."
+}

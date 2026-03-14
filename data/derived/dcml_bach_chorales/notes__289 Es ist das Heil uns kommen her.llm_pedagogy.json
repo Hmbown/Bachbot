@@ -1,0 +1,1659 @@
+{
+  "artifact_stem": "notes__289 Es ist das Heil uns kommen her",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__289 Es ist das Heil uns kommen her.evidence_bundle.json",
+  "executed": false,
+  "mode": "pedagogy",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.868058+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Pedagogy Mode.\n\nExplain only from the supplied evidence bundle.\nAdjust language to the requested level while preserving uncertainty.\nDo not simplify away contested readings.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__289 Es ist das Heil uns kommen her-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__289 Es ist das Heil uns kommen her:cad:5",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.8,
+              "key_after": "B major",
+              "key_before": "B major",
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m5",
+              "soprano_formula": "2-1",
+              "strength": 0.8,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1",
+                "soprano formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": "2-1",
+              "cadence_id": "notes__289 Es ist das Heil uns kommen her:cad:10",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.37,
+              "key_after": "B major",
+              "key_before": "B major",
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "soprano_formula": "6-6",
+              "strength": 0.37,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "dominant-like penultimate",
+                "bass formula 2-1"
+              ]
+            },
+            {
+              "bass_formula": null,
+              "cadence_id": "notes__289 Es ist das Heil uns kommen her:cad:11",
+              "cadence_type": "cadential",
+              "detector_confidence": 0.5,
+              "key_after": "B major",
+              "key_before": "B major",
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "soprano_formula": "5-5",
+              "strength": 0.5,
+              "type_candidates": [
+                "cadential"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h1:0",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m1",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h2:100",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h2:150",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h2:200",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m2",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h2:300",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h2:350",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m2",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G#22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h2:400",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m2",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:500",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:550",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:600",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:650",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:700",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:800",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h3:850",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m3",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:900",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:950",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:1000",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:1050",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 10.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:1100",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:1150",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "vi"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:1200",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h4:1250",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m4",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h5:1300",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h5:1350",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m5",
+              "roman_numeral_candidate_set": [
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h5:1400",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m5",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h5:1450",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m5",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h5:1500",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m5",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h6:1600",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m6",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h6:1650",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m6",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:1700",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:1750",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:1800",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:1850",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:1900",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:1950",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 19.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:2000",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h7:2050",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m7",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2100",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2150",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV",
+                "ii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2200",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "V",
+                "vii\u00b0",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2250",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "V",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "B22",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2300",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2400",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h8:2450",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m8",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2500",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2550",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2600",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2650",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2700",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2750",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "V",
+                "I"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2800",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h9:2850",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m9",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:2900",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:2950",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:3000",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:3050",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:3100",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:3150",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 31.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#44",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:3200",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h10:3250",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m10",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "IV",
+                "vii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3300",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3350",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3400",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "iii",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3450",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3500",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3550",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "ii",
+                "vii\u00b0",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "B33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3600",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h11:3650",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m11",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h12:3700",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m12",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "IV"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h12:3750",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m12",
+              "roman_numeral_candidate_set": [
+                "vii\u00b0",
+                "ii",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h12:3800",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m12",
+              "roman_numeral_candidate_set": [
+                "I",
+                "vi",
+                "iii"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h12:3850",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m12",
+              "roman_numeral_candidate_set": [
+                "vi",
+                "I"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "E33",
+              "global_key": "B major",
+              "harmonic_event_id": "notes__289 Es ist das Heil uns kommen her:h12:3900",
+              "local_key": "B major",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__289 Es ist das Heil uns kommen her:m12",
+              "roman_numeral_candidate_set": [
+                "IV",
+                "vi",
+                "ii"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 5,
+              "strength": 0.8,
+              "type": "IAC"
+            },
+            {
+              "measure": 10,
+              "strength": 0.37,
+              "type": "cadential"
+            },
+            {
+              "measure": 11,
+              "strength": 0.5,
+              "type": "cadential"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 20,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 5,
+                  "onset": 14.0,
+                  "type": "parallel_5ths",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 5,
+                  "onset": 15.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 8,
+                  "onset": 22.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|T"
+                },
+                {
+                  "measure": 8,
+                  "onset": 23.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 9,
+                  "onset": 28.5,
+                  "type": "parallel_5ths",
+                  "voices": "A|B"
+                },
+                {
+                  "measure": 3,
+                  "onset": 6.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 3,
+                  "onset": 6.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 9,
+                  "onset": 28.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 10,
+                  "onset": 29.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 35.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 35.5,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 36.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 12,
+                  "onset": 37.0,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                },
+                {
+                  "measure": 12,
+                  "onset": 37.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 12,
+                  "onset": 37.5,
+                  "type": "voice_crossing",
+                  "voices": "S|A"
+                },
+                {
+                  "measure": 12,
+                  "onset": 37.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 12,
+                  "onset": 38.0,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                },
+                {
+                  "measure": 12,
+                  "onset": 38.5,
+                  "type": "voice_crossing",
+                  "voices": "T|B"
+                }
+              ],
+              "parallel_5ths": 2,
+              "parallel_8ves": 3,
+              "suspension_details": [
+                {
+                  "measure": 9,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                }
+              ],
+              "suspensions": 1
+            },
+            "oblique": 37,
+            "parallel": 3,
+            "range_issues": [],
+            "ranges_ok": true,
+            "similar": 15,
+            "spacing_issues": [
+              {
+                "interval": 20,
+                "issue": "spacing",
+                "measure": 2,
+                "voices": "T|B"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__289 Es ist das Heil uns kommen her",
+          "genre": "chorale",
+          "key": "B",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__289 Es ist das Heil uns kommen her",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/289 Es ist das Heil uns kommen her.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m3",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m3",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m3",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m4",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m5",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m9",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m9",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m9",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m9",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m10",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m10",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m11",
+          "Harmonic ambiguity at notes__289 Es ist das Heil uns kommen her:m11"
+        ],
+        "work_id": "notes__289 Es ist das Heil uns kommen her"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared pedagogy prompt with 12 passage refs and 73 harmonic events."
+}

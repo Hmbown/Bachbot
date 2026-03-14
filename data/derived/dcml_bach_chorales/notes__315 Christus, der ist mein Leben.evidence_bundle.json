@@ -1,0 +1,1783 @@
+{
+  "bundle_id": "EB-notes__315 Christus, der ist mein Leben-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.54,
+      "10": 0.21,
+      "11": 1.46,
+      "12": 5.46,
+      "13": 0.54,
+      "14": 0.54,
+      "15": 0.04,
+      "16": 1.13,
+      "17": 0.04,
+      "18": 0.04,
+      "19": 0.96,
+      "2": 0.54,
+      "20": 1.04,
+      "3": 0.04,
+      "4": 0.46,
+      "5": 1.04,
+      "6": 1.21,
+      "7": 1.21,
+      "8": 1.21,
+      "9": 1.21
+    },
+    "cadences": [
+      {
+        "bass_formula": "1-1",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:2",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m2",
+        "soprano_formula": "1-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:3",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m3",
+        "soprano_formula": "2-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "6-3",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:4",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "soprano_formula": "4-5",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:5",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.85,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m5",
+        "soprano_formula": "5-3",
+        "strength": 0.85,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ]
+      },
+      {
+        "bass_formula": "4-4",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:10",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m10",
+        "soprano_formula": "5-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "3-3",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:14",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m14",
+        "soprano_formula": "5-6",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "2-1",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:15",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.8,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m15",
+        "soprano_formula": "7-1",
+        "strength": 0.8,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 2-1",
+          "soprano formula 7-1"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:16",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.58,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "soprano_formula": "7-6",
+        "strength": 0.58,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "bass formula 5-1",
+          "soprano formula 7-6"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__315 Christus, der ist mein Leben:cad:20",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.99,
+        "key_after": "G major",
+        "key_before": "G major",
+        "ref_id": "notes__315 Christus, der ist mein Leben:m20",
+        "soprano_formula": "7-1",
+        "strength": 0.99,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__315 Christus, der ist mein Leben-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__315 Christus, der ist mein Leben:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__315 Christus, der ist mein Leben:m2"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__315 Christus, der ist mein Leben:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 9 cadence candidate(s) across 58 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__315 Christus, der ist mein Leben-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__315 Christus, der ist mein Leben:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 9 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 1.33,
+        "11": 3.0,
+        "12": 7.0,
+        "13": 1.0,
+        "14": 1.0,
+        "15": 1.5,
+        "16": 2.67,
+        "17": 1.5,
+        "18": 1.5,
+        "19": 2.5,
+        "2": 1.0,
+        "20": 0.5,
+        "3": 1.5,
+        "4": 2.0,
+        "5": 0.5,
+        "6": 0.33,
+        "7": 0.33,
+        "8": 0.33,
+        "9": 0.33
+      },
+      "pitch_class_histogram": {
+        "0": 18,
+        "1": 3,
+        "10": 0,
+        "11": 26,
+        "2": 25,
+        "3": 2,
+        "4": 18,
+        "5": 3,
+        "6": 15,
+        "7": 26,
+        "8": 2,
+        "9": 18
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h1:0",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m1",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h2:100",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 1.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m2",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h2:300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 3.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m2",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h3:400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m3",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h3:500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 5.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m3",
+        "roman_numeral_candidate_set": [
+          "iii",
+          "I",
+          "vi7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h3:600",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h4:700",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 7.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h4:750",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C"
+        ],
+        "onset": 7.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h4:800",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h4:850",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h4:875",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.75,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "roman_numeral_candidate_set": [
+          "vi7",
+          "vi",
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h4:900",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h5:1000",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 10.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m5",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 3.0,
+        "figured_bass_like_summary": "E55",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h6:1300",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m6",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 3.0,
+        "figured_bass_like_summary": "F44",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h7:1600",
+        "local_key": "D minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m7",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "verticality"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h8:1900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 19.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m8",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 3.0,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h9:2200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NCT:C"
+        ],
+        "onset": 22.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m9",
+        "roman_numeral_candidate_set": [
+          "viio7",
+          "iv7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h10:2500",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h10:2650",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:B"
+        ],
+        "onset": 26.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h10:2700",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h10:2750",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m10",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h11:2800",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 28.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m11",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h11:2850",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:F#"
+        ],
+        "onset": 28.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m11",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h11:2900",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 29.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m11",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3100",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:E"
+        ],
+        "onset": 31.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3150",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:F#"
+        ],
+        "onset": 31.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "VII"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3200",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B"
+        ],
+        "onset": 32.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3250",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3275",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 32.75,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "V",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3300",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:F#"
+        ],
+        "onset": 33.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h12:3350",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 33.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m12",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.25,
+        "duration": 2.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h13:3400",
+        "local_key": "A minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 34.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m13",
+        "roman_numeral_candidate_set": [],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h13:3600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 36.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m13",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h14:3700",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m14",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h14:3900",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 39.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m14",
+        "roman_numeral_candidate_set": [
+          "ii\u00b0",
+          "viio7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h15:4000",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 40.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m15",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h15:4100",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 41.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m15",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D44",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h15:4200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m15",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "G33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4300",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 43.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4350",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:E"
+        ],
+        "onset": 43.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00f87",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4400",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 44.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI",
+          "III"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4450",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 44.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4475",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 44.75,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4500",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 45.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4550",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#"
+        ],
+        "onset": 45.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "iv"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.25,
+        "figured_bass_like_summary": "A33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h16:4575",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 45.75,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m16",
+        "roman_numeral_candidate_set": [
+          "V7/VII",
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h17:4600",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 46.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m17",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h17:4800",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 48.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m17",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h17:4850",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 48.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m17",
+        "roman_numeral_candidate_set": [
+          "i",
+          "III",
+          "VI7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h18:4900",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:C#"
+        ],
+        "onset": 49.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m18",
+        "roman_numeral_candidate_set": [
+          "iv7",
+          "iv",
+          "i"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h18:5000",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 50.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m18",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h18:5100",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 51.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m18",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h19:5200",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m19",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "C33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h19:5250",
+        "local_key": "E minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 52.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m19",
+        "roman_numeral_candidate_set": [
+          "VI7",
+          "i",
+          "VI"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h19:5300",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:G"
+        ],
+        "onset": 53.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m19",
+        "roman_numeral_candidate_set": [
+          "V",
+          "I"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 0.5,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h19:5350",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 53.5,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m19",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h19:5400",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 54.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m19",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "iii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G22",
+        "global_key": "G major",
+        "harmonic_event_id": "notes__315 Christus, der ist mein Leben:h20:5500",
+        "local_key": "G major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 55.0,
+        "ref_id": "notes__315 Christus, der ist mein Leben:m20",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 2,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 3,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 4,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1"
+        ],
+        "measure": 5,
+        "strength": 0.85,
+        "type": "PAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 10,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 14,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 2-1",
+          "soprano formula 7-1"
+        ],
+        "measure": 15,
+        "strength": 0.8,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "bass formula 5-1",
+          "soprano formula 7-6"
+        ],
+        "measure": 16,
+        "strength": 0.58,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 7-1"
+        ],
+        "measure": 20,
+        "strength": 0.99,
+        "type": "PAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [],
+      "passed": true,
+      "subject_id": "notes__315 Christus, der ist mein Leben",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__315 Christus, der ist mein Leben"
+    },
+    "voice_leading": {
+      "contrary": 11,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 10.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 0,
+            "measure": 13,
+            "onset": 34.0,
+            "to_interval": 7,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 17,
+            "onset": 46.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "from_interval": 7,
+            "measure": 17,
+            "onset": 48.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|T"
+          }
+        ],
+        "parallel_5ths": 0,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 10,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 14,
+            "type": "possible_suspension",
+            "voice": "B"
+          },
+          {
+            "measure": 3,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 16,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 18,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 19,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 7,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "S"
+          },
+          {
+            "measure": 19,
+            "type": "possible_suspension",
+            "voice": "S"
+          }
+        ],
+        "suspensions": 12
+      },
+      "oblique": 37,
+      "parallel": 0,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 9,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__315 Christus, der ist mein Leben",
+    "genre": "chorale",
+    "key": "G major",
+    "key_mode": "major",
+    "key_tonic": "G"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "S"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "S"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 12,
+      "measure_start": 12,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 13,
+      "measure_start": 13,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 14,
+      "measure_start": 14,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 15,
+      "measure_start": 15,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 16,
+      "measure_start": 16,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 17,
+      "measure_start": 17,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 18,
+      "measure_start": 18,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 19,
+      "measure_start": 19,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 20,
+      "measure_start": 20,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__315 Christus, der ist mein Leben",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/315 Christus, der ist mein Leben.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__315 Christus, der ist mein Leben:m6",
+    "Harmonic ambiguity at notes__315 Christus, der ist mein Leben:m7",
+    "Harmonic ambiguity at notes__315 Christus, der ist mein Leben:m13",
+    "Harmonic ambiguity at notes__315 Christus, der ist mein Leben:m16"
+  ],
+  "work_id": "notes__315 Christus, der ist mein Leben"
+}

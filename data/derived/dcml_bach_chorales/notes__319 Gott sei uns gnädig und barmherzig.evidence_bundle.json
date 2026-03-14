@@ -1,0 +1,1048 @@
+{
+  "bundle_id": "EB-notes__319 Gott sei uns gn\u00e4dig und barmherzig-section_1",
+  "deterministic_findings": {
+    "anomalies": {
+      "1": 0.36,
+      "10": 0.36,
+      "11": 0.86,
+      "2": 2.64,
+      "3": 0.64,
+      "4": 0.61,
+      "5": 1.11,
+      "6": 0.36,
+      "7": 0.64,
+      "8": 0.14,
+      "9": 0.36
+    },
+    "cadences": [
+      {
+        "bass_formula": "6-7",
+        "cadence_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:cad:7",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m7",
+        "soprano_formula": "7-4",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": null,
+        "cadence_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:cad:8",
+        "cadence_type": "IAC",
+        "detector_confidence": 0.7,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m8",
+        "soprano_formula": "4-4",
+        "strength": 0.7,
+        "type_candidates": [
+          "IAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ]
+      },
+      {
+        "bass_formula": "6-5",
+        "cadence_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:cad:9",
+        "cadence_type": "cadential",
+        "detector_confidence": 0.48,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m9",
+        "soprano_formula": "2-3",
+        "strength": 0.48,
+        "type_candidates": [
+          "cadential"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ]
+      },
+      {
+        "bass_formula": "5-1",
+        "cadence_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:cad:10",
+        "cadence_type": "PAC",
+        "detector_confidence": 0.8,
+        "key_after": "F# minor",
+        "key_before": "F# minor",
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+        "soprano_formula": "2-1",
+        "strength": 0.8,
+        "type_candidates": [
+          "PAC"
+        ],
+        "voice_leading_evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLAIM-notes__319 Gott sei uns gn\u00e4dig und barmherzig-cadence-summary",
+        "claim_type": "analysis_summary",
+        "confidence": 0.8,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m1"
+          },
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m2"
+          }
+        ],
+        "lens": "harmonic/tonal",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 4 cadence candidate(s) across 34 harmonic event(s).",
+        "status": "supported_fact"
+      },
+      {
+        "claim_id": "CLAIM-notes__319 Gott sei uns gn\u00e4dig und barmherzig-voiceleading-summary",
+        "claim_type": "voiceleading_summary",
+        "confidence": 0.75,
+        "counterarguments": [],
+        "created_by": "bachbot",
+        "evidence_refs": [
+          {
+            "description": "harmonic event",
+            "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m1"
+          }
+        ],
+        "lens": "counterpoint/voice-leading",
+        "method": "rule",
+        "source_refs": [],
+        "statement": "Detected 7 similar-motion transition(s) with 1 parallel fifth(s) and 0 parallel octave(s).",
+        "status": "supported_fact"
+      }
+    ],
+    "distributions": {
+      "onset_density": {
+        "1": 1.0,
+        "10": 1.0,
+        "11": 0.5,
+        "2": 4.0,
+        "3": 2.0,
+        "4": 0.75,
+        "5": 0.25,
+        "6": 1.0,
+        "7": 2.0,
+        "8": 1.5,
+        "9": 1.0
+      },
+      "pitch_class_histogram": {
+        "0": 0,
+        "1": 15,
+        "10": 2,
+        "11": 17,
+        "2": 7,
+        "3": 1,
+        "4": 14,
+        "5": 3,
+        "6": 18,
+        "7": 0,
+        "8": 11,
+        "9": 15
+      }
+    },
+    "fugue": {},
+    "harmony": [
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h1:0",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 0.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m1",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 2.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h1:200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 2.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m1",
+        "roman_numeral_candidate_set": [
+          "VII",
+          "ii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h2:400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 4.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m2",
+        "roman_numeral_candidate_set": [
+          "III",
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h2:500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 5.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m2",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h2:600",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 6.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m2",
+        "roman_numeral_candidate_set": [
+          "ii",
+          "vii\u00f87",
+          "ii7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h2:700",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "NT:F"
+        ],
+        "onset": 7.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m2",
+        "roman_numeral_candidate_set": [
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h3:800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 8.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m3",
+        "roman_numeral_candidate_set": [
+          "VI",
+          "iv7",
+          "VI7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "G#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h3:900",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 9.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m3",
+        "roman_numeral_candidate_set": [
+          "V7/IV",
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h3:1000",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:B"
+        ],
+        "onset": 10.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m3",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h3:1100",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 11.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m3",
+        "roman_numeral_candidate_set": [
+          "vi",
+          "vi7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h4:1200",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 12.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "ii",
+          "IV"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h4:1300",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 13.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m4",
+        "roman_numeral_candidate_set": [
+          "ii7",
+          "vi",
+          "ii"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h4:1400",
+        "local_key": "A major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 14.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m4",
+        "roman_numeral_candidate_set": [
+          "V",
+          "V7",
+          "vii\u00b0"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 4.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h5:1600",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 16.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m5",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "A22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h6:2000",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 20.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h6:2100",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:B"
+        ],
+        "onset": 21.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "vi7",
+          "ii7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h6:2200",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 22.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m6",
+        "roman_numeral_candidate_set": [
+          "IV",
+          "ii7",
+          "IV7"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h6:2300",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:D"
+        ],
+        "onset": 23.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m6",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h7:2400",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 24.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m7",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h7:2500",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 25.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m7",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h7:2600",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 26.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m7",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h7:2700",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 27.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m7",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "vii\u00b0",
+          "V"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h8:2800",
+        "local_key": "E major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 28.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m8",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h8:3000",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 30.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m8",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h8:3100",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 31.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m8",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "iv",
+          "ii\u00b0"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h9:3200",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 32.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m9",
+        "roman_numeral_candidate_set": [
+          "i",
+          "VI7",
+          "VI"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h9:3400",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:C#"
+        ],
+        "onset": 34.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m9",
+        "roman_numeral_candidate_set": [
+          "ii\u00f87",
+          "V7",
+          "iv"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "C#33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h9:3500",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 35.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m9",
+        "roman_numeral_candidate_set": [
+          "V7",
+          "V",
+          "viio7"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h10:3600",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "PT:Bb"
+        ],
+        "onset": 36.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+        "roman_numeral_candidate_set": [
+          "i"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.65,
+        "duration": 1.0,
+        "figured_bass_like_summary": "E33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h10:3700",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 37.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+        "roman_numeral_candidate_set": [
+          "V7/iv",
+          "i",
+          "III"
+        ],
+        "verticality_class": "seventh"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 1.0,
+        "figured_bass_like_summary": "D33",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h10:3800",
+        "local_key": "F# minor",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 38.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+        "roman_numeral_candidate_set": [
+          "iv",
+          "iv7",
+          "ii\u00f87"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 1.0,
+        "figured_bass_like_summary": "B22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h10:3900",
+        "local_key": "F# major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 39.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.45,
+        "duration": 2.0,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h11:4000",
+        "local_key": "F# major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [
+          "SUS:D"
+        ],
+        "onset": 40.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m11",
+        "roman_numeral_candidate_set": [
+          "IV"
+        ],
+        "verticality_class": "triad"
+      },
+      {
+        "confidence": 0.85,
+        "duration": 2.0,
+        "figured_bass_like_summary": "F#22",
+        "global_key": "F# minor",
+        "harmonic_event_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:h11:4200",
+        "local_key": "F# major",
+        "method": "rule",
+        "nonharmonic_tone_tags": [],
+        "onset": 42.0,
+        "ref_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig:m11",
+        "roman_numeral_candidate_set": [
+          "I",
+          "vi7",
+          "vi"
+        ],
+        "verticality_class": "triad"
+      }
+    ],
+    "phrase_endings": [
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 7,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution",
+          "dominant-like penultimate"
+        ],
+        "measure": 8,
+        "strength": 0.7,
+        "type": "IAC"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "deceptive resolution"
+        ],
+        "measure": 9,
+        "strength": 0.48,
+        "type": "cadential"
+      },
+      {
+        "evidence": [
+          "final tonic support",
+          "dominant-like penultimate",
+          "bass formula 5-1",
+          "soprano formula 2-1"
+        ],
+        "measure": 10,
+        "strength": 0.8,
+        "type": "PAC"
+      }
+    ],
+    "validation_report": {
+      "issues": [
+        {
+          "code": "parallel_5ths",
+          "measure": null,
+          "message": "Parallel fifths detected.",
+          "severity": "error",
+          "voice_ids": []
+        }
+      ],
+      "passed": false,
+      "subject_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig",
+      "subject_type": "event_graph",
+      "validation_id": "VAL-notes__319 Gott sei uns gn\u00e4dig und barmherzig"
+    },
+    "voice_leading": {
+      "contrary": 4,
+      "counterpoint": {
+        "issues": [
+          {
+            "from_interval": 7,
+            "measure": 5,
+            "onset": 16.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          },
+          {
+            "measure": 8,
+            "onset": 30.0,
+            "type": "parallel_5ths",
+            "voices": "S|T"
+          },
+          {
+            "from_interval": 7,
+            "measure": 10,
+            "onset": 36.0,
+            "to_interval": 0,
+            "type": "direct_perfect",
+            "voices": "B|S"
+          }
+        ],
+        "parallel_5ths": 1,
+        "parallel_8ves": 0,
+        "suspension_details": [
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "T"
+          },
+          {
+            "measure": 4,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 9,
+            "type": "possible_suspension",
+            "voice": "A"
+          },
+          {
+            "measure": 11,
+            "type": "possible_suspension",
+            "voice": "A"
+          }
+        ],
+        "suspensions": 5
+      },
+      "oblique": 22,
+      "parallel": 1,
+      "range_issues": [],
+      "ranges_ok": true,
+      "similar": 7,
+      "spacing_issues": [],
+      "spacing_ok": true
+    }
+  },
+  "metadata": {
+    "catalog_revision": "BWV3",
+    "encoding_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig",
+    "genre": "chorale",
+    "key": "F# minor",
+    "key_mode": "minor",
+    "key_tonic": "F#"
+  },
+  "passage_refs": [
+    {
+      "measure_end": 1,
+      "measure_start": 1,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 2,
+      "measure_start": 2,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 3,
+      "measure_start": 3,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 4,
+      "measure_start": 4,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 5,
+      "measure_start": 5,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 6,
+      "measure_start": 6,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 7,
+      "measure_start": 7,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 8,
+      "measure_start": 8,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 9,
+      "measure_start": 9,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 10,
+      "measure_start": 10,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    },
+    {
+      "measure_end": 11,
+      "measure_start": 11,
+      "voice_ids": [
+        "A",
+        "B",
+        "S",
+        "T"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "encoding_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig",
+      "source": "encoding",
+      "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/319 Gott sei uns gn\u00e4dig und barmherzig.notes.tsv"
+    }
+  ],
+  "section_id": "section_1",
+  "uncertainties": [
+    "Harmonic ambiguity at notes__319 Gott sei uns gn\u00e4dig und barmherzig:m2",
+    "Harmonic ambiguity at notes__319 Gott sei uns gn\u00e4dig und barmherzig:m6",
+    "Harmonic ambiguity at notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+    "Harmonic ambiguity at notes__319 Gott sei uns gn\u00e4dig und barmherzig:m10",
+    "Harmonic ambiguity at notes__319 Gott sei uns gn\u00e4dig und barmherzig:m11"
+  ],
+  "work_id": "notes__319 Gott sei uns gn\u00e4dig und barmherzig"
+}

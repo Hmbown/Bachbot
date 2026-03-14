@@ -1,0 +1,1244 @@
+{
+  "anomalies": {
+    "1": 3.9,
+    "2": 2.6,
+    "3": 0.23,
+    "4": 2.6,
+    "5": 2.9,
+    "6": 2.6,
+    "7": 2.9,
+    "8": 2.1
+  },
+  "cadences": [
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__028 Nun komm, der Heiden Heiland:cad:3",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "soprano_formula": "1-1",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    },
+    {
+      "bass_formula": "1-1",
+      "cadence_id": "notes__028 Nun komm, der Heiden Heiland:cad:7",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "soprano_formula": "1-1",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__028 Nun komm, der Heiden Heiland-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 2 cadence candidate(s) across 54 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__028 Nun komm, der Heiden Heiland-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 11 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 9.0,
+      "2": 2.5,
+      "3": 5.33,
+      "4": 2.5,
+      "5": 8.0,
+      "6": 2.5,
+      "7": 8.0,
+      "8": 3.0
+    },
+    "pitch_class_histogram": {
+      "0": 1,
+      "1": 18,
+      "10": 5,
+      "11": 32,
+      "2": 23,
+      "3": 1,
+      "4": 17,
+      "5": 1,
+      "6": 25,
+      "7": 9,
+      "8": 4,
+      "9": 13
+    }
+  },
+  "encoding_id": "notes__028 Nun komm, der Heiden Heiland",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:0",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:50",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#",
+        "PT:F#"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:250",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 2.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h1:375",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:A"
+      ],
+      "onset": 3.75,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h2:400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h2:450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h2:500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m2",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h2:550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m2",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h2:600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:850",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#",
+        "PT:C#"
+      ],
+      "onset": 8.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "V7/VII",
+        "i",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:1000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:1050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 10.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "VII",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:1100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h3:1150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h4:1200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m4",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h4:1300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m4",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h4:1350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h4:1375",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.75,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m4",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "i",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h4:1400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m4",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 16.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 17.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1750",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1850",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 18.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h5:1950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h6:2000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00b0",
+        "viio7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h6:2050",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m6",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h6:2100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h6:2150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h6:2200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 24.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2550",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "viio7/VII"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F#",
+        "PT:F#"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h7:2750",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m7",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h8:2800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h8:2850",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h8:2900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#",
+        "NT:C#"
+      ],
+      "onset": 29.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h8:2925",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C#"
+      ],
+      "onset": 29.25,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h8:2950",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.5,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__028 Nun komm, der Heiden Heiland:h8:3000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__028 Nun komm, der Heiden Heiland:m8",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "B minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 3,
+      "strength": 0.48,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 7,
+      "strength": 0.48,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 4,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 4,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__028 Nun komm, der Heiden Heiland",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__028 Nun komm, der Heiden Heiland"
+  },
+  "voice_leading": {
+    "contrary": 13,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 2,
+          "onset": 6.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 6,
+          "onset": 21.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "S|T"
+        },
+        {
+          "from_interval": 7,
+          "measure": 6,
+          "onset": 22.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 30.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 3
+    },
+    "oblique": 29,
+    "parallel": 3,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 11,
+    "spacing_issues": [
+      {
+        "interval": 18,
+        "issue": "spacing",
+        "measure": 4,
+        "onset": 12.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 4,
+        "onset": 13.0,
+        "voices": "A|T"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__028 Nun komm, der Heiden Heiland"
+}

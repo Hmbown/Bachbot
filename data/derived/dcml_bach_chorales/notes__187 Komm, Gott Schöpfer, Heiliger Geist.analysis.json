@@ -1,0 +1,1410 @@
+{
+  "anomalies": {
+    "1": 3.61,
+    "2": 3.39,
+    "3": 1.39,
+    "4": 1.61,
+    "5": 1.39,
+    "6": 1.39,
+    "7": 0.61,
+    "8": 1.39,
+    "9": 3.11
+  },
+  "cadences": [
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:cad:3",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "soprano_formula": "5-1",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "7-1",
+      "cadence_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:cad:5",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.85,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:cad:6",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "3-6",
+      "cadence_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:cad:8",
+      "cadence_type": "DC",
+      "detector_confidence": 0.42,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "soprano_formula": "5-1",
+      "strength": 0.42,
+      "type_candidates": [
+        "DC"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "6-7",
+      "cadence_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:cad:9",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "C major",
+      "key_before": "C major",
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m9",
+      "soprano_formula": "6-5",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 5 cadence candidate(s) across 55 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 4 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "2": 9.0,
+      "3": 7.0,
+      "4": 4.0,
+      "5": 7.0,
+      "6": 7.0,
+      "7": 5.0,
+      "8": 7.0,
+      "9": 2.5
+    },
+    "pitch_class_histogram": {
+      "0": 32,
+      "1": 1,
+      "10": 1,
+      "11": 16,
+      "2": 22,
+      "3": 0,
+      "4": 24,
+      "5": 16,
+      "6": 1,
+      "7": 28,
+      "8": 0,
+      "9": 14
+    }
+  },
+  "encoding_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h1:0",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h1:50",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m1",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:250",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:350",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:375",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.75,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:450",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h2:475",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.75,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m2",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:550",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:650",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h3:850",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m3",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h4:900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m4",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h4:950",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h4:1000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m4",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h4:1100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m4",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h4:1200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 12.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h4:1250",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 13.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1350",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1375",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 13.75,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1450",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 14.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "V7/V",
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h5:1600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:1700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:1750",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 17.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:1800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:1900",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:G"
+      ],
+      "onset": 19.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:1950",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:2000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:G"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C44",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h6:2050",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h7:2100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h7:2150",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "V"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h7:2200",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m7",
+      "roman_numeral_candidate_set": [
+        "V7/ii",
+        "iii",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h7:2300",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m7",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h7:2400",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m7",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2500",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2550",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 25.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "vii\u00f87",
+        "ii7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2600",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2700",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:E"
+      ],
+      "onset": 27.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "ii",
+        "vii\u00f87",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2750",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Bb"
+      ],
+      "onset": 27.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "D33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2775",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E",
+        "SUS:Bb"
+      ],
+      "onset": 27.75,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h8:2800",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m8",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h9:2900",
+      "local_key": "G major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F"
+      ],
+      "onset": 29.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h9:3000",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 30.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h9:3050",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m9",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h9:3100",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "C major",
+      "harmonic_event_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:h9:3150",
+      "local_key": "C major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.5,
+      "ref_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "C major",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 3,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 7-1"
+      ],
+      "measure": 5,
+      "strength": 0.85,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 6,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.42,
+      "type": "DC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 9,
+      "strength": 0.48,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 3,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 5,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 5,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist"
+  },
+  "voice_leading": {
+    "contrary": 21,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 0,
+          "measure": 3,
+          "onset": 6.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 8,
+          "onset": 25.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "measure": 3,
+          "onset": 5.5,
+          "type": "voice_crossing",
+          "voices": "A|T"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 2,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        }
+      ],
+      "suspensions": 10
+    },
+    "oblique": 29,
+    "parallel": 1,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 4,
+    "spacing_issues": [
+      {
+        "interval": 20,
+        "issue": "spacing",
+        "measure": 3,
+        "onset": 5.5,
+        "voices": "T|B"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 5,
+        "onset": 14.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 21,
+        "issue": "spacing",
+        "measure": 5,
+        "onset": 14.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__187 Komm, Gott Sch\u00f6pfer, Heiliger Geist"
+}

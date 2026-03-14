@@ -1,0 +1,1098 @@
+{
+  "anomalies": {
+    "1": 1.42,
+    "10": 2.58,
+    "11": 0.09,
+    "2": 1.58,
+    "3": 1.42,
+    "4": 2.42,
+    "5": 1.58,
+    "6": 0.42,
+    "7": 2.42,
+    "8": 2.58,
+    "9": 0.09
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:cad:3",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.3,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m3",
+      "soprano_formula": "2-1",
+      "strength": 0.3,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:cad:5",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.43,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m5",
+      "soprano_formula": "7-7",
+      "strength": 0.43,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:cad:8",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "6-5",
+      "cadence_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:cad:11",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.48,
+      "key_after": "B minor",
+      "key_before": "B minor",
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m11",
+      "soprano_formula": "2-3",
+      "strength": 0.48,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m2"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 4 cadence candidate(s) across 44 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 16 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 2.0,
+      "10": 6.0,
+      "11": 3.33,
+      "2": 5.0,
+      "3": 2.0,
+      "4": 1.0,
+      "5": 5.0,
+      "6": 3.0,
+      "7": 1.0,
+      "8": 6.0,
+      "9": 3.33
+    },
+    "pitch_class_histogram": {
+      "0": 0,
+      "1": 19,
+      "10": 9,
+      "11": 27,
+      "2": 22,
+      "3": 1,
+      "4": 15,
+      "5": 0,
+      "6": 33,
+      "7": 8,
+      "8": 0,
+      "9": 11
+    }
+  },
+  "encoding_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h1:0",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h1:50",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:F#"
+      ],
+      "onset": 0.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m1",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "V7",
+        "iv"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h2:100",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:D"
+      ],
+      "onset": 1.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m2",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h2:200",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h2:300",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:D"
+      ],
+      "onset": 3.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m2",
+      "roman_numeral_candidate_set": [
+        "IV"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h2:400",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h2:450",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:E"
+      ],
+      "onset": 4.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m2",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h3:500",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m3",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h3:600",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m3",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.25,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h3:650",
+      "local_key": "F# major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 6.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m3",
+      "roman_numeral_candidate_set": [],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h3:700",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Bb"
+      ],
+      "onset": 7.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m3",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 3.0,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h4:900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h4:1200",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m4",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h5:1300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 13.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h5:1400",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 14.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m5",
+      "roman_numeral_candidate_set": [
+        "V7/VI",
+        "III",
+        "i"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h5:1500",
+      "local_key": "F# minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h5:1600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m5",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h5:1650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m5",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h6:1700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 17.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m6",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h6:1800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m6",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h6:1900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m6",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h7:2000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 20.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h8:2100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h8:2200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h8:2300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h8:2350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:C#"
+      ],
+      "onset": 23.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h8:2400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 24.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h8:2450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 24.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h9:2500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m9",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h9:2600",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 26.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h9:2650",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 26.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m9",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h9:2700",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m9",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h9:2800",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m9",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C#44",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h10:2900",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m10",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "V7",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h10:3000",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h10:3100",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h10:3150",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 31.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m10",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h10:3200",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m10",
+      "roman_numeral_candidate_set": [
+        "VI7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h10:3250",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m10",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h11:3300",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "E33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h11:3350",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:E"
+      ],
+      "onset": 33.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m11",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h11:3400",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m11",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h11:3450",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.5,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m11",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "B minor",
+      "harmonic_event_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:h11:3500",
+      "local_key": "B minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 35.0,
+      "ref_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten:m11",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "B minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "bass formula 5-6",
+        "soprano formula 2-1"
+      ],
+      "measure": 3,
+      "strength": 0.3,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "bass formula 5-1"
+      ],
+      "measure": 5,
+      "strength": 0.43,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 8,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution"
+      ],
+      "measure": 11,
+      "strength": 0.48,
+      "type": "cadential"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [],
+    "passed": true,
+    "subject_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten"
+  },
+  "voice_leading": {
+    "contrary": 11,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 2,
+          "onset": 1.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 0,
+          "measure": 4,
+          "onset": 9.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 7,
+          "measure": 4,
+          "onset": 12.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "A|B"
+        },
+        {
+          "from_interval": 0,
+          "measure": 7,
+          "onset": 20.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 11,
+          "onset": 35.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 8,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 5,
+          "type": "possible_suspension",
+          "voice": "S"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 7
+    },
+    "oblique": 16,
+    "parallel": 5,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 16,
+    "spacing_issues": [],
+    "spacing_ok": true
+  },
+  "work_id": "notes__112 Wer nur den lieben Gott l\u00e4\u00dft walten"
+}

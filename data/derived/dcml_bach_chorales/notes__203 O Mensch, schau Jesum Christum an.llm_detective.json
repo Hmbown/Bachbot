@@ -1,0 +1,2114 @@
+{
+  "artifact_stem": "notes__203 O Mensch, schau Jesum Christum an",
+  "bundle_path": "/Volumes/VIXinSSD/bachbot/data/derived/dcml_bach_chorales/notes__203 O Mensch, schau Jesum Christum an.evidence_bundle.json",
+  "executed": false,
+  "mode": "detective",
+  "model": null,
+  "processed_at": "2026-03-08T18:06:20.280486+00:00",
+  "provider": null,
+  "question": null,
+  "request": {
+    "system_prompt": "You are BACHBOT Detective Mode.\n\nRank hypotheses by evidence support.\nSeparate supported fact from inference from speculation.\nFor every hypothesis, name at least one falsifier or additional source check.\n\n",
+    "user_payload": {
+      "evidence_bundle": {
+        "bundle_id": "EB-notes__203 O Mensch, schau Jesum Christum an-section_1",
+        "deterministic_findings": {
+          "cadences": [
+            {
+              "bass_formula": "3-4",
+              "cadence_id": "notes__203 O Mensch, schau Jesum Christum an:cad:8",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "soprano_formula": "1-1",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "3-4",
+              "cadence_id": "notes__203 O Mensch, schau Jesum Christum an:cad:13",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.5,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "soprano_formula": "3-3",
+              "strength": 0.5,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate"
+              ]
+            },
+            {
+              "bass_formula": "5-1",
+              "cadence_id": "notes__203 O Mensch, schau Jesum Christum an:cad:21",
+              "cadence_type": "IAC",
+              "detector_confidence": 0.65,
+              "key_after": "G minor",
+              "key_before": "G minor",
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m21",
+              "soprano_formula": null,
+              "strength": 0.65,
+              "type_candidates": [
+                "IAC"
+              ],
+              "voice_leading_evidence": [
+                "final tonic support",
+                "dominant-like penultimate",
+                "bass formula 5-1"
+              ]
+            }
+          ],
+          "fugue": {},
+          "harmony": [
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h1:0",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h1:50",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 0.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m1",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h1:100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 1.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m1",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h1:200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m1",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h1:250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 2.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m1",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h2:300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h2:350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 3.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h2:400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 4.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h2:500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m2",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h2:550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 5.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m2",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h3:600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h3:650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 6.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m3",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h3:700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 7.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h3:800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 8.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m3",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h4:900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 9.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m4",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h4:1100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 11.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m4",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 1.0,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h5:1200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 12.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m5",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h5:1300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m5",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h5:1350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 13.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m5",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h5:1400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m5",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h5:1450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 14.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m5",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h6:1500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h6:1550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 15.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m6",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h6:1600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "III",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h6:1650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 16.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h6:1700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m6",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.25,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h6:1750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 17.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m6",
+              "roman_numeral_candidate_set": [],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h7:1800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 18.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m7",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h7:2000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m7",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h7:2050",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 20.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m7",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h8:2100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h8:2150",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 21.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h8:2200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h8:2250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 22.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h8:2300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h8:2350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 23.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m8",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h9:2400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m9",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h9:2450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 24.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m9",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h9:2500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m9",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h9:2550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 25.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m9",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h9:2600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m9",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h9:2650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 26.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m9",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 1.0,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h10:2700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 27.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h10:2800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h10:2850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 28.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m10",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h10:2900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h10:2950",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 29.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m10",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 2.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h11:3000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 30.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h11:3200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 32.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m11",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h12:3300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m12",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h12:3350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 33.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h12:3400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m12",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h12:3450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 34.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h12:3500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m12",
+              "roman_numeral_candidate_set": [
+                "V",
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h12:3550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 35.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m12",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h13:3600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h13:3650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 36.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h13:3700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h13:3750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 37.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h13:3800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h13:3850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 38.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m13",
+              "roman_numeral_candidate_set": [
+                "i",
+                "iv",
+                "VI"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h14:3900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 39.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m14",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h14:4000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h14:4050",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 40.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h14:4100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 41.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m14",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h15:4200",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h15:4250",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 42.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m15",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h15:4300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "E33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h15:4350",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 43.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m15",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h15:4400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m15",
+              "roman_numeral_candidate_set": [
+                "V",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h15:4450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 44.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m15",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h16:4500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F#33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h16:4550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 45.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m16",
+              "roman_numeral_candidate_set": [
+                "V",
+                "i",
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h16:4600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h16:4650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 46.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "V"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h16:4700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m16",
+              "roman_numeral_candidate_set": [
+                "i",
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h16:4750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 47.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m16",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "V",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h17:4800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m17",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "i",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h17:4850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 48.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m17",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h17:4900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m17",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "VII",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "F33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h17:4950",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 49.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m17",
+              "roman_numeral_candidate_set": [
+                "VII",
+                "ii\u00b0"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h17:5000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m17",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h17:5050",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 50.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m17",
+              "roman_numeral_candidate_set": [
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 2.0,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h18:5100",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 51.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m18",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 1.0,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h18:5300",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 53.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m18",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h19:5400",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m19",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h19:5450",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 54.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m19",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "III"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "A22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h19:5500",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m19",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.65,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Bb22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h19:5550",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 55.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m19",
+              "roman_numeral_candidate_set": [
+                "III",
+                "i"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h19:5600",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h19:5650",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 56.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m19",
+              "roman_numeral_candidate_set": [
+                "ii\u00b0",
+                "iv",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "Eb33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h20:5700",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m20",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VI"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h20:5750",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 57.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m20",
+              "roman_numeral_candidate_set": [
+                "i",
+                "VI",
+                "iv"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h20:5800",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m20",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.85,
+              "duration": 0.5,
+              "figured_bass_like_summary": "C33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h20:5850",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 58.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m20",
+              "roman_numeral_candidate_set": [
+                "iv",
+                "ii\u00b0",
+                "VII"
+              ],
+              "verticality_class": "verticality"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h20:5900",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m20",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 0.5,
+              "figured_bass_like_summary": "D33",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h20:5950",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 59.5,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m20",
+              "roman_numeral_candidate_set": [
+                "V"
+              ],
+              "verticality_class": "triad"
+            },
+            {
+              "confidence": 0.45,
+              "duration": 3.0,
+              "figured_bass_like_summary": "G22",
+              "global_key": "G minor",
+              "harmonic_event_id": "notes__203 O Mensch, schau Jesum Christum an:h21:6000",
+              "local_key": "G minor",
+              "method": "rule",
+              "nonharmonic_tone_tags": [],
+              "onset": 60.0,
+              "ref_id": "notes__203 O Mensch, schau Jesum Christum an:m21",
+              "roman_numeral_candidate_set": [
+                "i"
+              ],
+              "verticality_class": "triad"
+            }
+          ],
+          "phrase_endings": [
+            {
+              "measure": 8,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 13,
+              "strength": 0.5,
+              "type": "IAC"
+            },
+            {
+              "measure": 21,
+              "strength": 0.65,
+              "type": "IAC"
+            }
+          ],
+          "voice_leading": {
+            "contrary": 17,
+            "counterpoint": {
+              "issues": [
+                {
+                  "measure": 7,
+                  "onset": 18.0,
+                  "type": "parallel_8ves",
+                  "voices": "B|S"
+                },
+                {
+                  "measure": 11,
+                  "onset": 30.0,
+                  "type": "parallel_5ths",
+                  "voices": "S|T"
+                },
+                {
+                  "measure": 11,
+                  "onset": 30.0,
+                  "type": "voice_crossing",
+                  "voices": "A|T"
+                }
+              ],
+              "parallel_5ths": 1,
+              "parallel_8ves": 1,
+              "suspension_details": [
+                {
+                  "measure": 5,
+                  "type": "possible_suspension",
+                  "voice": "B"
+                },
+                {
+                  "measure": 17,
+                  "type": "possible_suspension",
+                  "voice": "T"
+                },
+                {
+                  "measure": 14,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                },
+                {
+                  "measure": 16,
+                  "type": "possible_suspension",
+                  "voice": "A"
+                }
+              ],
+              "suspensions": 4
+            },
+            "oblique": 70,
+            "parallel": 4,
+            "range_issues": [
+              {
+                "issue": "range",
+                "measure": 11,
+                "voice": "A"
+              }
+            ],
+            "ranges_ok": false,
+            "similar": 10,
+            "spacing_issues": [
+              {
+                "interval": 24,
+                "issue": "spacing",
+                "measure": 11,
+                "voices": "T|B"
+              }
+            ],
+            "spacing_ok": false
+          }
+        },
+        "metadata": {
+          "catalog_revision": "BWV3",
+          "encoding_id": "notes__203 O Mensch, schau Jesum Christum an",
+          "genre": "chorale",
+          "key": "G",
+          "key_mode": null,
+          "key_tonic": null
+        },
+        "passage_refs": [
+          {
+            "measure_end": 1,
+            "measure_start": 1,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 2,
+            "measure_start": 2,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 3,
+            "measure_start": 3,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 4,
+            "measure_start": 4,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 5,
+            "measure_start": 5,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 6,
+            "measure_start": 6,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 7,
+            "measure_start": 7,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 8,
+            "measure_start": 8,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 9,
+            "measure_start": 9,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 10,
+            "measure_start": 10,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 11,
+            "measure_start": 11,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 12,
+            "measure_start": 12,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 13,
+            "measure_start": 13,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 14,
+            "measure_start": 14,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 15,
+            "measure_start": 15,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 16,
+            "measure_start": 16,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 17,
+            "measure_start": 17,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 18,
+            "measure_start": 18,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 19,
+            "measure_start": 19,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 20,
+            "measure_start": 20,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          },
+          {
+            "measure_end": 21,
+            "measure_start": 21,
+            "voice_ids": [
+              "A",
+              "B",
+              "S",
+              "T"
+            ]
+          }
+        ],
+        "provenance": [
+          {
+            "encoding_id": "notes__203 O Mensch, schau Jesum Christum an",
+            "source": "encoding",
+            "source_path": "/Volumes/VIXinSSD/bachbot/data/raw/dcml_bach_chorales/notes/203 O Mensch, schau Jesum Christum an.notes.tsv"
+          }
+        ],
+        "section_id": "section_1",
+        "uncertainties": [
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m1",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m1",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m4",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m5",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m5",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m5",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m6",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m7",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m7",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m9",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m9",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m11",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m11",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m12",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m12",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m12",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m14",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m14",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m14",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m15",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m15",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m15",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m17",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m17",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m17",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m18",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m20",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m20",
+          "Harmonic ambiguity at notes__203 O Mensch, schau Jesum Christum an:m21"
+        ],
+        "work_id": "notes__203 O Mensch, schau Jesum Christum an"
+      }
+    }
+  },
+  "text": "[dry-run] Prepared detective prompt with 21 passage refs and 98 harmonic events."
+}

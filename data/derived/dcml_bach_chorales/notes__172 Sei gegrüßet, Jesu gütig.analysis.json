@@ -1,0 +1,1984 @@
+{
+  "anomalies": {
+    "1": 0.25,
+    "10": 0.58,
+    "11": 2.42,
+    "12": 4.58,
+    "13": 0.92,
+    "14": 3.92,
+    "2": 1.58,
+    "3": 0.25,
+    "4": 1.42,
+    "5": 2.92,
+    "6": 3.58,
+    "7": 0.42,
+    "8": 3.58,
+    "9": 2.42
+  },
+  "cadences": [
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:cad:3",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.85,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "soprano_formula": "2-3",
+      "strength": 0.85,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ]
+    },
+    {
+      "bass_formula": "7-3",
+      "cadence_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:cad:5",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m5",
+      "soprano_formula": "4-3",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "2-3",
+      "cadence_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:cad:6",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "soprano_formula": "4-5",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": null,
+      "cadence_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:cad:8",
+      "cadence_type": "IAC",
+      "detector_confidence": 0.7,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "soprano_formula": "5-6",
+      "strength": 0.7,
+      "type_candidates": [
+        "IAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ]
+    },
+    {
+      "bass_formula": "5-6",
+      "cadence_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:cad:11",
+      "cadence_type": "cadential",
+      "detector_confidence": 0.35,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m11",
+      "soprano_formula": "3-4",
+      "strength": 0.35,
+      "type_candidates": [
+        "cadential"
+      ],
+      "voice_leading_evidence": [
+        "deceptive resolution",
+        "bass formula 5-6"
+      ]
+    },
+    {
+      "bass_formula": "5-1",
+      "cadence_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:cad:14",
+      "cadence_type": "PAC",
+      "detector_confidence": 0.8,
+      "key_after": "G minor",
+      "key_before": "G minor",
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m14",
+      "soprano_formula": "2-1",
+      "strength": 0.8,
+      "type_candidates": [
+        "PAC"
+      ],
+      "voice_leading_evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig-cadence-summary",
+      "claim_type": "analysis_summary",
+      "confidence": 0.8,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1"
+        },
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1"
+        }
+      ],
+      "lens": "harmonic/tonal",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 6 cadence candidate(s) across 79 harmonic event(s).",
+      "status": "supported_fact"
+    },
+    {
+      "claim_id": "CLAIM-notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig-voiceleading-summary",
+      "claim_type": "voiceleading_summary",
+      "confidence": 0.75,
+      "counterarguments": [],
+      "created_by": "bachbot",
+      "evidence_refs": [
+        {
+          "description": "harmonic event",
+          "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1"
+        }
+      ],
+      "lens": "counterpoint/voice-leading",
+      "method": "rule",
+      "source_refs": [],
+      "statement": "Detected 18 similar-motion transition(s) with 0 parallel fifth(s) and 0 parallel octave(s).",
+      "status": "supported_fact"
+    }
+  ],
+  "distributions": {
+    "onset_density": {
+      "1": 4.67,
+      "10": 5.0,
+      "11": 2.0,
+      "12": 9.0,
+      "13": 3.5,
+      "14": 0.5,
+      "2": 6.0,
+      "3": 4.67,
+      "4": 3.0,
+      "5": 1.5,
+      "6": 8.0,
+      "7": 4.0,
+      "8": 8.0,
+      "9": 2.0
+    },
+    "pitch_class_histogram": {
+      "0": 35,
+      "1": 0,
+      "10": 36,
+      "11": 5,
+      "2": 39,
+      "3": 18,
+      "4": 0,
+      "5": 31,
+      "6": 8,
+      "7": 37,
+      "8": 3,
+      "9": 21
+    }
+  },
+  "encoding_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig",
+  "fugue": {},
+  "genre": "chorale",
+  "harmony": [
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:0",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 0.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 1.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 2.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:250",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 2.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:275",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:F#"
+      ],
+      "onset": 2.75,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 3.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h1:350",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 3.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m1",
+      "roman_numeral_candidate_set": [
+        "i",
+        "III",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h2:400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m2",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h2:450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 4.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m2",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h2:500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h2:550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 5.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m2",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h2:600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:A"
+      ],
+      "onset": 6.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m2",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h2:700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 7.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m2",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 8.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 9.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:1000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 10.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i",
+        "VII"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:1050",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 10.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:1075",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 10.75,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:1100",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 11.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h3:1150",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 11.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m3",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "I",
+        "vi7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h4:1200",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 12.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "ii7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h4:1250",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 12.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m4",
+      "roman_numeral_candidate_set": [
+        "IV",
+        "vi7",
+        "ii7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h4:1300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m4",
+      "roman_numeral_candidate_set": [
+        "IV7",
+        "vi",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h4:1350",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 13.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m4",
+      "roman_numeral_candidate_set": [
+        "ii7",
+        "ii",
+        "IV"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h4:1400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 14.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h4:1500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 15.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m4",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h5:1600",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 16.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h5:1800",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 18.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m5",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h5:1900",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 19.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m5",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2000",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 20.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "A33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2050",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:C"
+      ],
+      "onset": 20.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "iii",
+        "V",
+        "V7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2100",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "vi",
+        "vi7",
+        "IV7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2150",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 21.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2200",
+      "local_key": "F major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:Eb"
+      ],
+      "onset": 22.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "vii\u00b0",
+        "ii"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2250",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 22.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "vii\u00b0",
+        "vii\u00f87",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2300",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "I",
+        "vi7",
+        "vi"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h6:2350",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 23.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m6",
+      "roman_numeral_candidate_set": [
+        "I"
+      ],
+      "verticality_class": "verticality"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h7:2400",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:Bb"
+      ],
+      "onset": 24.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "I"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h7:2500",
+      "local_key": "Bb major",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 25.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m7",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7",
+        "vii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h7:2600",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 26.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m7",
+      "roman_numeral_candidate_set": [
+        "iv"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "B22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h7:2700",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 27.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m7",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:2800",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 28.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:2850",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D",
+        "PT:D"
+      ],
+      "onset": 28.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:2900",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 29.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:2950",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:F"
+      ],
+      "onset": 29.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:3000",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:3050",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 30.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Ab33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:3100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NT:Ab"
+      ],
+      "onset": 31.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h8:3150",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D"
+      ],
+      "onset": 31.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m8",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h9:3200",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 32.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m9",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h9:3300",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m9",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h9:3350",
+      "local_key": "C minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 33.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m9",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 2.0,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h9:3400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 34.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m9",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "C44",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h10:3600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 36.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m10",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F#33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h10:3700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 37.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m10",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h10:3800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m10",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h10:3850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 38.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m10",
+      "roman_numeral_candidate_set": [
+        "VI",
+        "iv7",
+        "VI7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h10:3900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 39.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m10",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h11:4000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 40.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m11",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "F33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h11:4100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 41.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m11",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h11:4200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 42.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "Bb22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h11:4300",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 43.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m11",
+      "roman_numeral_candidate_set": [
+        "III",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4400",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "F#22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4450",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 44.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4500",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:D"
+      ],
+      "onset": 45.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "i"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4550",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 45.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4600",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "iv7",
+        "iv",
+        "VI"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4650",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:Ab"
+      ],
+      "onset": 46.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.25,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4675",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 46.75,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4700",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "PT:D",
+        "PT:D"
+      ],
+      "onset": 47.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "VII",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h12:4750",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 47.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m12",
+      "roman_numeral_candidate_set": [
+        "V7/iv",
+        "III"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:4800",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "iv",
+        "iv7",
+        "ii\u00f87"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "Eb33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:4850",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 48.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "viio7",
+        "ii\u00b0",
+        "ii\u00f87"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:4900",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "VI7",
+        "VI"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "C33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:4950",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 49.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "ii\u00f87",
+        "iv",
+        "ii\u00b0"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 1.0,
+      "figured_bass_like_summary": "D33",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:5000",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "SUS:A"
+      ],
+      "onset": 50.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "i",
+        "V"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.65,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:5100",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "V",
+        "V7"
+      ],
+      "verticality_class": "triad"
+    },
+    {
+      "confidence": 0.85,
+      "duration": 0.5,
+      "figured_bass_like_summary": "D22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h13:5150",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [],
+      "onset": 51.5,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m13",
+      "roman_numeral_candidate_set": [
+        "V7",
+        "V",
+        "viio7"
+      ],
+      "verticality_class": "seventh"
+    },
+    {
+      "confidence": 0.45,
+      "duration": 2.0,
+      "figured_bass_like_summary": "G22",
+      "global_key": "G minor",
+      "harmonic_event_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:h14:5200",
+      "local_key": "G minor",
+      "method": "rule",
+      "nonharmonic_tone_tags": [
+        "NCT:B"
+      ],
+      "onset": 52.0,
+      "ref_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig:m14",
+      "roman_numeral_candidate_set": [
+        "i"
+      ],
+      "verticality_class": "triad"
+    }
+  ],
+  "key": "G minor",
+  "phrase_endings": [
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate",
+        "bass formula 5-1"
+      ],
+      "measure": 3,
+      "strength": 0.85,
+      "type": "PAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 5,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 6,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "deceptive resolution",
+        "dominant-like penultimate"
+      ],
+      "measure": 8,
+      "strength": 0.7,
+      "type": "IAC"
+    },
+    {
+      "evidence": [
+        "deceptive resolution",
+        "bass formula 5-6"
+      ],
+      "measure": 11,
+      "strength": 0.35,
+      "type": "cadential"
+    },
+    {
+      "evidence": [
+        "final tonic support",
+        "dominant-like penultimate",
+        "bass formula 5-1",
+        "soprano formula 2-1"
+      ],
+      "measure": 14,
+      "strength": 0.8,
+      "type": "PAC"
+    }
+  ],
+  "section_id": "section_1",
+  "validation_report": {
+    "issues": [
+      {
+        "code": "spacing",
+        "measure": 7,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 12,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 13,
+        "message": "Spacing violation between A|T.",
+        "severity": "error",
+        "voice_ids": [
+          "A",
+          "T"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 13,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      },
+      {
+        "code": "spacing",
+        "measure": 13,
+        "message": "Spacing violation between T|B.",
+        "severity": "error",
+        "voice_ids": [
+          "T",
+          "B"
+        ]
+      }
+    ],
+    "passed": false,
+    "subject_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig",
+    "subject_type": "event_graph",
+    "validation_id": "VAL-notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig"
+  },
+  "voice_leading": {
+    "contrary": 16,
+    "counterpoint": {
+      "issues": [
+        {
+          "from_interval": 7,
+          "measure": 2,
+          "onset": 6.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "from_interval": 0,
+          "measure": 7,
+          "onset": 24.0,
+          "to_interval": 7,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 9,
+          "onset": 34.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|S"
+        },
+        {
+          "from_interval": 7,
+          "measure": 10,
+          "onset": 36.0,
+          "to_interval": 0,
+          "type": "direct_perfect",
+          "voices": "B|T"
+        },
+        {
+          "measure": 1,
+          "onset": 2.75,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        },
+        {
+          "measure": 3,
+          "onset": 10.75,
+          "type": "voice_crossing",
+          "voices": "T|B"
+        }
+      ],
+      "parallel_5ths": 0,
+      "parallel_8ves": 0,
+      "suspension_details": [
+        {
+          "measure": 1,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 3,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 6,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 11,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 12,
+          "type": "possible_suspension",
+          "voice": "T"
+        },
+        {
+          "measure": 7,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 10,
+          "type": "possible_suspension",
+          "voice": "A"
+        },
+        {
+          "measure": 9,
+          "type": "possible_suspension",
+          "voice": "S"
+        }
+      ],
+      "suspensions": 10
+    },
+    "oblique": 44,
+    "parallel": 5,
+    "range_issues": [],
+    "ranges_ok": true,
+    "similar": 18,
+    "spacing_issues": [
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 7,
+        "onset": 25.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 16,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 46.5,
+        "voices": "A|T"
+      },
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 46.75,
+        "voices": "A|T"
+      },
+      {
+        "interval": 19,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 47.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 18,
+        "issue": "spacing",
+        "measure": 12,
+        "onset": 47.5,
+        "voices": "A|T"
+      },
+      {
+        "interval": 17,
+        "issue": "spacing",
+        "measure": 13,
+        "onset": 48.0,
+        "voices": "A|T"
+      },
+      {
+        "interval": 24,
+        "issue": "spacing",
+        "measure": 13,
+        "onset": 51.0,
+        "voices": "T|B"
+      },
+      {
+        "interval": 22,
+        "issue": "spacing",
+        "measure": 13,
+        "onset": 51.5,
+        "voices": "T|B"
+      }
+    ],
+    "spacing_ok": false
+  },
+  "work_id": "notes__172 Sei gegr\u00fc\u00dfet, Jesu g\u00fctig"
+}
