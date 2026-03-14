@@ -870,8 +870,14 @@ def create_app() -> FastAPI:
 def create_production_app() -> FastAPI:
     """Wrap the API app with SPA serving when web/dist is available."""
     api = create_app()
-    _web_dist = Path(__file__).resolve().parent.parent.parent / "web" / "dist"
-    if not _web_dist.is_dir():
+    # Check multiple candidate paths for web/dist (handles both editable and
+    # installed-package layouts)
+    candidates = [
+        Path(__file__).resolve().parent.parent.parent / "web" / "dist",
+        get_settings().workspace_root / "web" / "dist",
+    ]
+    _web_dist = next((p for p in candidates if p.is_dir()), None)
+    if _web_dist is None:
         return api
 
     root = FastAPI(title="Bachbot")
