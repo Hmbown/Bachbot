@@ -59,7 +59,7 @@ export function ExportButtons({ choraleId, eventGraph }: ExportButtonsProps) {
         <button
           key={key}
           onClick={() => handleDownload(key)}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-surface border border-border text-ink-light hover:text-ink hover:border-primary/30 transition-colors"
+          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-md text-xs font-medium bg-paper-light border border-secondary/55 text-ink hover:bg-secondary/8 hover:border-secondary transition-colors shadow-[0_8px_20px_rgba(43,43,43,0.04)]"
         >
           <DownloadIcon />
           {label}

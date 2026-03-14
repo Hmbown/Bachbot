@@ -71,7 +71,9 @@ def test_corpus_lookup_search_and_error_handling() -> None:
     client = TestClient(api_app)
 
     detail_response = client.get("/corpus/BWV269")
+    bis_detail_response = client.get("/corpus/BWV283bis")
     search_response = client.get("/corpus/search", params={"key": "G major", "cadence_type": "cadential", "limit": 3})
+    full_search_response = client.get("/corpus/search", params={"limit": 500})
     missing_response = client.get("/corpus/NOPE999")
     invalid_response = client.post("/analyze", json={"musicxml": "<not-musicxml />"})
 
@@ -79,6 +81,10 @@ def test_corpus_lookup_search_and_error_handling() -> None:
     detail_payload = detail_response.json()
     assert detail_payload["chorale_id"] == "BWV269"
     assert "Jesu, der du meine Seele" in detail_payload["title"]
+    assert all("onset" in cadence for cadence in detail_payload["analysis_report"]["cadences"])
+
+    assert bis_detail_response.status_code == 200, bis_detail_response.text
+    assert bis_detail_response.json()["chorale_id"] == "BWV283bis"
 
     assert search_response.status_code == 200, search_response.text
     search_payload = search_response.json()
@@ -86,8 +92,41 @@ def test_corpus_lookup_search_and_error_handling() -> None:
     assert all(item["key"] == "G major" for item in search_payload["results"])
     assert all("cadential" in item["cadence_types"] for item in search_payload["results"])
 
+    assert full_search_response.status_code == 200, full_search_response.text
+    full_search_payload = full_search_response.json()
+    chorale_ids = [item["chorale_id"] for item in full_search_payload["results"]]
+    assert "BWV283bis" in chorale_ids
+    assert len(chorale_ids) == len(set(chorale_ids))
+
     assert missing_response.status_code == 404
     assert invalid_response.status_code == 400
+
+
+def test_research_embeddings_returns_plot_coordinates() -> None:
+    client = TestClient(api_app)
+
+    response = client.get("/research/embeddings")
+
+    assert response.status_code == 200, response.text
+    payload = response.json()
+    coordinates = payload["coordinates"]
+    assert coordinates
+    assert payload["points"] == coordinates
+    assert all({"id", "x", "y"} <= point.keys() for point in coordinates)
+    assert any(point["id"] == "BWV283bis" for point in coordinates)
+
+
+def test_research_harmonic_rhythm_returns_timeline_events() -> None:
+    client = TestClient(api_app)
+
+    response = client.get("/research/harmonic-rhythm/BWV042")
+
+    assert response.status_code == 200, response.text
+    payload = response.json()
+    assert payload["chorale_id"] == "BWV042"
+    assert payload["events"]
+    assert all({"onset", "duration", "chord", "measure", "is_cadence"} <= event.keys() for event in payload["events"])
+    assert any(event["is_cadence"] for event in payload["events"])
 
 
 def test_serve_command_invokes_uvicorn(monkeypatch) -> None:

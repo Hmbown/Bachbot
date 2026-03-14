@@ -11,6 +11,7 @@ import {
   fetchHarmonicRhythm,
   searchCorpus,
 } from '@/lib/api';
+import { BaroqueFlourish, SectionHeading, StaffDivider } from '@/components/shared/Decorative';
 
 // ─── Types ──────────────────────────────────────────────────────────
 
@@ -1154,41 +1155,50 @@ export function ResearchLab() {
   return (
     <div className="max-w-[1400px] mx-auto px-6 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-serif font-bold text-ink mb-2">Research Tools</h1>
-        <p className="text-ink-light">
+        <div className="mb-2">
+          <span className="inline-block text-secondary text-[11px] uppercase tracking-[0.28em] font-sans">
+            Corpus Lab
+          </span>
+        </div>
+        <SectionHeading className="mb-3">Research Tools</SectionHeading>
+        <p className="text-ink-light max-w-3xl">
           Compare chorales, trace favorite progressions, and look for pieces that sit near one another
           or far apart. The language is statistical at times, but the questions are musical.
         </p>
+        <BaroqueFlourish className="mt-4" />
+        <StaffDivider className="pt-2" />
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
         {/* Tool selector sidebar */}
         <div className="lg:col-span-1">
-          <div className="space-y-1">
-            {(Object.keys(TOOLS) as ResearchTool[]).map((t) => (
-              <button
-                key={t}
-                onClick={() => setActiveTool(t)}
-                className={`w-full text-left px-4 py-3 rounded-lg text-sm transition-colors flex items-center gap-3 ${
-                  activeTool === t
-                    ? 'bg-primary/10 text-primary-dark font-medium border border-primary/20'
-                    : 'text-ink-light hover:text-ink hover:bg-paper-dark/50'
-                }`}
-              >
-                <svg
-                  width="16" height="16" viewBox="0 0 24 24"
-                  fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                  className="flex-shrink-0"
+          <div className="rounded-2xl border border-border bg-paper-light p-3 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+            <div className="space-y-1">
+              {(Object.keys(TOOLS) as ResearchTool[]).map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setActiveTool(t)}
+                  className={`w-full text-left px-4 py-3 rounded-xl text-sm transition-colors flex items-center gap-3 ${
+                    activeTool === t
+                      ? 'bg-secondary/12 text-primary-dark font-medium border border-secondary/30 shadow-[0_10px_24px_rgba(201,168,76,0.08)]'
+                      : 'text-ink-light hover:text-ink hover:bg-secondary/8'
+                  }`}
                 >
-                  <path d={TOOLS[t].icon} />
-                </svg>
-                {TOOLS[t].title}
-              </button>
-            ))}
+                  <svg
+                    width="16" height="16" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                    className="flex-shrink-0"
+                  >
+                    <path d={TOOLS[t].icon} />
+                  </svg>
+                  {TOOLS[t].title}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Color legend sidebar card */}
-          <div className="mt-6 p-4 rounded-lg bg-surface-warm border border-border">
+          <div className="mt-6 p-4 rounded-2xl bg-paper-light border border-border shadow-[0_12px_30px_rgba(43,43,43,0.04)]">
             <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">How Far from Average?</h4>
             <div className="space-y-1.5 text-xs">
               <div className="flex items-center gap-2">
@@ -1209,10 +1219,12 @@ export function ResearchLab() {
 
         {/* Tool workspace */}
         <div className="lg:col-span-3">
-          <h2 className="text-xl font-serif font-semibold mb-2">{tool.title}</h2>
-          <p className="text-sm text-ink-light mb-6">{tool.description}</p>
+          <div className="rounded-2xl border border-border bg-paper-light p-6 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+            <h2 className="text-xl font-serif font-semibold mb-2">{tool.title}</h2>
+            <p className="text-sm text-ink-light mb-6">{tool.description}</p>
 
-          <ToolWorkspace tool={activeTool} />
+            <ToolWorkspace tool={activeTool} />
+          </div>
         </div>
       </div>
     </div>

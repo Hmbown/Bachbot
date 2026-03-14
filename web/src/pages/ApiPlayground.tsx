@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import { fetchHealth } from '@/lib/api';
+import { BaroqueFlourish, StaffDivider } from '@/components/shared/Decorative';
 
 interface Param {
   name: string;
@@ -161,10 +162,17 @@ export function ApiPlayground() {
   return (
     <div className="max-w-[1400px] mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-serif font-bold text-ink mb-2">API Reference</h1>
-        <p className="text-ink-light">
+        <div className="mb-2">
+          <span className="inline-block text-secondary text-[11px] uppercase tracking-[0.28em] font-sans">
+            Reference & Playground
+          </span>
+        </div>
+        <h1 className="mb-3 text-4xl">API Reference</h1>
+        <p className="text-ink-muted">
           Browse the endpoints and try a live request against the running app.
         </p>
+        <BaroqueFlourish className="mt-4" />
+        <StaffDivider className="pt-2" />
         <div className="mt-2 flex items-center gap-4 text-sm">
           {healthQuery.data && (
             <span className="flex items-center gap-2 text-ink-muted">
@@ -183,7 +191,7 @@ export function ApiPlayground() {
 
       {/* Request history */}
       {showHistory && history.length > 0 && (
-        <div className="mb-6 p-3 rounded-lg border border-border bg-surface">
+        <div className="mb-6 p-3 rounded-xl border border-border bg-paper-light shadow-[0_12px_30px_rgba(43,43,43,0.04)]">
           <h3 className="text-xs font-semibold text-ink-light mb-2">Recent requests</h3>
           <div className="space-y-1">
             {history.map((h, i) => (
@@ -203,15 +211,15 @@ export function ApiPlayground() {
         {/* Endpoint list by category */}
         <div className="lg:col-span-1">
           {CATEGORIES.map((cat) => (
-            <div key={cat} className="mb-4">
-              <h4 className="text-xs font-semibold text-ink-muted uppercase tracking-wide mb-1 px-2">{cat}</h4>
+            <div key={cat} className="mb-4 rounded-xl border border-border bg-paper-light p-2 shadow-[0_12px_30px_rgba(43,43,43,0.04)]">
+              <h4 className="text-xs font-semibold text-secondary uppercase tracking-[0.18em] mb-2 px-2">{cat}</h4>
               <div className="space-y-0.5">
                 {ENDPOINTS.map((ep, i) => ep.category !== cat ? null : (
                   <button
                     key={i}
                     onClick={() => selectEndpoint(i)}
                     className={`w-full text-left px-2 py-1.5 rounded text-xs transition-colors ${
-                      selectedEndpoint === i ? 'bg-primary/10 border border-primary/20' : 'hover:bg-paper-dark/50'
+                      selectedEndpoint === i ? 'bg-secondary/12 border border-secondary/30' : 'hover:bg-secondary/8'
                     }`}
                   >
                     <span className={`inline-block w-10 font-mono font-bold mr-1 ${ep.method === 'GET' ? 'text-fact' : 'text-primary'}`}>
@@ -227,13 +235,14 @@ export function ApiPlayground() {
 
         {/* Endpoint detail */}
         <div className="lg:col-span-3">
+          <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
           <div className="flex items-center gap-3 mb-3">
             <span className={`px-2 py-1 rounded font-mono text-xs font-bold ${endpoint.method === 'GET' ? 'bg-fact/10 text-fact' : 'bg-primary/10 text-primary'}`}>
               {endpoint.method}
             </span>
             <code className="font-mono text-sm text-ink">{endpoint.path}</code>
           </div>
-          <p className="text-sm text-ink-light mb-4">{endpoint.description}</p>
+          <p className="text-sm text-ink-muted mb-4">{endpoint.description}</p>
 
           {/* Editable parameters */}
           {endpoint.params && (
@@ -265,7 +274,7 @@ export function ApiPlayground() {
               <textarea
                 value={bodyValue || endpoint.body}
                 onChange={(e) => setBodyValue(e.target.value)}
-                className="w-full h-32 p-3 rounded-lg bg-ink text-paper-light font-mono text-xs focus:outline-none focus:ring-1 focus:ring-primary/30 resize-y"
+                className="w-full h-32 p-3 rounded-lg bg-charcoal text-paper-light font-mono text-xs focus:outline-none focus:ring-1 focus:ring-primary/30 resize-y"
               />
             </div>
           )}
@@ -274,7 +283,7 @@ export function ApiPlayground() {
           <button
             onClick={() => tryMutation.mutate(endpoint)}
             disabled={tryMutation.isPending}
-            className="px-4 py-2 bg-primary-dark text-white rounded-lg text-sm font-medium hover:bg-primary transition-colors disabled:opacity-50 mb-4"
+            className="px-4 py-2 bg-primary text-paper-light rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors disabled:opacity-50 mb-4 shadow-[0_12px_24px_rgba(184,92,56,0.16)]"
           >
             {tryMutation.isPending ? 'Sending...' : 'Send request'}
           </button>
@@ -294,7 +303,7 @@ export function ApiPlayground() {
                   <button onClick={() => copyToClipboard(response)} className="text-primary hover:text-primary-dark">Copy</button>
                 </div>
               </div>
-              <pre className="p-3 rounded-lg bg-ink text-paper-light font-mono text-xs overflow-x-auto max-h-80 overflow-y-auto">
+              <pre className="p-3 rounded-lg bg-charcoal text-paper-light font-mono text-xs overflow-x-auto max-h-80 overflow-y-auto">
                 {response}
               </pre>
             </div>
@@ -314,10 +323,11 @@ export function ApiPlayground() {
                     <span className="text-xs font-mono text-ink-muted">{lang}</span>
                     <button onClick={() => copyToClipboard(code)} className="text-xs text-primary hover:text-primary-dark">Copy</button>
                   </div>
-                  <pre className="p-3 rounded-lg bg-ink text-paper-light font-mono text-xs overflow-x-auto mt-1">{code}</pre>
+                  <pre className="p-3 rounded-lg bg-charcoal text-paper-light font-mono text-xs overflow-x-auto mt-1">{code}</pre>
                 </div>
               ))}
             </div>
+          </div>
           </div>
         </div>
       </div>

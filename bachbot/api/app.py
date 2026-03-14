@@ -24,6 +24,8 @@ from bachbot.models.base import BachbotModel
 
 _DATASET_ID = "dcml_bach_chorales"
 _ALNUM_RE = re.compile(r"[^a-z0-9]+")
+_TITLE_BWV_RE = re.compile(r"(\d{1,3})([A-Za-z]+)?\b")
+_MEASURE_RE = re.compile(r"m(\d+)$")
 
 
 class MusicXMLRequest(BachbotModel):
@@ -74,7 +76,7 @@ def _normalize_lookup(value: str) -> str:
 
 def _chorale_number(entry: dict[str, Any]) -> int | None:
     title = str(entry.get("title", ""))
-    match = re.match(r"(\d{1,3})\b", title)
+    match = _TITLE_BWV_RE.match(title)
     if match:
         return int(match.group(1))
     encoding_id = str(entry.get("encoding_id", ""))
@@ -84,10 +86,18 @@ def _chorale_number(entry: dict[str, Any]) -> int | None:
     return None
 
 
+def _chorale_suffix(entry: dict[str, Any]) -> str:
+    title = str(entry.get("title", ""))
+    match = _TITLE_BWV_RE.match(title)
+    if match and match.group(2):
+        return match.group(2).lower()
+    return ""
+
+
 def _chorale_id(entry: dict[str, Any]) -> str:
     number = _chorale_number(entry)
     if number is not None:
-        return f"BWV{number:03d}"
+        return f"BWV{number:03d}{_chorale_suffix(entry)}"
     return str(entry["encoding_id"])
 
 
@@ -99,6 +109,7 @@ def _chorale_aliases(entry: dict[str, Any]) -> set[str]:
         _normalize_lookup(_chorale_id(entry)),
     }
     number = _chorale_number(entry)
+    suffix = _chorale_suffix(entry)
     if number is not None:
         aliases.update(
             {
@@ -110,7 +121,76 @@ def _chorale_aliases(entry: dict[str, Any]) -> set[str]:
                 _normalize_lookup(f"BWV-{number:03d}"),
             }
         )
+        if suffix:
+            aliases.update(
+                {
+                    _normalize_lookup(f"{number}{suffix}"),
+                    _normalize_lookup(f"{number:03d}{suffix}"),
+                    _normalize_lookup(f"BWV{number}{suffix}"),
+                    _normalize_lookup(f"BWV-{number}{suffix}"),
+                    _normalize_lookup(f"BWV{number:03d}{suffix}"),
+                    _normalize_lookup(f"BWV-{number:03d}{suffix}"),
+                }
+            )
     return {alias for alias in aliases if alias}
+
+
+def _measure_from_ref_id(ref_id: str) -> int | None:
+    match = _MEASURE_RE.search(ref_id)
+    if match:
+        return int(match.group(1))
+    return None
+
+
+def _enrich_analysis_report(graph: EventGraph, analysis_report: dict[str, Any]) -> dict[str, Any]:
+    cadences = analysis_report.get("cadences")
+    if not isinstance(cadences, list) or not cadences:
+        return analysis_report
+
+    harmony_onsets: dict[str, float] = {}
+    for event in analysis_report.get("harmony", []):
+        if not isinstance(event, dict):
+            continue
+        ref_id = event.get("ref_id")
+        onset = event.get("onset")
+        if isinstance(ref_id, str) and isinstance(onset, (int, float)) and ref_id not in harmony_onsets:
+            harmony_onsets[ref_id] = float(onset)
+
+    measure_starts: dict[int, float] = {}
+    for note in graph.notes:
+        onset = float(note.offset_quarters)
+        measure_number = int(note.measure_number)
+        current = measure_starts.get(measure_number)
+        if current is None or onset < current:
+            measure_starts[measure_number] = onset
+
+    enriched_cadences: list[Any] = []
+    changed = False
+    for cadence in cadences:
+        if not isinstance(cadence, dict):
+            enriched_cadences.append(cadence)
+            continue
+        if isinstance(cadence.get("onset"), (int, float)):
+            enriched_cadences.append(cadence)
+            continue
+
+        ref_id = str(cadence.get("ref_id", ""))
+        onset = harmony_onsets.get(ref_id)
+        if onset is None:
+            measure = _measure_from_ref_id(ref_id)
+            if measure is not None:
+                onset = measure_starts.get(measure)
+
+        if onset is None:
+            enriched_cadences.append(cadence)
+            continue
+
+        enriched_cadences.append({**cadence, "onset": onset})
+        changed = True
+
+    if not changed:
+        return analysis_report
+    return {**analysis_report, "cadences": enriched_cadences}
 
 
 @lru_cache(maxsize=1)
@@ -167,6 +247,89 @@ def _corpus_summaries() -> list[CorpusSummary]:
     return summaries
 
 
+@lru_cache(maxsize=1)
+def _embedding_manifest() -> dict[str, Any]:
+    settings = get_settings()
+    output_dir = settings.derived_dir / _DATASET_ID / "embeddings"
+    manifest_path = output_dir / "embedding_space.32d.json"
+    if manifest_path.exists():
+        return _json_path(manifest_path)
+
+    from bachbot.analysis.stats.embeddings import analyze_dataset_embeddings
+
+    manifest = analyze_dataset_embeddings(dataset=_DATASET_ID, output_dir=output_dir, visualize=False)
+    return manifest.model_dump(mode="json")
+
+
+def _embedding_coordinates() -> list[dict[str, Any]]:
+    by_alias = _corpus_index()["by_alias"]
+    coordinates: list[dict[str, Any]] = []
+
+    for chorale in _embedding_manifest().get("chorales", []):
+        if not isinstance(chorale, dict):
+            continue
+        projection = chorale.get("projection_2d")
+        if not (
+            isinstance(projection, list)
+            and len(projection) >= 2
+            and isinstance(projection[0], (int, float))
+            and isinstance(projection[1], (int, float))
+        ):
+            continue
+
+        record = None
+        for field in ("work_id", "encoding_id"):
+            alias = chorale.get(field)
+            if isinstance(alias, str):
+                record = by_alias.get(_normalize_lookup(alias))
+            if record is not None:
+                break
+        if record is None:
+            continue
+
+        normalized_entry = record["normalized"]
+        coordinates.append(
+            {
+                "id": _chorale_id(normalized_entry),
+                "title": str(normalized_entry.get("title", normalized_entry.get("encoding_id", ""))),
+                "key": chorale.get("key"),
+                "x": float(projection[0]),
+                "y": float(projection[1]),
+            }
+        )
+
+    return coordinates
+
+
+def _harmonic_rhythm_events(analysis_report: dict[str, Any]) -> list[dict[str, Any]]:
+    cadence_refs = {
+        str(cadence.get("ref_id", ""))
+        for cadence in analysis_report.get("cadences", [])
+        if isinstance(cadence, dict)
+    }
+    events: list[dict[str, Any]] = []
+    for event in analysis_report.get("harmony", []):
+        if not isinstance(event, dict):
+            continue
+        onset = event.get("onset")
+        duration = event.get("duration")
+        if not isinstance(onset, (int, float)) or not isinstance(duration, (int, float)):
+            continue
+        ref_id = str(event.get("ref_id", ""))
+        labels = event.get("roman_numeral_candidate_set", [])
+        chord = labels[0] if isinstance(labels, list) and labels else "?"
+        events.append(
+            {
+                "onset": float(onset),
+                "duration": float(duration),
+                "chord": chord,
+                "measure": _measure_from_ref_id(ref_id) or 0,
+                "is_cadence": ref_id in cadence_refs,
+            }
+        )
+    return events
+
+
 def _resolve_corpus_record(chorale_id: str) -> dict[str, Any]:
     try:
         return _corpus_index()["by_alias"][_normalize_lookup(chorale_id)]
@@ -193,7 +356,8 @@ def _normalize_request(payload: MusicXMLRequest) -> EventGraph:
 def _analysis_payload(graph: EventGraph) -> tuple[dict[str, Any], dict[str, Any]]:
     report = analyze_graph(graph)
     bundle = build_evidence_bundle(graph, report)
-    return report.model_dump(mode="json"), bundle.model_dump(mode="json")
+    report_payload = _enrich_analysis_report(graph, report.model_dump(mode="json"))
+    return report_payload, bundle.model_dump(mode="json")
 
 
 def _evaluation_metrics(analysis_report: dict[str, Any], validation_report: dict[str, Any]) -> dict[str, Any]:
@@ -276,7 +440,7 @@ def create_app() -> FastAPI:
         analysis_report: dict[str, Any]
         evidence_bundle: dict[str, Any]
         if analysis_entry is not None:
-            analysis_report = _json_path(Path(analysis_entry["analysis_path"]))
+            analysis_report = _enrich_analysis_report(graph, _json_path(Path(analysis_entry["analysis_path"])))
             evidence_bundle = _json_path(Path(analysis_entry["bundle_path"]))
         else:
             analysis_report, evidence_bundle = _analysis_payload(graph)
@@ -323,7 +487,7 @@ def create_app() -> FastAPI:
     def evaluate_endpoint(payload: MusicXMLRequest) -> dict[str, Any]:
         started = perf_counter()
         graph = _normalize_request(payload)
-        analysis_report = analyze_graph(graph).model_dump(mode="json")
+        analysis_report = _enrich_analysis_report(graph, analyze_graph(graph).model_dump(mode="json"))
         validation_report = validate_graph(graph).model_dump(mode="json")
         elapsed_ms = round((perf_counter() - started) * 1000, 2)
         return {
@@ -614,10 +778,13 @@ def create_app() -> FastAPI:
 
     @app.get("/research/embeddings")
     def research_embeddings() -> dict[str, Any]:
-        from bachbot.exports.embeddings import compute_corpus_embeddings
-
-        result = compute_corpus_embeddings(limit=361)
-        return result
+        manifest = _embedding_manifest()
+        coordinates = _embedding_coordinates()
+        return {
+            **manifest,
+            "coordinates": coordinates,
+            "points": coordinates,
+        }
 
     @app.get("/research/harmonic-rhythm/{chorale_id}")
     def research_harmonic_rhythm(chorale_id: str) -> dict[str, Any]:
@@ -625,9 +792,11 @@ def create_app() -> FastAPI:
         analysis_entry = record["analysis"]
         if not analysis_entry:
             raise HTTPException(status_code=404, detail="No analysis available")
-        report = _json_path(Path(analysis_entry["analysis_path"]))
+        graph = EventGraph.model_validate(_json_path(Path(record["normalized"]["event_graph_path"])))
+        report = _enrich_analysis_report(graph, _json_path(Path(analysis_entry["analysis_path"])))
         return {
             "chorale_id": _chorale_id(record["normalized"]),
+            "events": _harmonic_rhythm_events(report),
             "harmonic_rhythm": report.get("harmonic_rhythm", {}),
             "harmony": report.get("harmony", []),
             "cadences": report.get("cadences", []),

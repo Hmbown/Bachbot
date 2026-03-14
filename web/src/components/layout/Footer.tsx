@@ -1,20 +1,29 @@
 import { Link } from 'react-router-dom';
+import { BaroqueFlourish } from '@/components/shared/Decorative';
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-paper-dark/50 mt-auto">
-      <div className="max-w-[1400px] mx-auto px-6 py-6">
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-          <div className="text-sm text-ink-muted">
-            <span className="font-serif font-semibold text-ink-light">BachBot</span>
-            {' '}&mdash; 361 chorales to browse, hear, and study
-          </div>
-          <div className="flex gap-4 text-sm text-ink-muted">
-            <Link to="/corpus" className="hover:text-ink no-underline">Chorales</Link>
-            <Link to="/research" className="hover:text-ink no-underline">Research</Link>
-            <Link to="/encyclopedia" className="hover:text-ink no-underline">Encyclopedia</Link>
-            <a href="https://github.com/Hmbown/Bachbot" className="hover:text-ink no-underline" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
+    <footer className="mt-auto border-t border-[#3a3530] bg-charcoal text-[#9E9891]">
+      <div className="max-w-[1400px] mx-auto px-6 py-10">
+        <BaroqueFlourish className="mb-5" />
+        <div className="flex justify-center gap-3 mb-4" aria-hidden="true">
+          {['♩', '♪', '♬', '♫', '♩'].map((note, index) => (
+            <span key={index} className="text-secondary/25 text-sm select-none">{note}</span>
+          ))}
+        </div>
+        <div className="text-center mb-6">
+          <p className="font-serif text-lg text-secondary">BachBot — 361 chorales to browse, hear, and study</p>
+          <p className="text-xs text-[#6B6560] mt-2">Based on the DCML corpus and built for close musical reading.</p>
+        </div>
+        <div className="flex flex-wrap justify-center gap-5 text-sm">
+          <Link to="/corpus" className="hover:text-secondary no-underline">Chorales</Link>
+          <Link to="/research" className="hover:text-secondary no-underline">Research</Link>
+          <Link to="/encyclopedia" className="hover:text-secondary no-underline">Encyclopedia</Link>
+          <Link to="/api-docs" className="hover:text-secondary no-underline">API</Link>
+          <a href="https://github.com/Hmbown/Bachbot" className="hover:text-secondary no-underline" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <div className="mt-6 text-center text-xs text-[#6B6560]">
+          Warm paper, live score views, and analytical tools in one working edition.
         </div>
       </div>
     </footer>

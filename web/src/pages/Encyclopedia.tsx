@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { fetchEncyclopediaStats } from '@/lib/api';
+import { BaroqueFlourish, CornerOrnaments, SectionHeading, StaffDivider } from '@/components/shared/Decorative';
 
 interface ArticleMeta {
   slug: string;
@@ -101,10 +102,13 @@ function ArticleCard({ article }: { article: ArticleMeta }) {
   return (
     <Link
       to={`/encyclopedia/${article.slug}`}
-      className="block p-6 rounded-xl border border-border bg-surface hover:border-primary/30 hover:shadow-sm transition-all no-underline"
+      className="group relative block p-6 rounded-2xl border border-border bg-paper-light hover:border-secondary hover:shadow-[0_18px_42px_rgba(201,168,76,0.12)] transition-all no-underline"
     >
-      <h3 className="font-serif text-lg font-semibold text-ink mb-1">{article.title}</h3>
-      <p className="text-sm text-ink-light leading-relaxed">{article.summary}</p>
+      <CornerOrnaments />
+      <div className="mb-4 h-1 w-20 rounded-full bg-gradient-to-r from-secondary to-primary opacity-70" aria-hidden="true" />
+      <h3 className="font-serif text-lg font-semibold text-ink mb-2">{article.title}</h3>
+      <p className="text-sm text-ink-muted leading-relaxed">{article.summary}</p>
+      <div className="mt-4 text-sm text-primary opacity-0 transition-opacity group-hover:opacity-100">Read more →</div>
     </Link>
   );
 }
@@ -138,25 +142,29 @@ export function EncyclopediaArticle() {
         <span className="text-ink font-medium">{article.title}</span>
       </div>
 
-      <h1 className="text-3xl font-serif font-bold text-ink mb-4">{article.title}</h1>
-      <p className="text-lg text-ink-light mb-8 leading-relaxed">{article.summary}</p>
+      <h1 className="text-4xl mb-3">{article.title}</h1>
+      <p className="text-lg text-ink-muted mb-4 leading-relaxed">{article.summary}</p>
+      <BaroqueFlourish className="mb-2" />
+      <StaffDivider className="pt-0 mb-6" />
 
-      <div className="grid grid-cols-3 gap-3 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8">
         {content.stats.map((s, i) => (
-          <div key={i} className="p-4 rounded-lg border border-border bg-surface">
-            <div className="text-sm font-semibold text-primary-dark font-serif">{s.value}</div>
-            <div className="text-xs text-ink-muted mt-0.5">{s.label}</div>
+          <div key={i} className="p-4 rounded-xl border border-border bg-paper-light shadow-[0_12px_30px_rgba(43,43,43,0.04)]">
+            <div className="text-lg font-semibold text-primary font-serif">{s.value}</div>
+            <div className="text-xs uppercase tracking-[0.16em] text-ink-muted mt-1">{s.label}</div>
           </div>
         ))}
       </div>
 
       <div className="space-y-4 mb-8">
         {content.paragraphs.map((p, i) => (
-          <p key={i} className="text-ink leading-relaxed">{p}</p>
+          <p key={i} className={`text-ink leading-relaxed ${i === 0 ? 'first-letter:float-left first-letter:mr-2 first-letter:text-5xl first-letter:font-serif first-letter:text-secondary' : ''}`}>
+            {p}
+          </p>
         ))}
       </div>
 
-      <div className="p-4 rounded-xl bg-surface-warm border border-border">
+      <div className="p-5 rounded-2xl bg-paper-light border border-border shadow-[0_12px_30px_rgba(43,43,43,0.04)]">
         <h3 className="text-sm font-semibold text-ink-light mb-2">Keep Listening</h3>
         <div className="flex gap-3 flex-wrap">
           <Link to="/corpus" className="text-sm text-primary hover:text-primary-dark no-underline">Browse Chorales</Link>
@@ -171,10 +179,17 @@ export function Encyclopedia() {
   return (
     <div className="max-w-[1100px] mx-auto px-6 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-serif font-bold text-ink mb-2">Encyclopedia</h1>
-        <p className="text-ink-light">
+        <div className="mb-2">
+          <span className="inline-block text-secondary text-[11px] uppercase tracking-[0.28em] font-sans">
+            Essays & Figures
+          </span>
+        </div>
+        <SectionHeading className="mb-3">Encyclopedia</SectionHeading>
+        <p className="text-ink-muted">
           Short essays on Bach's craft, with examples and figures drawn from the chorales.
         </p>
+        <BaroqueFlourish className="mt-4" />
+        <StaffDivider className="pt-2" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {ARTICLES.map((a) => <ArticleCard key={a.slug} article={a} />)}

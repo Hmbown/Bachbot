@@ -74,7 +74,8 @@ export function VoiceLeadingView({ graph, width = 1200, height = 350 }: VoiceLea
   }, [voiceNotes]);
 
   return (
-    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} className="bg-surface rounded-lg border border-border">
+    <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`} className="bg-paper-light rounded-lg border border-border shadow-[inset_0_1px_0_rgba(255,255,255,0.4)]">
+      <rect x="0" y="0" width={width} height={height} fill="var(--color-paper-light)" rx="8" />
       <text x={width / 2} y={20} textAnchor="middle" fontSize={13} fontWeight={600} fill="var(--color-ink)" style={{ fontFamily: 'var(--font-serif)' }}>
         Voice-Leading Connections
       </text>
@@ -99,7 +100,7 @@ export function VoiceLeadingView({ graph, width = 1200, height = 350 }: VoiceLea
               x1={x1} y1={y1} x2={x2} y2={y2}
               stroke={isLeap ? 'var(--color-suspension)' : 'var(--color-neighbor)'}
               strokeWidth={isStep ? 1 : 1.5}
-              opacity={0.6}
+              opacity={0.68}
             />
           );
         }
@@ -142,7 +143,8 @@ export function VoiceLeadingView({ graph, width = 1200, height = 350 }: VoiceLea
       ))}
 
       {/* Legend */}
-      <g transform={`translate(${PADDING.left}, ${height - 12})`}>
+      <g transform={`translate(${PADDING.left}, ${height - 16})`}>
+        <rect x="-10" y="-8" width="430" height="18" rx="9" fill="rgba(255,253,247,0.88)" stroke="var(--color-border)" />
         <rect width={8} height={3} fill="var(--color-neighbor)" rx={1} />
         <text x={12} y={4} fontSize={8} fill="var(--color-ink-muted)">Stepwise</text>
         <g transform="translate(70,0)">

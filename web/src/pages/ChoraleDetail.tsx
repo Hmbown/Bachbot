@@ -8,6 +8,7 @@ import { PlaybackControls } from '@/components/score/PlaybackControls';
 import { VoiceLeadingView } from '@/components/score/VoiceLeadingView';
 import { useAudioPlayer } from '@/hooks/useAudioPlayer';
 import { ExportButtons } from '@/components/shared/ExportButtons';
+import { BaroqueFlourish, SectionHeading, StaffDivider } from '@/components/shared/Decorative';
 import type { AnalyticalClaim } from '@/types';
 
 type ScoreView = 'piano-roll' | 'voice-leading';
@@ -55,6 +56,14 @@ function StatCard({ label, value, sub }: { label: string; value: string | number
       {sub && <div className="text-xs text-ink-muted mt-0.5">{sub}</div>}
     </div>
   );
+}
+
+function formatCadenceOnset(onset: number | undefined) {
+  return typeof onset === 'number' && Number.isFinite(onset) ? onset.toFixed(1) : '—';
+}
+
+function formatCadenceStrength(strength: number | undefined) {
+  return typeof strength === 'number' && Number.isFinite(strength) ? strength.toFixed(2) : '—';
 }
 
 export function ChoraleDetail() {
@@ -109,10 +118,15 @@ export function ChoraleDetail() {
 
       {/* Title */}
       <div className="mb-8">
+        <div className="mb-2">
+          <span className="inline-block text-secondary text-[11px] uppercase tracking-[0.28em] font-sans">
+            Chorale Reading
+          </span>
+        </div>
         <h1 className="text-3xl font-serif font-bold text-ink mb-2">
           {data.title || data.chorale_id}
         </h1>
-        <div className="flex items-center gap-3 text-sm text-ink-light">
+        <div className="flex items-center gap-3 text-sm text-ink-light flex-wrap">
           {report.key && (
             <span className="inline-flex items-center px-2 py-0.5 rounded bg-primary/10 text-primary-dark font-medium">
               {report.key}
@@ -124,91 +138,99 @@ export function ChoraleDetail() {
           <span className="text-ink-muted">|</span>
           <span>{event_graph.voices.length} voices</span>
         </div>
+        <BaroqueFlourish className="mt-4" />
+        <StaffDivider className="pt-2" />
       </div>
 
       {/* Score Visualization */}
       <section className="mb-8">
-        <div className="flex items-center gap-4 mb-3">
-          <h2 className="text-xl font-serif font-semibold">Score</h2>
-          <div className="flex gap-1">
-            {([['piano-roll', 'Piano Roll'], ['voice-leading', 'Voice Leading']] as [ScoreView, string][]).map(([view, label]) => (
-              <button
-                key={view}
-                onClick={() => setScoreView(view)}
-                className={`px-3 py-1 rounded text-xs font-medium transition-colors ${
-                  scoreView === view ? 'bg-primary-dark text-white' : 'bg-surface border border-border text-ink-light hover:text-ink'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <div className="flex items-center gap-4 mb-3 flex-wrap">
+            <SectionHeading className="flex-1 min-w-[180px]">Score</SectionHeading>
+            <div className="flex gap-1">
+              {([['piano-roll', 'Piano Roll'], ['voice-leading', 'Voice Leading']] as [ScoreView, string][]).map(([view, label]) => (
+                <button
+                  key={view}
+                  onClick={() => setScoreView(view)}
+                  className={`px-3 py-1 rounded text-xs font-medium transition-colors ${
+                    scoreView === view ? 'bg-primary-dark text-white' : 'bg-surface border border-border text-ink-light hover:text-ink'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="overflow-x-auto">
-          {scoreView === 'piano-roll' && (
-            <>
-              <PianoRoll graph={event_graph} width={1200} height={350} playbackBeat={player.currentBeat} />
-              {report.harmony.length > 0 && (
-                <HarmonicOverlay graph={event_graph} harmony={report.harmony} cadences={report.cadences} width={1200} />
-              )}
-            </>
-          )}
-          {scoreView === 'voice-leading' && (
-            <VoiceLeadingView graph={event_graph} width={1200} height={350} />
-          )}
-        </div>
-        <div className="mt-3">
-          <PlaybackControls
-            state={player.state}
-            currentBeat={player.currentBeat}
-            duration={player.duration}
-            tempo={player.tempo}
-            voiceVolumes={player.voiceVolumes}
-            onPlay={() => player.play(event_graph)}
-            onPause={player.pause}
-            onStop={player.stop}
-            onTempoChange={player.setTempo}
-            onVoiceVolumeChange={player.setVoiceVolume}
-          />
+          <div className="overflow-x-auto">
+            {scoreView === 'piano-roll' && (
+              <>
+                <PianoRoll graph={event_graph} width={1200} height={350} playbackBeat={player.currentBeat} />
+                {report.harmony.length > 0 && (
+                  <HarmonicOverlay graph={event_graph} harmony={report.harmony} cadences={report.cadences} width={1200} />
+                )}
+              </>
+            )}
+            {scoreView === 'voice-leading' && (
+              <VoiceLeadingView graph={event_graph} width={1200} height={350} />
+            )}
+          </div>
+          <div className="mt-3">
+            <PlaybackControls
+              state={player.state}
+              currentBeat={player.currentBeat}
+              duration={player.duration}
+              tempo={player.tempo}
+              voiceVolumes={player.voiceVolumes}
+              onPlay={() => player.play(event_graph)}
+              onPause={player.pause}
+              onStop={player.stop}
+              onTempoChange={player.setTempo}
+              onVoiceVolumeChange={player.setVoiceVolume}
+            />
+          </div>
         </div>
       </section>
 
       {/* Stats Grid */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">At a Glance</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
-          <StatCard label="Harmonic Changes" value={report.harmony.length} />
-          <StatCard label="Cadences" value={report.cadences.length} />
-          <StatCard
-            label="Cadence Kinds"
-            value={[...new Set(report.cadences.map((c) => c.cadence_type))].length}
-            sub={[...new Set(report.cadences.map((c) => c.cadence_type))].join(', ')}
-          />
-          <StatCard label="Tonal Regions" value={regions.length} />
-          <StatCard
-            label="Parallel Fifths"
-            value={counterpoint.parallel_5ths || 0}
-          />
-          <StatCard
-            label="Parallel Octaves"
-            value={counterpoint.parallel_8ves || 0}
-          />
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">At a Glance</SectionHeading>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+            <StatCard label="Harmonic Changes" value={report.harmony.length} />
+            <StatCard label="Cadences" value={report.cadences.length} />
+            <StatCard
+              label="Cadence Kinds"
+              value={[...new Set(report.cadences.map((c) => c.cadence_type))].length}
+              sub={[...new Set(report.cadences.map((c) => c.cadence_type))].join(', ')}
+            />
+            <StatCard label="Tonal Regions" value={regions.length} />
+            <StatCard
+              label="Parallel Fifths"
+              value={counterpoint.parallel_5ths || 0}
+            />
+            <StatCard
+              label="Parallel Octaves"
+              value={counterpoint.parallel_8ves || 0}
+            />
+          </div>
         </div>
       </section>
 
       {/* Modulation Graph */}
       {regions.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-xl font-serif font-semibold mb-3">Tonal Regions</h2>
-          <div className="flex gap-2 flex-wrap">
-            {regions.map((region, i) => (
-              <div
-                key={i}
-                className="px-3 py-2 rounded-lg border border-border bg-surface text-sm"
-              >
-                <span className="font-serif font-semibold text-primary-dark">{region.key}</span>
-              </div>
-            ))}
+          <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+            <SectionHeading className="mb-4">Tonal Regions</SectionHeading>
+            <div className="flex gap-2 flex-wrap">
+              {regions.map((region, i) => (
+                <div
+                  key={i}
+                  className="px-3 py-2 rounded-lg border border-border bg-surface text-sm"
+                >
+                  <span className="font-serif font-semibold text-primary-dark">{region.key}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       )}
@@ -216,28 +238,30 @@ export function ChoraleDetail() {
       {/* Cadences */}
       {report.cadences.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-xl font-serif font-semibold mb-3">Cadences</h2>
-          <div className="overflow-x-auto rounded-xl border border-border bg-surface">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-border bg-paper-dark/30">
-                  <th className="text-left px-4 py-2 font-semibold text-ink-light">Type</th>
-                  <th className="text-right px-4 py-2 font-semibold text-ink-light">Onset</th>
-                  <th className="text-right px-4 py-2 font-semibold text-ink-light">Strength</th>
-                </tr>
-              </thead>
-              <tbody>
-                {report.cadences.map((c, i) => (
-                  <tr key={i} className="border-b border-border-light">
-                    <td className="px-4 py-2 font-medium text-ink">{c.cadence_type}</td>
-                    <td className="px-4 py-2 text-right font-mono text-ink-light">{c.onset}</td>
-                    <td className="px-4 py-2 text-right font-mono text-ink-light">
-                      {c.strength.toFixed(2)}
-                    </td>
+          <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+            <SectionHeading className="mb-4">Cadences</SectionHeading>
+            <div className="overflow-x-auto rounded-xl border border-border bg-surface">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-border bg-paper-dark/30">
+                    <th className="text-left px-4 py-2 font-semibold text-ink-light">Type</th>
+                    <th className="text-right px-4 py-2 font-semibold text-ink-light">Onset</th>
+                    <th className="text-right px-4 py-2 font-semibold text-ink-light">Strength</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {report.cadences.map((c, i) => (
+                    <tr key={i} className="border-b border-border-light">
+                      <td className="px-4 py-2 font-medium text-ink">{c.cadence_type}</td>
+                      <td className="px-4 py-2 text-right font-mono text-ink-light">{formatCadenceOnset(c.onset)}</td>
+                      <td className="px-4 py-2 text-right font-mono text-ink-light">
+                        {formatCadenceStrength(c.strength)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
       )}
@@ -245,77 +269,83 @@ export function ChoraleDetail() {
       {/* Analytical Claims */}
       {claims.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-xl font-serif font-semibold mb-3">
-            Reading Notes
-            <span className="text-sm font-sans font-normal text-ink-muted ml-2">
-              ({claims.length})
-            </span>
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {claims.map((claim, i) => (
-              <ClaimCard key={i} claim={claim} />
-            ))}
+          <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+            <div className="mb-4">
+              <SectionHeading>Reading Notes</SectionHeading>
+              <div className="text-sm font-sans font-normal text-ink-muted mt-2">
+                {claims.length} analytical notes
+              </div>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {claims.map((claim, i) => (
+                <ClaimCard key={i} claim={claim} />
+              ))}
+            </div>
           </div>
         </section>
       )}
 
       {/* Validation */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Part-Writing Checks</h2>
-        <div className="p-4 rounded-lg border border-border bg-surface">
-          <div className="flex items-center gap-2 mb-2">
-            <span
-              className={`w-3 h-3 rounded-full ${
-                (validation as Record<string, boolean>).passed ? 'bg-fact' : 'bg-structural'
-              }`}
-            />
-            <span className="font-semibold text-sm">
-              {(validation as Record<string, boolean>).passed ? 'Looks clean' : 'Things to inspect'}
-            </span>
-          </div>
-          {((validation as Record<string, unknown[]>).issues || []).length > 0 && (
-            <div className="mt-2 space-y-1">
-              {((validation as Record<string, Record<string, string>[]>).issues || []).map((issue, i) => (
-                <div key={i} className="text-sm text-ink-light flex items-start gap-2">
-                  <span
-                    className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${
-                      issue.severity === 'error' ? 'bg-structural' : 'bg-suspension'
-                    }`}
-                  />
-                  <span>{issue.message || JSON.stringify(issue)}</span>
-                </div>
-              ))}
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">Part-Writing Checks</SectionHeading>
+          <div className="p-4 rounded-lg border border-border bg-surface">
+            <div className="flex items-center gap-2 mb-2">
+              <span
+                className={`w-3 h-3 rounded-full ${
+                  (validation as Record<string, boolean>).passed ? 'bg-fact' : 'bg-structural'
+                }`}
+              />
+              <span className="font-semibold text-sm">
+                {(validation as Record<string, boolean>).passed ? 'Looks clean' : 'Things to inspect'}
+              </span>
             </div>
-          )}
+            {((validation as Record<string, unknown[]>).issues || []).length > 0 && (
+              <div className="mt-2 space-y-1">
+                {((validation as Record<string, Record<string, string>[]>).issues || []).map((issue, i) => (
+                  <div key={i} className="text-sm text-ink-light flex items-start gap-2">
+                    <span
+                      className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${
+                        issue.severity === 'error' ? 'bg-structural' : 'bg-suspension'
+                      }`}
+                    />
+                    <span>{issue.message || JSON.stringify(issue)}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
       {/* Downloads */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Downloads</h2>
-        <div className="flex flex-col gap-3">
-          <div>
-            <span className="text-sm text-ink-light block mb-2">Export score</span>
-            <ExportButtons choraleId={data.chorale_id} />
-          </div>
-          <div>
-            <span className="text-sm text-ink-light block mb-2">Analysis data</span>
-            <button
-              onClick={() => {
-                const blob = new Blob([JSON.stringify(evidence_bundle, null, 2)], {
-                  type: 'application/json',
-                });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = `${data.chorale_id}_evidence_bundle.json`;
-                a.click();
-                URL.revokeObjectURL(url);
-              }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-surface border border-border text-ink-light hover:text-ink hover:border-primary/30 transition-colors"
-            >
-              Analysis Data (JSON)
-            </button>
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">Downloads</SectionHeading>
+          <div className="flex flex-col gap-3">
+            <div>
+              <span className="text-sm text-ink-light block mb-2">Export score</span>
+              <ExportButtons choraleId={data.chorale_id} />
+            </div>
+            <div>
+              <span className="text-sm text-ink-light block mb-2">Analysis data</span>
+              <button
+                onClick={() => {
+                  const blob = new Blob([JSON.stringify(evidence_bundle, null, 2)], {
+                    type: 'application/json',
+                  });
+                  const url = URL.createObjectURL(blob);
+                  const a = document.createElement('a');
+                  a.href = url;
+                  a.download = `${data.chorale_id}_evidence_bundle.json`;
+                  a.click();
+                  URL.revokeObjectURL(url);
+                }}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-surface border border-border text-ink-light hover:text-ink hover:border-primary/30 transition-colors"
+              >
+                Analysis Data (JSON)
+              </button>
+            </div>
           </div>
         </div>
       </section>

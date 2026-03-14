@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { searchCorpus } from '@/lib/api';
+import { BaroqueFlourish, StaffDivider } from '@/components/shared/Decorative';
 import type { CorpusSummary } from '@/types';
 
 const KEY_OPTIONS = [
@@ -84,40 +85,49 @@ export function CorpusExplorer() {
   return (
     <div className="max-w-[1400px] mx-auto px-6 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-serif font-bold text-ink mb-2">Chorales</h1>
-        <p className="text-ink-light">
+        <div className="mb-2">
+          <span className="inline-block text-secondary text-[11px] uppercase tracking-[0.28em] font-sans">
+            Corpus Explorer
+          </span>
+        </div>
+        <h1 className="mb-3 text-4xl">Chorales</h1>
+        <p className="text-ink-muted">
           {data ? `${data.count} chorales` : 'Loading...'} from the DCML Bach Chorales corpus.
           Click any row for the full analysis.
         </p>
+        <BaroqueFlourish className="mt-4" />
+        <StaffDivider className="pt-2" />
       </div>
 
       {/* Filters */}
-      <div className="flex flex-wrap gap-3 mb-6">
-        <input
-          type="text"
-          placeholder="Search by title or BWV number..."
-          value={searchText}
-          onChange={(e) => setSearchText(e.target.value)}
-          className="px-3 py-2 rounded-lg border border-border bg-surface text-sm text-ink placeholder-ink-muted focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 w-64"
-        />
-        <select
-          value={keyFilter}
-          onChange={(e) => setKeyFilter(e.target.value)}
-          className="px-3 py-2 rounded-lg border border-border bg-surface text-sm text-ink focus:outline-none focus:border-primary/50"
-        >
-          <option value="">All Keys</option>
-          {KEY_OPTIONS.map((k) => (
-            <option key={k} value={k}>{k}</option>
-          ))}
-        </select>
-        {(keyFilter || searchText) && (
-          <button
-            onClick={() => { setKeyFilter(''); setSearchText(''); }}
-            className="px-3 py-2 text-sm text-ink-muted hover:text-ink transition-colors"
+      <div className="mb-6 rounded-2xl border border-border bg-paper-light p-4 shadow-[0_12px_30px_rgba(43,43,43,0.04)]">
+        <div className="flex flex-wrap gap-3 items-center">
+          <input
+            type="text"
+            placeholder="Search by title or BWV number..."
+            value={searchText}
+            onChange={(e) => setSearchText(e.target.value)}
+            className="px-3 py-2 rounded-lg border border-border bg-surface text-sm text-ink placeholder-ink-muted focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/20 w-72"
+          />
+          <select
+            value={keyFilter}
+            onChange={(e) => setKeyFilter(e.target.value)}
+            className="px-3 py-2 rounded-lg border border-border bg-surface text-sm text-ink focus:outline-none focus:border-primary/50"
           >
-            Clear
-          </button>
-        )}
+            <option value="">All Keys</option>
+            {KEY_OPTIONS.map((k) => (
+              <option key={k} value={k}>{k}</option>
+            ))}
+          </select>
+          {(keyFilter || searchText) && (
+            <button
+              onClick={() => { setKeyFilter(''); setSearchText(''); }}
+              className="px-3 py-2 text-sm text-primary hover:text-primary-dark transition-colors"
+            >
+              Clear Filters
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Results count + compare */}
@@ -139,7 +149,7 @@ export function CorpusExplorer() {
               const [a, b] = [...selected];
               navigate(`/corpus/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`);
             }}
-            className="px-4 py-2 bg-primary-dark text-white rounded-lg text-sm font-medium hover:bg-primary transition-colors"
+            className="px-4 py-2 bg-primary text-paper-light rounded-lg text-sm font-medium hover:bg-primary-dark transition-colors shadow-[0_12px_24px_rgba(184,92,56,0.18)]"
           >
             Compare Selected
           </button>
@@ -153,31 +163,31 @@ export function CorpusExplorer() {
       )}
 
       {!isLoading && !error && (
-        <div className="overflow-x-auto rounded-xl border border-border bg-surface">
+        <div className="overflow-x-auto rounded-2xl border border-border bg-paper-light shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-border bg-paper-dark/30">
+              <tr className="border-b border-[#3a3530] bg-charcoal text-secondary">
                 <th className="w-10 px-3 py-3"></th>
-                <th className="text-left px-4 py-3 font-semibold text-ink-light cursor-pointer hover:text-ink" onClick={() => handleSort('chorale_id')}>
+                <th className="text-left px-4 py-3 font-semibold cursor-pointer hover:text-paper-light" onClick={() => handleSort('chorale_id')}>
                   BWV <SortIcon field="chorale_id" />
                 </th>
-                <th className="text-left px-4 py-3 font-semibold text-ink-light cursor-pointer hover:text-ink" onClick={() => handleSort('title')}>
+                <th className="text-left px-4 py-3 font-semibold cursor-pointer hover:text-paper-light" onClick={() => handleSort('title')}>
                   Title <SortIcon field="title" />
                 </th>
-                <th className="text-left px-4 py-3 font-semibold text-ink-light cursor-pointer hover:text-ink" onClick={() => handleSort('key')}>
+                <th className="text-left px-4 py-3 font-semibold cursor-pointer hover:text-paper-light" onClick={() => handleSort('key')}>
                   Key <SortIcon field="key" />
                 </th>
-                <th className="text-right px-4 py-3 font-semibold text-ink-light cursor-pointer hover:text-ink" onClick={() => handleSort('harmonic_event_count')}>
+                <th className="text-right px-4 py-3 font-semibold cursor-pointer hover:text-paper-light" onClick={() => handleSort('harmonic_event_count')}>
                   Chords <SortIcon field="harmonic_event_count" />
                 </th>
-                <th className="text-right px-4 py-3 font-semibold text-ink-light cursor-pointer hover:text-ink" onClick={() => handleSort('cadence_count')}>
+                <th className="text-right px-4 py-3 font-semibold cursor-pointer hover:text-paper-light" onClick={() => handleSort('cadence_count')}>
                   Cadences <SortIcon field="cadence_count" />
                 </th>
               </tr>
             </thead>
             <tbody>
               {filtered.map((chorale) => (
-                <tr key={chorale.chorale_id} className="border-b border-border-light hover:bg-paper-dark/20 transition-colors">
+                <tr key={chorale.chorale_id} className="border-b border-border-light hover:bg-secondary/8 transition-colors">
                   <td className="px-3 py-3">
                     <input
                       type="checkbox"
@@ -196,7 +206,7 @@ export function CorpusExplorer() {
                   <td className="px-4 py-3 text-ink">{chorale.title}</td>
                   <td className="px-4 py-3">
                     {chorale.key && (
-                      <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-primary/10 text-primary-dark">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-secondary/20 text-ink">
                         {chorale.key}
                       </span>
                     )}

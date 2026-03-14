@@ -31,6 +31,10 @@ export function HarmonicOverlay({
   }, [graph, width]);
 
   const xScale = (onset: number) => PADDING.left + (onset / totalDuration) * plotWidth;
+  const cadenceMarkers = useMemo(
+    () => cadences.filter((c) => typeof c.onset === 'number' && Number.isFinite(c.onset)),
+    [cadences],
+  );
 
   // Group harmony events by local key for background regions
   const keyRegions = useMemo(() => {
@@ -68,9 +72,12 @@ export function HarmonicOverlay({
       width={width}
       height={height}
       viewBox={`0 0 ${width} ${height}`}
-      className="bg-surface border-x border-b border-border rounded-b-lg"
+      className="bg-paper-light border-x border-b border-border rounded-b-lg"
       style={{ fontFamily: 'var(--font-sans)', marginTop: -1 }}
     >
+      <rect x="0" y="0" width={width} height={height} fill="var(--color-paper-light)" />
+      <line x1={PADDING.left} y1="18" x2={width - PADDING.right} y2="18" stroke="var(--color-border-light)" strokeWidth="0.6" />
+
       {/* Key region backgrounds */}
       {keyRegions.map((region, i) => (
         <g key={`region-${i}`}>
@@ -87,6 +94,7 @@ export function HarmonicOverlay({
             fontSize={8}
             fill="var(--color-ink-muted)"
             fontWeight={500}
+            style={{ fontFamily: 'var(--font-sans)' }}
           >
             {region.key}
           </text>
@@ -113,7 +121,7 @@ export function HarmonicOverlay({
       })}
 
       {/* Cadence markers */}
-      {cadences.map((c, i) => {
+      {cadenceMarkers.map((c, i) => {
         const x = xScale(c.onset);
         return (
           <g key={`cad-${i}`}>
@@ -133,6 +141,7 @@ export function HarmonicOverlay({
               fontSize={8}
               fill="var(--color-structural)"
               fontWeight={600}
+              style={{ fontFamily: 'var(--font-sans)' }}
             >
               {c.cadence_type}
             </text>

@@ -28,20 +28,23 @@ export function Header() {
     <>
       <a
         href="#main-content"
-        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-dark focus:text-white focus:rounded-lg focus:text-sm"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary focus:text-paper-light focus:rounded-lg focus:text-sm"
       >
         Skip to content
       </a>
 
-      <header className="border-b border-border bg-surface-warm/80 backdrop-blur-sm sticky top-0 z-50" role="banner">
+      <header className="sticky top-0 z-50 border-b border-[#3a3530] bg-charcoal/92 backdrop-blur-md" role="banner">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-3 no-underline" aria-label="BachBot Home">
-              <div className="w-8 h-8 rounded bg-primary-dark flex items-center justify-center">
-                <span className="text-white font-serif font-bold text-sm" aria-hidden="true">B</span>
+              <div className="w-9 h-9 rounded-lg bg-primary shadow-[0_10px_24px_rgba(184,92,56,0.22)] flex items-center justify-center">
+                <span className="text-paper-light font-serif font-bold text-base" aria-hidden="true">B</span>
               </div>
-              <span className="font-serif font-semibold text-xl text-ink tracking-tight">
+              <span className="font-serif font-semibold text-xl text-paper-light tracking-wide">
                 BachBot
+              </span>
+              <span className="hidden sm:inline text-xs text-[#9E9891] italic">
+                361 chorales
               </span>
             </Link>
 
@@ -52,21 +55,24 @@ export function Header() {
                   <Link
                     key={path}
                     to={path}
-                    className={`px-3 py-2 text-sm rounded-md transition-colors no-underline ${
+                    className={`relative px-4 py-2 text-sm rounded-md transition-colors no-underline ${
                       isActive
-                        ? 'bg-primary/10 text-primary-dark font-medium'
-                        : 'text-ink-light hover:text-ink hover:bg-paper-dark/50'
+                        ? 'text-secondary font-medium'
+                        : 'text-[#9E9891] hover:text-paper-light hover:bg-white/5'
                     }`}
                     aria-current={isActive ? 'page' : undefined}
                   >
                     {label}
+                    {isActive && (
+                      <span className="absolute left-1/4 right-1/4 bottom-0 h-0.5 rounded-full bg-primary" aria-hidden="true" />
+                    )}
                   </Link>
                 );
               })}
             </nav>
 
             <button
-              className="lg:hidden p-2 text-ink-light hover:text-ink rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50"
+              className="lg:hidden p-2 text-[#9E9891] hover:text-paper-light rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50"
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={mobileOpen}
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -90,14 +96,14 @@ export function Header() {
               aria-hidden="true"
             />
             <nav
-              className="fixed top-0 right-0 w-72 h-full bg-surface border-l border-border z-50 lg:hidden shadow-xl"
+              className="fixed top-0 right-0 w-72 h-full bg-charcoal border-l border-[#3a3530] z-50 lg:hidden shadow-2xl"
               aria-label="Mobile navigation"
             >
-              <div className="flex items-center justify-between px-4 h-16 border-b border-border">
-                <span className="font-serif font-semibold text-lg text-ink">Menu</span>
+              <div className="flex items-center justify-between px-4 h-16 border-b border-[#3a3530]">
+                <span className="font-serif font-semibold text-lg text-paper-light">Menu</span>
                 <button
                   onClick={() => setMobileOpen(false)}
-                  className="p-2 text-ink-light hover:text-ink rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50"
+                  className="p-2 text-[#9E9891] hover:text-paper-light rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary/50"
                   aria-label="Close menu"
                 >
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -114,8 +120,8 @@ export function Header() {
                       to={path}
                       className={`block px-4 py-3 text-sm rounded-lg transition-colors no-underline mb-1 ${
                         isActive
-                          ? 'bg-primary/10 text-primary-dark font-medium'
-                          : 'text-ink-light hover:text-ink hover:bg-paper-dark/50'
+                          ? 'bg-secondary/10 text-secondary font-medium'
+                          : 'text-[#9E9891] hover:text-paper-light hover:bg-white/5'
                       }`}
                       aria-current={isActive ? 'page' : undefined}
                     >

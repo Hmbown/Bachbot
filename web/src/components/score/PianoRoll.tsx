@@ -14,6 +14,18 @@ interface PianoRollProps {
 
 const PADDING = { top: 40, right: 20, bottom: 30, left: 50 };
 
+function formatKeyEstimate(keyEstimate: unknown): string | null {
+  if (!keyEstimate) return null;
+  if (typeof keyEstimate === 'string') return keyEstimate;
+  if (typeof keyEstimate === 'object') {
+    const record = keyEstimate as { tonic?: unknown; mode?: unknown };
+    if (typeof record.tonic === 'string' && typeof record.mode === 'string') {
+      return `${record.tonic} ${record.mode}`;
+    }
+  }
+  return null;
+}
+
 export function PianoRoll({
   graph,
   width = 800,
@@ -75,8 +87,9 @@ export function PianoRoll({
     return lines;
   }, [midiRange]);
 
-  const title = graph.metadata.key_estimate
-    ? `${graph.metadata.work_id || graph.metadata.encoding_id} — ${graph.metadata.key_estimate}`
+  const keyLabel = formatKeyEstimate(graph.metadata.key_estimate as unknown);
+  const title = keyLabel
+    ? `${graph.metadata.work_id || graph.metadata.encoding_id} — ${keyLabel}`
     : graph.metadata.work_id || graph.metadata.encoding_id;
 
   return (
@@ -84,9 +97,11 @@ export function PianoRoll({
       width={width}
       height={height}
       viewBox={`0 0 ${width} ${height}`}
-      className="bg-surface rounded-lg border border-border"
+      className="bg-paper-light rounded-lg border border-border shadow-[inset_0_1px_0_rgba(255,255,255,0.4)]"
       style={{ fontFamily: 'var(--font-sans)' }}
     >
+      <rect x="0" y="0" width={width} height={height} fill="var(--color-paper-light)" rx="8" />
+
       {/* Title */}
       <text
         x={width / 2}
@@ -94,7 +109,7 @@ export function PianoRoll({
         textAnchor="middle"
         fontSize={13}
         fontWeight={600}
-        fill="var(--color-ink)"
+        fill="var(--color-ink-light)"
         style={{ fontFamily: 'var(--font-serif)' }}
       >
         {title}
@@ -110,6 +125,7 @@ export function PianoRoll({
             y2={yScale(midi)}
             stroke="var(--color-border-light)"
             strokeWidth={0.5}
+            opacity={0.9}
           />
           <text
             x={PADDING.left - 4}
@@ -134,6 +150,7 @@ export function PianoRoll({
             stroke="var(--color-border)"
             strokeWidth={0.5}
             strokeDasharray="2,2"
+            opacity={0.8}
           />
           <text
             x={xScale(onset)}
@@ -208,7 +225,8 @@ export function PianoRoll({
 
       {/* Legend */}
       {showLegend && (
-        <g transform={`translate(${width - PADDING.right - 180}, ${PADDING.top - 8})`}>
+        <g transform={`translate(${width - PADDING.right - 182}, ${PADDING.top - 8})`}>
+          <rect x="-8" y="-10" width="184" height="20" rx="10" fill="rgba(255,253,247,0.85)" stroke="var(--color-border)" />
           {(['S', 'A', 'T', 'B'] as const).map((voice, i) => (
             <g key={voice} transform={`translate(${i * 45}, 0)`}>
               <rect width={10} height={10} fill={VOICE_COLORS[voice]} rx={1} opacity={0.85} />

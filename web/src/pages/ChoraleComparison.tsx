@@ -5,8 +5,13 @@ import { PianoRoll } from '@/components/score/PianoRoll';
 import { HarmonicOverlay } from '@/components/score/HarmonicOverlay';
 import { PlaybackControls } from '@/components/score/PlaybackControls';
 import { ExportButtons } from '@/components/shared/ExportButtons';
+import { BaroqueFlourish, SectionHeading, StaffDivider } from '@/components/shared/Decorative';
 import { useAudioPlayer } from '@/hooks/useAudioPlayer';
 import type { CorpusDetailResponse, AnalysisReport } from '@/types';
+
+function formatCadenceOnset(onset: number | undefined) {
+  return typeof onset === 'number' && Number.isFinite(onset) ? onset.toFixed(1) : '—';
+}
 
 function RadarChart({ labelsA, valuesA, valuesB, nameA, nameB }: {
   labelsA: string[];
@@ -117,7 +122,7 @@ function ComparisonTable({ a, b, nameA, nameB }: { a: ReturnType<typeof extractM
 function ChoralePanel({ data, label, color }: { data: CorpusDetailResponse; label: string; color: string }) {
   const player = useAudioPlayer();
   return (
-    <div>
+    <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
       <h3 className="text-lg font-serif font-semibold mb-2" style={{ color }}>{label}: {data.title || data.chorale_id}</h3>
       <div className="text-xs text-ink-muted mb-2 flex gap-2">
         {data.analysis_report.key && <span className="px-2 py-0.5 bg-primary/10 text-primary-dark rounded">{data.analysis_report.key}</span>}
@@ -207,6 +212,10 @@ export function ChoraleComparison() {
   const shared = [...chordsA].filter(c => chordsB.has(c));
   const onlyA = [...chordsA].filter(c => !chordsB.has(c));
   const onlyB = [...chordsB].filter(c => !chordsA.has(c));
+  const cadenceTextColor: Record<'soprano' | 'bass', string> = {
+    soprano: 'text-soprano',
+    bass: 'text-bass',
+  };
 
   return (
     <div className="max-w-[1400px] mx-auto px-6 py-8">
@@ -217,7 +226,19 @@ export function ChoraleComparison() {
         <span className="text-ink font-medium">Compare {idA} vs {idB}</span>
       </div>
 
-      <h1 className="text-3xl font-serif font-bold text-ink mb-6">Compare Two Chorales</h1>
+      <div className="mb-8">
+        <div className="mb-2">
+          <span className="inline-block text-secondary text-[11px] uppercase tracking-[0.28em] font-sans">
+            Side-by-Side Study
+          </span>
+        </div>
+        <h1 className="text-3xl font-serif font-bold text-ink mb-2">Compare Two Chorales</h1>
+        <p className="text-ink-light">
+          Set two readings next to each other and compare texture, cadence layout, and harmonic vocabulary.
+        </p>
+        <BaroqueFlourish className="mt-4" />
+        <StaffDivider className="pt-2" />
+      </div>
 
       {/* Side-by-side piano rolls */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
@@ -227,12 +248,12 @@ export function ChoraleComparison() {
 
       {/* Comparison table + radar */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-        <div>
-          <h2 className="text-xl font-serif font-semibold mb-3">At a Glance</h2>
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">At a Glance</SectionHeading>
           <ComparisonTable a={metricsA} b={metricsB} nameA={idA} nameB={idB} />
         </div>
-        <div>
-          <h2 className="text-xl font-serif font-semibold mb-3">Profile at a Glance</h2>
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">Profile at a Glance</SectionHeading>
           <div className="p-4 rounded-lg border border-border bg-surface">
             <RadarChart labelsA={radarLabels} valuesA={radarA} valuesB={radarB} nameA={idA} nameB={idB} />
           </div>
@@ -241,24 +262,26 @@ export function ChoraleComparison() {
 
       {/* Harmonic vocabulary overlap */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Chord Vocabulary</h2>
-        <div className="grid grid-cols-3 gap-4">
-          <div className="p-4 rounded-lg border border-border bg-surface">
-            <h3 className="text-sm font-semibold text-soprano mb-2">Only in {idA} ({onlyA.length})</h3>
-            <div className="flex gap-1 flex-wrap text-xs font-serif">
-              {onlyA.map(c => <span key={c} className="px-1.5 py-0.5 bg-soprano/10 text-soprano rounded">{c}</span>)}
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">Chord Vocabulary</SectionHeading>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="p-4 rounded-lg border border-border bg-surface">
+              <h3 className="text-sm font-semibold text-soprano mb-2">Only in {idA} ({onlyA.length})</h3>
+              <div className="flex gap-1 flex-wrap text-xs font-serif">
+                {onlyA.map(c => <span key={c} className="px-1.5 py-0.5 bg-soprano/10 text-soprano rounded">{c}</span>)}
+              </div>
             </div>
-          </div>
-          <div className="p-4 rounded-lg border border-border bg-surface">
-            <h3 className="text-sm font-semibold text-ink mb-2">Shared ({shared.length})</h3>
-            <div className="flex gap-1 flex-wrap text-xs font-serif">
-              {shared.map(c => <span key={c} className="px-1.5 py-0.5 bg-fact/10 text-fact rounded">{c}</span>)}
+            <div className="p-4 rounded-lg border border-border bg-surface">
+              <h3 className="text-sm font-semibold text-ink mb-2">Shared ({shared.length})</h3>
+              <div className="flex gap-1 flex-wrap text-xs font-serif">
+                {shared.map(c => <span key={c} className="px-1.5 py-0.5 bg-fact/10 text-fact rounded">{c}</span>)}
+              </div>
             </div>
-          </div>
-          <div className="p-4 rounded-lg border border-border bg-surface">
-            <h3 className="text-sm font-semibold text-bass mb-2">Only in {idB} ({onlyB.length})</h3>
-            <div className="flex gap-1 flex-wrap text-xs font-serif">
-              {onlyB.map(c => <span key={c} className="px-1.5 py-0.5 bg-bass/10 text-bass rounded">{c}</span>)}
+            <div className="p-4 rounded-lg border border-border bg-surface">
+              <h3 className="text-sm font-semibold text-bass mb-2">Only in {idB} ({onlyB.length})</h3>
+              <div className="flex gap-1 flex-wrap text-xs font-serif">
+                {onlyB.map(c => <span key={c} className="px-1.5 py-0.5 bg-bass/10 text-bass rounded">{c}</span>)}
+              </div>
             </div>
           </div>
         </div>
@@ -266,20 +289,22 @@ export function ChoraleComparison() {
 
       {/* Cadence pattern comparison */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Cadence Layout</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {[{ data: dataA, id: idA, color: 'soprano' }, { data: dataB, id: idB, color: 'bass' }].map(({ data: d, id, color }) => (
-            <div key={id} className="p-4 rounded-lg border border-border bg-surface">
-              <h3 className={`text-sm font-semibold text-${color} mb-2`}>{id}</h3>
-              <div className="flex gap-2 flex-wrap">
-                {d.analysis_report.cadences.map((c, i) => (
-                  <span key={i} className="text-xs px-2 py-1 rounded border border-border font-serif">
-                    {c.cadence_type} <span className="text-ink-muted font-mono">@{c.onset.toFixed(1)}</span>
-                  </span>
-                ))}
+        <div className="rounded-2xl border border-border bg-paper-light p-5 shadow-[0_16px_40px_rgba(43,43,43,0.05)]">
+          <SectionHeading className="mb-4">Cadence Layout</SectionHeading>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {[{ data: dataA, id: idA, color: 'soprano' as const }, { data: dataB, id: idB, color: 'bass' as const }].map(({ data: d, id, color }) => (
+              <div key={id} className="p-4 rounded-lg border border-border bg-surface">
+                <h3 className={`text-sm font-semibold mb-2 ${cadenceTextColor[color]}`}>{id}</h3>
+                <div className="flex gap-2 flex-wrap">
+                  {d.analysis_report.cadences.map((c, i) => (
+                    <span key={i} className="text-xs px-2 py-1 rounded border border-border font-serif">
+                      {c.cadence_type} <span className="text-ink-muted font-mono">@{formatCadenceOnset(c.onset)}</span>
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
     </div>

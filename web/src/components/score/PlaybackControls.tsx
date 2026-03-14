@@ -62,13 +62,13 @@ export function PlaybackControls({
   const progress = duration > 0 ? (currentBeat / duration) * 100 : 0;
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className={`flex flex-col gap-3 rounded-b-xl border border-[#3a3530] bg-charcoal px-4 py-3 shadow-[0_14px_30px_rgba(26,21,18,0.18)] ${compact ? 'rounded-xl' : ''}`}>
       {/* Transport + progress */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 flex-wrap">
         {/* Play/Pause */}
         <button
           onClick={state === 'playing' ? onPause : onPlay}
-          className="w-9 h-9 flex items-center justify-center rounded-lg bg-primary-dark text-white hover:bg-primary transition-colors"
+          className="w-9 h-9 flex items-center justify-center rounded-full bg-secondary text-charcoal hover:bg-secondary-light transition-colors shadow-[0_8px_20px_rgba(201,168,76,0.22)]"
           aria-label={state === 'playing' ? 'Pause' : 'Play'}
         >
           {state === 'playing' ? <PauseIcon /> : <PlayIcon />}
@@ -78,28 +78,28 @@ export function PlaybackControls({
         <button
           onClick={onStop}
           disabled={state === 'stopped'}
-          className="w-9 h-9 flex items-center justify-center rounded-lg bg-surface border border-border text-ink-light hover:text-ink hover:border-primary/30 transition-colors disabled:opacity-30"
+          className="w-9 h-9 flex items-center justify-center rounded-full bg-white/4 border border-white/10 text-secondary hover:text-secondary-light hover:border-secondary/30 transition-colors disabled:opacity-30"
           aria-label="Stop"
         >
           <StopIcon />
         </button>
 
         {/* Progress bar */}
-        <div className="flex-1 flex items-center gap-2">
-          <div className="flex-1 h-1.5 bg-paper-dark rounded-full overflow-hidden">
+        <div className="flex-1 flex items-center gap-2 min-w-[180px]">
+          <div className="flex-1 h-1.5 bg-white/10 rounded-full overflow-hidden">
             <div
-              className="h-full bg-primary-dark rounded-full transition-[width] duration-75"
+              className="h-full bg-secondary rounded-full transition-[width] duration-75"
               style={{ width: `${Math.min(100, progress)}%` }}
             />
           </div>
-          <span className="text-xs font-mono text-ink-muted w-16 text-right">
+          <span className="text-xs font-mono text-[#b9b1a8] w-16 text-right">
             {formatBeat(currentBeat)}
           </span>
         </div>
 
         {/* Tempo */}
-        <div className="flex items-center gap-1.5">
-          <label className="text-xs text-ink-muted" htmlFor="tempo-slider">BPM</label>
+        <div className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/4 px-3 py-1.5">
+          <label className="text-[11px] uppercase tracking-[0.18em] text-[#9E9891]" htmlFor="tempo-slider">BPM</label>
           <input
             id="tempo-slider"
             type="range"
@@ -108,22 +108,22 @@ export function PlaybackControls({
             step={5}
             value={tempo}
             onChange={(e) => onTempoChange(Number(e.target.value))}
-            className="w-16 h-1 accent-primary-dark"
+            className="w-16 h-1 accent-secondary"
           />
-          <span className="text-xs font-mono text-ink-muted w-6">{tempo}</span>
+          <span className="text-xs font-mono text-secondary w-6">{tempo}</span>
         </div>
       </div>
 
       {/* Voice mixer (hide in compact mode) */}
       {!compact && (
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center gap-3">
           {(['S', 'A', 'T', 'B'] as const).map((voice) => (
-            <div key={voice} className="flex items-center gap-1.5">
+            <div key={voice} className="flex items-center gap-2 rounded-full border border-white/10 bg-white/4 px-3 py-1.5">
               <div
-                className="w-2 h-2 rounded-full"
+                className="w-2.5 h-2.5 rounded-full"
                 style={{ backgroundColor: VOICE_COLORS[voice] }}
               />
-              <span className="text-xs text-ink-muted w-6">{VOICE_NAMES[voice].slice(0, 3)}</span>
+              <span className="text-[11px] uppercase tracking-[0.18em] text-[#b9b1a8] w-7">{VOICE_NAMES[voice].slice(0, 3)}</span>
               <input
                 type="range"
                 min={-30}
@@ -131,7 +131,7 @@ export function PlaybackControls({
                 step={1}
                 value={voiceVolumes[voice]}
                 onChange={(e) => onVoiceVolumeChange(voice, Number(e.target.value))}
-                className="w-12 h-1 accent-primary-dark"
+                className="w-14 h-1 accent-secondary"
                 aria-label={`${VOICE_NAMES[voice]} volume`}
               />
             </div>
