@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-sm text-ink-muted">
             <span className="font-serif font-semibold text-ink-light">BachBot</span>
-            {' '}&mdash; 361 analyzed Bach chorales
+            {' '}&mdash; 361 chorales to browse, hear, and study
           </div>
           <div className="flex gap-4 text-sm text-ink-muted">
             <Link to="/corpus" className="hover:text-ink no-underline">Chorales</Link>

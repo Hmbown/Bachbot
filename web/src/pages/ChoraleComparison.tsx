@@ -82,12 +82,12 @@ function extractMetrics(report: AnalysisReport) {
 
 function ComparisonTable({ a, b, nameA, nameB }: { a: ReturnType<typeof extractMetrics>; b: ReturnType<typeof extractMetrics>; nameA: string; nameB: string }) {
   const rows = [
-    { label: 'Harmonic Events', va: a.harmonyCount, vb: b.harmonyCount },
+    { label: 'Harmonic Changes', va: a.harmonyCount, vb: b.harmonyCount },
     { label: 'Cadences', va: a.cadenceCount, vb: b.cadenceCount },
-    { label: 'Cadence Types', va: a.cadenceTypes, vb: b.cadenceTypes },
-    { label: 'Key Regions', va: a.keyRegions, vb: b.keyRegions },
-    { label: 'Parallel 5ths', va: a.parallel5ths, vb: b.parallel5ths },
-    { label: 'Parallel 8ves', va: a.parallel8ves, vb: b.parallel8ves },
+    { label: 'Cadence Kinds', va: a.cadenceTypes, vb: b.cadenceTypes },
+    { label: 'Tonal Regions', va: a.keyRegions, vb: b.keyRegions },
+    { label: 'Parallel Fifths', va: a.parallel5ths, vb: b.parallel5ths },
+    { label: 'Parallel Octaves', va: a.parallel8ves, vb: b.parallel8ves },
   ];
 
   return (
@@ -172,20 +172,20 @@ export function ChoraleComparison() {
   if (!idA || !idB) {
     return (
       <div className="max-w-[1400px] mx-auto px-6 py-12 text-center text-ink-muted">
-        Select two chorales from the <Link to="/corpus" className="text-primary">Corpus Explorer</Link> to compare.
+        Choose two chorales in the <Link to="/corpus" className="text-primary">Chorale browser</Link> to compare them side by side.
       </div>
     );
   }
 
   if (queryA.isLoading || queryB.isLoading) {
-    return <div className="max-w-[1400px] mx-auto px-6 py-12 text-center text-ink-muted">Loading comparison...</div>;
+    return <div className="max-w-[1400px] mx-auto px-6 py-12 text-center text-ink-muted">Loading both chorales...</div>;
   }
 
   if (queryA.error || queryB.error || !queryA.data || !queryB.data) {
     return (
       <div className="max-w-[1400px] mx-auto px-6 py-12">
         <div className="p-4 bg-structural/10 border border-structural/20 rounded-lg text-sm text-structural">
-          Failed to load one or both chorales.
+          Couldn&apos;t load one or both chorales.
         </div>
         <Link to="/corpus" className="text-primary text-sm mt-4 inline-block">Back to Corpus</Link>
       </div>
@@ -197,7 +197,7 @@ export function ChoraleComparison() {
   const metricsA = extractMetrics(dataA.analysis_report);
   const metricsB = extractMetrics(dataB.analysis_report);
 
-  const radarLabels = ['Harmony', 'Cadences', 'Cad. Types', 'Key Regions', 'P5ths', 'P8ves'];
+  const radarLabels = ['Chords', 'Cadences', 'Kinds', 'Keys', '5ths', '8ves'];
   const radarA = [metricsA.harmonyCount, metricsA.cadenceCount, metricsA.cadenceTypes, metricsA.keyRegions, metricsA.parallel5ths, metricsA.parallel8ves];
   const radarB = [metricsB.harmonyCount, metricsB.cadenceCount, metricsB.cadenceTypes, metricsB.keyRegions, metricsB.parallel5ths, metricsB.parallel8ves];
 
@@ -217,7 +217,7 @@ export function ChoraleComparison() {
         <span className="text-ink font-medium">Compare {idA} vs {idB}</span>
       </div>
 
-      <h1 className="text-3xl font-serif font-bold text-ink mb-6">Chorale Comparison</h1>
+      <h1 className="text-3xl font-serif font-bold text-ink mb-6">Compare Two Chorales</h1>
 
       {/* Side-by-side piano rolls */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
@@ -228,11 +228,11 @@ export function ChoraleComparison() {
       {/* Comparison table + radar */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
         <div>
-          <h2 className="text-xl font-serif font-semibold mb-3">Metrics Comparison</h2>
+          <h2 className="text-xl font-serif font-semibold mb-3">At a Glance</h2>
           <ComparisonTable a={metricsA} b={metricsB} nameA={idA} nameB={idB} />
         </div>
         <div>
-          <h2 className="text-xl font-serif font-semibold mb-3">Radar Profile</h2>
+          <h2 className="text-xl font-serif font-semibold mb-3">Profile at a Glance</h2>
           <div className="p-4 rounded-lg border border-border bg-surface">
             <RadarChart labelsA={radarLabels} valuesA={radarA} valuesB={radarB} nameA={idA} nameB={idB} />
           </div>
@@ -241,7 +241,7 @@ export function ChoraleComparison() {
 
       {/* Harmonic vocabulary overlap */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Harmonic Vocabulary</h2>
+        <h2 className="text-xl font-serif font-semibold mb-3">Chord Vocabulary</h2>
         <div className="grid grid-cols-3 gap-4">
           <div className="p-4 rounded-lg border border-border bg-surface">
             <h3 className="text-sm font-semibold text-soprano mb-2">Only in {idA} ({onlyA.length})</h3>
@@ -266,7 +266,7 @@ export function ChoraleComparison() {
 
       {/* Cadence pattern comparison */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Cadence Patterns</h2>
+        <h2 className="text-xl font-serif font-semibold mb-3">Cadence Layout</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {[{ data: dataA, id: idA, color: 'soprano' }, { data: dataB, id: idB, color: 'bass' }].map(({ data: d, id, color }) => (
             <div key={id} className="p-4 rounded-lg border border-border bg-surface">

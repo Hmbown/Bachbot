@@ -20,14 +20,14 @@ interface Endpoint {
 }
 
 const ENDPOINTS: Endpoint[] = [
-  { method: 'GET', path: '/health', description: 'Health check — API status, version, workspace root, dataset ID.', category: 'System' },
+  { method: 'GET', path: '/health', description: 'API status, version, workspace root, and dataset ID.', category: 'System' },
   { method: 'GET', path: '/corpus/search', description: 'Search the corpus by key, cadence type, or title.', category: 'Corpus', params: [
     { name: 'key', type: 'string', description: 'Exact key label, e.g. "G major"' },
     { name: 'cadence_type', type: 'string', description: 'Cadence type filter' },
     { name: 'title_contains', type: 'string', description: 'Title substring' },
     { name: 'limit', type: 'integer', description: 'Results limit (1-500)', default: '10' },
   ]},
-  { method: 'GET', path: '/corpus/{chorale_id}', description: 'Full chorale detail — event graph, analysis, evidence bundle.', category: 'Corpus', params: [
+  { method: 'GET', path: '/corpus/{chorale_id}', description: 'Full chorale detail: score events, analysis report, and analysis data.', category: 'Corpus', params: [
     { name: 'chorale_id', type: 'string', description: 'BWV number or encoding ID', required: true },
   ]},
   { method: 'GET', path: '/corpus/{chorale_id}/midi', description: 'Download MIDI file for a corpus chorale.', category: 'Export', params: [
@@ -39,23 +39,23 @@ const ENDPOINTS: Endpoint[] = [
   { method: 'GET', path: '/corpus/{chorale_id}/lilypond', description: 'Download LilyPond source for a corpus chorale.', category: 'Export', params: [
     { name: 'chorale_id', type: 'string', description: 'BWV number', required: true },
   ]},
-  { method: 'POST', path: '/analyze', description: 'Submit MusicXML for full analysis.', category: 'Analysis', body: '{\n  "musicxml": "<score-partwise>...</score-partwise>"\n}' },
+  { method: 'POST', path: '/analyze', description: 'Submit MusicXML for a full reading of the score.', category: 'Analysis', body: '{\n  "musicxml": "<score-partwise>...</score-partwise>"\n}' },
   { method: 'POST', path: '/compose', description: 'Harmonize a soprano melody into SATB.', category: 'Composition', body: '{\n  "musicxml": "<soprano MusicXML>"\n}' },
   { method: 'POST', path: '/compose/figured-bass', description: 'Realize figured bass into SATB.', category: 'Composition', body: '{\n  "musicxml": "<bass MusicXML>",\n  "figures": ["6", "6/4", "7"]\n}' },
   { method: 'POST', path: '/compose/melody', description: 'Generate soprano from chord progression.', category: 'Composition', body: '{\n  "chords": ["I", "IV", "V", "I"],\n  "key": "C major"\n}' },
   { method: 'POST', path: '/compose/invention', description: 'Generate two-part invention from subject.', category: 'Composition', body: '{\n  "musicxml": "<subject MusicXML>"\n}' },
-  { method: 'POST', path: '/evaluate', description: 'Evaluate a composition — validation + quality metrics.', category: 'Analysis', body: '{\n  "musicxml": "<score-partwise>...</score-partwise>"\n}' },
+  { method: 'POST', path: '/evaluate', description: 'Check a submitted score for rule issues and summary counts.', category: 'Analysis', body: '{\n  "musicxml": "<score-partwise>...</score-partwise>"\n}' },
   { method: 'POST', path: '/counterpoint/validate', description: 'Validate student counterpoint against cantus firmus.', category: 'Theory', body: '{\n  "cantus_firmus": [60, 62, 64, 65, 64, 62, 60],\n  "counterpoint": [67, 69, 71, 72, 71, 69, 67],\n  "species": 1,\n  "position": "above"\n}' },
   { method: 'POST', path: '/counterpoint/solve', description: 'Generate counterpoint for a cantus firmus.', category: 'Theory', body: '{\n  "cantus_firmus": [60, 62, 64, 65, 64, 62, 60],\n  "species": 1,\n  "position": "above"\n}' },
-  { method: 'GET', path: '/research/fingerprint/{chorale_id}', description: '35-feature style fingerprint for a chorale.', category: 'Research', params: [
+  { method: 'GET', path: '/research/fingerprint/{chorale_id}', description: 'Feature profile for a chorale.', category: 'Research', params: [
     { name: 'chorale_id', type: 'string', description: 'BWV number', required: true },
   ]},
-  { method: 'GET', path: '/research/corpus-baseline', description: 'Corpus-wide mean and std for all 35 features.', category: 'Research' },
-  { method: 'GET', path: '/research/anomalies', description: 'Chorales ranked by anomaly score.', category: 'Research' },
-  { method: 'GET', path: '/research/patterns', description: 'Most common harmonic n-grams.', category: 'Research', params: [
+  { method: 'GET', path: '/research/corpus-baseline', description: 'Corpus averages and standard deviations for the feature profile.', category: 'Research' },
+  { method: 'GET', path: '/research/anomalies', description: 'Chorales ranked by outlier score.', category: 'Research' },
+  { method: 'GET', path: '/research/patterns', description: 'Most common harmonic progressions.', category: 'Research', params: [
     { name: 'length', type: 'integer', description: 'N-gram length (2-6)', default: '3' },
   ]},
-  { method: 'GET', path: '/research/embeddings', description: '2D chorale embedding coordinates.', category: 'Research' },
+  { method: 'GET', path: '/research/embeddings', description: 'Coordinates for the chorale map.', category: 'Research' },
   { method: 'GET', path: '/benchmark/latest', description: 'Most recent benchmark snapshot.', category: 'Benchmark' },
   { method: 'GET', path: '/benchmark/history', description: 'All benchmark history snapshots.', category: 'Benchmark' },
   { method: 'GET', path: '/encyclopedia/stats', description: 'Corpus-wide statistics for encyclopedia articles.', category: 'System' },
@@ -161,9 +161,9 @@ export function ApiPlayground() {
   return (
     <div className="max-w-[1400px] mx-auto px-4 sm:px-6 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-serif font-bold text-ink mb-2">API Playground</h1>
+        <h1 className="text-3xl font-serif font-bold text-ink mb-2">API Reference</h1>
         <p className="text-ink-light">
-          Interactive API documentation with {ENDPOINTS.length} endpoints. Try any endpoint live.
+          Browse the endpoints and try a live request against the running app.
         </p>
         <div className="mt-2 flex items-center gap-4 text-sm">
           {healthQuery.data && (
@@ -176,7 +176,7 @@ export function ApiPlayground() {
             onClick={() => setShowHistory(!showHistory)}
             className="text-primary text-xs hover:text-primary-dark"
           >
-            {showHistory ? 'Hide' : 'Show'} history ({history.length})
+            {showHistory ? 'Hide' : 'Show'} recent requests ({history.length})
           </button>
         </div>
       </div>
@@ -184,7 +184,7 @@ export function ApiPlayground() {
       {/* Request history */}
       {showHistory && history.length > 0 && (
         <div className="mb-6 p-3 rounded-lg border border-border bg-surface">
-          <h3 className="text-xs font-semibold text-ink-light mb-2">Recent Requests</h3>
+          <h3 className="text-xs font-semibold text-ink-light mb-2">Recent requests</h3>
           <div className="space-y-1">
             {history.map((h, i) => (
               <div key={i} className="flex items-center gap-3 text-xs font-mono">
@@ -276,7 +276,7 @@ export function ApiPlayground() {
             disabled={tryMutation.isPending}
             className="px-4 py-2 bg-primary-dark text-white rounded-lg text-sm font-medium hover:bg-primary transition-colors disabled:opacity-50 mb-4"
           >
-            {tryMutation.isPending ? 'Sending...' : 'Send Request'}
+            {tryMutation.isPending ? 'Sending...' : 'Send request'}
           </button>
 
           {/* Response */}
@@ -302,7 +302,7 @@ export function ApiPlayground() {
 
           {/* Code examples */}
           <div>
-            <h4 className="text-sm font-semibold text-ink-light mb-2">Code Examples</h4>
+            <h4 className="text-sm font-semibold text-ink-light mb-2">Examples</h4>
             <div className="space-y-3">
               {[
                 { lang: 'Python', code: pythonExample },

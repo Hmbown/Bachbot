@@ -13,12 +13,12 @@ const ARTICLES: ArticleMeta[] = [
   {
     slug: 'chorale-tradition',
     title: 'The Chorale Tradition',
-    summary: 'Bach harmonized Lutheran hymn tunes in four voices. These 371 settings became the foundation of Western harmony pedagogy.',
+    summary: 'Bach turned Lutheran hymn tunes into four-part studies in balance, cadence, and inner-voice craft.',
     content: (s) => ({
       paragraphs: [
-        `This corpus contains ${s.total_chorales || 361} Bach chorales. Each takes a pre-existing hymn melody in the soprano and harmonizes it for four voices: Soprano, Alto, Tenor, and Bass. Most are between 8 and 24 measures long.`,
-        'Bach composed these settings throughout his career for use in church cantatas, oratorios, and passions. Many were collected posthumously by C.P.E. Bach and published as a set. They became the standard teaching material for tonal harmony and voice-leading — a role they still hold today.',
-        `Across the corpus, chorales average ${s.avg_harmonic_events || '~24'} harmonic events and ${s.avg_cadences || '~5'} cadences per piece. Despite their brevity, each one is a concentrated study in functional harmony.`,
+        `This corpus contains ${s.total_chorales || 361} Bach chorales. Each begins with a hymn melody, usually in the soprano, and sets it in four voices: soprano, alto, tenor, and bass.`,
+        'Bach wrote these settings across much of his career for use in cantatas, passions, and other church music. Gathered together after his death, they became some of the most enduring teaching pieces in tonal harmony and voice-leading.',
+        `Across the corpus, chorales average ${s.avg_harmonic_events || '~24'} harmonic events and ${s.avg_cadences || '~5'} cadences per piece. They are short, but rarely slight: a single phrase can carry an entire lesson in pacing, balance, and harmonic weight.`,
       ],
       stats: [
         { label: 'Chorales analyzed', value: String(s.total_chorales || 361) },
@@ -30,12 +30,12 @@ const ARTICLES: ArticleMeta[] = [
   {
     slug: 'harmonic-language',
     title: "Harmonic Language",
-    summary: 'Bach\'s chord vocabulary, key relationships, and modulation techniques across the chorale corpus.',
+    summary: 'How Bach colors a phrase through key, cadence, tonicization, and harmonic pacing.',
     content: (s) => ({
       paragraphs: [
-        `The chorales span ${s.total_keys || '~20'} distinct key areas. Major and minor modes are both well-represented, with chorales in every commonly used key.`,
-        'Bach uses secondary dominants freely — V/V and V/vi appear in the majority of chorales, creating harmonic tension that resolves to tonicized chords. Modulations typically use common-chord pivots: a chord that belongs to both the old and new key serves as the hinge.',
-        'The cadence vocabulary includes authentic cadences (both perfect and imperfect), half cadences, deceptive cadences, and plagal cadences. Perfect authentic cadences end most phrases, while half cadences and deceptive cadences create forward momentum mid-phrase.',
+        `The chorales move through about ${s.total_keys || '~20'} distinct key areas. Major and minor are both well represented, and Bach is comfortable in every key a church musician of his day would have expected to meet.`,
+        'Secondary dominants are one of his favorite ways of brightening a line. A brief V/V or V/vi can sharpen the pull of a phrase without feeling like a grand detour, especially when a common chord quietly links the old key to the new one.',
+        'Cadences do much of the large-scale shaping. Perfect authentic cadences tend to settle the phrase; half and deceptive cadences keep it moving; plagal motion appears more sparingly, usually as a color rather than the main structural close.',
       ],
       stats: [
         { label: 'Key areas', value: String(s.total_keys || '~20') },
@@ -47,12 +47,12 @@ const ARTICLES: ArticleMeta[] = [
   {
     slug: 'voice-leading',
     title: 'Voice-Leading',
-    summary: 'The contrapuntal rules Bach follows: parallel motion, spacing, tendency tones, and range.',
+    summary: 'How the four voices stay singable, independent, and tightly woven together.',
     content: () => ({
       paragraphs: [
-        'Bach avoids parallel perfect fifths and octaves between any pair of voices. He prefers contrary motion (voices moving in opposite directions) and oblique motion (one voice holds while the other moves). Similar motion to a perfect interval is treated with care.',
-        'Each voice stays within a singable range. The soprano and alto are kept within an octave of each other, as are the alto and tenor. The tenor and bass may be up to a 12th apart. Voice crossing is rare.',
-        'Tendency tones resolve predictably: leading tones rise to the tonic, the seventh of a dominant chord falls by step. Passing tones, neighbor tones, and suspensions add melodic interest without disrupting the harmonic framework.',
+        'Bach is careful with parallels, especially perfect fifths and octaves. Contrary and oblique motion help each line keep its own shape, while similar motion into a perfect interval is handled with restraint.',
+        'The voices also remain singable. Soprano, alto, tenor, and bass each stay within a practical range, and the upper three parts are spaced closely enough to sound like one fabric rather than stacked blocks.',
+        'Tendency tones behave with purpose: the leading tone rises, the seventh of the dominant falls, and dissonances such as passing tones or suspensions are prepared and resolved so that expression never clouds the underlying harmony.',
       ],
       stats: [
         { label: 'Ranges', value: 'S: C4-G5, A: F3-C5, T: C3-G4, B: E2-C4' },
@@ -64,12 +64,12 @@ const ARTICLES: ArticleMeta[] = [
   {
     slug: 'fugue-technique',
     title: 'Fugue & Counterpoint',
-    summary: 'Subjects, answers, stretto, and episode construction in the Well-Tempered Clavier.',
+    summary: 'Subjects, answers, stretto, and the patient art of spinning one idea into many.',
     content: () => ({
       paragraphs: [
         'The Well-Tempered Clavier contains 48 preludes and fugues in two books (1722 and 1742), one in each major and minor key. The fugues range from 2 to 5 voices.',
-        'Each fugue begins with a subject stated alone. The answer enters in the dominant, either as a "real" answer (exact transposition) or a "tonal" answer (with adjusted intervals to stay in the home key). A countersubject often accompanies the answer and recurs throughout.',
-        'Episodes develop fragments of the subject through sequence, modulating between key areas. Stretto — overlapping entries of the subject before the previous statement finishes — creates intensification, often near the end of the fugue.',
+        'Each fugue begins with a subject stated alone. The answer follows, usually in the dominant, either as a real answer or a tonal one adjusted just enough to keep the tonal center clear. A countersubject may join it and return again and again.',
+        'Episodes break the subject into smaller pieces and carry them through sequence into new key areas. Stretto, where entries overlap before the previous statement has ended, is one of Bach\'s surest ways of gathering energy near a climax.',
       ],
       stats: [
         { label: 'WTC fugues', value: '48 (24 per book)' },
@@ -81,12 +81,12 @@ const ARTICLES: ArticleMeta[] = [
   {
     slug: 'text-music',
     title: 'Text & Music',
-    summary: 'How Bach uses musical figures to illustrate the meaning of chorale texts.',
+    summary: 'How Bach answers words with gesture, contour, chromatic color, and rhetorical figures.',
     content: () => ({
       paragraphs: [
         'Bach frequently paints the text with musical gestures. Rising lines (anabasis) accompany words about heaven, resurrection, or joy. Falling lines (catabasis) depict descent, death, or sorrow.',
         'The passus duriusculus — a chromatic descending line — is one of Bach\'s most characteristic devices for expressing anguish and suffering. Suspiratio, a "sighing" figure using short rests, conveys longing or grief.',
-        'These techniques come from the Baroque tradition of musica poetica, which treated composition as a form of rhetoric. Bach was deeply steeped in this tradition and used it with extraordinary subtlety.',
+        'These figures belong to the Baroque tradition of musica poetica, where composition was understood as a kind of rhetoric. In Bach, the technique rarely feels decorative; it sounds as though the words have worked their way into the musical line itself.',
       ],
       stats: [
         { label: 'Common figures', value: 'Anabasis, Catabasis, Passus duriusculus' },
@@ -157,7 +157,7 @@ export function EncyclopediaArticle() {
       </div>
 
       <div className="p-4 rounded-xl bg-surface-warm border border-border">
-        <h3 className="text-sm font-semibold text-ink-light mb-2">Explore Further</h3>
+        <h3 className="text-sm font-semibold text-ink-light mb-2">Keep Listening</h3>
         <div className="flex gap-3 flex-wrap">
           <Link to="/corpus" className="text-sm text-primary hover:text-primary-dark no-underline">Browse Chorales</Link>
           <Link to="/research" className="text-sm text-primary hover:text-primary-dark no-underline">Research Tools</Link>
@@ -173,7 +173,7 @@ export function Encyclopedia() {
       <div className="mb-8">
         <h1 className="text-3xl font-serif font-bold text-ink mb-2">Encyclopedia</h1>
         <p className="text-ink-light">
-          Articles on Bach's compositional techniques, with statistics drawn from 361 analyzed chorales.
+          Short essays on Bach's craft, with examples and figures drawn from the chorales.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

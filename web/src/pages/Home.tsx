@@ -10,9 +10,9 @@ export function Home() {
             Johann Sebastian Bach
           </h1>
           <p className="text-lg text-ink-light leading-relaxed mb-8">
-            Browse, listen to, and analyze 361 four-part chorales. See how Bach harmonizes
-            Lutheran hymn tunes &mdash; the voice-leading, the cadences, the harmonic rhythm &mdash;
-            down to every note.
+            Browse, hear, and study 361 four-part chorales. Follow how Bach harmonizes
+            Lutheran tunes through the cadence points, the inner parts, and the pace of the
+            harmony, note by note.
           </p>
           <Link
             to="/corpus"
@@ -31,8 +31,8 @@ export function Home() {
               361 Chorales
             </h3>
             <p className="text-sm text-ink-light leading-relaxed">
-              Search by key, cadence type, or title. Each chorale has a piano roll, harmonic analysis,
-              cadence map, and voice-leading report. Listen with per-voice playback controls.
+              Search by key, cadence type, or title. Each chorale opens into a piano roll,
+              harmonic reading, cadence map, and part-writing view, with playback for every voice.
             </p>
           </Link>
 
@@ -41,8 +41,8 @@ export function Home() {
               Research Tools
             </h3>
             <p className="text-sm text-ink-light leading-relaxed">
-              Style fingerprinting across 35 features, anomaly detection, harmonic pattern mining,
-              and corpus-wide embedding visualization. Tools for computational musicology.
+              Compare one chorale with the rest of the collection, trace favorite progressions,
+              and see which pieces sit closest together or furthest apart.
             </p>
           </Link>
 
@@ -51,8 +51,8 @@ export function Home() {
               Encyclopedia
             </h3>
             <p className="text-sm text-ink-light leading-relaxed">
-              Articles on Bach's harmonic language, voice-leading principles, fugue technique,
-              and text-music relationships &mdash; grounded in corpus statistics.
+              Short essays on Bach's harmony, voice-leading, fugue writing, and text painting,
+              with examples drawn from the chorales.
             </p>
           </Link>
         </div>
@@ -63,16 +63,16 @@ export function Home() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-serif font-semibold mb-4">About</h2>
           <p className="text-ink-light leading-relaxed mb-4">
-            BachBot analyzes Bach's chorales using symbolic music analysis &mdash; no neural networks,
-            no guessing. It extracts harmony (Roman numerals), detects cadences, checks voice-leading
-            rules, and identifies harmonic patterns across the entire corpus.
+            BachBot reads the scores directly. It marks Roman numerals, cadences, part-writing
+            habits, and recurring progressions so you can move easily between the notation and the
+            analysis.
           </p>
           <p className="text-ink-light leading-relaxed">
             The corpus comes from the{' '}
             <a href="https://github.com/DCMLab/bach_chorales" className="text-primary hover:text-primary-dark" target="_blank" rel="noopener noreferrer">
               DCML Bach Chorales
             </a>{' '}
-            dataset. Analysis, playback, and visualization are all handled in the browser.
+            dataset. Playback, exports, and visual study tools all sit alongside the score.
           </p>
         </div>
       </section>

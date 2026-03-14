@@ -13,10 +13,15 @@ import type { AnalyticalClaim } from '@/types';
 type ScoreView = 'piano-roll' | 'voice-leading';
 
 const EVIDENCE_COLORS: Record<string, { bg: string; text: string; label: string }> = {
-  SUPPORTED_FACT: { bg: 'bg-fact/10', text: 'text-fact', label: 'Fact' },
-  INFERENCE: { bg: 'bg-inference/10', text: 'text-inference', label: 'Inference' },
-  SPECULATION: { bg: 'bg-speculation/10', text: 'text-speculation', label: 'Speculation' },
+  SUPPORTED_FACT: { bg: 'bg-fact/10', text: 'text-fact', label: 'Clear' },
+  INFERENCE: { bg: 'bg-inference/10', text: 'text-inference', label: 'Likely' },
+  SPECULATION: { bg: 'bg-speculation/10', text: 'text-speculation', label: 'Tentative' },
   DISPUTED: { bg: 'bg-disputed/10', text: 'text-disputed', label: 'Disputed' },
+};
+
+const CLAIM_LABELS: Record<string, string> = {
+  analysis_summary: 'Harmony note',
+  voiceleading_summary: 'Voice-leading note',
 };
 
 function EvidenceBadge({ status }: { status: string }) {
@@ -29,10 +34,12 @@ function EvidenceBadge({ status }: { status: string }) {
 }
 
 function ClaimCard({ claim }: { claim: AnalyticalClaim }) {
+  const claimLabel = CLAIM_LABELS[claim.claim_type] || claim.claim_type.replace(/_/g, ' ');
+
   return (
     <div className="p-3 rounded-lg border border-border bg-surface-warm">
       <div className="flex items-start justify-between gap-2 mb-1">
-        <span className="text-xs font-mono text-ink-muted">{claim.claim_type}</span>
+        <span className="text-xs font-medium text-ink-muted capitalize">{claimLabel}</span>
         <EvidenceBadge status={claim.evidence_status} />
       </div>
       <p className="text-sm text-ink leading-relaxed">{claim.description}</p>
@@ -65,7 +72,7 @@ export function ChoraleDetail() {
   if (isLoading) {
     return (
       <div className="max-w-[1400px] mx-auto px-6 py-12 text-center text-ink-muted">
-        Loading analysis for {choraleId}...
+        Loading score and analysis for {choraleId}...
       </div>
     );
   }
@@ -74,10 +81,10 @@ export function ChoraleDetail() {
     return (
       <div className="max-w-[1400px] mx-auto px-6 py-12">
         <div className="p-4 bg-structural/10 border border-structural/20 rounded-lg text-sm text-structural">
-          Failed to load chorale {choraleId}. {String(error || 'No data')}
+          Couldn&apos;t load chorale {choraleId}. {String(error || 'No data')}
         </div>
         <Link to="/corpus" className="text-primary text-sm mt-4 inline-block">
-          Back to Corpus Explorer
+          Back to Chorales
         </Link>
       </div>
     );
@@ -168,22 +175,22 @@ export function ChoraleDetail() {
 
       {/* Stats Grid */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Analysis Summary</h2>
+        <h2 className="text-xl font-serif font-semibold mb-3">At a Glance</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
-          <StatCard label="Harmonic Events" value={report.harmony.length} />
+          <StatCard label="Harmonic Changes" value={report.harmony.length} />
           <StatCard label="Cadences" value={report.cadences.length} />
           <StatCard
-            label="Cadence Types"
+            label="Cadence Kinds"
             value={[...new Set(report.cadences.map((c) => c.cadence_type))].length}
             sub={[...new Set(report.cadences.map((c) => c.cadence_type))].join(', ')}
           />
-          <StatCard label="Key Regions" value={regions.length} />
+          <StatCard label="Tonal Regions" value={regions.length} />
           <StatCard
-            label="Parallel 5ths"
+            label="Parallel Fifths"
             value={counterpoint.parallel_5ths || 0}
           />
           <StatCard
-            label="Parallel 8ves"
+            label="Parallel Octaves"
             value={counterpoint.parallel_8ves || 0}
           />
         </div>
@@ -192,7 +199,7 @@ export function ChoraleDetail() {
       {/* Modulation Graph */}
       {regions.length > 0 && (
         <section className="mb-8">
-          <h2 className="text-xl font-serif font-semibold mb-3">Key Regions</h2>
+          <h2 className="text-xl font-serif font-semibold mb-3">Tonal Regions</h2>
           <div className="flex gap-2 flex-wrap">
             {regions.map((region, i) => (
               <div
@@ -239,7 +246,7 @@ export function ChoraleDetail() {
       {claims.length > 0 && (
         <section className="mb-8">
           <h2 className="text-xl font-serif font-semibold mb-3">
-            Analytical Claims
+            Reading Notes
             <span className="text-sm font-sans font-normal text-ink-muted ml-2">
               ({claims.length})
             </span>
@@ -254,7 +261,7 @@ export function ChoraleDetail() {
 
       {/* Validation */}
       <section className="mb-8">
-        <h2 className="text-xl font-serif font-semibold mb-3">Validation</h2>
+        <h2 className="text-xl font-serif font-semibold mb-3">Part-Writing Checks</h2>
         <div className="p-4 rounded-lg border border-border bg-surface">
           <div className="flex items-center gap-2 mb-2">
             <span
@@ -263,7 +270,7 @@ export function ChoraleDetail() {
               }`}
             />
             <span className="font-semibold text-sm">
-              {(validation as Record<string, boolean>).passed ? 'Passed' : 'Issues Found'}
+              {(validation as Record<string, boolean>).passed ? 'Looks clean' : 'Things to inspect'}
             </span>
           </div>
           {((validation as Record<string, unknown[]>).issues || []).length > 0 && (
@@ -292,7 +299,7 @@ export function ChoraleDetail() {
             <ExportButtons choraleId={data.chorale_id} />
           </div>
           <div>
-            <span className="text-sm text-ink-light block mb-2">Evidence bundle</span>
+            <span className="text-sm text-ink-light block mb-2">Analysis data</span>
             <button
               onClick={() => {
                 const blob = new Blob([JSON.stringify(evidence_bundle, null, 2)], {
@@ -307,7 +314,7 @@ export function ChoraleDetail() {
               }}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-surface border border-border text-ink-light hover:text-ink hover:border-primary/30 transition-colors"
             >
-              Evidence Bundle (JSON)
+              Analysis Data (JSON)
             </button>
           </div>
         </div>

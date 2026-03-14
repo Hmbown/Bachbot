@@ -60,40 +60,40 @@ interface HarmonicRhythmEvent {
 
 const TOOLS: Record<ResearchTool, ToolDef> = {
   fingerprint: {
-    title: 'Style Fingerprinting',
+    title: 'Chorale Profile',
     icon: 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2',
     description:
-      'Compute a 35-feature style fingerprint for any chorale and compare it against the corpus. Features include harmonic vocabulary size, cadence frequency, voice-leading smoothness, and melodic contour statistics.',
+      'See what makes one chorale stand out against the rest of the collection: harmonic variety, cadence habits, spacing, and melodic shape.',
   },
   anomaly: {
-    title: 'Anomaly Detection',
+    title: 'Outliers',
     icon: 'M12 9v2m0 4h.01M5.07 19h13.86c1.54 0 2.5-1.67 1.73-3L13.73 4.99c-.77-1.33-2.69-1.33-3.46 0L3.34 16c-.77 1.33.19 3 1.73 3z',
     description:
-      'Identify chorales whose style deviates from the Bach norm. Flag disputed attributions, unusual harmonic choices, and outlier voice-leading patterns using z-score analysis.',
+      'Find the pieces that sit furthest from the center of the corpus. Some are unusually adventurous; some simply favor uncommon habits.',
   },
   patterns: {
-    title: 'Pattern Mining',
+    title: 'Common Progressions',
     icon: 'M4 6h16M4 12h16M4 18h7',
     description:
-      'Search for recurring harmonic progressions across all 361 chorales. Find the most common three-chord and four-chord sequences, and identify unique patterns.',
+      'Look for recurring chord successions across the chorales, from familiar cadential turns to rarer sequences.',
   },
   embeddings: {
-    title: 'Embedding Space',
+    title: 'Chorale Map',
     icon: 'M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
     description:
-      'Explore the trained chord and chorale embeddings. See which chorales cluster together and why, with UMAP or linear-fallback dimensionality reduction.',
+      'Plot the chorales as a map of stylistic likeness. Nearby pieces tend to share harmonic habits; distant ones feel less alike.',
   },
   rhythm: {
     title: 'Harmonic Rhythm',
     icon: 'M9 19V6l12-3v13',
     description:
-      'Compare how chord-change rates relate to metric structure across the corpus. Analyze density profiles and phrase-level patterns.',
+      'Watch how often Bach changes harmony and where he lets a sonority breathe.',
   },
   editions: {
     title: 'Edition Comparison',
     icon: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2',
     description:
-      'Align two editions of the same chorale and see every variant -- pitch changes, rhythm differences, accidental discrepancies -- with dynamic programming alignment.',
+      'Paste two versions of a chorale and inspect pitch, rhythm, or accidental differences side by side.',
   },
 };
 
@@ -352,7 +352,7 @@ function FingerprintTool() {
   return (
     <div>
       <div className="mb-6 max-w-md">
-        <label className="block text-sm font-medium text-ink-light mb-2">Select Chorale</label>
+        <label className="block text-sm font-medium text-ink-light mb-2">Choose a chorale</label>
         <ChoraleSearchInput
           value={searchText}
           onChange={setSearchText}
@@ -361,7 +361,7 @@ function FingerprintTool() {
       </div>
 
       {fpLoading || blLoading ? (
-        <LoadingSpinner text="Computing fingerprint..." />
+        <LoadingSpinner text="Reading chorale profile..." />
       ) : fpError ? (
         <ErrorBanner error={fpError} />
       ) : choraleId && fingerprint && baseline ? (
@@ -369,19 +369,19 @@ function FingerprintTool() {
           {/* Radar chart */}
           <div>
             <h3 className="text-sm font-semibold text-ink-light mb-3">
-              Feature Deviation Radar (top 12 by |z-score|)
+              What stands out most
             </h3>
             <div className="p-4 rounded-xl border border-border bg-surface">
               {radarSvg}
               <div className="flex justify-center gap-4 mt-3 text-xs text-ink-muted">
                 <span className="flex items-center gap-1">
-                  <span className="w-2.5 h-2.5 rounded-full bg-fact inline-block" /> |z| &lt; 1
+                  <span className="w-2.5 h-2.5 rounded-full bg-fact inline-block" /> close to average
                 </span>
                 <span className="flex items-center gap-1">
-                  <span className="w-2.5 h-2.5 rounded-full bg-suspension inline-block" /> 1-2
+                  <span className="w-2.5 h-2.5 rounded-full bg-suspension inline-block" /> noticeable
                 </span>
                 <span className="flex items-center gap-1">
-                  <span className="w-2.5 h-2.5 rounded-full bg-structural inline-block" /> &gt; 2
+                  <span className="w-2.5 h-2.5 rounded-full bg-structural inline-block" /> far from average
                 </span>
               </div>
             </div>
@@ -390,15 +390,15 @@ function FingerprintTool() {
           {/* Feature table */}
           <div>
             <h3 className="text-sm font-semibold text-ink-light mb-3">
-              All Features ({features.length})
+              Full feature table ({features.length})
             </h3>
             <div className="overflow-y-auto max-h-[520px] rounded-xl border border-border bg-surface">
               <table className="w-full text-sm">
                 <thead className="sticky top-0 bg-paper-dark/80 backdrop-blur-sm">
                   <tr className="border-b border-border">
                     <th className="text-left px-3 py-2 font-semibold text-ink-light">Feature</th>
-                    <th className="text-right px-3 py-2 font-semibold text-ink-light">Value</th>
-                    <th className="text-right px-3 py-2 font-semibold text-ink-light">Mean</th>
+                    <th className="text-right px-3 py-2 font-semibold text-ink-light">This chorale</th>
+                    <th className="text-right px-3 py-2 font-semibold text-ink-light">Corpus mean</th>
                     <th className="text-right px-3 py-2 font-semibold text-ink-light">z-score</th>
                   </tr>
                 </thead>
@@ -423,7 +423,7 @@ function FingerprintTool() {
           </div>
         </div>
       ) : !choraleId ? (
-        <EmptyState text="Search for a chorale above to compute its style fingerprint." />
+        <EmptyState text="Search for a chorale above to see its profile." />
       ) : null}
     </div>
   );
@@ -466,14 +466,14 @@ function AnomalyTool() {
     }
   };
 
-  if (isLoading) return <LoadingSpinner text="Computing anomaly scores..." />;
+  if (isLoading) return <LoadingSpinner text="Ranking outliers..." />;
   if (error) return <ErrorBanner error={error} />;
   if (!data) return null;
 
   return (
     <div>
       <div className="text-sm text-ink-muted mb-4">
-        {data.anomalies.length} chorales ranked by anomaly score (composite z-score deviation).
+        {data.anomalies.length} chorales sorted by outlier score. Higher numbers sit farther from the corpus average.
       </div>
 
       <div className="overflow-x-auto rounded-xl border border-border bg-surface">
@@ -491,10 +491,10 @@ function AnomalyTool() {
                 className="text-right px-4 py-3 font-semibold text-ink-light cursor-pointer hover:text-ink"
                 onClick={() => handleSort('anomaly_score')}
               >
-                Anomaly Score
+                Outlier Score
                 <SortArrow active={sortField === 'anomaly_score'} asc={sortAsc} />
               </th>
-              <th className="text-left px-4 py-3 font-semibold text-ink-light">Top Outlier Features</th>
+              <th className="text-left px-4 py-3 font-semibold text-ink-light">What Stands Out</th>
               <th className="w-10 px-2 py-3" />
             </tr>
           </thead>
@@ -544,7 +544,7 @@ function AnomalyTool() {
                       <td colSpan={4} className="px-4 py-4">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                           <div>
-                            <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">All Outlier Features</h4>
+                            <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">Full List</h4>
                             <div className="space-y-1">
                               {entry.outlier_features.map((f) => {
                                 const diff = Math.abs(f.difference);
@@ -566,12 +566,12 @@ function AnomalyTool() {
                           </div>
                           {entry.nearest_neighbors.length > 0 && (
                             <div>
-                              <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">Nearest Neighbors</h4>
+                              <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">Closest Matches</h4>
                               <div className="space-y-1">
                                 {entry.nearest_neighbors.map(([id, dist]) => (
                                   <div key={id} className="flex items-center justify-between text-xs">
                                     <span className="font-mono text-primary">{id}</span>
-                                    <span className="font-mono text-ink-muted">d={typeof dist === 'number' ? dist.toFixed(3) : dist}</span>
+                                    <span className="font-mono text-ink-muted">distance {typeof dist === 'number' ? dist.toFixed(3) : dist}</span>
                                   </div>
                                 ))}
                               </div>
@@ -636,7 +636,7 @@ function PatternTool() {
     <div>
       {/* Length selector */}
       <div className="flex items-center gap-4 mb-6">
-        <label className="text-sm font-medium text-ink-light">Progression length:</label>
+        <label className="text-sm font-medium text-ink-light">Length of progression:</label>
         <div className="flex gap-1">
           {[2, 3, 4, 5, 6].map((n) => (
             <button
@@ -655,14 +655,14 @@ function PatternTool() {
       </div>
 
       {isLoading ? (
-        <LoadingSpinner text="Mining patterns..." />
+        <LoadingSpinner text="Counting progressions..." />
       ) : error ? (
         <ErrorBanner error={error} />
       ) : (
         <>
           {/* Bar chart */}
           <div className="mb-8">
-            <h3 className="text-sm font-semibold text-ink-light mb-3">Top 20 Patterns (length {length})</h3>
+            <h3 className="text-sm font-semibold text-ink-light mb-3">Most Common Progressions (length {length})</h3>
             <div className="space-y-1.5">
               {top20.map((p: PatternEntry, i: number) => {
                 const pct = (p.count / maxCount) * 100;
@@ -688,7 +688,7 @@ function PatternTool() {
 
           {/* Progression search */}
           <div className="border-t border-border pt-6">
-            <h3 className="text-sm font-semibold text-ink-light mb-3">Search Chorales by Progression</h3>
+            <h3 className="text-sm font-semibold text-ink-light mb-3">Find a Progression in the Corpus</h3>
             <div className="flex gap-2 max-w-lg mb-4">
               <input
                 type="text"
@@ -803,16 +803,16 @@ function EmbeddingTool() {
     return key.toLowerCase().includes('major') || (!key.toLowerCase().includes('minor') && key === key.replace(/\s.*/, ''));
   };
 
-  if (isLoading) return <LoadingSpinner text="Loading embedding space..." />;
+  if (isLoading) return <LoadingSpinner text="Loading chorale map..." />;
   if (error) return <ErrorBanner error={error} />;
   if (points.length === 0) {
-    return <EmptyState text="No embedding data available. Run the embedding pipeline first." />;
+    return <EmptyState text="No chorale map is available yet." />;
   }
 
   return (
     <div>
       <div className="flex items-center gap-4 mb-4">
-        <span className="text-sm text-ink-muted">{points.length} chorales projected to 2D</span>
+        <span className="text-sm text-ink-muted">{points.length} chorales placed on a two-dimensional map</span>
         <div className="flex items-center gap-3 text-xs text-ink-muted">
           <span className="flex items-center gap-1">
             <span className="w-2.5 h-2.5 rounded-full bg-passing inline-block" /> Major
@@ -864,10 +864,10 @@ function EmbeddingTool() {
 
           {/* Axis labels */}
           <text x={svgW / 2} y={svgH - 4} textAnchor="middle" className="fill-ink-muted" fontSize="10" fontFamily="var(--font-sans)">
-            Component 1
+            Axis 1
           </text>
           <text x={10} y={svgH / 2} textAnchor="middle" className="fill-ink-muted" fontSize="10" fontFamily="var(--font-sans)" transform={`rotate(-90, 10, ${svgH / 2})`}>
-            Component 2
+            Axis 2
           </text>
         </svg>
 
@@ -949,7 +949,7 @@ function RhythmTool() {
   return (
     <div>
       <div className="mb-6 max-w-md">
-        <label className="block text-sm font-medium text-ink-light mb-2">Select Chorale</label>
+        <label className="block text-sm font-medium text-ink-light mb-2">Choose a chorale</label>
         <ChoraleSearchInput
           value={searchText}
           onChange={setSearchText}
@@ -958,13 +958,13 @@ function RhythmTool() {
       </div>
 
       {isLoading ? (
-        <LoadingSpinner text="Analyzing harmonic rhythm..." />
+        <LoadingSpinner text="Reading harmonic rhythm..." />
       ) : error ? (
         <ErrorBanner error={error} />
       ) : choraleId && events.length > 0 ? (
         <div>
           <h3 className="text-sm font-semibold text-ink-light mb-3">
-            Chord Duration Timeline ({events.length} events, measures {measures.min}--{measures.max})
+            Chord Timeline ({events.length} events, measures {measures.min}--{measures.max})
           </h3>
 
           <div className="overflow-x-auto rounded-xl border border-border bg-surface p-4">
@@ -1040,17 +1040,17 @@ function RhythmTool() {
 
           {/* Legend */}
           <div className="flex flex-wrap gap-3 mt-3 text-xs text-ink-muted">
-            <span>Bars show chord duration (longer = held longer).</span>
+            <span>Longer bars mean longer-held chords.</span>
             <span className="flex items-center gap-1">
               <span className="w-3 h-0.5 bg-structural inline-block" />
-              Cadence point
+              Cadence
             </span>
           </div>
         </div>
       ) : choraleId && events.length === 0 ? (
         <EmptyState text="No harmonic rhythm data available for this chorale." />
       ) : (
-        <EmptyState text="Search for a chorale above to visualize its harmonic rhythm." />
+        <EmptyState text="Search for a chorale above to see how the harmony moves through the piece." />
       )}
     </div>
   );
@@ -1093,7 +1093,7 @@ function EditionTool() {
         disabled={!editionA.trim() || !editionB.trim()}
         className="px-6 py-2 bg-primary-dark text-white rounded-lg text-sm font-medium hover:bg-primary transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
       >
-        Compare Editions
+        Compare editions
       </button>
 
       {submitted && (
@@ -1101,14 +1101,11 @@ function EditionTool() {
           <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="mx-auto mb-3 text-ink-muted/40">
             <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
           </svg>
-          <p className="text-sm text-ink-muted mb-2">Edition alignment endpoint is not yet fully implemented.</p>
+          <p className="text-sm text-ink-muted mb-2">Edition comparison is not wired up yet.</p>
           <p className="text-xs text-ink-muted/70">
-            When complete, this will use dynamic programming alignment to compare note-by-note differences
-            between two editions, highlighting pitch changes, rhythm variants, and accidental discrepancies.
+            When this view is ready, it will line the two scores up note by note so you can spot pitch,
+            rhythm, and accidental differences.
           </p>
-          <div className="mt-4 text-xs text-ink-muted/50">
-            Input received: {editionA.length} chars (A) / {editionB.length} chars (B)
-          </div>
         </div>
       )}
     </div>
@@ -1157,10 +1154,10 @@ export function ResearchLab() {
   return (
     <div className="max-w-[1400px] mx-auto px-6 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-serif font-bold text-ink mb-2">Research Lab</h1>
+        <h1 className="text-3xl font-serif font-bold text-ink mb-2">Research Tools</h1>
         <p className="text-ink-light">
-          Computational musicology tools powered by BachBot's deterministic analysis engine.
-          35-feature style fingerprints, z-score anomaly detection, pattern mining, and embedding visualization.
+          Compare chorales, trace favorite progressions, and look for pieces that sit near one another
+          or far apart. The language is statistical at times, but the questions are musical.
         </p>
       </div>
 
@@ -1192,19 +1189,19 @@ export function ResearchLab() {
 
           {/* Color legend sidebar card */}
           <div className="mt-6 p-4 rounded-lg bg-surface-warm border border-border">
-            <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">z-score Legend</h4>
+            <h4 className="text-xs font-semibold text-ink-light mb-2 uppercase tracking-wide">How Far from Average?</h4>
             <div className="space-y-1.5 text-xs">
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-sm bg-fact/20 border border-fact/40 flex-shrink-0" />
-                <span className="text-ink-muted">|z| &lt; 1 -- within normal range</span>
+                <span className="text-ink-muted">|z| &lt; 1: close to the corpus average</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-sm bg-suspension/20 border border-suspension/40 flex-shrink-0" />
-                <span className="text-ink-muted">1 &lt; |z| &lt; 2 -- notable deviation</span>
+                <span className="text-ink-muted">1 &lt; |z| &lt; 2: noticeably different</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-sm bg-structural/20 border border-structural/40 flex-shrink-0" />
-                <span className="text-ink-muted">|z| &gt; 2 -- significant outlier</span>
+                <span className="text-ink-muted">|z| &gt; 2: well outside the usual range</span>
               </div>
             </div>
           </div>
