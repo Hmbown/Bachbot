@@ -47,8 +47,25 @@ class CorpusSummary(BachbotModel):
     harmonic_event_count: int = 0
 
 
+def _rebase_path(path: Path) -> Path:
+    """Translate an absolute path from the build environment to the current workspace.
+
+    Index files store absolute paths from the machine that built the corpus.
+    In Docker, the workspace root changes (e.g. /app instead of /Volumes/...).
+    We detect the ``/data/`` segment and rebase onto the current workspace_root.
+    """
+    path_str = str(path)
+    marker = "/data/"
+    idx = path_str.find(marker)
+    if idx != -1 and not path.exists():
+        rebased = get_settings().workspace_root / path_str[idx + 1:]
+        if rebased.exists():
+            return rebased
+    return path
+
+
 def _json_path(path: Path) -> dict[str, Any]:
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(_rebase_path(path).read_text(encoding="utf-8"))
 
 
 def _normalize_lookup(value: str) -> str:
