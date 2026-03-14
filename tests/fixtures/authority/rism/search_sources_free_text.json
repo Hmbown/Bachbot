@@ -1,0 +1,30 @@
+{
+  "id": "https://rism.online/search?mode=sources&q=bach&rows=20",
+  "type": "Collection",
+  "totalItems": 2,
+  "view": {
+    "type": "PartialCollectionView",
+    "thisPage": 1,
+    "totalPages": 1
+  },
+  "items": [
+    {
+      "id": "https://rism.online/sources/1001145660",
+      "type": "rism:Source",
+      "label": {
+        "en": [
+          "Fugues-F major; Manuscript copy; D-Gs Cod. Ms. 2020.21/1"
+        ]
+      }
+    },
+    {
+      "id": "https://rism.online/sources/1001145661",
+      "type": "rism:Source",
+      "label": {
+        "en": [
+          "Passacaglias-C minor; Manuscript copy; D-Gs Cod. Ms. 2020.21/1"
+        ]
+      }
+    }
+  ]
+}

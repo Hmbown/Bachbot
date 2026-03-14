@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -e ".[dev]"
+
+      - name: Run tests
+        run: pytest -q
+
+  benchmark:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -e ".[dev]"
+
+      - name: Run benchmark sample
+        run: python3 -m bachbot benchmark run --sample 10 --output data/derived/benchmark_results.json
+
+      - name: Build dashboard
+        run: python3 -m bachbot benchmark dashboard
+
+      - name: Compare against main branch benchmark
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          if git show "origin/${{ github.base_ref }}:data/derived/benchmarks/latest.json" > /tmp/main-latest.json 2>/dev/null; then
+            python3 -m bachbot benchmark check-regressions \
+              --current data/derived/benchmarks/latest.json \
+              --baseline /tmp/main-latest.json
+          else
+            echo "No benchmark baseline found on ${GITHUB_BASE_REF}; skipping regression gate."
+          fi
+
+      - name: Upload benchmark artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-dashboard
+          path: |
+            data/derived/benchmark_results.json
+            data/derived/benchmarks/latest.json
+            data/derived/benchmarks/index.html

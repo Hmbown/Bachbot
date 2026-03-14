@@ -1,0 +1,21 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "params": {
+      "q": "*:*",
+      "rows": "1000",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "docs": [
+      {
+        "id": "BachDigitalSource_source_00000863",
+        "returnId": "BachDigitalSource_source_00000863",
+        "objectType": "source"
+      }
+    ]
+  }
+}

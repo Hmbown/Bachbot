@@ -1,0 +1,23 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "params": {
+      "q": "*:*",
+      "fq": "objectType:\"work\"",
+      "rows": "2",
+      "start": "2",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 3,
+    "start": 2,
+    "docs": [
+      {
+        "id": "BachDigitalWork_work_00001262",
+        "returnId": "BachDigitalWork_work_00001262",
+        "objectType": "work"
+      }
+    ]
+  }
+}

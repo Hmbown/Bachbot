@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcrstructure xmlns:xlink="http://www.w3.org/1999/xlink" classmark="D-B Mus.ms. Bach P 41, Fascicle 2">
+  <mcritem type="source">
+    <mycoreobject ID="BachDigitalSource_source_00000863" label="dbp0041:02">
+      <metadata>
+        <source01s>
+          <source01 xml:lang="de">D-B Mus.ms. Bach P 41, Fascicle 2</source01>
+        </source01s>
+        <source42s>
+          <source42 xml:lang="en">BWV / Bach Works Catalogue</source42>
+          <source42 xml:lang="x-abbr">BWV</source42>
+        </source42s>
+        <source02s>
+          <source02 xml:lang="de">BWV 214</source02>
+        </source02s>
+        <source38s>
+          <source38 xml:lang="en">Berlin State Library</source38>
+          <source38 xml:lang="x-rism">D-B</source38>
+          <source38 xml:lang="x-isil">DE-1</source38>
+        </source38s>
+        <source32s>
+          <source32 xlink:type="locator" xlink:title="BWV 214" xlink:href="BachDigitalWork_work_00000270" />
+        </source32s>
+        <source27s>
+          <source27 xml:lang="en">first half of the 18th century (ca. 1720-1739)</source27>
+          <source27 xml:lang="iso">1720-01-01P19Y</source27>
+        </source27s>
+        <source40s>
+          <source40 xlink:type="locator" xlink:href="http://resolver.staatsbibliothek-berlin.de/SBB0001C1F500020000" />
+        </source40s>
+        <source46s>
+          <source46 xml:lang="de" type="rism">467004102</source46>
+        </source46s>
+      </metadata>
+      <service>
+        <servdates>
+          <servdate type="createdate">2008-09-20T06:24:22.784Z</servdate>
+          <servdate type="modifydate">2023-06-05T09:42:17.541Z</servdate>
+        </servdates>
+        <servflags>
+          <servflag type="license">CC BY-NC 4.0</servflag>
+        </servflags>
+      </service>
+    </mycoreobject>
+  </mcritem>
+</mcrstructure>

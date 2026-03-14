@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcrstructure xmlns:xlink="http://www.w3.org/1999/xlink" classmark="BWV 1076">
+  <mcritem type="work">
+    <mycoreobject ID="BachDigitalWork_work_00001262" label="BWV 1076">
+      <metadata>
+        <work24s>
+          <work24 xml:lang="en">BWV / Bach Works Catalogue</work24>
+          <work24 xml:lang="x-abbr">BWV</work24>
+        </work24s>
+        <work01s>
+          <work01 xml:lang="de">BWV 1076</work01>
+        </work01s>
+        <work02s>
+          <work02 xml:lang="en">Canon for 6 Voices / Canon triplex a 6 Voci</work02>
+        </work02s>
+        <work04s>
+          <work04>
+            <text xml:lang="en">before 1747</text>
+            <calendar>gregorian</calendar>
+            <von>1745-01-01 AD</von>
+            <bis>1748-12-31 AD</bis>
+          </work04>
+        </work04s>
+        <work16s>
+          <work16 xml:lang="de" type="gnd">300612109</work16>
+        </work16s>
+      </metadata>
+      <service>
+        <servdates>
+          <servdate type="createdate">2008-09-09T12:57:24.751Z</servdate>
+          <servdate type="modifydate">2025-05-14T14:31:54.149Z</servdate>
+        </servdates>
+        <servflags>
+          <servflag type="license">CC BY-NC 4.0</servflag>
+        </servflags>
+      </service>
+    </mycoreobject>
+  </mcritem>
+</mcrstructure>

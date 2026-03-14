@@ -1,0 +1,32 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "params": {
+      "q": "canon",
+      "fq": "objectType:\"work\"",
+      "rows": "20",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 3,
+    "start": 0,
+    "docs": [
+      {
+        "id": "BachDigitalWork_work_00001262",
+        "returnId": "BachDigitalWork_work_00001262",
+        "objectType": "work"
+      },
+      {
+        "id": "BachDigitalWork_work_00001262",
+        "returnId": "BachDigitalWork_work_00001262",
+        "objectType": "work"
+      },
+      {
+        "id": "BachDigitalWork_work_00009999",
+        "returnId": "BachDigitalWork_work_00009999",
+        "objectType": "work"
+      }
+    ]
+  }
+}

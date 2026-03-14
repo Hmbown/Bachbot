@@ -1,0 +1,163 @@
+{
+  "@context": "https://rism.online/api/v1/source.json",
+  "id": "https://rism.online/sources/1001145660",
+  "type": "rism:Source",
+  "label": {
+    "en": [
+      "Fugues-F major; Manuscript copy; D-Gs Cod. Ms. 2020.21/1"
+    ]
+  },
+  "recordHistory": {
+    "created": {
+      "value": "2021-02-09T07:29:00Z"
+    },
+    "updated": {
+      "value": "2024-10-28T08:57:46Z"
+    }
+  },
+  "contents": {
+    "summary": [
+      {
+        "label": {
+          "en": [
+            "Dates"
+          ]
+        },
+        "value": {
+          "none": [
+            "[1720-1739]"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Standardized title"
+          ]
+        },
+        "value": {
+          "none": [
+            "Fugues"
+          ]
+        },
+        "type": [
+          "dcterms:title",
+          "rism:StandardizedTitle"
+        ]
+      },
+      {
+        "label": {
+          "en": [
+            "RISM ID number"
+          ]
+        },
+        "value": {
+          "none": [
+            "sources/1001145660"
+          ]
+        }
+      }
+    ]
+  },
+  "relationships": {
+    "items": [
+      {
+        "role": {
+          "value": "relators:scr",
+          "label": {
+            "en": [
+              "Copyist"
+            ]
+          }
+        },
+        "qualifier": {
+          "value": "Ascertained"
+        },
+        "relatedTo": {
+          "id": "https://rism.online/people/50046592",
+          "type": "rism:Person",
+          "label": {
+            "none": [
+              "Kieser, Johann Jacob (1703-1762)"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "exemplars": {
+    "items": [
+      {
+        "id": "https://rism.online/sources/1001145660/holdings/30000776",
+        "label": {
+          "none": [
+            "Goettingen Library, Cod. Ms. 2020.21/1"
+          ]
+        },
+        "summary": [
+          {
+            "label": {
+              "en": [
+                "Shelfmark"
+              ]
+            },
+            "value": {
+              "none": [
+                "Cod. Ms. 2020.21/1"
+              ]
+            }
+          }
+        ],
+        "heldBy": {
+          "id": "https://rism.online/institutions/30000776",
+          "type": "rism:Institution",
+          "label": {
+            "none": [
+              "Goettingen Library (D-Gs)"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "sourceItems": {
+    "items": [
+      {
+        "id": "https://rism.online/sources/1001145661",
+        "type": "rism:Source",
+        "label": {
+          "en": [
+            "Fugues-F major; Manuscript copy; BWV 540/2"
+          ]
+        }
+      }
+    ]
+  },
+  "partOf": {
+    "items": [
+      {
+        "relatedTo": {
+          "id": "https://rism.online/sources/1001145000",
+          "type": "rism:Source",
+          "label": {
+            "none": [
+              "Collection parent"
+            ]
+          },
+          "externalResources": [
+            {
+              "type": "rism:ExternalResource",
+              "url": "https://www.bach-digital.de/receive/BachDigitalSource_source_00001734",
+              "label": {
+                "none": [
+                  "Bach Digital source"
+                ]
+              },
+              "resourceType": "rism:OtherLink"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

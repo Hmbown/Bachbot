@@ -1,0 +1,16 @@
+[
+  {
+    "id": "bwv244_10_interrupted_three_line",
+    "bwv": "BWV 244/10",
+    "graph_path": "data/normalized/dcml_bach_chorales/notes__117 Nun ruhen alle Wälder.event_graph.json",
+    "source_score": "data/raw/dcml_bach_chorales/MS3/117 Nun ruhen alle Wälder.mscx",
+    "published_sources": [
+      "Heinrich Schenker, Five Graphic Music Analyses / Free Composition example on Bach's St. Matthew Passion no. 10 ('Ich bin's, ich sollte buessen').",
+      "Nicholas Cook, A Guide to Musical Analysis, discussion of Schenker's and Lerdahl-Jackendoff's published analyses of the same chorale."
+    ],
+    "expected_background_urlinie": [3, 2, 1],
+    "expected_bassbrechung": [1, 5, 1],
+    "primary_tone_degree": 3,
+    "minimum_primary_tone_count": 2
+  }
+]

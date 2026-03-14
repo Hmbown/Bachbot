@@ -1,0 +1,12 @@
+dataset_id: test_bach_digital
+type: authority_metadata
+source_url: "https://www.bach-digital.de/"
+retrieved_at: "2026-03-07"
+license:
+  data: "ODC PDDL 1.0"
+  site_content: "CC BY-NC 4.0 unless otherwise noted"
+checksum_policy: sha256
+catalog_revision: "BWV3"
+notes:
+  - "Fixture manifest for registry tests"
+

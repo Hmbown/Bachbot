@@ -1,0 +1,79 @@
+{
+  "layer_id": "AL-simple-external",
+  "work_id": "BWV-TEST",
+  "section_id": "section_1",
+  "source": {
+    "source_id": "external:simple-fixture",
+    "source_type": "external_json",
+    "label": "fixture-analyst",
+    "version": "1.0",
+    "provenance": [
+      "tests/fixtures/annotations/simple_chorale_harmony_diff.json"
+    ]
+  },
+  "findings": [
+    {
+      "finding_id": "ext:harmony:m1",
+      "finding_type": "harmony",
+      "passage_ref": {
+        "measure_start": 1,
+        "measure_end": 1,
+        "voice_ids": []
+      },
+      "value": {
+        "roman_numeral": "I",
+        "onset": 0.0
+      },
+      "status": "supported_fact",
+      "confidence": 0.9,
+      "source_id": "external:simple-fixture"
+    },
+    {
+      "finding_id": "ext:harmony:m2",
+      "finding_type": "harmony",
+      "passage_ref": {
+        "measure_start": 2,
+        "measure_end": 2,
+        "voice_ids": []
+      },
+      "value": {
+        "roman_numeral": "ii",
+        "onset": 4.0
+      },
+      "status": "supported_fact",
+      "confidence": 0.9,
+      "source_id": "external:simple-fixture"
+    },
+    {
+      "finding_id": "ext:cadence:m4",
+      "finding_type": "cadence",
+      "passage_ref": {
+        "measure_start": 4,
+        "measure_end": 4,
+        "voice_ids": []
+      },
+      "value": {
+        "cadence_type": "PAC"
+      },
+      "status": "supported_fact",
+      "confidence": 0.9,
+      "source_id": "external:simple-fixture"
+    },
+    {
+      "finding_id": "ext:harmony:m5",
+      "finding_type": "harmony",
+      "passage_ref": {
+        "measure_start": 5,
+        "measure_end": 5,
+        "voice_ids": []
+      },
+      "value": {
+        "roman_numeral": "V",
+        "onset": 16.0
+      },
+      "status": "supported_fact",
+      "confidence": 0.9,
+      "source_id": "external:simple-fixture"
+    }
+  ]
+}

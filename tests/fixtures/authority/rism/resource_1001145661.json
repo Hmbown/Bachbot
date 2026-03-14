@@ -1,0 +1,115 @@
+{
+  "@context": "https://rism.online/api/v1/source.json",
+  "id": "https://rism.online/sources/1001145661",
+  "type": "rism:Source",
+  "label": {
+    "en": [
+      "Passacaglias-C minor; Manuscript copy; D-Gs Cod. Ms. 2020.21/1"
+    ]
+  },
+  "recordHistory": {
+    "created": {
+      "value": "2021-02-09T08:17:25Z"
+    },
+    "updated": {
+      "value": "2026-02-12T09:58:47Z"
+    }
+  },
+  "contents": {
+    "summary": [
+      {
+        "label": {
+          "en": [
+            "Date"
+          ]
+        },
+        "value": {
+          "none": [
+            "1733"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Standardized title"
+          ]
+        },
+        "value": {
+          "none": [
+            "Passacaglias"
+          ]
+        },
+        "type": [
+          "dcterms:title",
+          "rism:StandardizedTitle"
+        ]
+      },
+      {
+        "label": {
+          "en": [
+            "RISM ID number"
+          ]
+        },
+        "value": {
+          "none": [
+            "sources/1001145661"
+          ]
+        }
+      }
+    ]
+  },
+  "relationships": {
+    "items": []
+  },
+  "exemplars": {
+    "items": [
+      {
+        "id": "https://rism.online/sources/1001145661/holdings/30000777",
+        "label": {
+          "none": [
+            "Goettingen Library, Cod. Ms. 2020.21/2"
+          ]
+        },
+        "summary": [
+          {
+            "label": {
+              "en": [
+                "Shelfmark"
+              ]
+            },
+            "value": {
+              "none": [
+                "Cod. Ms. 2020.21/2"
+              ]
+            }
+          }
+        ],
+        "heldBy": {
+          "id": "https://rism.online/institutions/30000776",
+          "type": "rism:Institution",
+          "label": {
+            "none": [
+              "Goettingen Library (D-Gs)"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "sourceItems": {
+    "items": []
+  },
+  "externalResources": [
+    {
+      "type": "rism:ExternalResource",
+      "url": "https://www.bach-digital.de/receive/BachDigitalSource_source_00000863",
+      "label": {
+        "none": [
+          "Related Bach Digital source"
+        ]
+      },
+      "resourceType": "rism:OtherLink"
+    }
+  ]
+}

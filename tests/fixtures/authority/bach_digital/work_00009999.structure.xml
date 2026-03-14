@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcrstructure xmlns:xlink="http://www.w3.org/1999/xlink" classmark="BWV 9999">
+  <mcritem type="work">
+    <mycoreobject ID="BachDigitalWork_work_00009999" label="BWV 9999">
+      <metadata>
+        <work24s>
+          <work24 xml:lang="en">BWV / Bach Works Catalogue</work24>
+          <work24 xml:lang="x-abbr">BWV</work24>
+        </work24s>
+        <work01s>
+          <work01 xml:lang="de">BWV 9999</work01>
+        </work01s>
+        <work02s>
+          <work02 xml:lang="en">Imaginary Chorale</work02>
+        </work02s>
+        <work04s>
+          <work04>
+            <text xml:lang="en">circa 1730</text>
+            <calendar>gregorian</calendar>
+            <von>1729-01-01 AD</von>
+            <bis>1731-12-31 AD</bis>
+          </work04>
+        </work04s>
+      </metadata>
+      <service>
+        <servdates>
+          <servdate type="createdate">2010-01-01T00:00:00Z</servdate>
+          <servdate type="modifydate">2024-01-01T00:00:00Z</servdate>
+        </servdates>
+      </service>
+    </mycoreobject>
+  </mcritem>
+</mcrstructure>
