@@ -35,7 +35,7 @@ const FEATURES = [
   },
   {
     title: 'Encyclopedia',
-    description: 'Nine essays on Bach\u2019s craft — chorales, fugue, the WTC, the cantatas, the passions — with links to free scores on IMSLP.',
+    description: 'Seventeen essays on Bach\u2019s craft — chorales, fugue, the organ works, the dance forms, temperament, and more — with links to free scores on IMSLP.',
     path: '/encyclopedia',
     icon: FeatureBookIcon,
   },
@@ -127,8 +127,8 @@ export function Home() {
 
           <p className="max-w-3xl mx-auto text-lg text-ink-light leading-relaxed mb-8">
             361 four-part chorales with playback, harmonic analysis, and voice-leading views.
-            Composition tools for harmonization, figured bass, and counterpoint. Nine essays on
-            Bach's craft, from the chorale tradition to the Well-Tempered Clavier.
+            Composition tools for harmonization, figured bass, and counterpoint. Seventeen essays on
+            Bach's craft, from the chorale tradition to tuning and temperament.
           </p>
 
           <div className="flex justify-center">

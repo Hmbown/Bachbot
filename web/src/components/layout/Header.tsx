@@ -46,7 +46,7 @@ export function Header() {
                 BachBot
               </span>
               <span className="hidden sm:inline text-xs text-[#9E9891] italic">
-                chorales · counterpoint · encyclop&aelig;dia
+                chorales · counterpoint · encyclop&aelig;dia · tools
               </span>
             </Link>
 
