@@ -2,11 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const NAV_ITEMS = [
-  { path: '/corpus', label: 'Corpus Explorer' },
-  { path: '/compose', label: 'Composition Workshop' },
-  { path: '/theory', label: 'Theory Classroom' },
-  { path: '/research', label: 'Research Lab' },
-  { path: '/benchmark', label: 'Benchmark Arena' },
+  { path: '/corpus', label: 'Chorales' },
+  { path: '/research', label: 'Research' },
   { path: '/encyclopedia', label: 'Encyclopedia' },
   { path: '/api-docs', label: 'API' },
 ];
@@ -15,12 +12,10 @@ export function Header() {
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  // Close mobile menu on navigation
   useEffect(() => {
     setMobileOpen(false);
   }, [location.pathname]);
 
-  // Close on Escape
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setMobileOpen(false);
@@ -31,7 +26,6 @@ export function Header() {
 
   return (
     <>
-      {/* Skip to content link */}
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-dark focus:text-white focus:rounded-lg focus:text-sm"
@@ -71,7 +65,6 @@ export function Header() {
               })}
             </nav>
 
-            {/* Mobile menu button */}
             <button
               className="lg:hidden p-2 text-ink-light hover:text-ink rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50"
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
@@ -89,16 +82,13 @@ export function Header() {
           </div>
         </div>
 
-        {/* Mobile slide-out drawer */}
         {mobileOpen && (
           <>
-            {/* Backdrop */}
             <div
               className="fixed inset-0 bg-ink/20 z-40 lg:hidden"
               onClick={() => setMobileOpen(false)}
               aria-hidden="true"
             />
-            {/* Drawer */}
             <nav
               className="fixed top-0 right-0 w-72 h-full bg-surface border-l border-border z-50 lg:hidden shadow-xl"
               aria-label="Mobile navigation"

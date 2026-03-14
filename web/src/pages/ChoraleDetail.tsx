@@ -5,13 +5,12 @@ import { fetchChoraleDetail } from '@/lib/api';
 import { PianoRoll } from '@/components/score/PianoRoll';
 import { HarmonicOverlay } from '@/components/score/HarmonicOverlay';
 import { PlaybackControls } from '@/components/score/PlaybackControls';
-import { SchenkerianView } from '@/components/score/SchenkerianView';
 import { VoiceLeadingView } from '@/components/score/VoiceLeadingView';
 import { useAudioPlayer } from '@/hooks/useAudioPlayer';
 import { ExportButtons } from '@/components/shared/ExportButtons';
 import type { AnalyticalClaim } from '@/types';
 
-type ScoreView = 'piano-roll' | 'schenkerian' | 'voice-leading';
+type ScoreView = 'piano-roll' | 'voice-leading';
 
 const EVIDENCE_COLORS: Record<string, { bg: string; text: string; label: string }> = {
   SUPPORTED_FACT: { bg: 'bg-fact/10', text: 'text-fact', label: 'Fact' },
@@ -125,7 +124,7 @@ export function ChoraleDetail() {
         <div className="flex items-center gap-4 mb-3">
           <h2 className="text-xl font-serif font-semibold">Score</h2>
           <div className="flex gap-1">
-            {([['piano-roll', 'Piano Roll'], ['schenkerian', 'Schenkerian'], ['voice-leading', 'Voice Leading']] as [ScoreView, string][]).map(([view, label]) => (
+            {([['piano-roll', 'Piano Roll'], ['voice-leading', 'Voice Leading']] as [ScoreView, string][]).map(([view, label]) => (
               <button
                 key={view}
                 onClick={() => setScoreView(view)}
@@ -146,9 +145,6 @@ export function ChoraleDetail() {
                 <HarmonicOverlay graph={event_graph} harmony={report.harmony} cadences={report.cadences} width={1200} />
               )}
             </>
-          )}
-          {scoreView === 'schenkerian' && (
-            <SchenkerianView graph={event_graph} report={report} width={1200} height={350} />
           )}
           {scoreView === 'voice-leading' && (
             <VoiceLeadingView graph={event_graph} width={1200} height={350} />
