@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const NAV_ITEMS = [
-  { path: '/corpus', label: 'Chorales' },
+  { path: '/corpus', label: 'Corpus' },
   { path: '/compose', label: 'Compose' },
   { path: '/theory', label: 'Theory' },
   { path: '/research', label: 'Research' },
@@ -46,7 +46,7 @@ export function Header() {
                 BachBot
               </span>
               <span className="hidden sm:inline text-xs text-[#9E9891] italic">
-                chorales · counterpoint · encyclop&aelig;dia · tools
+                chorales · fugues · counterpoint · encyclop&aelig;dia
               </span>
             </Link>
 

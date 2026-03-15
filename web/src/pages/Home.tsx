@@ -126,7 +126,7 @@ export function Home() {
           </div>
 
           <p className="max-w-3xl mx-auto text-lg text-ink-light leading-relaxed mb-8">
-            361 four-part chorales with playback, harmonic analysis, and voice-leading views.
+            361 four-part chorales and 48 Well-Tempered Clavier fugues with playback, harmonic analysis, and voice-leading views.
             Composition tools for harmonization, figured bass, and counterpoint. Seventeen essays on
             Bach's craft, from the chorale tradition to tuning and temperament.
           </p>

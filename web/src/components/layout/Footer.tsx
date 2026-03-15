@@ -12,11 +12,11 @@ export function Footer() {
           ))}
         </div>
         <div className="text-center mb-6">
-          <p className="font-serif text-lg text-secondary">BachBot — chorales, counterpoint, and the craft of J. S. Bach</p>
-          <p className="text-xs text-[#6B6560] mt-2">361 chorales from the DCML corpus, composition tools, and essays on Bach's music.</p>
+          <p className="font-serif text-lg text-secondary">BachBot — chorales, fugues, and the craft of J. S. Bach</p>
+          <p className="text-xs text-[#6B6560] mt-2">361 chorales, 48 WTC fugues, composition tools, and essays on Bach's music.</p>
         </div>
         <div className="flex flex-wrap justify-center gap-5 text-sm">
-          <Link to="/corpus" className="hover:text-secondary no-underline">Chorales</Link>
+          <Link to="/corpus" className="hover:text-secondary no-underline">Corpus</Link>
           <Link to="/compose" className="hover:text-secondary no-underline">Compose</Link>
           <Link to="/theory" className="hover:text-secondary no-underline">Theory</Link>
           <Link to="/research" className="hover:text-secondary no-underline">Research</Link>
