@@ -46,7 +46,7 @@ Corpus files → `Normalizer` → **EventGraph** → `analyze_chorale()` → **A
 
 ### Composition Engine
 
-`composition/generators/pattern_fill.py` — Main harmonizer. 19 chord types, SATB spacing enforcement (S-A ≤12, A-T ≤12, T-B ≤19 semitones), cadence targeting, local key modulation, seventh chord upgrades. Uses exhaustive parallel search for voicings.
+`composition/generators/pattern_fill.py` — Main harmonizer. 43 chord types (diatonic triads/sevenths, secondary dominants, Neapolitan, augmented sixths, modal mixture), SATB spacing enforcement (S-A ≤12, A-T ≤12, T-B ≤12, T-B ≤19 semitones), cadence targeting, local key modulation, seventh chord upgrades. Uses exhaustive parallel search for voicings. SATB ranges follow Aldwell & Schachter: S(C4-G5), A(F3-C5), T(C3-G4), B(E2-C4).
 
 `composition/service.py` — Orchestrates: `plan_chorale()` → `compose_chorale_study()` → returns (EventGraph, CompositionArtifact, report).
 
@@ -79,9 +79,24 @@ data/manifests/             — Dataset metadata, checksums, license records
 - Provenance tracking at every layer. Many-to-many: work → sources → editions → encodings → analyses.
 - Stable addressing: notes by `(measure_number, offset_quarters, voice_id)`, passages by `PassageRef`.
 
+### Harmonic Analysis
+
+`analysis/harmony/roman_candidates.py` — Recognizes diatonic triads, seventh chords, secondary dominants, Neapolitan (N6), augmented sixths (It+6, Fr+6, Ger+6), and modal mixture (bVI, bVII, bIII, borrowed iv). Diatonic readings are preferred over chromatic via scoring penalty.
+
+`analysis/harmony/cadence.py` — Detects PAC, IAC, HC, PHC (Phrygian half cadence), DC, and PC (plagal cadence). Phrygian half cadence is identified by bass formula 6-5 (b6→5 descent).
+
+### Schenkerian Analysis
+
+`analysis/schenker/reduction.py` — Three-layer reduction (foreground/middleground/background) with Urlinie and Bassbrechung detection. **Caveat:** This is a computational heuristic, not a musicological analysis. Schenkerian reduction is an interpretive practice; the output should be treated as one plausible reading, not a definitive analysis.
+
+### Species Counterpoint
+
+`composition/counterpoint.py` — Pedagogical framework (Fux 1725 / Jeppesen 1939), NOT a model of Bach's actual contrapuntal practice. Bach writes free counterpoint that routinely exceeds species constraints. The primary cantus firmus (Fux-1) is the verified D-Dorian CF from Gradus ad Parnassum.
+
 ## Current Quality Gaps
 
-- Chord variety: ~4.3 unique chords (generated) vs ~14.7 (Bach originals) — needs secondary dominants, inversions.
+- Chord variety: Analysis now recognizes chromatic chords (N6, augmented sixths, modal mixture), but composition still produces ~4.3 unique chords per chorale vs ~14.7 in originals — the harmonizer needs to proactively select chromatic chords, not just voice them when a bundle specifies them.
 - Parallel octaves: ~21/30 chorales still have them — needs contrary motion, tendency tone constraints.
 - Nonharmonic tones: bundles have SUS/PT/NT/NCT data but the composer ignores them.
+- Inversions: chords are labeled by root position quality only; functional inversion (6, 6/4) is not distinguished in the harmonic plan.
 - LLM: dry-run only (no live API calls yet) — `execute_mode_response()` in wrappers.py is ready but needs API key.

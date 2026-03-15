@@ -163,6 +163,12 @@ def evaluate_generation(
             4,
         )
 
+    # Bach fidelity: only components that measure what Bach scholars care
+    # about — harmonic vocabulary, cadential syntax, voice-leading quality,
+    # and nonharmonic tone usage.  Information-theoretic complexity metrics
+    # (entropy, LZ complexity, surprisal, mutual information) are computed
+    # and stored but excluded from the fidelity score because they measure
+    # statistical properties that Bach did not optimize for.
     fidelity_components = [
         _inverse_penalty(metrics["chord_kl_divergence"]),
         _inverse_penalty(metrics["cadence_kl_divergence"]),
@@ -171,13 +177,6 @@ def evaluate_generation(
         _z_component(metrics["nonharmonic_tone_density_z"]),
         _z_component(metrics["contrary_motion_ratio_z"]),
         _z_component(metrics["parallel_violation_rate_z"]),
-        _z_component(metrics["harmonic_entropy_z"]),
-        _z_component(metrics["melodic_information_content_z"]),
-        _z_component(metrics["voice_leading_mutual_information_z"]),
-        _z_component(metrics["pitch_lz_complexity_z"]),
-        _z_component(metrics["rhythm_lz_complexity_z"]),
-        _z_component(metrics["average_tonal_tension_z"]),
-        _z_component(metrics["peak_tonal_tension_z"]),
         max(0.0, 1.0 - min(metrics["parallel_violation_rate"] * 8.0, 1.0)),
         metrics["validation_pass_rate"],
     ]

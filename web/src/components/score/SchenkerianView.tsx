@@ -152,6 +152,9 @@ export function SchenkerianView({ graph, report, width = 1200, height = 350 }: S
       {!hasData && (
         <p className="text-xs text-ink-muted mt-2">No Schenkerian reduction data available for this chorale.</p>
       )}
+      <p className="text-xs text-ink-muted mt-2 italic">
+        Computational heuristic, not a definitive analysis. Schenkerian reduction is interpretive — qualified analysts can disagree about the structural levels of the same piece.
+      </p>
     </div>
   );
 }

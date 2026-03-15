@@ -47,6 +47,10 @@ def _has_deceptive_target(candidates: set[str]) -> bool:
     return bool({"vi", "VI"} & candidates)
 
 
+def _has_plagal_function(candidates: set[str]) -> bool:
+    return bool({"IV", "iv", "IV7", "iv7"} & candidates)
+
+
 def _score_cadence_pair(prev_slice, final_slice, penultimate, final, key):
     score = 0.0
     evidence: list[str] = []
@@ -64,7 +68,7 @@ def _score_cadence_pair(prev_slice, final_slice, penultimate, final, key):
         evidence.append("dominant-like penultimate")
     bass_formula = extract_formula(prev_slice, final_slice, kind="bass", key=key)
     soprano_formula = extract_formula(prev_slice, final_slice, kind="soprano", key=key)
-    if bass_formula in {"2-1", "5-1", "5-6", "7-1"}:
+    if bass_formula in {"2-1", "5-1", "5-6", "7-1", "6-5", "4-1"}:
         score += 0.15
         evidence.append(f"bass formula {bass_formula}")
     if soprano_formula in {"2-1", "7-1", "7-6"}:
@@ -83,8 +87,17 @@ def _score_cadence_pair(prev_slice, final_slice, penultimate, final, key):
         candidates.append("DC")
     elif _has_tonic_resolution(final_candidates) and _has_dominant_function(penultimate_candidates):
         candidates.append("PAC" if bass_formula == "5-1" else "IAC")
+    elif (final_candidates & {"V", "V7"}) and bass_formula == "6-5" and key.mode == "minor":
+        # Phrygian half cadence: iv6->V with bass b6->5 (semitone descent),
+        # the standard minor-key half cadence.  Only in minor, where b6->5
+        # is a half step; in major the same degree motion is a whole step
+        # and lacks the Phrygian character.
+        candidates.append("PHC")
     elif final_candidates & {"V", "V7"}:
         candidates.append("HC")
+    elif _has_tonic_resolution(final_candidates) and _has_plagal_function(penultimate_candidates):
+        # Plagal cadence: IV->I (the "Amen" cadence).
+        candidates.append("PC")
     elif score >= 0.30:
         candidates.append("cadential")
     return score, evidence, candidates, bass_formula, soprano_formula

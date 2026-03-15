@@ -1,8 +1,14 @@
 """Species counterpoint exercise generator and validator.
 
 Provides pedagogical tools for first through fifth species counterpoint
-following Fux/Jeppesen traditions. Includes built-in cantus firmi,
+following Fux/Jeppesen traditions.  Includes built-in cantus firmi,
 constrained generation, and rule-based validation with pedagogical feedback.
+
+NOTE ON SCOPE: Species counterpoint is a pedagogical framework (Fux, 1725;
+Jeppesen, 1939) — it does NOT model Bach's actual contrapuntal practice,
+which is *free* counterpoint that routinely exceeds species constraints.
+Use this module for teaching and exercises, not as a description of how
+Bach composed.
 """
 
 from __future__ import annotations
@@ -76,8 +82,13 @@ class CantusFirmus(BachbotModel):
 # Built-in cantus firmi (10+)
 # ---------------------------------------------------------------------------
 
+# The primary Fux cantus firmus (D Dorian, from *Gradus ad Parnassum*, 1725)
+# is the one melody reliably attributable to a specific source.  The remaining
+# cantus firmi are pedagogical examples in the style of their named traditions
+# but are not direct transcriptions from the original treatises.
 CANTUS_FIRMI: list[CantusFirmus] = [
-    CantusFirmus(name="Fux-1", midi_notes=[60, 62, 64, 60, 65, 64, 62, 64, 62, 60], mode="major"),
+    # Verified: Fux's primary D-Dorian CF used throughout Gradus ad Parnassum
+    CantusFirmus(name="Fux-1", midi_notes=[62, 65, 64, 62, 67, 65, 69, 67, 65, 64, 62], mode="dorian"),
     CantusFirmus(name="Fux-2", midi_notes=[62, 60, 62, 65, 64, 62, 64, 62, 60, 62], mode="dorian"),
     CantusFirmus(name="Fux-3", midi_notes=[64, 62, 60, 62, 64, 65, 67, 65, 64, 62, 64], mode="phrygian"),
     CantusFirmus(name="Fux-4", midi_notes=[65, 64, 62, 65, 67, 69, 67, 65, 64, 65], mode="lydian"),

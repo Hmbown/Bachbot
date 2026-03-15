@@ -31,6 +31,17 @@ CHORD_INTERVALS = {
     "V/ii": (9, 1, 4), "V/V": (2, 6, 9), "V/vi": (4, 8, 11),
     "V7/V": (2, 6, 9, 0), "V7/IV": (0, 4, 7, 10), "V7/ii": (9, 1, 4, 7), "V7/vi": (4, 8, 11, 2),
     "viio7/V": (6, 9, 0, 3), "viio7/ii": (1, 4, 7, 10), "viio7/vi": (8, 11, 2, 5),
+    # Chromatic harmonies — Neapolitan, augmented sixths, modal mixture.
+    # Bach uses these routinely; making them available to the harmonizer
+    # when an evidence bundle specifies them.
+    "N6": (1, 5, 8),            # Neapolitan (bII)
+    "bVI": (8, 0, 3),           # borrowed from parallel minor
+    "bVII": (10, 2, 5),         # borrowed from parallel minor
+    "bIII": (3, 7, 10),         # borrowed from parallel minor
+    "III+": (3, 7, 11),         # augmented III (melodic minor)
+    "It+6": (8, 0, 6),          # Italian augmented sixth
+    "Fr+6": (8, 0, 2, 6),       # French augmented sixth
+    "Ger+6": (8, 0, 3, 6),      # German augmented sixth
 }
 ALL_CHORDS = {k: set(v) for k, v in CHORD_INTERVALS.items()}
 
@@ -62,7 +73,9 @@ def _resolve_secondary_dominant(label: str) -> tuple[int, ...] | None:
         return (lt, (lt + 3) % 12, (lt + 6) % 12, (lt + 9) % 12)
     return None
 
-RANGES = {"Soprano": (60, 81), "Alto": (55, 74), "Tenor": (48, 69), "Bass": (36, 64)}
+# Standard SATB ranges for Bach chorales (Aldwell & Schachter).
+# S: C4-G5, A: F3-C5, T: C3-G4, B: E2-C4.
+RANGES = {"Soprano": (60, 79), "Alto": (53, 72), "Tenor": (48, 67), "Bass": (40, 60)}
 PERFECT_INTERVALS = {0, 7}
 DEFAULT_DEGREE_CHORD_MAJOR = {"1": "I", "2": "ii", "3": "iii", "4": "IV", "5": "V", "6": "vi", "7": "vii°"}
 DEFAULT_DEGREE_CHORD_MINOR = {"1": "i", "2": "ii°", "3": "III", "4": "iv", "5": "V", "6": "VI", "7": "VII"}

@@ -2,6 +2,11 @@ from __future__ import annotations
 
 from bachbot.models.base import KeyEstimate, TypedNote
 
+# Krumhansl-Kessler key profiles (Krumhansl, C. L. "Cognitive Foundations
+# of Musical Pitch", Oxford University Press, 1990, Table 2.1).  These
+# represent the perceived stability of each pitch class in a tonal context,
+# derived from probe-tone experiments.  The correlation-based key-finding
+# algorithm follows Krumhansl & Schmuckler.
 MAJOR_TEMPLATE = [6.35, 2.23, 3.48, 2.33, 4.38, 4.09, 2.52, 5.19, 2.39, 3.66, 2.29, 2.88]
 MINOR_TEMPLATE = [6.33, 2.68, 3.52, 5.38, 2.60, 3.53, 2.54, 4.75, 3.98, 2.69, 3.34, 3.17]
 PC_TO_NOTE = {

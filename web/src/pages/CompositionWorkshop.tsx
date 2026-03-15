@@ -13,7 +13,7 @@ const MODE_INFO: Record<CompositionMode, { title: string; description: string; i
   harmonize: {
     title: 'Chorale Harmonization',
     description:
-      'Paste a soprano melody in MusicXML. BachBot fills in alto, tenor, and bass using constraint-based search with secondary dominants and nonharmonic tones.',
+      'Paste a soprano melody in MusicXML. BachBot fills in alto, tenor, and bass using constraint-based search with secondary dominants, Neapolitan and augmented sixth chords, and modal mixture.',
     inputLabel: 'Soprano MusicXML',
   },
   'figured-bass': {

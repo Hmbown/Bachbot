@@ -134,20 +134,20 @@ def generate_tonal_answer(
         deg = tonic_degrees.get(pc)
 
         if deg is not None:
-            # Tonal mutation: degree 0 (tonic) → degree 4 (dom of dom key = 5th of tonic)
-            # degree 4 (dominant of tonic) → degree 0 (tonic of dom key)
+            # Tonal mutation at degrees 1 and 5 (0-indexed: 0 and 4).
+            # In a tonal answer the subject's opening 1→5 gesture becomes
+            # 5→1 in the answer: tonic maps to the dominant pitch, dominant
+            # maps back to the tonic pitch.  All other degrees transpose
+            # diatonically (same degree number in the dominant key = up P5).
             if deg == 0:
-                target_deg = 4  # 5th degree in dominant key
+                # Subject tonic → answer starts on dominant (tonic of dom key)
+                target_pc = dom_scale[0]
             elif deg == 4:
-                target_deg = 0  # 1st degree in dominant key
+                # Subject dominant → answer returns to tonic pitch
+                target_pc = tonic_pc
             else:
-                # Standard diatonic transposition: shift degree by the
-                # relationship between tonic and dominant.
-                # Dominant is degree 4 in the tonic scale, so we shift
-                # each degree up by 4 (mod 7) in scale-degree space.
-                target_deg = (deg + 4) % 7
-
-            target_pc = dom_scale[target_deg]
+                # Same degree number in the dominant key (= diatonic P5 up)
+                target_pc = dom_scale[deg]
         else:
             # Chromatic note — literal transposition up a 5th
             target_pc = (pc + 7) % 12

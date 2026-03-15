@@ -323,3 +323,80 @@ def dump_manifest_command(manifest_path: Path, output: Path) -> None:
     manifest = load_manifest(manifest_path)
     dump_manifest(manifest, output)
     typer.echo(f"Wrote manifest copy to {output}")
+
+
+@app.command("import")
+def import_score(
+    score_path: Path = typer.Argument(..., exists=True, readable=True, help="Path to a MusicXML file or directory of MusicXML files."),
+    genre: str = typer.Option("auto", "--genre", help="Genre label: chorale, fugue, suite, prelude, or auto (detect from title)."),
+    work_id: str | None = typer.Option(None, "--work-id", help="Override the work ID (defaults to filename)."),
+) -> None:
+    """Import one or more MusicXML files into the corpus for analysis.
+
+    Normalizes each file to an EventGraph, runs the appropriate analysis
+    pipeline (chorale or fugue), saves the evidence bundle, and makes the
+    work browsable in the corpus explorer.
+
+    Examples:
+        bachbot corpus import wtc_fugue_1.musicxml --genre fugue
+        bachbot corpus import ~/scores/ --genre auto
+    """
+    import json as _json
+
+    from bachbot.analysis.pipeline import analyze_chorale, analyze_fugue_exposition
+    from bachbot.claims.bundle import build_evidence_bundle
+
+    normalizer = Normalizer()
+    paths = sorted(score_path.glob("*.musicxml")) + sorted(score_path.glob("*.xml")) if score_path.is_dir() else [score_path]
+    if not paths:
+        raise typer.BadParameter(f"No MusicXML files found at {score_path}")
+
+    norm_dir = Path("data/normalized/imports")
+    derived_dir = Path("data/derived/imports")
+    norm_dir.mkdir(parents=True, exist_ok=True)
+    derived_dir.mkdir(parents=True, exist_ok=True)
+
+    imported = 0
+    for path in paths:
+        try:
+            wid = work_id or path.stem
+            graph = normalizer.normalize(path, work_id=wid)
+
+            # Detect genre from title if auto
+            effective_genre = genre
+            if effective_genre == "auto":
+                label = f"{graph.section.section_type} {graph.title}".lower()
+                if "fugue" in label or "fuge" in label:
+                    effective_genre = "fugue"
+                elif "prelude" in label or "praeludium" in label:
+                    effective_genre = "prelude"
+                elif "suite" in label or "partita" in label:
+                    effective_genre = "suite"
+                else:
+                    effective_genre = "chorale"
+
+            # Save EventGraph
+            graph_path = norm_dir / f"{wid}.event_graph.json"
+            graph_path.write_text(_json.dumps(graph.model_dump(mode="json"), indent=2), encoding="utf-8")
+
+            # Run analysis
+            if effective_genre == "fugue":
+                report = analyze_fugue_exposition(graph)
+            else:
+                report = analyze_chorale(graph)
+
+            # Save analysis
+            analysis_path = derived_dir / f"{wid}.analysis.json"
+            analysis_path.write_text(_json.dumps(report.model_dump(mode="json"), indent=2), encoding="utf-8")
+
+            # Build and save evidence bundle
+            bundle = build_evidence_bundle(graph, report)
+            bundle_path = derived_dir / f"{wid}.evidence_bundle.json"
+            bundle_path.write_text(_json.dumps(bundle.model_dump(mode="json"), indent=2), encoding="utf-8")
+
+            imported += 1
+            typer.echo(f"  {path.name} → {effective_genre} ({len(report.harmony)} harmonic events)")
+        except Exception as exc:
+            typer.echo(f"  {path.name} → FAILED: {exc}", err=True)
+
+    typer.echo(f"Imported {imported}/{len(paths)} score(s) to {norm_dir}")

@@ -20,7 +20,16 @@ def detect_real_or_tonal_answers(graph: EventGraph) -> list[dict[str, object]]:
                 continue
             transpositions = [answer_pitch - subject_pitch for subject_pitch, answer_pitch in zip(subject_pitches, answer_pitches)]
             entry_interval = transpositions[0]
-            answer_type = "real_answer" if len(set(transpositions)) == 1 and abs(entry_interval) in {5, 7} else "tonal_answer"
+            # A real answer transposes every note by the same interval.
+            # A tonal answer enters at the 5th/4th but mutates certain
+            # scale degrees (typically 1↔5).  Entries at non-standard
+            # intervals with non-uniform transposition are free entries.
+            if len(set(transpositions)) == 1:
+                answer_type = "real_answer"
+            elif abs(entry_interval) in {5, 7}:
+                answer_type = "tonal_answer"
+            else:
+                answer_type = "free_entry"
             answers.append(
                 {
                     "pattern": candidate["pattern"],

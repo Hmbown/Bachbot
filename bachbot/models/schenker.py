@@ -63,3 +63,13 @@ class SchenkerianAnalysis(BachbotModel):
     background: ReductionLayer
     urlinie: Urlinie = Field(default_factory=Urlinie)
     bassbrechung: Bassbrechung = Field(default_factory=Bassbrechung)
+    interpretation_note: str = Field(
+        default=(
+            "This is a computational heuristic, not a musicological analysis. "
+            "Schenkerian reduction is an interpretive practice — two qualified "
+            "analysts routinely disagree about the Urlinie and structural levels "
+            "of the same piece.  The layers shown here are algorithmically derived "
+            "from chord-tone membership and phrase boundaries and should be treated "
+            "as one plausible reading, not a definitive analysis."
+        ),
+    )

@@ -255,6 +255,9 @@ export function TheoryClassroom() {
         <p className="text-ink-light">
           Write counterpoint against a cantus firmus. Choose a species, place notes on the grid, and check your work.
         </p>
+        <p className="text-xs text-ink-muted mt-1">
+          Note: Species counterpoint (Fux, 1725) is a pedagogical framework for learning voice-leading. Bach's own counterpoint is free counterpoint that routinely exceeds these constraints.
+        </p>
       </div>
 
       {/* Species selector */}

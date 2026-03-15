@@ -14,6 +14,29 @@ _MAJOR_SCALE_PCS = frozenset({0, 2, 4, 5, 7, 9, 11})
 _MINOR_SCALE_PCS = frozenset({0, 2, 3, 5, 7, 8, 10})
 MAJOR_7TH = {"V7": {7, 11, 2, 5}, "viiø7": {11, 2, 5, 9}, "ii7": {2, 5, 9, 0}, "IV7": {5, 9, 0, 4}, "vi7": {9, 0, 4, 7}}
 MINOR_7TH = {"V7": {7, 11, 2, 5}, "viio7": {11, 2, 5, 8}, "iiø7": {2, 5, 8, 0}, "iv7": {5, 8, 0, 3}, "VI7": {8, 0, 3, 7}}
+
+# Chromatic harmonies that Bach uses routinely.  Their absence from the
+# diatonic-only palette is the primary driver of the chord-variety gap
+# (generated ~4.3 distinct chords per chorale vs ~14.7 in the originals).
+# All intervals are relative to the local tonic, matching the diatonic dicts.
+CHROMATIC_MAJOR = {
+    "N6": {1, 5, 8},        # Neapolitan (bII): Db-F-Ab in C
+    "bVI": {8, 0, 3},       # borrowed from parallel minor
+    "bVII": {10, 2, 5},     # borrowed from parallel minor
+    "bIII": {3, 7, 10},     # borrowed from parallel minor
+    "iv": {5, 8, 0},        # borrowed subdominant
+}
+CHROMATIC_MINOR = {
+    "N6": {1, 5, 8},        # Neapolitan (bII): Db-F-Ab in C
+    "III+": {3, 7, 11},     # augmented III from melodic minor ascending
+}
+# Augmented sixth chords resolve to V and appear in both modes.
+AUGMENTED_SIXTHS = {
+    "It+6": {8, 0, 6},      # Italian: Ab-C-F# in C
+    "Fr+6": {8, 0, 2, 6},   # French: Ab-C-D-F# in C
+    "Ger+6": {8, 0, 3, 6},  # German: Ab-C-Eb-F# in C
+}
+
 PC_TO_NOTE = {0: "C", 1: "C#", 2: "D", 3: "Eb", 4: "E", 5: "F", 6: "F#", 7: "G", 8: "Ab", 9: "A", 10: "Bb", 11: "B"}
 
 
@@ -22,6 +45,7 @@ def candidate_roman_numerals(slice_: VerticalitySlice, key: KeyEstimate) -> list
     pcs = {(pc - tonic_pc) % 12 for pc in slice_.pitch_classes}
     families = MAJOR if key.mode == "major" else MINOR
     sevenths = MAJOR_7TH if key.mode == "major" else MINOR_7TH
+    chromatic = CHROMATIC_MAJOR if key.mode == "major" else CHROMATIC_MINOR
     n_pcs = len(pcs)
     ranked = []
     for label, chord_pcs in sevenths.items():
@@ -34,6 +58,16 @@ def candidate_roman_numerals(slice_: VerticalitySlice, key: KeyEstimate) -> list
         overlap = len(pcs & triad)
         if overlap >= 2:
             ranked.append((overlap * 4 - len(pcs - triad), label))
+    # Chromatic / borrowed chords (small penalty to prefer diatonic readings)
+    for label, chord_pcs in chromatic.items():
+        overlap = len(pcs & chord_pcs)
+        if overlap >= 2:
+            ranked.append((overlap * 4 - len(pcs - chord_pcs) - 2, label))
+    # Augmented sixth chords (both modes; very distinctive sonority)
+    for label, chord_pcs in AUGMENTED_SIXTHS.items():
+        overlap = len(pcs & chord_pcs)
+        if overlap >= len(chord_pcs) - 1:
+            ranked.append((overlap * 4 - len(pcs - chord_pcs) - 1, label))
     ranked.sort(reverse=True)
     return [label for _, label in ranked[:3]]
 
@@ -85,16 +119,18 @@ def estimate_local_key(slices: list[VerticalitySlice], center: int, global_key: 
 def _best_chord_pcs(candidates: list[str], key: KeyEstimate) -> set[int]:
     """Return the pitch class set of the top-ranked candidate chord.
 
-    Handles secondary dominant labels (e.g., ``V/V``) by computing their PCs
-    dynamically from the target root, so that ``tag_nonharmonic_tones`` can
-    correctly classify NCTs even when a secondary dominant is the top candidate.
+    Handles secondary dominant labels (e.g., ``V/V``), chromatic chords
+    (Neapolitan, augmented sixths, modal mixture), by computing their PCs
+    dynamically so that ``tag_nonharmonic_tones`` can correctly classify
+    NCTs for any recognized harmony.
     """
     if not candidates:
         return set()
     label = candidates[0]
     families = MAJOR if key.mode == "major" else MINOR
     sevenths = MAJOR_7TH if key.mode == "major" else MINOR_7TH
-    chord_pcs = sevenths.get(label) or families.get(label)
+    chromatic = CHROMATIC_MAJOR if key.mode == "major" else CHROMATIC_MINOR
+    chord_pcs = sevenths.get(label) or families.get(label) or chromatic.get(label) or AUGMENTED_SIXTHS.get(label)
     if chord_pcs is not None:
         return chord_pcs
     # Try secondary dominant resolution — use target_root_rel directly so

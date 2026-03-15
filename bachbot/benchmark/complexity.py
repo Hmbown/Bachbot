@@ -1,4 +1,17 @@
-"""Information-theoretic complexity metrics for chorales and generated studies."""
+"""Information-theoretic complexity metrics for chorales and generated studies.
+
+These metrics (entropy, LZ complexity, melodic surprisal, tonal tension)
+are *research tools* for computational musicology, not quality judgments.
+They measure statistical properties of the pitch/rhythm content.  Higher
+entropy or compression complexity does NOT mean "better music" — Bach's
+chorales are often intentionally repetitive and harmonically constrained,
+which is the point.
+
+Use these for corpus-level research (e.g., comparing stylistic periods or
+investigating relationships between complexity and other features).  Do NOT
+use them as composition quality metrics — the ``bach_fidelity_score`` in
+``benchmark.quality`` deliberately excludes them.
+"""
 
 from __future__ import annotations
 

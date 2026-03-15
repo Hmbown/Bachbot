@@ -61,7 +61,7 @@ const METRICS: MetricDef[] = [
   {
     key: 'evidence_avg_chord_variety',
     label: 'Chord Variety',
-    description: 'Average unique chord types per chorale',
+    description: 'Average unique chord types (Bach uses ~14)',
     format: (v) => v.toFixed(1),
     higher_is_better: true,
     color: '#2c5282',
@@ -86,13 +86,13 @@ const METRICS: MetricDef[] = [
     bgColor: 'rgba(68, 119, 170, 0.1)',
   },
   {
-    key: 'evidence_avg_complexity_divergence',
-    label: 'Complexity Divergence',
-    description: 'Divergence from Bach complexity profile (lower = closer)',
-    format: (v) => v.toFixed(3),
-    higher_is_better: false,
-    color: '#DDAA33',
-    bgColor: 'rgba(221, 170, 51, 0.1)',
+    key: 'evidence_avg_bach_fidelity',
+    label: 'Bach Fidelity',
+    description: 'Aggregate score: harmonic vocabulary, cadences, voice-leading vs. Bach',
+    format: (v) => v.toFixed(1),
+    higher_is_better: true,
+    color: '#8B5E3C',
+    bgColor: 'rgba(139, 94, 60, 0.1)',
   },
   {
     key: 'evidence_avg_harmonic_similarity',
@@ -471,8 +471,8 @@ export function BenchmarkArena() {
                 </td>
                 <td className="px-4 py-3 text-right font-mono text-ink-light">
                   {hasData
-                    ? snapshot!.summary.evidence_avg_complexity_divergence.toFixed(3)
-                    : '0.820'}
+                    ? (snapshot!.summary.evidence_avg_bach_fidelity ?? snapshot!.summary.evidence_avg_complexity_divergence ?? 0).toFixed(1)
+                    : '—'}
                 </td>
               </tr>
             </tbody>
